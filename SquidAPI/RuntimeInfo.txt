@@ -238,7 +238,6 @@ Mod list:
 - Glass Shards 1.5.2
 - GlassWorks 1.0
 - GooglyEyes 1.1.0
-- Gravestones 1.7.10
 - GreenScreen 1.3
 - Hard Mode Tweaks 1.1.4
 - Hard Mode Tweaks Core 1.0.0
@@ -250,7 +249,6 @@ Mod list:
 - HolographicVictoryMonument 1.3
 - Hopper Ducts 1.3.2
 - Horizontal Glass Panes Release
-- Hot Water Mod 1.1.2
 - Hunger In Peace 1.0.0
 - Hunger Overhaul 1.7.10-1.0.0.jenkins75
 - Hungry Zombies 1.0.0
@@ -607,7 +605,6 @@ Classpath files:
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/GlassWorks-1.7.10-1.2.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/GooglyEyes-1.7.10-1.1.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/grapplemod-v6-1.7.10.jar
-- file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/GraveStones%201.7.10%20-3.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/greenscreen-1.7.10-1.2.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/Hats-4.0.1.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/HatStand-4.0.0.jar
@@ -616,7 +613,6 @@ Classpath files:
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/hgp-1.7.10-1.1.0.4-universal.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/HolographicVictoryMonument-1.3.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/hopperductmod-1.7.10-1.3.2.jar
-- file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/hot_water-1.2.0-1.7.10.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/HQM-The%20Journey-4.4.4.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/HungerInPeace-mc1.7.10-1.0.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/hungryzombies-1.7.10-1.0.0.jar
