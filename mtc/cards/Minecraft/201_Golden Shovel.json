@@ -1,0 +1,11 @@
+{
+	"id":"card_golden_shovel",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Golden Shovel",
+	"category":"World Item",
+	"asset":"Minecraft/201",
+	
+	"weight":7
+}

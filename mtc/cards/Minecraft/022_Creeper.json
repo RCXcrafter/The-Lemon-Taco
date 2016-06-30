@@ -1,0 +1,11 @@
+{
+	"id":"card_creeper",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Creeper",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/022",
+	
+	"weight":11
+}

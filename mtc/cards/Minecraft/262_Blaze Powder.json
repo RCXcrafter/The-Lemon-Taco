@@ -1,0 +1,11 @@
+{
+	"id":"card_blaze_powder",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Blaze Powder",
+	"category":"World Item",
+	"asset":"Minecraft/262",
+	
+	"weight":7
+}

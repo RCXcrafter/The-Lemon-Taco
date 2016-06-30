@@ -1,0 +1,159 @@
+{
+    "chests": [
+        {
+            "name": "Classic Chest",
+            "invName": "Chest",
+            "multipleTextures": {
+                "xpos": "classic_chest_side",
+                "xneg": "classic_chest_front",
+                "zpos": "classic_chest_side",
+                "zneg": "classic_chest_side",
+                "ypos": "classic_chest_top",
+                "yneg": "classic_chest_top"
+            },          
+            "slotMaxStackSize": 1,
+            "invHeight": 3,
+            "invWidth": 9
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Sandstone Creeper Scribbles",
+            "multipleTextures": {
+                "xpos": "sandstone_scribbles",
+                "xneg": "sandstone_scribbles",
+                "zpos": "sandstone_scribbles",
+                "zneg": "sandstone_scribbles",
+                "ypos": "sandstone_top",
+                "yneg": "sandstone_top"
+            },          
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Sandstone Scribbles",
+            "multipleTextures": {
+                "xpos": "sandstone_scribbles_2",
+                "xneg": "sandstone_scribbles_2",
+                "zpos": "sandstone_scribbles_2",
+                "zneg": "sandstone_scribbles_2",
+                "ypos": "sandstone_top",
+                "yneg": "sandstone_top"
+			},            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Classic Bricks",
+            "textureName": "classic_brick",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+		{
+            "name": "Classic Cobblestone",
+            "textureName": "classic_cobblestone",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+		{
+            "name": "Classic Mossy Cobblestone",
+            "textureName": "classic_cobblestone_mossy",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+			"name": "Classic End Stone",
+            "textureName": "classic_end_stone",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+		},
+        {
+			"name": "Classic Glowstone",
+            "textureName": "classic_glowstone",
+            "stepSound": "stone",
+            "resistance": 4,
+			"lightLevel": 1.0,
+			"canSilkHarvest": "true",
+			"dropItemName": "minecraft:glowstone_dust",
+			"minItemDrop": 1,
+            "maxItemDrop": 4,
+			"eachExtraItemDropChance": 50,
+            "hardness": 0.3
+		},
+        {
+			"name": "Classic Lapis Lazuli Block",
+            "textureName": "classic_lapis_block",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+		},
+        {
+			"name": "Classic Iron Block",
+            "multipleTextures": {
+                "xpos": "classic_iron_side",
+                "xneg": "classic_iron_side",
+                "zpos": "classic_iron_side",
+                "zneg": "classic_iron_side",
+                "ypos": "classic_iron_top",
+                "yneg": "classic_iron_bottom"
+			},            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+		},
+        {
+			"name": "Classic Gold Block",
+            "multipleTextures": {
+                "xpos": "classic_gold_side",
+                "xneg": "classic_gold_side",
+                "zpos": "classic_gold_side",
+                "zneg": "classic_gold_side",
+                "ypos": "classic_gold_top",
+                "yneg": "classic_gold_bottom"
+			},            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+		},
+        {
+			"name": "Classic Diamond Block",
+            "multipleTextures": {
+                "xpos": "classic_diamond_side",
+                "xneg": "classic_diamond_side",
+                "zpos": "classic_diamond_side",
+                "zneg": "classic_diamond_side",
+                "ypos": "classic_diamond_top",
+                "yneg": "classic_diamond_bottom"
+			},            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+		}
+    ]
+}

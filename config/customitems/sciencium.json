@@ -1,0 +1,39 @@
+{
+    "blocks": [
+        {
+            "name": "Sciencium Block",
+            "textureName": "sciencium_block",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        }
+    ],
+    "items": [
+        {
+            "maxStackSize": 64,
+            "textureName": "sciencium_ingot",
+            "name": "Sciencium Ingot"            
+        },
+        {
+            "maxStackSize": 64,
+            "textureName": "sciencium_dust",
+            "name": "Sciencium Dust"            
+        }
+    ],
+    "fluids":[
+        {
+            "name":"sciencium.molten",
+            "textureName": "liquid_sciencium",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 4
+        }
+    ]
+}

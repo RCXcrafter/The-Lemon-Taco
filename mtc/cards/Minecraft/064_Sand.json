@@ -1,0 +1,11 @@
+{
+	"id":"card_sand",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Sand",
+	"category":"World Item",
+	"asset":"Minecraft/064",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_stairs",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Stairs",
+	"category":"World Item",
+	"asset":"Minecraft/097",
+	
+	"weight":11
+}

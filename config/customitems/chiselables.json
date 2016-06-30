@@ -1,0 +1,98 @@
+{
+    "blocks": [
+        {
+            "name": "Basalt Pillar",
+            "multipleTextures": {
+                "xpos": "basalt_pillar_side",               
+                "ypos": "basalt_pillar_top"              
+            },            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8,
+            "type": "pillars"
+        },
+        {
+            "name": "Basalt Bricks",
+            "textureName": "basalt_bricks",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Ornate Basalt",
+            "textureName": "basalt_ornate",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Prismatic Basalt",
+            "textureName": "basalt_prismatic",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Basalt Tiles",
+            "textureName": "basalt_tiles",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Purpur Bricks",
+            "textureName": "purpur_brick",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Purpur Panel",
+            "textureName": "purpur_panel",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Messy Purpur Block",
+            "textureName": "purpur_messy",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Purpur Block +",
+            "textureName": "purpur_+",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+	    {
+            "name": "Purpur Paver",
+            "textureName": "purpur_paver",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        }
+    ]
+}

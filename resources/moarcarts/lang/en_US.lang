@@ -1,0 +1,41 @@
+## vanilla stuff
+item.minecartenderchest.name=Ender Chest Cart
+entity.moarcarts.entityminecartenderchest.name=Ender Chest Cart
+
+## ironchest stuff
+item.minecartironchest.iron.name=Brass Chest Cart
+item.minecartironchest.gold.name=Gold Chest Cart
+item.minecartironchest.diamond.name=Platinum Chest Cart
+item.minecartironchest.copper.name=Copper Chest Cart
+item.minecartironchest.silver.name=Silver Chest Cart
+item.minecartironchest.crystal.name=Crystal Chest Cart
+item.minecartironchest.obsidian.name=Obsidian Chest Cart
+item.minecartironchest.dirtchest9000.name=DirtChest 9000! Cart
+
+entity.moarcarts.entityminecartironchest.name=Brass Chest Cart
+entity.moarcarts.entityminecartgoldchest.name=Gold Chest Cart
+entity.moarcarts.entityminecartdiamondchest.name=Platinum Chest Cart
+entity.moarcarts.entityminecartcopperchest.name=Copper Chest Cart
+entity.moarcarts.entityminecartsilverchest.name=Silver Chest Cart
+entity.moarcarts.entityminecartcrystalchest.name=Crystal Chest Cart
+entity.moarcarts.entityminecartobsidianchest.name=Obsidian Chest Cart
+entity.moarcarts.entityminecartdirtchest.name=DirtChest 9000! Cart
+
+## ie stuff
+item.minecartwoodenbarrel.name=Wooden Barrel Cart
+item.minecartmetalbarrel.name=Metal Barrel Cart
+item.minecartwoodencrate.name=Wooden Storage Crate Cart
+
+entity.moarcarts.entityminecartwoodenbarrel.name=Wooden Barrel Cart
+entity.moarcarts.entityminecartmetalbarrel.name=Metal Barrel Cart
+entity.moarcarts.entityminecartwoodencrate.name=Wooden Storage Crate Cart
+
+## mfr stuff
+item.minecartdsu.name=Deep Storage Unit Cart
+
+entity.moarcarts.entityminecartdsu.name=Deep Storage Unit Cart
+
+## minechem stuff
+item.minecartleadedchest.name=Leaded Chest Cart
+
+entity.moarcarts.entityminecartleadedchest.name=Leaded Chest Cart

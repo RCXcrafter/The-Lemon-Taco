@@ -1,0 +1,11 @@
+{
+	"id":"card_mule",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Mule",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/005",
+	
+	"weight":11
+}

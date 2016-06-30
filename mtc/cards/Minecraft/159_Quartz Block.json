@@ -1,0 +1,11 @@
+{
+	"id":"card_quartz_block",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Quartz Block",
+	"category":"World Item",
+	"asset":"Minecraft/159",
+	
+	"weight":11
+}

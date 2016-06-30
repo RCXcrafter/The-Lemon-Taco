@@ -1,0 +1,11 @@
+{
+	"id":"card_melon",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Melon",
+	"category":"World Item",
+	"asset":"Minecraft/130",
+	
+	"weight":11
+}

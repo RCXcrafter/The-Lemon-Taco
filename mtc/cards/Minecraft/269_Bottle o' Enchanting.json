@@ -1,0 +1,11 @@
+{
+	"id":"card_bottle_o_enchanting",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Bottle o' Enchanting",
+	"category":"World Item",
+	"asset":"Minecraft/269",
+	
+	"weight":7
+}

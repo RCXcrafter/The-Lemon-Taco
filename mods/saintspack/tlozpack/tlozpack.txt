@@ -1,0 +1,1 @@
+13063;§8Zelda's Dubstep Gun;TLoZDubGun;§3No explosions included!;§bLost Woods;zeldastep;DubGunItemzelda;DubGun1zelda.png;DubGun2zelda.png;255.0,0.0,128.0; Z : A :Z Z:Z,minecraft=gold_ingot,1,0+A,mod_Saintspack=DubGun,1,0;0;1.0;3.0;minecraft=gold_nugget,1,0;20;0;1;0;0;

@@ -1,0 +1,11 @@
+{
+	"id":"card_lapis_block",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Lapis Lazuli Block",
+	"category":"World Item",
+	"asset":"Minecraft/074",
+	
+	"weight":7
+}

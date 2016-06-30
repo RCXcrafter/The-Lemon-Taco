@@ -1,0 +1,45 @@
+[
+  {
+    "modid": "TConstruct",
+    "string": {},
+    "nbt": {
+      "addMaterial": [
+        {
+          "compound:": [
+            { "int:Id": 55 }, // Unique material ID. Reserved IDs: 0-40 Tinker, 41-45 Iguana Tinker Tweaks, 100-200 ExtraTiC
+            { "string:Name": "Blueberry Stone" }, // Unique material name
+            { "int:HarvestLevel": 0 }, // coal level
+            { "int:Durability": 3000 },
+            { "int:MiningSpeed": 400 },
+            { "int:Attack": 1 }, // optional
+            { "float:HandleModifier": 0.6 },
+            //{ "int:Reinforced": 1 }, // optional
+            { "float:Stonebound": 1 }, // optional, cannot be used if jagged
+            //{ "float:Jagged": 1 }, // optional, cannot be used if stonebound
+            { "string:Style": "§9" }, // optional, color of the material text
+            { "int:Color": 2835610 }, // hexadecimal color code
+
+            /* SINCE 1.8.2 - bow and arrow stats
+            * for bow and arrow stats, best compare to other materials to find good values
+            */
+            // additional stats for bows
+            { "int:Bow_DrawSpeed": 100 }, // the higher the longer it takes to draw the bow
+            { "float:Bow_ProjectileSpeed": 1.0 }, // the higher the faster the projectile goes
+
+            // additional stats for arrows
+            { "float:Projectile_Mass": 1.5 },
+            { "float:Projectile_Fragility": 0.3 } // This is a multiplier to the shafts break-chance
+          ]
+        }
+      ],
+      "addPartCastingMaterial": [
+        {
+          "compound:": [
+            { "string:FluidName": "blueberrystonefruit.molten" }, // liquid to use
+            { "int:MaterialId": 55 } // output material ID
+          ]
+        }
+      ]
+    }
+  }
+]

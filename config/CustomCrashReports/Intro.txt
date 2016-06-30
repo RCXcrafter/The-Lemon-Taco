@@ -1,0 +1,35 @@
+--- CustomCrashReports ---
+This mod allows you to customize crash reports!
+
+// Yay, we crashed!
+
+Time: 07.07.15 13:10
+Description: Introducing mod
+
+coolsquid.customcrashreports.InformalException: The mod allows you, the user, to customize certain parts of crash reports.
+	You can add headers, sections, and messages.
+	You can also add a list of witty comments to display instead of Mojang's.
+
+
+A detailed walkthrough of the mod, its configuration and all known details is as follows:
+----------------------------------------------------------------------------------------------
+
+-- Headers --
+Details:
+	Description: a string that displays at the top of all crash reports.
+	Configuration: can be specified in the file config/CustomCrashReports/Header.cfg. Simply write the header in the file.
+
+-- Crash Callables --
+Details:
+	Description: a string that displays in the System Details section.
+	Configuration: can be specified in the file config/CustomCrashReports/CrashCallables.cfg.
+
+-- Witty Comments --
+Details:
+	Description: a witty comment that displays right under the header.
+	Configuration: can be specified in the file config/CustomCrashReports/WittyComments.cfg.
+
+-- Sections --
+Details:
+	Description: sections are groups of crash callables.
+	Configuration: can be specified in the file config/CustomCrashReports/Sections.cfg.

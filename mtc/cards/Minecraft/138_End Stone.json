@@ -1,0 +1,11 @@
+{
+	"id":"card_end_stone",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"End Stone",
+	"category":"World Item",
+	"asset":"Minecraft/138",
+	
+	"weight":11
+}

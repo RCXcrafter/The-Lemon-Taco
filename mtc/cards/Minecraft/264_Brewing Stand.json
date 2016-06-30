@@ -1,0 +1,11 @@
+{
+	"id":"card_brewing_stand",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Brewing Stand",
+	"category":"World Item",
+	"asset":"Minecraft/264",
+	
+	"weight":7
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_iron_bar",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Iron Bar",
+	"category":"World Item",
+	"asset":"Minecraft/128",
+	
+	"weight":11
+}

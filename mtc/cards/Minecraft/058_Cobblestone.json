@@ -1,0 +1,11 @@
+{
+	"id":"card_cobblestone",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Cobblestone",
+	"category":"World Item",
+	"asset":"Minecraft/058",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_diamond_pickaxe",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Diamond Pickaxe",
+	"category":"World Item",
+	"asset":"Minecraft/195",
+	
+	"weight":4
+}

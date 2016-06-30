@@ -1,0 +1,11 @@
+{
+	"id":"card_sign",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Sign",
+	"category":"World Item",
+	"asset":"Minecraft/103",
+	
+	"weight":11
+}

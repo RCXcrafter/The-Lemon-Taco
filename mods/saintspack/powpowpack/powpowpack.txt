@@ -1,0 +1,1 @@
+14000;§bInfinity Gun;InfDubGun;§aPowpow's First Gun!;§9Droideka - Human Error;powpowstep;InfDubGunItem;DubGun1infin.png;DubGun2infin.png;0.0,191.0,255.0;ZBB:ZYX:ZZA:X,minecraft=stone_button,1,0+Y,mod_Saintspack=DubGun,1,0+Z,minecraft=noteblock,1,0+A,minecraft=jukebox,1,0+B,minecraft=redstone_block,1,0;0;0.5;1.5;minecraft=redstone,1,0;5;0;1;0;0;

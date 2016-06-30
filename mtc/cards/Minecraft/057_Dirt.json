@@ -1,0 +1,11 @@
+{
+	"id":"card_dirt",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Dirt",
+	"category":"World Item",
+	"asset":"Minecraft/057",
+	
+	"weight":11
+}

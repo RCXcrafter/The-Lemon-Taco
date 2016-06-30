@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+THE ORE DICTIONARY DOES NOT SUPPORT NBT! THIS IS NOT THIS MOD'S FAULT BUT THE WAY THE ORE DICTIONARY ITSELF WAS CODED!
+There is no limit to how many stack parameters you have, just make sure you number them (stack1, stack2, stack3...)
+The following registers the vanilla iron and gold ingots with the name "ingots"
+<ore>
+	<name>"ingots"</name>
+	<stack1>minecraft:iron_ingot 1 0</stack1>
+	<stack2>minecraft:gold_ingot 1 0</stack2>
+</ore>
+
+The following registers the vanilla gold ingot as "ingotGold"
+<ore>
+	<name>"ingotGold"</name>
+	<stack>minecraft:gold_ingot 1 0</stack>
+</ore>
+
+some more stuff that currently doesn't work
+	<ore>
+	<name>"ingotAeonSteel"</name>
+	<stack>tinkersdefense:AeonSteel Ingot 1 0</stack>
+	</ore>
+	<ore>
+	<name>"ingotQueensGold"</name>
+	<stack>tinkersdefense:Queen's Gold Ingot 1 0</stack>
+	</ore>-->
+
+<OreDictionary>
+	<ore>
+	<name>"ingotEdibleIron"</name>
+	<stack>corvid_betaltoash:betaltoash 1 0</stack>
+	</ore>
+	<ore>
+	<name>"ingotEdibleGold"</name>
+	<stack>corvid_betaltoash:fancytoash 1 0</stack>
+	</ore>
+	<ore>
+	<name>"ingotSciencium"</name>
+	<stack>customitems:sciencium_ingot 1 0</stack>
+	</ore>
+	<ore>
+	<name>"dustSciencium"</name>
+	<stack>customitems:sciencium_dust 1 0</stack>
+	</ore>
+	<ore>
+	<name>"blockSciencium"</name>
+	<stack>customitems:sciencium_block 1 0</stack>
+	</ore>
+	<ore>
+	<name>"ingotDogbearium"</name>
+	<stack>tinkersdefense:DogbeariumIngot 1 0</stack>
+	</ore>
+	<ore>
+	<name>"ingotNeptunium"</name>
+	<stack>Aquaculture:item.loot 1 12</stack>
+	</ore>
+	<ore>
+	<name>"ingotAtlantium"</name>
+	<stack>customitems:atlantium_ingot 1 0</stack>
+	</ore>
+	<ore>
+	<name>"blockNeptunium"</name>
+	<stack>customitems:neptunium_block 1 0</stack>
+	</ore>
+	<ore>
+	<name>"blockAtlantium"</name>
+	<stack>customitems:atlantium_block 1 0</stack>
+	</ore>
+	<ore>
+	<name>"gemLemon"</name>
+	<stack>projectfruit:lemonstone 1 0</stack>
+	</ore>
+	<ore>
+	<name>"gemLime"</name>
+	<stack>projectfruit:limestone 1 0</stack>
+	</ore>
+	<ore>
+	<name>"gemLemonlime"</name>
+	<stack>customitems:lemon_lime_stone 1 0</stack>
+	</ore>
+	<ore>
+	<name>"gemOrange"</name>
+	<stack>projectfruit:orangestone 1 0</stack>
+	</ore>
+	<ore>
+	<name>"gemBlueberry"</name>
+	<stack>projectfruit:blueberrystone 1 0</stack>
+	</ore>
+	<ore>
+	<name>"dustAlumite"</name>
+	<stack>customitems:alumite_dust 1 0</stack>
+	</ore>
+	<ore>
+	<name>"dustNeptunium"</name>
+	<stack>customitems:neptunium_dust 1 0</stack>
+	</ore>
+<!--	<ore>
+	<name>"ingotPolite"</name>
+	<stack>badores:ingot 1 604</stack>
+	</ore>
+	<ore>
+	<name>"ingotCrashium"</name>
+	<stack>badores:ingot 1 12892</stack>
+	</ore>
+	<ore>
+	<name>"ingotCrappium"</name>
+	<stack>badores:ingot 1 21084</stack>
+	</ore>
+	<ore>
+	<name>"ingotEnderite"</name>
+	<stack>badores:ingot 1 25180</stack>
+	</ore>
+	<ore>
+	<name>"ingotAmadeum"</name>
+	<stack>badores:ingot 1 12893</stack>
+	</ore>
+	<ore>
+	<name>"ingotBarelygenerite"</name>
+	<stack>badores:ingot 1 16989</stack>
+	</ore>
+	<ore>
+	<name>"ingotCopper"</name>
+	<stack>badores:ingot 1 25181</stack>
+	</ore>
+	<ore>
+	<name>"ingotUselessium"</name>
+	<stack>badores:ingot 1 29277</stack>
+	</ore>
+	<ore>
+	<name>"ingotMarmite"</name>
+	<stack>badores:ingot 1 16990</stack>
+	</ore>
+	<ore>
+	<name>"ingotSmite"</name>
+	<stack>badores:ingot 1 25182</stack>
+	</ore>
+	<ore>
+	<name>"ingotFleesonsite"</name>
+	<stack>badores:ingot 1 12895</stack>
+	</ore>
+	<ore>
+	<name>"gemLookslikediamondium"</name>
+	<stack>badores:ingot 1 608</stack>
+	</ore>
+	<ore>
+	<name>"gemKakkarite"</name>
+	<stack>badores:ingot 1 8800</stack>
+	</ore>
+	<ore>
+	<name>"ingotNopium"</name>
+	<stack>badores:ingot 1 16991</stack>
+	</ore>
+	<ore>
+	<name>"ingotNosleeptonite"</name>
+	<stack>badores:ingot 1 16992</stack>
+	</ore> -->
+	<ore>
+	<name>"blockPolite"</name>
+	<stack>badores:badOre0 1 8</stack>
+	</ore>
+	<ore>
+	<name>"blockCrashium"</name>
+	<stack>badores:badOre0 1 11</stack>
+	</ore>
+	<ore>
+	<name>"blockCrappium"</name>
+	<stack>badores:badOre0 1 13</stack>
+	</ore>
+	<ore>
+	<name>"blockEnderite"</name>
+	<stack>badores:badOre0 1 14</stack>
+	</ore>
+	<ore>
+	<name>"blockAmadeum"</name>
+	<stack>badores:badOre1 1 11</stack>
+	</ore>
+	<ore>
+	<name>"blockBarelygenerite"</name>
+	<stack>badores:badOre1 1 12</stack>
+	</ore>
+	<ore>
+	<name>"blockCopper"</name>
+	<stack>badores:badOre1 1 14</stack>
+	</ore>
+	<ore>
+	<name>"blockMarmite"</name>
+	<stack>badores:badOre2 1 12</stack>
+	</ore>
+	<ore>
+	<name>"blockSmite"</name>
+	<stack>badores:badOre2 1 14</stack>
+	</ore>
+	<ore>
+	<name>"blockFleesonsite"</name>
+	<stack>badores:badOre3 1 11</stack>
+	</ore>
+	<ore>
+	<name>"blockNopium"</name>
+	<stack>badores:badOre3 1 12</stack>
+	</ore>
+	<ore>
+	<name>"blockLookslikediamondium"</name>
+	<stack>badores:badOre4 1 8</stack>
+	</ore>
+	<ore>
+	<name>"blockKakkarite"</name>
+	<stack>badores:badOre4 1 10</stack>
+	</ore>
+	<ore>
+	<name>"blockNosleeptonite"</name>
+	<stack>badores:badOre4 1 12</stack>
+	</ore>
+	<ore>
+	<name>"orePolite"</name>
+	<stack1>badores:badOre0 1 0</stack1>
+	<stack2>customitems:polite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreCrashium"</name>
+	<stack1>badores:badOre0 1 3</stack1>
+	<stack2>customitems:crashium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreCrappium"</name>
+	<stack1>badores:badOre0 1 5</stack1>
+	<stack2>customitems:crappium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreEnderite"</name>
+	<stack1>badores:badOre0 1 6</stack1>
+	<stack2>customitems:enderite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreAmadeum"</name>
+	<stack1>badores:badOre1 1 3</stack1>
+	<stack2>customitems:amadeum_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreBarelygenerite"</name>
+	<stack1>badores:badOre1 1 4</stack1>
+	<stack2>customitems:barelygenerite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreCopper"</name>
+	<stack>badores:badOre1 1 6</stack>
+	</ore>
+	<ore>
+	<name>"oreUselessium"</name>
+	<stack1>badores:badOre1 1 7</stack1>
+	<stack2>customitems:uselessium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreMarmite"</name>
+	<stack1>badores:badOre2 1 4</stack1>
+	<stack2>customitems:marmite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreSmite"</name>
+	<stack1>badores:badOre2 1 6</stack1>
+	<stack2>customitems:smite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreFleesonsite"</name>
+	<stack1>badores:badOre3 1 3</stack1>
+	<stack2>customitems:fleesonsite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreNopium"</name>
+	<stack1>badores:badOre3 1 4</stack1>
+	<stack2>customitems:nopium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreLookslikediamondium"</name>
+	<stack>badores:badOre4 1 0</stack>
+	</ore>
+	<ore>
+	<name>"oreKakkarite"</name>
+	<stack>badores:badOre4 1 2</stack>
+	</ore>
+	<ore>
+	<name>"oreNosleeptonite"</name>
+	<stack1>badores:badOre4 1 4</stack1>
+	<stack2>customitems:nosleeptonite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreEndium"</name>
+	<stack>customitems:endium_chunk 1 0</stack>
+	</ore>
+	<ore>
+	<name>"oreBreakium"</name>
+	<stack1>badores:badOre0 1 2</stack1>
+	<stack2>customitems:breakium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreMisleadium"</name>
+	<stack1>badores:badOre1 1 1</stack1>
+	<stack2>customitems:misleadium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreStreetscum"</name>
+	<stack1>badores:badOre3 1 2</stack1>
+	<stack2>customitems:streetscum_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreMeteorite"</name>
+	<stack1>badores:badOre3 1 1</stack1>
+	<stack2>customitems:meteorite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreIdlikeabite"</name>
+	<stack1>badores:badOre3 1 0</stack1>
+	<stack2>customitems:idlikeabite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreShiftium"</name>
+	<stack1>badores:badOre2 1 5</stack1>
+	<stack2>customitems:shiftium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreExplodeitmite"</name>
+	<stack1>badores:badOre2 1 3</stack1>
+	<stack2>customitems:explodeitmite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreMovium"</name>
+	<stack1>badores:badOre2 1 1</stack1>
+	<stack2>customitems:movium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreKillium"</name>
+	<stack1>badores:badOre2 1 0</stack1>
+	<stack2>customitems:killium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreGhostium"</name>
+	<stack1>badores:badOre1 1 2</stack1>
+	<stack2>customitems:ghostium_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreIwontfite"</name>
+	<stack1>badores:badOre3 1 7</stack1>
+	<stack2>customitems:iwontfite_chunk 1 0</stack2>
+	</ore>
+	<ore>
+	<name>"oreTauntum"</name>
+	<stack1>badores:badOre4 1 1</stack1>
+	<stack2>customitems:tauntum_chunk 1 0</stack2>
+	</ore>
+
+</OreDictionary>

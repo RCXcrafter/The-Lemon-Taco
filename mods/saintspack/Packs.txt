@@ -1,0 +1,10 @@
+defaultpack
+extendedpack
+mininggun
+powerpack
+powpowpack
+bronypack
+mariopack
+pokemonpack
+tlozpack
+saxpack

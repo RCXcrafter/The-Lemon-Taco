@@ -1,0 +1,1 @@
+14050;§dBrony Dubstep Gun;Brony;§dDubstep is Magic!;§5Friendship is Magic Intro(Alex.S Remix);pony;PonyGunItem;PonyGun1.png;PonyGun2.png;255.0,0.0,255.0;   : X : Y :X,mod_Saintspack=DubGun,1,0+Y,minecraft=saddle,1,0;0;0.5;1.5;minecraft=gold_ingot,1,0;125;0;1;0;0;

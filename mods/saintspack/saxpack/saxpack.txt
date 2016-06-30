@@ -1,0 +1,1 @@
+14052;§6Epic Sax Gun;SaxGun;§6No Explosive Wubs!;§1ECHMusic - Epic Sax Guy Dubstep;epicsaxdubstep;EpicSaxGunItem;DubGun1esg.png;DubGun2esg.png;255.0,0.0,0.0;Y Y:ZXZ:Y Y:X,mod_Saintspack=DubGun,1,0+Y,minecraft=blaze_powder,1,0+Z,TConstruct=materials,1,14;0;1.0;2.0;minecraft=sugar,1,0;1;0;1;0;0;

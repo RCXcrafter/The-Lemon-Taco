@@ -1,0 +1,11 @@
+{
+	"id":"card_diorite",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Diorite",
+	"category":"World Item",
+	"asset":"Minecraft/054",
+	
+	"weight":11
+}

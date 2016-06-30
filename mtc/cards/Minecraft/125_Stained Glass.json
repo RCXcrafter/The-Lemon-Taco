@@ -1,0 +1,11 @@
+{
+	"id":"card_stained_glass",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Stained Glass",
+	"category":"World Item",
+	"asset":"Minecraft/125",
+	
+	"weight":11
+}

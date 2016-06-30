@@ -1,0 +1,1 @@
+13167;§5Dubstep Gun;DubGun;§5No explosive wubs!;§3Virtual Riot - Energy Drink;energydrinkbyvirtualriot;DubGunItem;DubGun1.png;DubGun2.png;0.0,191.0,255.0;XXY:ZAB:ZXB:X,minecraft=stone_button,1,0+Y,minecraft=diamond_block,1,0+Z,minecraft=noteblock,1,0+A,minecraft=jukebox,1,0+B,minecraft=redstone_block,1,0;0;0.5;1.5;minecraft=gunpowder,1,0;3;0;1;0;0;

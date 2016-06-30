@@ -1,0 +1,11 @@
+{
+	"id":"card_golden_axe",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Golden Axe",
+	"category":"World Item",
+	"asset":"Minecraft/203",
+	
+	"weight":7
+}

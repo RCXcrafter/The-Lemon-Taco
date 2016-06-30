@@ -1,0 +1,11 @@
+{
+	"id":"card_clock",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Clock",
+	"category":"World Item",
+	"asset":"Minecraft/241",
+	
+	"weight":11
+}

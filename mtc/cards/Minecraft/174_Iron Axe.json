@@ -1,0 +1,11 @@
+{
+	"id":"card_iron_axe",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Iron Axe",
+	"category":"World Item",
+	"asset":"Minecraft/174",
+	
+	"weight":11
+}

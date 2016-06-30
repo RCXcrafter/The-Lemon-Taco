@@ -1,0 +1,11 @@
+{
+	"id":"card_command_block",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Command Block",
+	"category":"World Item",
+	"asset":"Minecraft/146",
+	
+	"weight":11
+}

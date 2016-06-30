@@ -1,0 +1,207 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "lemontaco:textures/minecraft.png",
+            "posX" : 170,
+            "posY" : -44,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "left_center"
+        },
+        
+        "black":
+        {
+            "image" : "lemontaco:textures/blacktransparent.png",
+            "posX" : 50,
+            "posY" : 0,
+            "width" : 100,
+            "height" : 2000,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 53,
+            "posY" : -35,
+            "width" : 95,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 53,
+            "posY" : -10,
+            "width" : 95,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 53,
+            "posY" : 15,
+            "width" : 95,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+            "posX" : 53,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "lemontaco:textures/settings.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "posX" : 128,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 20,
+            "imageHeight" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "lemontaco:textures/quit.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 78,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 103,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+		"openeye":
+        {
+            "text" : "",
+            "tooltip" : "OpenEye Crash Reporting",
+			"texture" : "lemontaco:textures/openeye.png",
+            "posX" : 53,
+            "posY" : -50,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "bottom_left",
+            "wrappedButton" : 666
+		},
+        "versionChecker":
+        {
+            "text" : "Version-Checker",
+            "posX" : 53,
+            "posY" : -75,
+            "width" : 95,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
+			"alignment" : "bottom_left",
+            "wrappedButton" : 404
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        "lemco":
+        {
+            "text" : "The Lemon Taco 3.0",
+            "posX" : 152,
+            "posY" : -70,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        "fml":
+        {
+            "text" : "",
+            "posX" : 152,
+            "posY" : -60,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+	     "splash-text":
+        {
+            "posX" : 120,
+            "posY" : 285,
+            "color" : -256,
+            "alignment" : "top_center"
+        },
+		
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}

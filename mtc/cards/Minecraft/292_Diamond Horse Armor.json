@@ -1,0 +1,11 @@
+{
+	"id":"card_diamon_horse_armor",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Diamond Horse Armor",
+	"category":"World Item",
+	"asset":"Minecraft/292",
+	
+	"weight":4
+}

@@ -1,0 +1,13 @@
+{
+	// Food included in the food group
+	"food": {
+		"items": [
+			"Avaritia:Ultimate_Stew",
+			"Avaritia:Cosmic_Meatballs"
+		]
+	},
+
+	"name": "cosmic_food",
+
+	"blacklist": true
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_redstone_block",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Redstone Block",
+	"category":"World Item",
+	"asset":"Minecraft/156",
+	
+	"weight":7
+}

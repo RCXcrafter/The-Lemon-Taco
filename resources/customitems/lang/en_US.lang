@@ -1,0 +1,26 @@
+#tconstruct toolmaterial localizations
+material.lemonstone=Lemon Stone
+material.lemonstone.ability=Stonebound
+material.limestone=Lime Stone
+material.limestone.ability=Stonebound
+material.orangestone=Orange Stone
+material.orangestone.ability=Stonebound
+material.blueberrystone=Blueberry Stone
+material.blueberrystone.ability=Stonebound
+material.lemonlimestone=Lemon Lime Stone
+material.lemonlimestone.ability=Stonebound
+
+material.neptunium=Neptunium
+material.atlantium=Atlantium
+
+material.sciencium=Sciencium
+material.sciencium.ability=Laboricious
+
+material.gold=Gold
+material.gold.display=Golden
+
+material.endium.ability=Taggable
+
+
+
+

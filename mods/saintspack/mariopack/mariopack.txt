@@ -1,0 +1,1 @@
+13066;§1Super Mario Dubstep Gun;MarioGun;§5With Bob-ombs included!;§6Koopa's Road;KRDRYT;MarGunItem;DubGun1m.png;DubGun2m.png;53.0,141.0,249.0; Y :YXY: Y :X,mod_Saintspack=DubGun2,1,0+Y,minecraft=red_mushroom,1,0;1;0.5;1.5;minecraft=red_mushroom,1,0;50;0;1;0;1;

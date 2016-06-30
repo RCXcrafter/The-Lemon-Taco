@@ -1,0 +1,1 @@
+13172;§3Mining Gun;DubGun6;§3Does not hurt, but mines like a charm!;§bAdhesive Wombat - Night Shade;nightshade;DubGunItem6;DubGun1Drill.png;DubGun2Drill.png;255.0,255.0,0.0;YYY:ZXA:BBB:Y,minecraft=coal_block,1,0+X,mod_Saintspack=DubGun,1,0+Z,minecraft=diamond_pickaxe,1,0+A,minecraft=bucket,1,0+B,condensedblocks=charcoalBlock,1,0;1;0.5;2.0;minecraft=coal,1,0;8;0;0;100;0;

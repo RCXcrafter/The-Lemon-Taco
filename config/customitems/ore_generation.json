@@ -1,0 +1,88 @@
+{
+	"oreGen":[
+		{
+			"blockToSpawn": "minecraft:packed_ice",
+			"blockToReplace": "minecraft:stone",
+			"biomeId": [5,10,11,12,13,19,26,30,31,140,158,],
+			"dimensionId": 0,			
+			"minVeinSize": 15, 
+			"maxVeinSize": 25,
+			"chancesToSpawn": 8, 
+			"minY": 0, 
+			"maxY": 50
+		},
+		{
+			"blockToSpawn": "chisel:holystone",
+			"blockToReplace": "minecraft:stone",
+			"dimensionId": 0,			
+			"minVeinSize": 25, 
+			"maxVeinSize": 40,
+			"chancesToSpawn": 30, 
+			"minY": 128, 
+			"maxY": 256
+		},
+		{
+			"blockToSpawn": "chisel:grimstone",
+			"blockToReplace": "minecraft:stone",
+			"dimensionId": 0,			
+			"minVeinSize": 15, 
+			"maxVeinSize": 25,
+			"chancesToSpawn": 8, 
+			"minY": 0, 
+			"maxY": 10
+		},
+		//fruit
+		{
+			"blockToSpawn": "chisel:holystone",
+			"blockToReplace": "minecraft:stone",
+			"dimensionId": 37,			
+			"minVeinSize": 25, 
+			"maxVeinSize": 40,
+			"chancesToSpawn": 30, 
+			"minY": 128, 
+			"maxY": 256
+		},
+		{
+			"blockToSpawn": "chisel:grimstone",
+			"blockToReplace": "minecraft:stone",
+			"dimensionId": 37,			
+			"minVeinSize": 15, 
+			"maxVeinSize": 25,
+			"chancesToSpawn": 8, 
+			"minY": 0, 
+			"maxY": 10
+		},
+		//end
+		{
+			"blockToSpawn": "chisel:voidstone",
+			"blockToReplace": "minecraft:end_stone",
+			"dimensionId": 1,			
+			"minVeinSize": 15, 
+			"maxVeinSize": 25,
+			"chancesToSpawn": 8, 
+			"minY": 0, 
+			"maxY": 50
+		},
+		{
+			"blockToSpawn": "minecraft:end_stone",
+			"blockToReplace": "minecraft:air",
+			"dimensionId": 1,			
+			"minVeinSize": 30, 
+			"maxVeinSize": 50,
+			"chancesToSpawn": 1, 
+			"minY": 4, 
+			"maxY": 60
+		},
+		//nether
+		{
+			"blockToSpawn": "magmaox:MagmaBlock",
+			"blockToReplace": "minecraft:netherrack",
+			"dimensionId": -1,			
+			"minVeinSize": 15, 
+			"maxVeinSize": 25,
+			"chancesToSpawn": 8, 
+			"minY": 0, 
+			"maxY": 50
+		}
+	]	
+}

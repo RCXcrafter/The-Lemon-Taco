@@ -1,1 +1,8 @@
 ~$The Lemon Taco spreadsheet edition.xlsx
+.analytics/
+asm/
+logs/
+reports/
+saves/
+options.txt
+BTFU.cfg

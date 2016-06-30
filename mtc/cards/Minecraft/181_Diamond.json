@@ -1,0 +1,11 @@
+{
+	"id":"card_diamond",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Diamond",
+	"category":"World Item",
+	"asset":"Minecraft/181",
+	
+	"weight":4
+}

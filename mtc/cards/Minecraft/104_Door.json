@@ -1,0 +1,11 @@
+{
+	"id":"card_door",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Door",
+	"category":"World Item",
+	"asset":"Minecraft/104",
+	
+	"weight":11
+}

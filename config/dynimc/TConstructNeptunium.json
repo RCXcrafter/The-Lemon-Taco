@@ -1,0 +1,45 @@
+[
+  {
+    "modid": "TConstruct",
+    "string": {},
+    "nbt": {
+      "addMaterial": [
+        {
+          "compound:": [
+            { "int:Id": 600 }, // Unique material ID. Reserved IDs: 0-40 Tinker, 41-45 Iguana Tinker Tweaks, 100-200 ExtraTiC
+            { "string:Name": "Neptunium" }, // Unique material name
+            { "int:HarvestLevel": 7 }, // coal level
+            { "int:Durability": 1392 },
+            { "int:MiningSpeed": 312 },
+            { "int:Attack": 2.5 }, // optional
+            { "float:HandleModifier": 3 },
+            //{ "int:Reinforced": 1 }, // optional
+            //{ "float:Stonebound": 1 }, // optional, cannot be used if jagged
+            //{ "float:Jagged": 1 }, // optional, cannot be used if stonebound
+            { "string:Style": "§3" }, // optional, color of the material text
+            { "int:Color": 5898180 }, // hexadecimal color code
+
+            /* SINCE 1.8.2 - bow and arrow stats
+            * for bow and arrow stats, best compare to other materials to find good values
+            */
+            // additional stats for bows
+            { "int:Bow_DrawSpeed": 54 }, // the higher the longer it takes to draw the bow
+            { "float:Bow_ProjectileSpeed": 5.8 }, // the higher the faster the projectile goes
+
+            // additional stats for arrows
+            { "float:Projectile_Mass": 13.5 },
+            { "float:Projectile_Fragility": 0.5 } // This is a multiplier to the shafts break-chance
+          ]
+        }
+      ],
+      "addPartCastingMaterial": [
+        {
+          "compound:": [
+            { "string:FluidName": "neptunium.molten" }, // liquid to use
+            { "int:MaterialId": 600 } // output material ID
+          ]
+        }
+      ]
+    }
+  }
+]

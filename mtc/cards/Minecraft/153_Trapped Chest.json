@@ -1,0 +1,11 @@
+{
+	"id":"card_trapped_chest",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Trapped Chest",
+	"category":"World Item",
+	"asset":"Minecraft/153",
+	
+	"weight":7
+}

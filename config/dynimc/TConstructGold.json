@@ -1,0 +1,60 @@
+[
+  {
+    "modid": "TConstruct",
+    "string": {},
+    "nbt": {
+      "addMaterial": [
+        {
+          "compound:": [
+            { "int:Id": 604 }, // Unique material ID. Reserved IDs: 0-40 Tinker, 41-45 Iguana Tinker Tweaks, 100-200 ExtraTiC
+            { "string:Name": "Gold" }, // Unique material name
+            { "int:HarvestLevel": 3 }, // coal level
+            { "int:Durability": 37 },
+            { "int:MiningSpeed": 3.12 },
+            { "int:Attack": 1 }, // optional
+            { "float:HandleModifier": 0.4 },
+            //{ "int:Reinforced": 2 }, // optional
+            //{ "float:Stonebound": 1 }, // optional, cannot be used if jagged
+            //{ "float:Jagged": 2 }, // optional, cannot be used if stonebound
+            { "string:Style": "§6" }, // optional, color of the material text
+            { "int:Color": 16766778 }, // hexadecimal color code
+
+            /* SINCE 1.8.2 - bow and arrow stats
+            * for bow and arrow stats, best compare to other materials to find good values
+            */
+            // additional stats for bows
+            { "int:Bow_DrawSpeed": 36 }, // the higher the longer it takes to draw the bow
+            { "float:Bow_ProjectileSpeed": 3.2 }, // the higher the faster the projectile goes
+
+            // additional stats for arrows
+            { "float:Projectile_Mass": 12.5 },
+            { "float:Projectile_Fragility": 1.4 } // This is a multiplier to the shafts break-chance
+          ]
+        }
+      ],
+		"addMaterialItem": [
+	    	{
+          "compound:": [
+            { "int:MaterialId": 604 },
+            { "int:Value": 2 }, // 1 material ever 2 value. See PartMapping IMC
+            {
+              "compound:Item": [
+                { "short:id": "minecraft:gold_ingot" },
+                { "byte:Count": 1 },
+                { "short:Damage": 0 }
+              ]
+            }
+          ]
+        }
+      ],
+      "addPartCastingMaterial": [
+        {
+          "compound:": [
+            { "string:FluidName": "gold.molten" }, // liquid to use
+            { "int:MaterialId": 604 } // output material ID
+          ]
+        }
+      ]
+	}
+  }
+]

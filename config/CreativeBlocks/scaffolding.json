@@ -1,0 +1,45 @@
+// NOTE: This file will get overwritten/reinstated every time Minecraft is launched if either of the following conditions is true:
+//  1) The config/CreativeBlocks directory has no .json files in it (to create default.json on the first install)
+//  2) config/CreativeBlocks/default.json exists (to update default.json when the mod updates)
+//
+// If you want to customize this file, you must rename it.
+// Otherwise, simply create new .json files with the same structure and leave this file alone.
+//
+// Configs will be synced from the server to the client, meaning that for server-play, only the
+// server's configs matter.
+//
+// You can reload the server's configs while playing by using the command: /creativeblocks reload
+{
+	// A list of blocks in "modid:blockname:meta" format to set as Creative Blocks
+	//  modid: The mod ID of the mod that the block belongs to
+	//  blockname: The name that the block was registered with. Use * to specify ALL blocks of the given mod
+	//  meta: [Optional] The metadata of the block. If not specified, defaults to * (any metadata)
+	//
+	// NOTE: The blacklist takes precedence over the whitelist; any blocks specified in the blacklist will not
+	// be added as creative blocks no matter what
+	"blockWhitelist": [
+		"customitems:magical_scaffolding"
+	],
+
+	// A list of blocks in "modid:blockname:meta" format to stop from being Creative Blocks
+	//  modid: The mod ID of the mod that the block belongs to
+	//  blockname: The name that the block was registered with. Use * to specify ALL blocks of the given mod
+	//  meta: [Optional] The metadata of the block. If not specified, defaults to * (any metadata)
+	//
+	// NOTE: The blacklist takes precedence over the whitelist; any blocks specified in the blacklist will not
+	// be added as creative blocks no matter what
+	"blockBlacklist": [
+		// blacklist light emitting blocks
+		"chisel:torch1",
+		"chisel:torch2",
+		"chisel:torch3",
+		"chisel:torch4",
+		"chisel:torch5",
+		"chisel:torch6",
+		"chisel:torch7",
+		"chisel:torch8",
+		"chisel:torch9",
+		"chisel:torch10",
+		"chisel:glowstone"
+	]
+}

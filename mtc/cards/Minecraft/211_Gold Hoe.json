@@ -1,0 +1,11 @@
+{
+	"id":"card_gold_hoe",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Gold Hoe",
+	"category":"World Item",
+	"asset":"Minecraft/211",
+	
+	"weight":7
+}

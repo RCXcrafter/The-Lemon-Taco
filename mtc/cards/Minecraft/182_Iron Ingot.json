@@ -1,0 +1,11 @@
+{
+	"id":"card_iron_ingot",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Iron Ingot",
+	"category":"World Item",
+	"asset":"Minecraft/182",
+	
+	"weight":11
+}

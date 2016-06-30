@@ -1,0 +1,182 @@
+{
+    "items": [
+        {
+            "maxStackSize": 64,
+            "textureName": "lemon_brick",
+            "name": "Lemon Brick"
+        },
+        {
+            "textureName": "dye_powder_lemon",
+            "name": "Lemon Yellow Dye"
+        },
+        {
+            "textureName": "pottery_pattern_empty",
+            "name": "Blank Stamp"
+        },
+        {
+            "textureName": "microscope",
+            "name": "Microscope"
+        },
+        {
+            "textureName": "alumite_dust",
+            "name": "Alumite Dust"
+        },
+        {
+            "textureName": "neptunium_dust",
+            "name": "Neptunium Dust"
+        },
+        {
+            "textureName": "unobtanium_hyper_diamond",
+            "name": "Unobtanium Hyper Diamond"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Magical Scaffolding",
+            "textureName": "scaffolding",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "breaks": "true",
+            "canSilkHarvest": "false",
+            "resistance": 4,
+            "hardness": 0.1
+        },
+        {
+            "name": "Neptunium Block",
+            "textureName": "neptunium_block",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,
+            "hardness": 0.8
+        },
+        {
+            "name": "Atlantium Block",
+            "textureName": "Atlantium_block",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,
+            "hardness": 0.8
+        },
+        {
+            "name": "Block of Blue Dye",
+            "textureName": "blue_dye_block",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,
+            "hardness": 0.8
+        }
+    ],
+    "swords": [
+        {
+            "name": "Wand",
+            "textureName": "wand",
+            "maxUses": 1000,
+            "harvestLevel": 0,
+            "efficiencyOnProperMaterial": 0,
+            "enchantability": 0,            
+            "damageVsEntity": 0
+        },
+        {
+            "name": "Brush",
+            "textureName": "brush",
+            "maxUses": 1000,
+            "harvestLevel": 0,
+            "efficiencyOnProperMaterial": 0,
+            "enchantability": 0,            
+            "damageVsEntity": 0
+        },
+        {
+            "name": "Remove Entity",
+            "textureName": "godsword",
+            "maxUses": 10,
+            "harvestLevel": 0,
+            "efficiencyOnProperMaterial": 10,
+            "enchantability": 0,            
+            "damageVsEntity": 89996
+        }
+    ],
+    "changeItems": [
+        {
+            "maxStackSize": 6,
+            "name": "minecraft:boat"
+        }
+    ],
+    "fluids":[
+        {
+            "name":"Melonade",
+            "textureName": "melonade",
+            "temperature": 200,
+
+            "density": 2000,
+            "viscosity": 6000,            
+            "lightLevel": 0,
+            "isGas": false,
+            "flowLength": 8
+        },
+        {
+            "name":"Sparkly Melonade",
+            "textureName": "melonade_sparkly",
+            "temperature": 200,
+
+            "density": 2000,
+            "viscosity": 6000,            
+            "lightLevel": 0,
+            "isGas": false,
+            "flowLength": 8
+        },
+        {
+            "name":"Carronade",
+            "textureName": "carronade",
+            "temperature": 200,
+
+            "density": 2000,
+            "viscosity": 6000,            
+            "lightLevel": 0,
+            "isGas": false,
+            "flowLength": 8
+        },
+        {
+            "name":"Sparkly Carronade",
+            "textureName": "carronade_sparkly",
+            "temperature": 200,
+
+            "density": 2000,
+            "viscosity": 6000,            
+            "lightLevel": 0,
+            "isGas": false,
+            "flowLength": 8
+        },
+        {
+            "name":"Skelenade",
+            "textureName": "skelenade",
+            "temperature": 200,
+
+            "density": 2000,
+            "viscosity": 6000,            
+            "lightLevel": 0,
+            "isGas": false,
+            "flowLength": 8
+        },
+        {
+            "name":"Nitro Lava",
+            "textureName": "nitro_lava",
+            "temperature": 200,
+
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 10,
+			"bucket":
+					{
+					"name":"Nitro Lava Bucket",
+					"maxStackSize": 16
+					}
+			}
+    ]
+}

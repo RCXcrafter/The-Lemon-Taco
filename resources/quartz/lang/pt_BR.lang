@@ -1,0 +1,18 @@
+
+tile.QuartzPlain.name=Superficie De Cuarzo Bloquear
+tile.QuartzPillarH.name=Superficie De Cuarzo Pilar
+tile.QuartzPillarV.name=Superficie De Cuarzo Pilar
+tile.QuartzPillarC.name=Superficie De Cuarzo Pilar
+tile.QuartzFancy.name=Superficie Cincelado Cuarzo Bloquear
+tile.QuartzLamp.name=Lámpara De Cuarzo
+tile.QuartzSurfaceOre.name=Superficie De Cuarzo Mineral
+
+
+item.QuartzSurface.name=Cuarzo Superficie
+item.QuartzSword.name=Cuarzo Espada
+item.QuartzPickaxe.name=Cuarzo Pico
+item.QuartzAxe.name=Cuarzo Axe
+item.QuartzShovel.name=Cuarzo Pala
+item.QuartzHoe.name=Quarzo Azada
+
+itemGroup.tabquartz=Partido De Cuarzo
