@@ -1,20 +1,20 @@
-[13:43:59][SquidAPI][WARN]: Source file name doesn't match the normal file naming pattern! This is commonly done by repost sites to hide outdated versions. See http://stopmodreposts.com.
-[13:43:59][SquidAPI][INFO]: Registering BaseMod SquidAPI.
-[13:43:59][SquidAPI][INFO]: Copyright (C) CoolSquid, 2015. Do not distribute without explicit, written permission from the copyright holder.
-[13:43:59][SquidAPI][INFO]: Loading SquidAPI.cfg.
-[13:43:59][SquidAPI][INFO]: Finished loading SquidAPI.cfg.
-[13:43:59][SquidAPI][INFO]: Registering BaseMod CustomCrashReports.
-[13:43:59][SquidAPI][INFO]: Copyright (C) , 2015. Do not distribute without explicit, written permission from the copyright holder.
-[13:44:05][SquidAPI][WARN]: Source file name doesn't match the normal file naming pattern! This is commonly done by repost sites to hide outdated versions. See http://stopmodreposts.com.
-[13:44:05][SquidAPI][INFO]: Registering BaseMod PackGuard.
-[13:44:05][SquidAPI][INFO]: Copyright (C) , 2015. Do not distribute without explicit, written permission from the copyright holder.
-[13:44:21][SquidAPI][INFO]: Preinitializing.
-[13:44:21][SquidAPI][INFO]: Finished preinitialization.
-[13:44:39][SquidAPI][INFO]: Loading PackGuard.cfg.
-[13:44:39][SquidAPI][INFO]: Finished loading PackGuard.cfg.
-[13:44:56][SquidAPI][INFO]: Initializing.
-[13:44:56][SquidAPI][INFO]: Finished initialization.
-[13:45:11][SquidAPI][INFO]: Postinitializing.
-[13:45:11][SquidAPI][INFO]: Finished postinitialization.
-[13:45:25][SquidAPI][INFO]: Registering clientside command about.
-[13:45:25][SquidAPI][INFO]: Registering clientside command SquidAPI.
+[14:12:24][SquidAPI][WARN]: Source file name doesn't match the normal file naming pattern! This is commonly done by repost sites to hide outdated versions. See http://stopmodreposts.com.
+[14:12:24][SquidAPI][INFO]: Registering BaseMod SquidAPI.
+[14:12:24][SquidAPI][INFO]: Copyright (C) CoolSquid, 2015. Do not distribute without explicit, written permission from the copyright holder.
+[14:12:24][SquidAPI][INFO]: Loading SquidAPI.cfg.
+[14:12:24][SquidAPI][INFO]: Finished loading SquidAPI.cfg.
+[14:12:24][SquidAPI][INFO]: Registering BaseMod CustomCrashReports.
+[14:12:24][SquidAPI][INFO]: Copyright (C) , 2015. Do not distribute without explicit, written permission from the copyright holder.
+[14:12:29][SquidAPI][WARN]: Source file name doesn't match the normal file naming pattern! This is commonly done by repost sites to hide outdated versions. See http://stopmodreposts.com.
+[14:12:29][SquidAPI][INFO]: Registering BaseMod PackGuard.
+[14:12:29][SquidAPI][INFO]: Copyright (C) , 2015. Do not distribute without explicit, written permission from the copyright holder.
+[14:12:44][SquidAPI][INFO]: Preinitializing.
+[14:12:45][SquidAPI][INFO]: Finished preinitialization.
+[14:13:02][SquidAPI][INFO]: Loading PackGuard.cfg.
+[14:13:02][SquidAPI][INFO]: Finished loading PackGuard.cfg.
+[14:13:18][SquidAPI][INFO]: Initializing.
+[14:13:18][SquidAPI][INFO]: Finished initialization.
+[14:13:32][SquidAPI][INFO]: Postinitializing.
+[14:13:32][SquidAPI][INFO]: Finished postinitialization.
+[14:13:49][SquidAPI][INFO]: Registering clientside command about.
+[14:13:49][SquidAPI][INFO]: Registering clientside command SquidAPI.
