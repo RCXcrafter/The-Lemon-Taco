@@ -164,6 +164,7 @@ Mod list:
 - Better Achievements 0.1.0
 - Better Boat 1.1.0
 - Better Builder's Wands 0.6.1
+- Better Horse Hud 1.0
 - Better Sleeping 1.7.10-1.2.27
 - Better Sleeping Core 1.0
 - Better mobGriefing GameRule 1.7.10-0.3.0
@@ -307,6 +308,7 @@ Mod list:
 - NEI Addons: Ex Nihilo 1.12.12.37
 - NEI Addons: Forestry 1.12.12.37
 - NEI Integration 1.1.1
+- Namrocs Bag of Holding 1.7.10-1.0.15-RC.9190955
 - Natura 2.2.0
 - Nether Portal Fix 1.0
 - Nincraft Lib 1.7.10-0.1.1+24
@@ -314,6 +316,7 @@ Mod list:
 - Not Enough Resources 0.1.0.ManuallyBuilt
 - Omnifluids 1.2.0
 - OpenEye 0.6
+- OptionSync 1.7.10-r1
 - Origin 8.0.3
 - OriginAddonScrewdriver 1.0.0
 - P.E. 1.0
@@ -383,6 +386,7 @@ Mod list:
 - Tinkers' Mechworks 0.2.15.106
 - Tinkers' Steelworks 1.7.10-1.1.2
 - Torched 4.0.0
+- Torcherino 2.2s
 - TrailMix 4.0.0
 - Triumph 0.9.0
 - Tumbleweed 1.7.10-0.2
@@ -537,6 +541,7 @@ Classpath files:
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/BetterAchievements-1.7.10-0.1.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/BetterBoat-1.7.10-1.1.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/BetterBuildersWands-0.6.1-1.7.10r80+358ee26.jar
+- file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/BetterHorseHud-1.7.10-1.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/BetterStorage-1.7.10-0.13.1.126.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/biomestats-v1.0.1.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/boilerplate-1.7.10-6.3.0.81-universal.jar
@@ -651,11 +656,13 @@ Classpath files:
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/MultiPageChest-1.3.4-MC1.7.10.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/mycommands-1710.01.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/mysticalmobs-0.1.1.jar
+- file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/NamrocsBagOfHolding-1.7.10-1.0.15-RC.9190955.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/neiaddons-1.12.12.37-mc1.7.10.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/NEIIntegration-MC1.7.10-1.1.1.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/netherportalfix-mc1.7.10-1.1.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/NincraftLib-1.7.10-0.1.1+24.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/NotEnoughResources-1.7.10-0.1.0-121.jar
+- file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/OptionSync-1.7.10-r1.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/Origin-1.7.10-8.0.3.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/PackGuard-1.3.2.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/PassthroughSigns-1.7.10-1.0.1.B3-universal.jar
@@ -714,6 +721,7 @@ Classpath files:
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/Tinkers-Defense-1.2.1.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/TMechworks-1.7.10-0.2.15.106.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/Torched-4.0.0.jar
+- file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/Torcherino-1.7.10-2.2s.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/TrailMix-4.0.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/Triumph-0.9.0.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/tumbleweed-1.7.10-0.2.jar
