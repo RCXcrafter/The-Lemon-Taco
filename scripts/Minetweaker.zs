@@ -893,11 +893,16 @@ recipes.addShaped(<PortalGun:MiniBlackHole>,[[null,<condensedblocks:cobblestoneC
 recipes.addShaped(<ganysend:infiniteBucket>,[[null,<minecraft:water_bucket>,null],[<minecraft:water_bucket>,<PortalGun:MiniBlackHole>,<minecraft:water_bucket>],[null,<minecraft:water_bucket>,null]]);
 
 //duplic8 items
-//recipes.addShaped(<condensedblocks:cobblestoneCondensedTierOne:7> * 1,[[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null],[<condensedblocks:cobblestoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:cobblestoneCondensedTierOne:1>],[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:stoneCondensedTierOne:7> * 1,[[null,<condensedblocks:stoneCondensedTierOne:1>,null],[<condensedblocks:stoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:stoneCondensedTierOne:1>],[null,<condensedblocks:stoneCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:dirtCondensedTierOne:7> * 1,[[null,<condensedblocks:dirtCondensedTierOne:1>,null],[<condensedblocks:dirtCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:dirtCondensedTierOne:1>],[null,<condensedblocks:dirtCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:endStoneCondensedTierOne:7> * 1,[[null,<condensedblocks:endStoneCondensedTierOne:1>,null],[<condensedblocks:endStoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:endStoneCondensedTierOne:1>],[null,<condensedblocks:endStoneCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:netherrackCondensedTierOne:7> * 1,[[null,<condensedblocks:netherrackCondensedTierOne:1>,null],[<condensedblocks:netherrackCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:netherrackCondensedTierOne:1>],[null,<condensedblocks:netherrackCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:clayCondensedTierOne:3>,[[null,<condensedblocks:clayCondensedTierOne:1>,null],[<condensedblocks:clayCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:clayCondensedTierOne:1>],[null,<condensedblocks:clayCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:cobblestoneCondensedTierOne:3>,[[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null],[<condensedblocks:cobblestoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:cobblestoneCondensedTierOne:1>],[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:dirtCondensedTierOne:3>,[[null,<condensedblocks:dirtCondensedTierOne:1>,null],[<condensedblocks:dirtCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:dirtCondensedTierOne:1>],[null,<condensedblocks:dirtCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:endStoneCondensedTierOne:3>,[[null,<condensedblocks:endStoneCondensedTierOne:1>,null],[<condensedblocks:endStoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:endStoneCondensedTierOne:1>],[null,<condensedblocks:endStoneCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:gravelCondensedTierOne:3>,[[null,<condensedblocks:gravelCondensedTierOne:1>,null],[<condensedblocks:gravelCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:gravelCondensedTierOne:1>],[null,<condensedblocks:gravelCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:mossyCobblestoneCondensedTierOne:3>,[[null,<condensedblocks:mossyCobblestoneCondensedTierOne:1>,null],[<condensedblocks:mossyCobblestoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:mossyCobblestoneCondensedTierOne:1>],[null,<condensedblocks:mossyCobblestoneCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:netherrackCondensedTierOne:3>,[[null,<condensedblocks:netherrackCondensedTierOne:1>,null],[<condensedblocks:netherrackCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:netherrackCondensedTierOne:1>],[null,<condensedblocks:netherrackCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:sandCondensedTierOne:3>,[[null,<condensedblocks:sandCondensedTierOne:1>,null],[<condensedblocks:sandCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:sandCondensedTierOne:1>],[null,<condensedblocks:sandCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:soulSandCondensedTierOne:3>,[[null,<condensedblocks:soulSandCondensedTierOne:1>,null],[<condensedblocks:soulSandCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:soulSandCondensedTierOne:1>],[null,<condensedblocks:soulSandCondensedTierOne:1>,null]]);
+recipes.addShaped(<condensedblocks:stoneCondensedTierOne:3>,[[null,<condensedblocks:stoneCondensedTierOne:1>,null],[<condensedblocks:stoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:stoneCondensedTierOne:1>],[null,<condensedblocks:stoneCondensedTierOne:1>,null]]);
 
 //upgr8 recipe
 recipes.addShaped(<tinker_io:Upgrade>,[[<ore:ingotHepatizon>,<ore:ingotHepatizon>,<ore:ingotHepatizon>],[<ore:ingotAluminum>,<minecraft:paper>,<ore:ingotAluminum>],[<ore:ingotHepatizon>,<ore:ingotHepatizon>,<ore:ingotHepatizon>]]);
@@ -952,7 +957,7 @@ recipes.removeShapeless(<minecraft:slime_ball> * 9, [<etfuturum:slime>]);
 recipes.addShapeless(<minecraft:slime_ball> * 4, [<ore:blockSlime>]);
 
 //unobtanium hyper diamonds
-recipes.addShapedMirrored(<customitems:unobtanium_hyper_diamond>,[[<etfuturum:chorus_fruit_popped>,<etfuturum:chorus_fruit_popped>,<badores:badOre1:5>],[<etfuturum:chorus_fruit_popped>,<ore:gemDiamond>,<ore:itemBlazePowder>],[<badores:badOre1:5>,<ore:itemBlazePowder>,<ore:itemBlazePowder>]]);
+recipes.addShapedMirrored(<customitems:unobtanium_hyper_diamond>,[[<erebus:wand_of_preservation>,<minecraft:dragon_egg>,<dendrology:parcel>],[<ore:blockAmordrine>,<ore:gemDiamond>,<ore:blockCelenegil>],[<atum:item.ectoplasm>,<tinker_io:WhatABeautifulBlock>,<smokables:cannabis>]]);
 
 //quantum entangler
 recipes.addShaped(<CompactMachines:quantumentangler>,[[<qCraft:dust>,<qCraft:dust>,<qCraft:dust>],[<CompactMachines:interfaceitem>,<qCraft:essence:2>,<CompactMachines:interfaceitem>],[<qCraft:dust>,<qCraft:dust>,<qCraft:dust>]]);

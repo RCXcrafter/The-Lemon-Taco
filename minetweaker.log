@@ -598,6 +598,8 @@ INFO: Removing 1 recipes
 INFO: Removing 3 recipes
 INFO: Removing 2 recipes
 INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
 INFO: Removing 1 furnace recipes
 INFO: Adding recipe for String
 INFO: Adding recipe for Mossy Stone Bricks
@@ -687,10 +689,16 @@ INFO: Adding recipe for Modular Furnace Crafting Upgrade
 INFO: Adding recipe for Red Sand
 INFO: Adding recipe for Miniature Black Hole
 INFO: Adding recipe for Infinite Bucket
-INFO: Adding recipe for Octuple Condensed Stone
-INFO: Adding recipe for Octuple Condensed Dirt
-INFO: Adding recipe for Octuple Condensed End Stone
-INFO: Adding recipe for Octuple Condensed Netherrack
+INFO: Adding recipe for Quadruple Condensed Clay
+INFO: Adding recipe for Quadruple Condensed Cobblestone
+INFO: Adding recipe for Quadruple Condensed Dirt
+INFO: Adding recipe for Quadruple Condensed End Stone
+INFO: Adding recipe for Quadruple Condensed Gravel
+INFO: Adding recipe for Quadruple Condensed Mossy Cobblestone
+INFO: Adding recipe for Quadruple Condensed Netherrack
+INFO: Adding recipe for Quadruple Condensed Sand
+INFO: Adding recipe for Quadruple Condensed Soul Sand
+INFO: Adding recipe for Quadruple Condensed Stone
 INFO: Adding recipe for Base Upgrade
 INFO: Removing 1 recipes
 INFO: Removing 0 recipes
@@ -834,6 +842,8 @@ INFO: Adding recipe for Torcherino
 INFO: Adding recipe for Torcherino
 INFO: Adding recipe for Inverted Torcherino
 INFO: Adding recipe for Inverted Torcherino
+INFO: Adding recipe for Egg Replicator
+INFO: Adding recipe for Replication Measuring Device
 INFO: Adding furnace recipe for <minecraft:stonebrick>
 INFO: Adding furnace recipe for <ore:oreEndium>
 INFO: Adding furnace recipe for <condensedblocks:cobblestoneCondensedTierOne:6>
@@ -966,7 +976,7 @@ INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Ridicu
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <PortalGun:PortalMulti:1>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <ganyssurface:chocolateBar>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <RidiculousWorld:ChocoEgg>
-INFO: [ModTweaker2] Adding 26 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.ore:7>, <FortuneOres:oreChunk:29>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:7>
+INFO: [ModTweaker2] Adding 26 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.ore:7>, <FortuneOres:oreChunk:29>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:7>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.block:7>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.dust:7>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:mithril.ingot>
@@ -1011,6 +1021,8 @@ INFO: Removing Xtreme Crafting Recipe for Infinity Helmet
 INFO: Removing Xtreme Crafting Recipe for Infinity Breastplate
 INFO: Removing Xtreme Crafting Recipe for Infinity Pants
 INFO: Removing Xtreme Crafting Recipe for Infinity Boots
+INFO: Removing Xtreme Crafting Recipe for Infinity Catalyst
+INFO: Adding Xtreme Crafting Recipe for Infinity Catalyst
 INFO: Removed dustRedstone as valid mixing agent.
 INFO: Removed ore:dustRedstone as valid mixing agent.
 INFO: Removed <ore:dustRedstone> as valid mixing agent.

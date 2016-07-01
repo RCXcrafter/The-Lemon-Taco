@@ -294,6 +294,10 @@ mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Chest>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pants>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
 
+//new catalist recipe
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
+mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>,[<Avaritia:Singularity>,<Avaritia:Singularity:1>,<Avaritia:Singularity:2>,<Avaritia:Singularity:3>,<Avaritia:Singularity:4>,<Avaritia:Singularity:5>,<Avaritia:Singularity:6>,<Avaritia:Singularity:8>,<Avaritia:Ultimate_Stew>,<Avaritia:Cosmic_Meatballs>,<Avaritia:Endest_Pearl>,<Avaritia:Resource:7>,<ore:blockEmerald>,<ore:blockManyullyn>,<ore:blockSteel>,<ore:blockUnstable>,<ExtraUtilities:block_bedrockium>,<ore:ingotTartarite>,<ore:ingotSanguinite>,<ore:ingotDesichalkos>,<ore:ingotNeptunium>,<ore:gemHyperDiamondUnobtanium>]);
+
 
 #tinkers steelworks
 
