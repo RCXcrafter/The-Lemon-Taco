@@ -639,6 +639,10 @@ recipes.remove(<Torcherino:tile.inverse_torcherino>);
 //recipes.remove(<Torcherino:tile.compressed_inverse_torcherino>);
 recipes.remove(<Torcherino:tile.double_compressed_inverse_torcherino>);
 
+//DER (dragon egg replicator)
+recipes.remove(<dd:BlockDuplicator>);
+recipes.remove(<dd:ItemMeasuringDevice>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -1120,6 +1124,10 @@ recipes.addShapedMirrored(<Torcherino:tile.torcherino>,[[<qCraft:dust>,<ore:ingo
 recipes.addShapedMirrored(<Torcherino:tile.torcherino>,[[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<Aquaculture:item.loot:18>,<ore:torchAll>,<PortalGun:PortalGunOrange:*>],[null,<ore:ingotUnstable>,null]]);
 recipes.addShapedMirrored(<Torcherino:tile.inverse_torcherino>,[[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<Aquaculture:item.loot:18>,<ore:torchRedstone>,<PortalGun:PortalGunBlue:*>],[null,<ore:ingotUnstable>,null]]);
 recipes.addShapedMirrored(<Torcherino:tile.inverse_torcherino>,[[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<Aquaculture:item.loot:18>,<ore:torchRedstone>,<PortalGun:PortalGunOrange:*>],[null,<ore:ingotUnstable>,null]]);
+
+//DER (dragon egg replicator)
+recipes.addShaped(<dd:BlockDuplicator>,[[<ore:ingotSteel>,<ore:ingotCrystalMatrix>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:nuggetEndium>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+recipes.addShaped(<dd:ItemMeasuringDevice>,[[<ore:ingotSteel>,<magmaox:NetherWartBlock>,<ore:ingotSteel>],[<ore:ingotSteel>,<minecraft:clock>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotEximite>,<ore:ingotSteel>]]);
 
 
 #furnace recipes
