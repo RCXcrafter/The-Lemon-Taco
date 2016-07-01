@@ -589,6 +589,15 @@ INFO: Removing 1 recipes
 INFO: Removing 3 recipes
 INFO: Removing 2 recipes
 INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 3 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
 INFO: Removing 1 furnace recipes
 INFO: Adding recipe for String
 INFO: Adding recipe for Mossy Stone Bricks
@@ -814,6 +823,17 @@ INFO: Adding recipe for Infuscolium Building Wand
 INFO: Adding recipe for Rubracium Building Wand
 INFO: Adding recipe for Meutoite Building Wand
 INFO: Adding recipe for Bedrockium Ingot
+INFO: Adding recipe for Stone block cutter
+INFO: Adding recipe for Copper block cutter
+INFO: Adding recipe for Iron block cutter
+INFO: Adding recipe for Large stone block cutter
+INFO: Adding recipe for Large Copper block cutter
+INFO: Adding recipe for Large Iron block cutter
+INFO: Adding recipe for Inverted Super Compressed Torcherino
+INFO: Adding recipe for Torcherino
+INFO: Adding recipe for Torcherino
+INFO: Adding recipe for Inverted Torcherino
+INFO: Adding recipe for Inverted Torcherino
 INFO: Adding furnace recipe for <minecraft:stonebrick>
 INFO: Adding furnace recipe for <ore:oreEndium>
 INFO: Adding furnace recipe for <condensedblocks:cobblestoneCondensedTierOne:6>
@@ -821,7 +841,7 @@ INFO: Adding furnace recipe for <condensedblocks:cobblestoneCondensedTierOne:7>
 INFO: Setting fuel for <TConstruct:materials:7>
 INFO: Setting fuel for <minecraft:fire_charge>
 INFO: Setting fuel for <Sunnarium:Sunnarium>
-INFO: [ModTweaker2] Removing 3 TConstruct Smeltery - Melting Recipe(s) for <minecraft:anvil:1>, <minecraft:anvil:2>, <minecraft:anvil>
+INFO: [ModTweaker2] Removing 3 TConstruct Smeltery - Melting Recipe(s) for <minecraft:anvil>, <minecraft:anvil:1>, <minecraft:anvil:2>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <minecraft:anvil>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <minecraft:anvil:1>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <minecraft:anvil:2>
@@ -946,7 +966,7 @@ INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Ridicu
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <PortalGun:PortalMulti:1>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <ganyssurface:chocolateBar>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <RidiculousWorld:ChocoEgg>
-INFO: [ModTweaker2] Adding 26 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.ore:7>, <FortuneOres:oreChunk:29>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:7>
+INFO: [ModTweaker2] Adding 26 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.ore:7>, <FortuneOres:oreChunk:29>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:igneous_metal.block.fantasy.ore.7:7>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:1>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:2>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:3>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:4>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:5>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:6>, <UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:7>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.block:7>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:fantasy.dust:7>
 INFO: [ModTweaker2] Adding 1 TConstruct Smeltery - Melting Recipe(s) for <Metallurgy:mithril.ingot>
@@ -2640,7 +2660,7 @@ INFO: [ModTweaker2] Adding 1 Metallurgy Alloyer Recipe(s) for <GardenStuff:wroug
 INFO: [ModTweaker2] Adding 1 Metallurgy Alloyer Recipe(s) for <GardenStuff:wrought_iron_ingot>
 INFO: [ModTweaker2] Adding 1 ExNihilo Composting Recipe(s) for <minecraft:hay_block>
 INFO: [ModTweaker2] Adding 1 ExNihilo Crucible (Melting) Recipe(s) for <minecraft:packed_ice>
-INFO: [ModTweaker2] Removing 4 ExNihilo Crucible (Melting) Recipe(s) for <minecraft:stone>, <minecraft:cobblestone>, <minecraft:gravel>, <minecraft:netherrack>
+INFO: [ModTweaker2] Removing 4 ExNihilo Crucible (Melting) Recipe(s) for <minecraft:cobblestone>, <minecraft:netherrack>, <minecraft:gravel>, <minecraft:stone>
 INFO: [ModTweaker2] Removing 1 ExNihilo Hammer Recipe(s) for <minecraft:ice> (6 entries)
 INFO: [ModTweaker2] Adding 1 ExNihilo Sieve Recipe(s) for <minecraft:mycelium> (2 entries)
 INFO: [ModTweaker2] Adding 1 ExNihilo Sieve Recipe(s) for <minecraft:dirt> (11 entries)

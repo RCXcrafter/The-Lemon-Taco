@@ -308,7 +308,6 @@ Mod list:
 - NEI Addons: Ex Nihilo 1.12.12.37
 - NEI Addons: Forestry 1.12.12.37
 - NEI Integration 1.1.1
-- Namrocs Bag of Holding 1.7.10-1.0.15-RC.9190955
 - Natura 2.2.0
 - Nether Portal Fix 1.0
 - Nincraft Lib 1.7.10-0.1.1+24
@@ -656,7 +655,6 @@ Classpath files:
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/MultiPageChest-1.3.4-MC1.7.10.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/mycommands-1710.01.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/mysticalmobs-0.1.1.jar
-- file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/NamrocsBagOfHolding-1.7.10-1.0.15-RC.9190955.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/neiaddons-1.12.12.37-mc1.7.10.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/NEIIntegration-MC1.7.10-1.1.1.jar
 - file:/C:/Users/%removed%/AppData/Roaming/.lemontaco/mods/netherportalfix-mc1.7.10-1.1.0.jar

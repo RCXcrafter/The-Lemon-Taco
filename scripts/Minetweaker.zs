@@ -623,6 +623,22 @@ recipes.remove(<ExtraUtilities:bedrockiumIngot>);
 //enertrash
 recipes.remove(<ExtraUtilities:trashcan:2>);
 
+//easier slab cutters
+recipes.remove(<Slabify:stoneBlockCutter>);
+recipes.remove(<Slabify:ironBlockCutter>);
+recipes.remove(<Slabify:diamondBlockCutter>);
+recipes.remove(<Slabify:stoneLargeBlockCutter>);
+recipes.remove(<Slabify:ironLargeBlockCutter>);
+recipes.remove(<Slabify:diamondLargeBlockCutter>);
+
+//torcherinos
+recipes.remove(<Torcherino:tile.torcherino>);
+//recipes.remove(<Torcherino:tile.compressed_torcherino>);
+//recipes.remove(<Torcherino:tile.double_compressed_torcherino>);
+recipes.remove(<Torcherino:tile.inverse_torcherino>);
+//recipes.remove(<Torcherino:tile.compressed_inverse_torcherino>);
+recipes.remove(<Torcherino:tile.double_compressed_inverse_torcherino>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -1089,6 +1105,21 @@ recipes.addShaped(<betterbuilderswands:wandDiamond>,[[null,null,<ore:ingotMeutoi
 
 //bedrockium block --> ingots
 recipes.addShaped(<ExtraUtilities:bedrockiumIngot> * 9,[[<ExtraUtilities:block_bedrockium>]]);
+
+//easier slab cutters
+recipes.addShaped(<Slabify:stoneBlockCutter>,[[<ore:cobblestone>,null,null],[null,<ore:stickWood>,null],[null,null,<ore:stickWood>]]);
+recipes.addShaped(<Slabify:ironBlockCutter>,[[<ore:ingotCopper>,null,null],[null,<ore:stickWood>,null],[null,null,<ore:stickWood>]]);
+recipes.addShaped(<Slabify:diamondBlockCutter>,[[<ore:ingotIron>,null,null],[null,<ore:stickWood>,null],[null,null,<ore:stickWood>]]);
+recipes.addShaped(<Slabify:stoneLargeBlockCutter>,[[<ore:cobblestone>,<ore:cobblestone>,null],[<ore:cobblestone>,<Slabify:stoneBlockCutter>,null],[null,null,<ore:cobblestone>]]);
+recipes.addShaped(<Slabify:ironLargeBlockCutter>,[[<ore:ingotCopper>,<ore:ingotCopper>,null],[<ore:ingotCopper>,<Slabify:ironBlockCutter>,null],[null,null,<ore:cobblestone>]]);
+recipes.addShaped(<Slabify:diamondLargeBlockCutter>,[[<ore:ingotIron>,<ore:ingotIron>,null],[<ore:ingotIron>,<Slabify:diamondBlockCutter>,null],[null,null,<ore:cobblestone>]]);
+
+//torcherino tweaks
+recipes.addShaped(<Torcherino:tile.double_compressed_inverse_torcherino>,[[<Torcherino:tile.compressed_inverse_torcherino>,<Torcherino:tile.compressed_inverse_torcherino>,<Torcherino:tile.compressed_inverse_torcherino>],[<Torcherino:tile.compressed_inverse_torcherino>,<Torcherino:tile.compressed_inverse_torcherino>,<Torcherino:tile.compressed_inverse_torcherino>],[<Torcherino:tile.compressed_inverse_torcherino>,<Torcherino:tile.compressed_inverse_torcherino>,<Torcherino:tile.compressed_inverse_torcherino>]]);
+recipes.addShapedMirrored(<Torcherino:tile.torcherino>,[[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<Aquaculture:item.loot:18>,<ore:torchAll>,<PortalGun:PortalGunBlue:*>],[null,<ore:ingotUnstable>,null]]);
+recipes.addShapedMirrored(<Torcherino:tile.torcherino>,[[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<Aquaculture:item.loot:18>,<ore:torchAll>,<PortalGun:PortalGunOrange:*>],[null,<ore:ingotUnstable>,null]]);
+recipes.addShapedMirrored(<Torcherino:tile.inverse_torcherino>,[[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<Aquaculture:item.loot:18>,<ore:torchRedstone>,<PortalGun:PortalGunBlue:*>],[null,<ore:ingotUnstable>,null]]);
+recipes.addShapedMirrored(<Torcherino:tile.inverse_torcherino>,[[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<Aquaculture:item.loot:18>,<ore:torchRedstone>,<PortalGun:PortalGunOrange:*>],[null,<ore:ingotUnstable>,null]]);
 
 
 #furnace recipes

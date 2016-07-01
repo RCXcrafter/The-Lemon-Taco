@@ -1,0 +1,13 @@
+# Creative Tabs
+itemGroup.slabify=Slabify
+
+# Items
+item.slabify:stoneBlockCutter.name=Stone block cutter
+item.slabify:ironBlockCutter.name=Copper block cutter
+item.slabify:diamondBlockCutter.name=Iron block cutter
+
+item.slabify:stoneLargeBlockCutter.name=Large stone block cutter
+item.slabify:ironLargeBlockCutter.name=Large Copper block cutter
+item.slabify:diamondLargeBlockCutter.name=Large Iron block cutter
+
+tooltip.slabify.durability=Durability
