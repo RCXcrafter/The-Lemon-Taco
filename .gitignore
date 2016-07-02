@@ -8,6 +8,12 @@ dumps/
 SquidAPI/
 mods/carpentersblocks/
 mods/tabula/
+resources/music/
+resources/newmusic/
+resources/newsound/
+resources/pe/
+resources/sound/
+resources/sound3/
 options.txt
 knownkeys.txt
 BTFU.cfg
