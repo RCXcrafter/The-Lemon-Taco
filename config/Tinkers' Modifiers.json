@@ -1,8 +1,10 @@
 {
 	"comments":"Comments are really just any unused tag",
-	"clear":["tconstruct.modifiers.tools.ModAttack"],
-	"clear":["tconstruct.modifiers.tools.ModToolRepair"],
-	"clear":["tconstruct.modifiers.tools.ModRedstone"],
+	"clear":[
+	"tconstruct.modifiers.tools.ModAttack",
+	"tconstruct.modifiers.tools.ModRedstone",
+	"tconstruct.modifiers.tools.ModWindup"
+	],
 	"clearComment":"That was the clear tag. That's used to clear any existing modifiers with that class. Using an asterisk (*) will clear all modifiers.",
 	"itemComment":"The other thing to note is that items are defined using a dictionary ({}). There, define 'item' using a string and 'damage' using either an int or a string for a wildcard. Stack size is ignored",
 	"effects":"0 is diamond, 1 is emerald, 2 is redstone, 3 is piston, 4 is moss, 5 is some blue tinge, 6 is autosmelt and 7 is blaze",
@@ -12,42 +14,76 @@
 	"coloursP2":"a is green, b is aqua, c is red, d is light purple, e is yellow and f is white",
 	"addModifiers":[
 		{
-			"class":"org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack",
-			"params":[
-				[
-					{
-						"item":"erebus:whetstone or sumthin"
-					}
-				],
-				11,
-				"Sharpness",
-				2500,
-				0.1f,
-				0,
-				"Sharpness",
-				"§7"
-			]
-		},
-		{
 			"class":"org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomHaste",
 			"params":[
 				2,
 				[
 					{
-						"item":"Thaumcraft:ItemShard",
-						"damage":5
+						"item":"Metallurgy:fantasy.dust",
+						"damage":8
+					}
+				],
+				[
+					1
+				],
+				"Haste",
+				50
+			]
+		},
+		{
+			"class":"tconstruct.modifiers.tools.ModWindup",
+			"params":[
+				2,
+				[
+					{
+						"item":"Metallurgy:fantasy.dust",
+						"damage":8
+					}
+				],
+				[
+					1
+				]
+			]
+		},
+		{
+			"class":"tconstruct.modifiers.tools.ModAttack",
+			"params":[
+				"Sharpness",
+				11,
+				[
+					{
+						"item":"erebus:materials",
+						"damage":24
 					},
 					{
-						"item":"Thaumcraft:blockCrystal",
-						"damage":5
+						"item":"erebus:whetstone"
 					}
 				],
 				[
 					1,
-					6
+					9
+				]
+			]
+		},
+		{
+			"class":"tconstruct.modifiers.tools.ModAttack",
+			"params":[
+				"Sharpness",
+				11,
+				[
+					{
+						"item":"erebus:materials",
+						"damage":24
+					},
+					{
+						"item":"erebus:whetstone"
+					}
 				],
-				"§7Haste",
-				50
+				[
+					1,
+					9
+				],
+				true
 			]
 		},
 		"In an addModifiers array, you're able to add a comment as just a string",
@@ -55,14 +91,20 @@
 	],
 	"addModifierComment":"That was the Add Modifiers tag. The Add Modifiers array stores all modifiers to add to the internal registry.",
 	"subModifiers":[
+		{
+			"class":"tconstruct.modifiers.tools.ModInteger",
+			"arg0":Moss,
+			"arg1":[
+				{
+					"item":"TConstruct:materials",
+					"damage":6
+				}
+			],
+			"arg2":4,
+			"arg3":java.util.Random@1566e083
+		},
 		"In a subModifiers array, you're able to add a comment as just a string",
 		"With the modifier we just added, we use an incrementing argument number, which corresponds to the position of the value, alternatively you can just use an array called params. These values can be obtained from the Modifers json file generated on startup"
 	],
 	"subModifierComment":"That was the Sub Modifiers tag. The Sub Modifiers array stores all modifiers to subtract from the internal registry."
-	modifierIncompatibilities:{
-		"SilkTouchstacks":[
-			"Reinforcedstacks"
-			]
-
-	}
 }
