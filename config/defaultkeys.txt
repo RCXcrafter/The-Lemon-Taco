@@ -30,13 +30,15 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_key.fav:47
 key_Enter:28
 key_Other Enter:156
 key_Draw Weapons:19
-key_Special:33
+key_Special:18
+key_key.cape:39
 key_cos.key.openCosArmorInventory:36
-key_Pick Grave Gui:66
-key_key.ping:34
+key_HoloInventory:0
+key_key.ping:52
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -51,6 +53,8 @@ key_key.tarmor:24
 key_key.tgoggles:35
 key_key.tbelt:48
 key_key.tzoom:44
+key_bbw.key.mode:51
+key_bbw.key.fluidmode:37
 key_key.betterstorage.backpackOpen:50
 key_key.betterstorage.drinkingHelmet:22
 key_key.craftingcraft.portableCrafting:38
@@ -64,11 +68,11 @@ key_Notification Configuration:49
 key_key.openRadial:184
 key_key.PickBlockPlus:-98
 key_key.radialmenu:41
-key_key.useRing:-100
+key_key.useRing:14
 key_key.openPouch:12
-key_Glide:46
-key_Glider Lift:47
-key_Beetle Ram Attack:45
-key_Stag Beetle Dig:56
+key_key.erebus.glide:34
+key_key.erebus.poweredGlide:33
+key_key.erebus.beetleRam:46
+key_key.erebus.beetleMine:56
 key_zoom.keybind.zoom:21
 key_BetterFps:88
