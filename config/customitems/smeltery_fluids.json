@@ -97,6 +97,18 @@
             "flowLength": 4
         },
         {
+            "name":"unobtanium.hyper.diamond.molten",
+            "textureName": "liquid_unobtanium_hyper_diamond",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
             "name":"chocolate.molten",
             "textureName": "liquid_chocolate",
             "temperature": 200,

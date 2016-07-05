@@ -655,6 +655,9 @@ recipes.remove(<mod_Saintspack:InfDubGun:*>);
 //block extractor
 recipes.remove(<erebus:blockExtractor>);
 
+//smashing baby
+recipes.remove(<chisel:smashingrock>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);

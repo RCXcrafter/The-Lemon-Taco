@@ -138,6 +138,14 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.mo
 mods.tconstruct.Casting.addTableRecipe(<customitems:sciencium_ingot>,<liquid:sciencium.molten> * 144,<TConstruct:metalPattern>,false,50);
 mods.tconstruct.Casting.addBasinRecipe(<customitems:sciencium_block>,<liquid:sciencium.molten> * 1296,null,false,50);
 
+//unobtanium hyper diamond
+mods.tconstruct.Smeltery.addMelting(<customitems:unobtanium_hyper_diamond>,<liquid:unobtanium.hyper.diamond.molten> * 144,9000,<metallurgychisel:fantasy_circle_plate:15>);
+
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:26>,<liquid:aluminumbrass.molten> * 144,<customitems:unobtanium_hyper_diamond>,false,50);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:26>,<liquid:gold.molten> * 288,<customitems:unobtanium_hyper_diamond>,false,50);
+
+mods.tconstruct.Casting.addTableRecipe(<customitems:unobtanium_hyper_diamond>,<liquid:unobtanium.hyper.diamond.molten> * 144,<TConstruct:metalPattern:26>,false,50);
+
 //glass
 mods.tconstruct.Smeltery.addMelting(<ore:sand>,<liquid:glass.molten> * 1000,625,<minecraft:sand>);
 mods.tconstruct.Smeltery.addMelting(<ore:blockSand>,<liquid:glass.molten> * 1000,625,<minecraft:sand>);

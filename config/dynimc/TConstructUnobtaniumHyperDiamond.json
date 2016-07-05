@@ -1,0 +1,45 @@
+[
+  {
+    "modid": "TConstruct",
+    "string": {},
+    "nbt": {
+      "addMaterial": [
+        {
+          "compound:": [
+            { "int:Id": 66 }, // Unique material ID. Reserved IDs: 0-40 Tinker, 41-45 Iguana Tinker Tweaks, 100-200 ExtraTiC
+            { "string:Name": "Unobtanium Hyper Diamond" }, // Unique material name
+            { "int:HarvestLevel": 9 }, // coal level
+            { "int:Durability": 1999 },
+            { "int:MiningSpeed": 9900 },
+            { "int:Attack": 9 }, // optional
+            { "float:HandleModifier": 4 },
+            { "int:Reinforced": 6 }, // optional
+            { "float:Stonebound": 7 }, // optional, cannot be used if jagged
+            //{ "float:Jagged": 1 }, // optional, cannot be used if stonebound
+            { "string:Style": "§5" }, // optional, color of the material text
+            { "int:Color": 16729600 }, // hexadecimal color code
+
+            /* SINCE 1.8.2 - bow and arrow stats
+            * for bow and arrow stats, best compare to other materials to find good values
+            */
+            // additional stats for bows
+            { "int:Bow_DrawSpeed": 110 }, // the higher the longer it takes to draw the bow
+            { "float:Bow_ProjectileSpeed": 9.0 }, // the higher the faster the projectile goes
+
+            // additional stats for arrows
+            { "float:Projectile_Mass": 1.5 },
+            { "float:Projectile_Fragility": 0.5 } // This is a multiplier to the shafts break-chance
+          ]
+        }
+      ],
+      "addPartCastingMaterial": [
+        {
+          "compound:": [
+            { "string:FluidName": "unobtanium.hyper.diamond.molten" }, // liquid to use
+            { "int:MaterialId": 66 } // output material ID
+          ]
+        }
+      ]
+    }
+  }
+]

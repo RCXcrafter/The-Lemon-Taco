@@ -3,6 +3,7 @@
 asm/
 logs/
 reports/
+crash-reports/
 saves/
 dumps/
 SquidAPI/
