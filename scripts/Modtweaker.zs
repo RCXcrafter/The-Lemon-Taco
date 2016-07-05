@@ -62,7 +62,7 @@ mods.tconstruct.Smeltery.addMelting(<minecraft:packed_ice>,<liquid:water> * 4000
 
 //melt lemonbricks
 mods.tconstruct.Smeltery.addMelting(<customitems:lemon_brick>,<liquid:lemonadefluid> * 2000,80,<projectfruit:Lemon Bricks>);
-mods.tconstruct.Casting.addTableRecipe(<customitems:lemon_brick>,<liquid:lemonadefluid> * 2000,<TConstruct:metalPattern>,false,50);
+mods.tconstruct.Casting.addTableRecipe(<customitems:lemon_brick>,<liquid:lemonadefluid> * 2000,<minecraft:brick>,true,50);
 
 //melt emerald nuggets
 //mods.tconstruct.Smeltery.addMelting(<PoorOres:emerald_nugget>,<liquid:emerald.molten> * 71.1111111,75,<minecraft:emerald_block>);
@@ -733,8 +733,8 @@ mods.chisel.Groups.addVariation("diamond_block", <customitems:classic_diamond_bl
 
 //basalt
 mods.chisel.Groups.addGroup("basalt");
-//mods.chisel.Groups.addVariation("basalt", <ganyssurface:basalt>);
-//mods.chisel.Groups.addVariation("basalt", <ganyssurface:basalt:1>);
+mods.chisel.Groups.addVariation("basalt", <ganyssurface:basalt>);
+mods.chisel.Groups.addVariation("basalt", <ganyssurface:basalt:1>);
 mods.chisel.Groups.addVariation("basalt", <customitems:basalt_pillar>);
 mods.chisel.Groups.addVariation("basalt", <customitems:basalt_bricks>);
 mods.chisel.Groups.addVariation("basalt", <customitems:ornate_basalt>);
@@ -928,6 +928,12 @@ mods.chisel.Groups.addVariation("glass", <ExtraUtilities:decorativeBlock2:8>);
 mods.chisel.Groups.addVariation("glass", <ExtraUtilities:decorativeBlock2:9>);
 
 //let's make chisel metal blocks less expensive
+
+//diamond
+//lapis
+//obsidian ingot
+//emerald
+
 mods.chisel.Groups.removeGroup("aluminumblock");
 mods.chisel.Groups.removeGroup("iron_block");
 mods.chisel.Groups.removeGroup("steelblock");
@@ -2162,6 +2168,7 @@ mods.metallurgy.Alloyer.removeRecipe(<Metallurgy:amordrine.ingot>);
 mods.metallurgy.Alloyer.removeRecipe(<Metallurgy:brass.ingot>);
 mods.metallurgy.Alloyer.removeRecipe(<Metallurgy:electrum.ingot>);
 mods.metallurgy.Alloyer.removeRecipe(<TConstruct:materials:13>);
+mods.metallurgy.Alloyer.removeRecipe(<TConstruct:materials:16>);
 
 //mods.metallurgy.Alloyer.addRecipe(<Metallurgy:base.dust> * 3, <Metallurgy:base.dust:1>, <TConstruct:materials:13> * 2);
 mods.metallurgy.Alloyer.addRecipe(<Metallurgy:base.dust:3>, <Metallurgy:vanilla.dust>, <Metallurgy:hepatizon.ingot>);

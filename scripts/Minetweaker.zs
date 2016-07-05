@@ -204,9 +204,8 @@ recipes.remove(<moarcarts:item.minecartironchest:1>);
 recipes.remove(<moarcarts:item.minecartironchest:2>);
 recipes.remove(<moarcarts:item.minecartironchest:4>);
 
-//yogs gun and nyan pig launcher
+//nyan pig launcher
 recipes.remove(<TrailMix:NyanPigLauncher:*>);
-recipes.remove(<mod_Saintspack:DubGun8>);
 
 //glass bottles that don't use ore dictionary
 recipes.remove(<minecraft:glass_bottle>);
@@ -643,6 +642,19 @@ recipes.remove(<Torcherino:tile.double_compressed_inverse_torcherino>);
 recipes.remove(<dd:BlockDuplicator>);
 recipes.remove(<dd:ItemMeasuringDevice>);
 
+//whetstone
+recipes.remove(<erebus:whetstone:*>);
+
+//dabstop
+recipes.remove(<mod_Saintspack:DubGun:*>);
+recipes.remove(<mod_Saintspack:DubGun6:*>);
+recipes.remove(<mod_Saintspack:DubGun5:*>);
+recipes.remove(<mod_Saintspack:DubGun8:*>);
+recipes.remove(<mod_Saintspack:InfDubGun:*>);
+
+//block extractor
+recipes.remove(<erebus:blockExtractor>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -703,8 +715,8 @@ recipes.addShapeless(<minecraft:dirt>,[<ore:gemDiamond>]);
 //recipes.addShapeless(<badores:ingot:665>,[<minecraft:dirt>]);
 
 //moss ball
-recipes.addShapeless(<TConstruct:materials:6>,[<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>]);
-recipes.addShapeless(<CaveBiomes:moss> * 9,[<TConstruct:materials:6>]);
+recipes.addShapeless(<erebus:materials:34>,[<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>,<ore:moss>]);
+recipes.addShapeless(<CaveBiomes:moss> * 9,[<erebus:materials:34>]);
 
 //mossy blocks
 recipes.addShapeless(<minecraft:mossy_cobblestone>,[<minecraft:cobblestone>,<ore:moss>]);
@@ -963,7 +975,7 @@ recipes.addShapedMirrored(<customitems:unobtanium_hyper_diamond>,[[<erebus:wand_
 recipes.addShaped(<CompactMachines:quantumentangler>,[[<qCraft:dust>,<qCraft:dust>,<qCraft:dust>],[<CompactMachines:interfaceitem>,<qCraft:essence:2>,<CompactMachines:interfaceitem>],[<qCraft:dust>,<qCraft:dust>,<qCraft:dust>]]);
 
 //nitro lava
-recipes.addShaped(<customitems:nitro_lava_bucket> * 16,[[<ore:gemDiamond>],[<minecraft:lava_bucket>]]);
+recipes.addShaped(<customitems:nitro_lava_bucket>,[[<ore:gemDiamond>],[<minecraft:lava_bucket>]]);
 
 //heraldry icon
 recipes.addShaped(<battlegear2:heraldric>,[[<ore:dyeRed>,<ore:dyeGreen>,<ore:dyeBlue>],[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],[<minecraft:string>,<minecraft:paper>,<minecraft:string>]]);
@@ -1133,6 +1145,18 @@ recipes.addShapedMirrored(<Torcherino:tile.inverse_torcherino>,[[<qCraft:dust>,<
 //DER (dragon egg replicator)
 recipes.addShaped(<dd:BlockDuplicator>,[[<ore:ingotSteel>,<ore:ingotCrystalMatrix>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:nuggetEndium>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
 recipes.addShaped(<dd:ItemMeasuringDevice>,[[<ore:ingotSteel>,<magmaox:NetherWartBlock>,<ore:ingotSteel>],[<ore:ingotSteel>,<minecraft:clock>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotEximite>,<ore:ingotSteel>]]);
+
+//whetstone
+recipes.addShaped(<erebus:whetstone>,[[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>],[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>],[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>]]);
+recipes.addShaped(<erebus:materials:24> * 9,[[<erebus:whetstone>]]);
+
+//dabstop
+recipes.addShaped(<mod_Saintspack:DubGun>,[[null,<ore:ingotUnstable>,<ore:ingotUnstable>],[<minecraft:jukebox>,<ore:record>,<TConstruct:materials:17>],[<minecraft:jukebox>,null,<ore:ingotUnstable>]]);
+recipes.addShaped(<mod_Saintspack:DubGun6>,[[<ore:blockCoal>,<ore:blockCoal>,<ore:blockCoal>],[<TConstruct:pickaxeHead:12>,<mod_Saintspack:DubGun:*>,<minecraft:lava_bucket>],[<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);
+recipes.addShaped(<mod_Saintspack:DubGun5>,[[<TConstruct:heavyPlate:6>,<customitems:nitro_lava_bucket>,<TConstruct:heavyPlate:6>],[<ExtraTiC:pickaxeHead:131>,<mod_Saintspack:DubGun6:*>,<customitems:nitro_lava_bucket>],[<TConstruct:heavyPlate:6>,<customitems:nitro_lava_bucket>,<TConstruct:heavyPlate:6>]]);
+
+//block extractor
+recipes.addShaped(<erebus:blockExtractor>,[[<TConstruct:materials:26>,<TConstruct:pickaxeHead:604>,<TConstruct:materials:26>],[null,<erebus:materials:67>,null],[null,<ore:chestWood>,null]]);
 
 
 #furnace recipes
