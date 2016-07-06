@@ -1167,6 +1167,9 @@ recipes.addShaped(<battlegear2:knights_armour.plate>,[[<ore:ingotAngmallen>,null
 recipes.addShaped(<battlegear2:knights_armour.legs>,[[<ore:ingotAngmallen>,<ore:ingotIron>,<ore:ingotAngmallen>],[<ore:ingotIron>,null,<ore:ingotIron>],[<ore:ingotIron>,null,<ore:ingotIron>]]);
 recipes.addShaped(<battlegear2:knights_armour.boots>,[[<ore:ingotAngmallen>,null,<ore:ingotAngmallen>],[<ore:ingotIron>,null,<ore:ingotIron>]]);
 
+//crest mount is pretty cool
+recipes.addShaped(<tinkersdefense:Block_CrestMount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
+
 
 #furnace recipes
 
