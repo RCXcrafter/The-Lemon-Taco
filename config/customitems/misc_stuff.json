@@ -26,6 +26,10 @@
             "name": "Neptunium Dust"
         },
         {
+            "textureName": "black_hole",
+            "name": "Black Hole"
+        },
+        {
             "textureName": "unobtanium_hyper_diamond",
             "name": "Unobtanium Hyper Diamond"
         }

@@ -96,9 +96,6 @@
 //<ore:blockGlass>.addAll(<ore:glass>);
 //<ore:glass>.mirror(<ore:blockGlass>);
 
-//unobtanium hyper diamonds
-<ore:gemHyperDiamondUnobtanium>.add(<customitems:unobtanium_hyper_diamond>);
-
 //limestone
 <ore:limestone>.add(<UndergroundBiomes:sedimentaryStone>);
 
@@ -905,10 +902,10 @@ recipes.addShaped(<modularsystems:blockFurnaceCraftingUpgrade>,[[<ore:ingotIron>
 recipes.addShaped(<minecraft:sand:1> * 8,[[<ore:sand>,<ore:sand>,<ore:sand>],[<ore:sand>,<ore:dyeOrange>,<ore:sand>],[<ore:sand>,<ore:sand>,<ore:sand>]]);
 
 //black hole
-recipes.addShaped(<PortalGun:MiniBlackHole>,[[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null],[<qCraft:dust>,<ore:itemNetherStar>,<qCraft:dust>],[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null]]);
+recipes.addShaped(<customitems:black_hole>,[[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null],[<qCraft:dust>,<ore:itemNetherStar>,<qCraft:dust>],[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null]]);
 
 //infinite bucket
-recipes.addShaped(<ganysend:infiniteBucket>,[[null,<minecraft:water_bucket>,null],[<minecraft:water_bucket>,<PortalGun:MiniBlackHole>,<minecraft:water_bucket>],[null,<minecraft:water_bucket>,null]]);
+recipes.addShaped(<ganysend:infiniteBucket>,[[null,<minecraft:water_bucket>,null],[<minecraft:water_bucket>,<customitems:black_hole>,<minecraft:water_bucket>],[null,<minecraft:water_bucket>,null]]);
 
 //duplic8 items
 recipes.addShaped(<condensedblocks:clayCondensedTierOne:3>,[[null,<condensedblocks:clayCondensedTierOne:1>,null],[<condensedblocks:clayCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:clayCondensedTierOne:1>],[null,<condensedblocks:clayCondensedTierOne:1>,null]]);
@@ -930,10 +927,10 @@ recipes.remove(<PortalGun:PortalGunBlue>);
 recipes.remove(<PortalGun:PortalGunBlue>);
 recipes.remove(<PortalGun:PortalGunBlue>);
 recipes.remove(<PortalGun:PortalGunBlue>);
-recipes.addShaped(<PortalGun:PortalGunBlue>,[[<ore:blockObsidian>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<ore:ingotCobalt>,<PortalGun:MiniBlackHole>,<ore:ingotIgnatius>],[<ore:ingotAluminum>,<ore:blockObsidian>,<ore:ingotAluminum>]]);
-recipes.addShaped(<PortalGun:PortalGunOrange>,[[<ore:blockObsidian>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<ore:ingotIgnatius>,<PortalGun:MiniBlackHole>,<ore:ingotCobalt>],[<ore:ingotAluminum>,<ore:blockObsidian>,<ore:ingotAluminum>]]);
+recipes.addShaped(<PortalGun:PortalGunBlue>,[[<ore:blockObsidian>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<ore:ingotCobalt>,<customitems:black_hole>,<ore:ingotIgnatius>],[<ore:ingotAluminum>,<ore:blockObsidian>,<ore:ingotAluminum>]]);
+recipes.addShaped(<PortalGun:PortalGunOrange>,[[<ore:blockObsidian>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<ore:ingotIgnatius>,<customitems:black_hole>,<ore:ingotCobalt>],[<ore:ingotAluminum>,<ore:blockObsidian>,<ore:ingotAluminum>]]);
 recipes.remove(<PortalGun:PortalGunSpawner:*>);
-recipes.addShaped(<PortalGun:PortalGunSpawner> * 4,[[<ore:ingotAluminum>,null,<ore:ingotAluminum>],[<ore:ingotAlduorite>,<PortalGun:MiniBlackHole>,<ore:ingotAlduorite>],[<ore:ingotAluminum>,null,<ore:ingotAluminum>]]);
+recipes.addShaped(<PortalGun:PortalGunSpawner> * 4,[[<ore:ingotAluminum>,null,<ore:ingotAluminum>],[<ore:ingotAlduorite>,<customitems:black_hole>,<ore:ingotAlduorite>],[<ore:ingotAluminum>,null,<ore:ingotAluminum>]]);
 recipes.remove(<PortalGun:PortalGunPedestal>);
 recipes.addShaped(<PortalGun:PortalGunPedestal>,[[null,<ore:blockObsidian>,null],[null,<ore:ingotAluminum>,null],[<ore:ingotAluminum>,<ore:ingotDeepIron>,<ore:ingotAluminum>]]);
 recipes.addShaped(<grapplemod:longfallboots>,[[<ore:ingotAluminum>,<ore:ingotVulcanite>,<ore:ingotAluminum>],[<ore:ingotAluminum>,<TConstruct:materials:17>,<ore:ingotAluminum>],[<ore:ingotAluminum>,<TConstruct:materials:17>,<ore:ingotAluminum>]]);
@@ -1011,7 +1008,7 @@ recipes.addShaped(<customitems:atlantium_ingot> * 9,[[<ore:blockAtlantium>]]);
 //sciencium
 recipes.addShaped(<customitems:sciencium_block>,[[<ore:ingotSciencium>,<ore:ingotSciencium>,<ore:ingotSciencium>],[<ore:ingotSciencium>,<ore:ingotSciencium>,<ore:ingotSciencium>],[<ore:ingotSciencium>,<ore:ingotSciencium>,<ore:ingotSciencium>]]);
 recipes.addShaped(<customitems:sciencium_ingot> * 9,[[<ore:blockSciencium>]]);
-//recipes.addShapeless(<customitems:sciencium_dust>,[<qCraft:computer:*>, <minecraft:tnt>, <chisel:warningSign:9>, <PortalGun:MiniBlackHole>, <ore:dustAluminum>, <ore:dustMidasium>, <minecraft:glass_bottle>]);
+//recipes.addShapeless(<customitems:sciencium_dust>,[<qCraft:computer:*>, <minecraft:tnt>, <chisel:warningSign:9>, <customitems:black_hole>, <ore:dustAluminum>, <ore:dustMidasium>, <minecraft:glass_bottle>]);
 furnace.addRecipe(<customitems:sciencium_ingot>,<ore:dustSciencium>,0.5);
 
 //throwable torches

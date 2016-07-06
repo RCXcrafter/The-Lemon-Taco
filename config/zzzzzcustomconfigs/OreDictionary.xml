@@ -100,6 +100,10 @@ some more stuff that currently doesn't work
 	<name>"dustNeptunium"</name>
 	<stack>customitems:neptunium_dust 1 0</stack>
 	</ore>
+	<ore>
+	<name>"gemLignite"</name>
+	<stack>UndergroundBiomes:ligniteCoal 1 0</stack>
+	</ore>
 <!--	<ore>
 	<name>"ingotPolite"</name>
 	<stack>badores:ingot 1 604</stack>
@@ -359,6 +363,26 @@ some more stuff that currently doesn't work
 	<ore>
 	<name>"dustTrailMix"</name>
 	<stack1>TrailMix:TrailMixMix 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"dustEctoplasm"</name>
+	<stack1>atum:item.ectoplasm 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"dustLimestone"</name>
+	<stack1>TSteelworks:Materials 1 2</stack1>
+	</ore>
+	<ore>
+	<name>"dustFlour"</name>
+	<stack1>Natura:barleyFood 1 1</stack1>
+	</ore>
+	<ore>
+	<name>"dustFlour"</name>
+	<stack1>Natura:barleyFood 1 2</stack1>
+	</ore>
+	<ore>
+	<name>"dustWhetstone"</name>
+	<stack1>erebus:materials 1 24</stack1>
 	</ore>
 	<ore>
 	<name>"record"</name>

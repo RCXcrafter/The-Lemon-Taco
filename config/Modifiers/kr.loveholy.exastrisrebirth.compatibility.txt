@@ -4,7 +4,7 @@ Interfaces:
 Constructors: 
 	
 Modifiers using this: 
-	class kr.loveholy.exastrisrebirth.compatibility.ModCrooked [key=Crooked, stacks=[1xexnihilo.crook_bone@0], effectIndex=60, random=java.util.Random@65466a0, ]
+	class kr.loveholy.exastrisrebirth.compatibility.ModCrooked [key=Crooked, stacks=[1xexnihilo.crook_bone@0], effectIndex=60, random=java.util.Random@7ca0f5f7, ]
 ********************************
 ********************************
 Class: kr.loveholy.exastrisrebirth.compatibility.ModHammered
@@ -12,5 +12,5 @@ Interfaces:
 Constructors: 
 	
 Modifiers using this: 
-	class kr.loveholy.exastrisrebirth.compatibility.ModHammered [key=Hammered, stacks=[1xexnihilo.hammer_diamond@0], effectIndex=61, random=java.util.Random@65466a0, ]
+	class kr.loveholy.exastrisrebirth.compatibility.ModHammered [key=Hammered, stacks=[1xexnihilo.hammer_diamond@0], effectIndex=61, random=java.util.Random@7ca0f5f7, ]
 ********************************
