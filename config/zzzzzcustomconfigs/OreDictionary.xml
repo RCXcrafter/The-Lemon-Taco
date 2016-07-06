@@ -353,6 +353,14 @@ some more stuff that currently doesn't work
 	<stack2>customitems:tauntum_chunk 1 0</stack2>
 	</ore>
 	<ore>
+	<name>"dustThermite"</name>
+	<stack1>tinker_io:SolidFuel 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"dustTrailMix"</name>
+	<stack1>TrailMix:TrailMixMix 1 0</stack1>
+	</ore>
+	<ore>
 	<name>"record"</name>
 	<stack1>PortalGun:RecordStillAlive 1 0</stack1>
 	</ore>

@@ -935,6 +935,13 @@ mods.chisel.Groups.addVariation("glass", <ExtraUtilities:decorativeBlock2:6>);
 mods.chisel.Groups.addVariation("glass", <ExtraUtilities:decorativeBlock2:8>);
 mods.chisel.Groups.addVariation("glass", <ExtraUtilities:decorativeBlock2:9>);
 
+//wrought iron fence
+mods.chisel.Groups.addGroup("wroughtIronFence");
+mods.chisel.Groups.addVariation("wroughtIronFence", <GardenStuff:fence>);
+mods.chisel.Groups.addVariation("wroughtIronFence", <GardenStuff:fence:1>);
+mods.chisel.Groups.addVariation("wroughtIronFence", <GardenStuff:fence:2>);
+mods.chisel.Groups.addVariation("wroughtIronFence", <GardenStuff:fence:3>);
+
 //let's make chisel metal blocks less expensive
 
 //diamond

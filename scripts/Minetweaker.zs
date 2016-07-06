@@ -658,6 +658,9 @@ recipes.remove(<erebus:blockExtractor>);
 //smashing baby
 recipes.remove(<chisel:smashingrock>);
 
+//mb arrows
+recipes.remove(<battlegear2:mb.arrow:*>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -1160,6 +1163,12 @@ recipes.addShaped(<mod_Saintspack:DubGun5>,[[<TConstruct:heavyPlate:6>,<customit
 
 //block extractor
 recipes.addShaped(<erebus:blockExtractor>,[[<TConstruct:materials:26>,<TConstruct:pickaxeHead:604>,<TConstruct:materials:26>],[null,<erebus:materials:67>,null],[null,<ore:chestWood>,null]]);
+
+//knights armor
+recipes.addShaped(<battlegear2:knights_armour.helmet>,[[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],[<ore:ingotAngmallen>,null,<ore:ingotAngmallen>]]);
+recipes.addShaped(<battlegear2:knights_armour.plate>,[[<ore:ingotAngmallen>,null,<ore:ingotAngmallen>],[<ore:ingotIron>,<ore:ingotAngmallen>,<ore:ingotIron>],[<ore:ingotIron>,<ore:ingotAngmallen>,<ore:ingotIron>]]);
+recipes.addShaped(<battlegear2:knights_armour.legs>,[[<ore:ingotAngmallen>,<ore:ingotIron>,<ore:ingotAngmallen>],[<ore:ingotIron>,null,<ore:ingotIron>],[<ore:ingotIron>,null,<ore:ingotIron>]]);
+recipes.addShaped(<battlegear2:knights_armour.boots>,[[<ore:ingotAngmallen>,null,<ore:ingotAngmallen>],[<ore:ingotIron>,null,<ore:ingotIron>]]);
 
 
 #furnace recipes
