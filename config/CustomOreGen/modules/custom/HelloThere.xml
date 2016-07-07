@@ -1,0 +1,10 @@
+<ConfigSection>
+
+        <Substitute name='replacefruitores' block='minecraft:obsidian' minHeight='-1' maxHeight='20'>
+            <Replaces block='projectfruit:Lemon Stone Block' weight='1.0' />
+            <Replaces block='projectfruit:Lime Stone Block' weight='1.0' />
+            <Replaces block='projectfruit:Blueberry Stone Block' weight='1.0' />
+            <Replaces block='projectfruit:Orange Stone Block' weight='1.0' />
+        </Substitute>
+
+</ConfigSection>

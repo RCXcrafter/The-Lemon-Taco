@@ -1,0 +1,5 @@
+<Config>
+
+    <Import file='modules/custom/HelloThere.xml'/>
+
+</Config>
