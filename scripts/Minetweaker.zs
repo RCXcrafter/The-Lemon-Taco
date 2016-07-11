@@ -658,6 +658,10 @@ recipes.remove(<chisel:smashingrock>);
 //mb arrows
 recipes.remove(<battlegear2:mb.arrow:*>);
 
+//drums
+recipes.remove(<ExtraUtilities:drum>);
+recipes.remove(<ExtraUtilities:drum:1>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -1169,6 +1173,9 @@ recipes.addShaped(<battlegear2:knights_armour.boots>,[[<ore:ingotAngmallen>,null
 
 //crest mount is pretty cool
 recipes.addShaped(<tinkersdefense:Block_CrestMount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
+
+//drums
+//recipes.addShaped(<tinkersdefense:Block_CrestMount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
 
 
 #furnace recipes

@@ -234,11 +234,11 @@ mods.tconstruct.Casting.addTableRecipe(<ExtrabiomesXL:extrabiomes.food:1>,<liqui
 mods.tconstruct.Casting.addTableRecipe(<ganyssurface:chocolateBar>,<liquid:chocolate.molten> * 144,<TConstruct:metalPattern>,false,30);
 
 //cast singularities (this is a bad idea)
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity>,<liquid:iron.molten> * 1036800,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:1>,<liquid:gold.molten> * 777600,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:5>,<liquid:copper.molten> * 1036800,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:6>,<liquid:tin.molten> * 1036800,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:8>,<liquid:silver.molten> * 907200,<Avaritia:Resource:2>,true,30);
+mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity>,<liquid:iron.molten> * 5054400,<Avaritia:Resource:2>,true,30);
+mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:1>,<liquid:gold.molten> * 4276800,<Avaritia:Resource:2>,true,30);
+mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:5>,<liquid:copper.molten> * 5054400,<Avaritia:Resource:2>,true,30);
+mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:6>,<liquid:tin.molten> * 5054400,<Avaritia:Resource:2>,true,30);
+mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:8>,<liquid:silver.molten> * 4665600,<Avaritia:Resource:2>,true,30);
 
 //cast mithril
 mods.tconstruct.Casting.addTableRecipe(<Metallurgy:mithril.ingot>,<liquid:mithril.molten> * 144,<TConstruct:metalPattern>,false,30);
