@@ -1,0 +1,8 @@
+# Metals
+metal.aobd.astralsilver.name=Astral Silver
+metal.aobd.deepiron.name=Deep Iron
+metal.aobd.shadowiron.name=Shadow Iron
+
+# Items
+item.aobd.ingotHot.name=Glowing %s Ingot
+item.aobd.chunk.name=%s Clump

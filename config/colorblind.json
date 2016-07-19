@@ -87,18 +87,6 @@
       "overlay": "Np"
     },
     {
-      "stack": "ingotCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "ingotCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "ingotInfinity",
-      "overlay": "\u221E"
-    },
-    {
       "stack": "ingotFairy",
       "overlay": "Med"
     },
@@ -319,11 +307,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "ingotAluminum",
+      "stack": "ingotaluminium",
       "overlay": "Al"
     },
     {
-      "stack": "ingotAluminumBrass",
+      "stack": "ingotaluminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -391,10 +379,6 @@
       "overlay": "Db"
     },
     {
-      "stack": "ingotCoal",
-      "overlay": "C"
-    },
-    {
       "stack": "blockIron",
       "overlay": "Fe"
     },
@@ -405,18 +389,6 @@
     {
       "stack": "blockNeptunium",
       "overlay": "Np"
-    },
-    {
-      "stack": "blockCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "blockCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "blockInfinity",
-      "overlay": "\u221E"
     },
     {
       "stack": "blockFairy",
@@ -639,11 +611,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "blockAluminum",
+      "stack": "blockaluminium",
       "overlay": "Al"
     },
     {
-      "stack": "blockAluminumBrass",
+      "stack": "blockaluminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -711,10 +683,6 @@
       "overlay": "Db"
     },
     {
-      "stack": "blockCoal",
-      "overlay": "C"
-    },
-    {
       "stack": "nuggetIron",
       "overlay": "Fe"
     },
@@ -725,18 +693,6 @@
     {
       "stack": "nuggetNeptunium",
       "overlay": "Np"
-    },
-    {
-      "stack": "nuggetCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "nuggetCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "nuggetInfinity",
-      "overlay": "\u221E"
     },
     {
       "stack": "nuggetFairy",
@@ -959,11 +915,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "nuggetAluminum",
+      "stack": "nuggetaluminium",
       "overlay": "Al"
     },
     {
-      "stack": "nuggetAluminumBrass",
+      "stack": "nuggetaluminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -1031,10 +987,6 @@
       "overlay": "Db"
     },
     {
-      "stack": "nuggetCoal",
-      "overlay": "C"
-    },
-    {
       "stack": "dustIron",
       "overlay": "Fe"
     },
@@ -1045,18 +997,6 @@
     {
       "stack": "dustNeptunium",
       "overlay": "Np"
-    },
-    {
-      "stack": "dustCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "dustCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "dustInfinity",
-      "overlay": "\u221E"
     },
     {
       "stack": "dustFairy",
@@ -1279,11 +1219,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "dustAluminum",
+      "stack": "dustaluminium",
       "overlay": "Al"
     },
     {
-      "stack": "dustAluminumBrass",
+      "stack": "dustaluminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -1351,10 +1291,6 @@
       "overlay": "Db"
     },
     {
-      "stack": "dustCoal",
-      "overlay": "C"
-    },
-    {
       "stack": "oreIron",
       "overlay": "Fe"
     },
@@ -1365,18 +1301,6 @@
     {
       "stack": "oreNeptunium",
       "overlay": "Np"
-    },
-    {
-      "stack": "oreCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "oreCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "oreInfinity",
-      "overlay": "\u221E"
     },
     {
       "stack": "oreFairy",
@@ -1599,11 +1523,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "oreAluminum",
+      "stack": "orealuminium",
       "overlay": "Al"
     },
     {
-      "stack": "oreAluminumBrass",
+      "stack": "orealuminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -1671,10 +1595,6 @@
       "overlay": "Db"
     },
     {
-      "stack": "oreCoal",
-      "overlay": "C"
-    },
-    {
       "stack": "ingotHotIron",
       "overlay": "Fe"
     },
@@ -1685,18 +1605,6 @@
     {
       "stack": "ingotHotNeptunium",
       "overlay": "Np"
-    },
-    {
-      "stack": "ingotHotCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "ingotHotCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "ingotHotInfinity",
-      "overlay": "\u221E"
     },
     {
       "stack": "ingotHotFairy",
@@ -1919,11 +1827,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "ingotHotAluminum",
+      "stack": "ingotHotaluminium",
       "overlay": "Al"
     },
     {
-      "stack": "ingotHotAluminumBrass",
+      "stack": "ingotHotaluminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -1991,10 +1899,6 @@
       "overlay": "Db"
     },
     {
-      "stack": "ingotHotCoal",
-      "overlay": "C"
-    },
-    {
       "stack": "gemIron",
       "overlay": "Fe"
     },
@@ -2005,18 +1909,6 @@
     {
       "stack": "gemNeptunium",
       "overlay": "Np"
-    },
-    {
-      "stack": "gemCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "gemCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "gemInfinity",
-      "overlay": "\u221E"
     },
     {
       "stack": "gemFairy",
@@ -2239,11 +2131,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "gemAluminum",
+      "stack": "gemaluminium",
       "overlay": "Al"
     },
     {
-      "stack": "gemAluminumBrass",
+      "stack": "gemaluminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -2311,8 +2203,612 @@
       "overlay": "Db"
     },
     {
-      "stack": "gemCoal",
-      "overlay": "C"
+      "stack": "brickIron",
+      "overlay": "Fe"
+    },
+    {
+      "stack": "brickGold",
+      "overlay": "Au"
+    },
+    {
+      "stack": "brickNeptunium",
+      "overlay": "Np"
+    },
+    {
+      "stack": "brickFairy",
+      "overlay": "Med"
+    },
+    {
+      "stack": "brickPokefennium",
+      "overlay": "Pok"
+    },
+    {
+      "stack": "brickRed_aurum",
+      "overlay": "RuAu"
+    },
+    {
+      "stack": "brickDrulloy",
+      "overlay": "Du"
+    },
+    {
+      "stack": "brickUnstable",
+      "overlay": "NaN"
+    },
+    {
+      "stack": "brickBedrockium",
+      "overlay": "Bd"
+    },
+    {
+      "stack": "brickWroughtIron",
+      "overlay": "FeWr"
+    },
+    {
+      "stack": "brickCopper",
+      "overlay": "Cu"
+    },
+    {
+      "stack": "brickTin",
+      "overlay": "Sn"
+    },
+    {
+      "stack": "brickManganese",
+      "overlay": "Mn"
+    },
+    {
+      "stack": "brickBronze",
+      "overlay": "Bz"
+    },
+    {
+      "stack": "brickHepatizon",
+      "overlay": "Ht"
+    },
+    {
+      "stack": "brickDamascusSteel",
+      "overlay": "Dam"
+    },
+    {
+      "stack": "brickAngmallen",
+      "overlay": "An"
+    },
+    {
+      "stack": "brickSteel",
+      "overlay": "Stl"
+    },
+    {
+      "stack": "brickEximite",
+      "overlay": "Ex"
+    },
+    {
+      "stack": "brickMeutoite",
+      "overlay": "Meu"
+    },
+    {
+      "stack": "brickDesichalkos",
+      "overlay": "Dk"
+    },
+    {
+      "stack": "brickPrometheum",
+      "overlay": "Pr"
+    },
+    {
+      "stack": "brickDeepIron",
+      "overlay": "FeAb"
+    },
+    {
+      "stack": "brickInfuscolium",
+      "overlay": "Inf"
+    },
+    {
+      "stack": "brickBlackSteel",
+      "overlay": "StB"
+    },
+    {
+      "stack": "brickOureclase",
+      "overlay": "Ou"
+    },
+    {
+      "stack": "brickAstralSilver",
+      "overlay": "AgSt"
+    },
+    {
+      "stack": "brickCarmot",
+      "overlay": "Cm"
+    },
+    {
+      "stack": "brickMithril",
+      "overlay": "Mi"
+    },
+    {
+      "stack": "brickRubracium",
+      "overlay": "Ru"
+    },
+    {
+      "stack": "brickQuicksilver",
+      "overlay": "AgQ"
+    },
+    {
+      "stack": "brickHaderoth",
+      "overlay": "Ha"
+    },
+    {
+      "stack": "brickOrichalcum",
+      "overlay": "Or"
+    },
+    {
+      "stack": "brickCelenegil",
+      "overlay": "Cg"
+    },
+    {
+      "stack": "brickAdamantine",
+      "overlay": "Am"
+    },
+    {
+      "stack": "brickAtlarus",
+      "overlay": "Ar"
+    },
+    {
+      "stack": "brickTartarite",
+      "overlay": "Ta"
+    },
+    {
+      "stack": "brickIgnatius",
+      "overlay": "Ign"
+    },
+    {
+      "stack": "brickShadowIron",
+      "overlay": "FeUm"
+    },
+    {
+      "stack": "brickLemurite",
+      "overlay": "Le"
+    },
+    {
+      "stack": "brickMidasium",
+      "overlay": "Mi"
+    },
+    {
+      "stack": "brickVyroxeres",
+      "overlay": "Vy"
+    },
+    {
+      "stack": "brickCeruclase",
+      "overlay": "Cl"
+    },
+    {
+      "stack": "brickAlduorite",
+      "overlay": "Ad"
+    },
+    {
+      "stack": "brickKalendrite",
+      "overlay": "Ka"
+    },
+    {
+      "stack": "brickVulcanite",
+      "overlay": "Vu"
+    },
+    {
+      "stack": "brickSanguinite",
+      "overlay": "Sa"
+    },
+    {
+      "stack": "brickShadowSteel",
+      "overlay": "StUm"
+    },
+    {
+      "stack": "brickInolashite",
+      "overlay": "In"
+    },
+    {
+      "stack": "brickAmordrine",
+      "overlay": "Ae"
+    },
+    {
+      "stack": "brickZinc",
+      "overlay": "Zn"
+    },
+    {
+      "stack": "brickSilver",
+      "overlay": "Ag"
+    },
+    {
+      "stack": "brickPlatinum",
+      "overlay": "Pt"
+    },
+    {
+      "stack": "brickBrass",
+      "overlay": "Bs"
+    },
+    {
+      "stack": "brickElectrum",
+      "overlay": "Ec"
+    },
+    {
+      "stack": "brickCobalt",
+      "overlay": "Co"
+    },
+    {
+      "stack": "brickArdite",
+      "overlay": "Ard"
+    },
+    {
+      "stack": "brickManyullyn",
+      "overlay": "Ma"
+    },
+    {
+      "stack": "brickaluminium",
+      "overlay": "Al"
+    },
+    {
+      "stack": "brickaluminiumBrass",
+      "overlay": "AlBs"
+    },
+    {
+      "stack": "brickAlumite",
+      "overlay": "Alt"
+    },
+    {
+      "stack": "brickObsidian",
+      "overlay": "Ob"
+    },
+    {
+      "stack": "brickPigIron",
+      "overlay": "FePo"
+    },
+    {
+      "stack": "brickAtlantium",
+      "overlay": "At"
+    },
+    {
+      "stack": "brickSciencium",
+      "overlay": "Sc"
+    },
+    {
+      "stack": "brickEndium",
+      "overlay": "End"
+    },
+    {
+      "stack": "brickBlaze",
+      "overlay": "Blz"
+    },
+    {
+      "stack": "brickTungsten",
+      "overlay": "W"
+    },
+    {
+      "stack": "brickBerylBronze",
+      "overlay": "BeBz"
+    },
+    {
+      "stack": "brickXyrenium",
+      "overlay": "Xr"
+    },
+    {
+      "stack": "brickDragoonyte",
+      "overlay": "Dg"
+    },
+    {
+      "stack": "brickSyrmorite",
+      "overlay": "Sr"
+    },
+    {
+      "stack": "brickOctine",
+      "overlay": "Oc"
+    },
+    {
+      "stack": "brickAeonSteel",
+      "overlay": "Aeo"
+    },
+    {
+      "stack": "brickQueensGold",
+      "overlay": "AuQ"
+    },
+    {
+      "stack": "brickDogbearium",
+      "overlay": "Db"
+    },
+    {
+      "stack": "chunkIron",
+      "overlay": "Fe"
+    },
+    {
+      "stack": "chunkGold",
+      "overlay": "Au"
+    },
+    {
+      "stack": "chunkNeptunium",
+      "overlay": "Np"
+    },
+    {
+      "stack": "chunkFairy",
+      "overlay": "Med"
+    },
+    {
+      "stack": "chunkPokefennium",
+      "overlay": "Pok"
+    },
+    {
+      "stack": "chunkRed_aurum",
+      "overlay": "RuAu"
+    },
+    {
+      "stack": "chunkDrulloy",
+      "overlay": "Du"
+    },
+    {
+      "stack": "chunkUnstable",
+      "overlay": "NaN"
+    },
+    {
+      "stack": "chunkBedrockium",
+      "overlay": "Bd"
+    },
+    {
+      "stack": "chunkWroughtIron",
+      "overlay": "FeWr"
+    },
+    {
+      "stack": "chunkCopper",
+      "overlay": "Cu"
+    },
+    {
+      "stack": "chunkTin",
+      "overlay": "Sn"
+    },
+    {
+      "stack": "chunkManganese",
+      "overlay": "Mn"
+    },
+    {
+      "stack": "chunkBronze",
+      "overlay": "Bz"
+    },
+    {
+      "stack": "chunkHepatizon",
+      "overlay": "Ht"
+    },
+    {
+      "stack": "chunkDamascusSteel",
+      "overlay": "Dam"
+    },
+    {
+      "stack": "chunkAngmallen",
+      "overlay": "An"
+    },
+    {
+      "stack": "chunkSteel",
+      "overlay": "Stl"
+    },
+    {
+      "stack": "chunkEximite",
+      "overlay": "Ex"
+    },
+    {
+      "stack": "chunkMeutoite",
+      "overlay": "Meu"
+    },
+    {
+      "stack": "chunkDesichalkos",
+      "overlay": "Dk"
+    },
+    {
+      "stack": "chunkPrometheum",
+      "overlay": "Pr"
+    },
+    {
+      "stack": "chunkDeepIron",
+      "overlay": "FeAb"
+    },
+    {
+      "stack": "chunkInfuscolium",
+      "overlay": "Inf"
+    },
+    {
+      "stack": "chunkBlackSteel",
+      "overlay": "StB"
+    },
+    {
+      "stack": "chunkOureclase",
+      "overlay": "Ou"
+    },
+    {
+      "stack": "chunkAstralSilver",
+      "overlay": "AgSt"
+    },
+    {
+      "stack": "chunkCarmot",
+      "overlay": "Cm"
+    },
+    {
+      "stack": "chunkMithril",
+      "overlay": "Mi"
+    },
+    {
+      "stack": "chunkRubracium",
+      "overlay": "Ru"
+    },
+    {
+      "stack": "chunkQuicksilver",
+      "overlay": "AgQ"
+    },
+    {
+      "stack": "chunkHaderoth",
+      "overlay": "Ha"
+    },
+    {
+      "stack": "chunkOrichalcum",
+      "overlay": "Or"
+    },
+    {
+      "stack": "chunkCelenegil",
+      "overlay": "Cg"
+    },
+    {
+      "stack": "chunkAdamantine",
+      "overlay": "Am"
+    },
+    {
+      "stack": "chunkAtlarus",
+      "overlay": "Ar"
+    },
+    {
+      "stack": "chunkTartarite",
+      "overlay": "Ta"
+    },
+    {
+      "stack": "chunkIgnatius",
+      "overlay": "Ign"
+    },
+    {
+      "stack": "chunkShadowIron",
+      "overlay": "FeUm"
+    },
+    {
+      "stack": "chunkLemurite",
+      "overlay": "Le"
+    },
+    {
+      "stack": "chunkMidasium",
+      "overlay": "Mi"
+    },
+    {
+      "stack": "chunkVyroxeres",
+      "overlay": "Vy"
+    },
+    {
+      "stack": "chunkCeruclase",
+      "overlay": "Cl"
+    },
+    {
+      "stack": "chunkAlduorite",
+      "overlay": "Ad"
+    },
+    {
+      "stack": "chunkKalendrite",
+      "overlay": "Ka"
+    },
+    {
+      "stack": "chunkVulcanite",
+      "overlay": "Vu"
+    },
+    {
+      "stack": "chunkSanguinite",
+      "overlay": "Sa"
+    },
+    {
+      "stack": "chunkShadowSteel",
+      "overlay": "StUm"
+    },
+    {
+      "stack": "chunkInolashite",
+      "overlay": "In"
+    },
+    {
+      "stack": "chunkAmordrine",
+      "overlay": "Ae"
+    },
+    {
+      "stack": "chunkZinc",
+      "overlay": "Zn"
+    },
+    {
+      "stack": "chunkSilver",
+      "overlay": "Ag"
+    },
+    {
+      "stack": "chunkPlatinum",
+      "overlay": "Pt"
+    },
+    {
+      "stack": "chunkBrass",
+      "overlay": "Bs"
+    },
+    {
+      "stack": "chunkElectrum",
+      "overlay": "Ec"
+    },
+    {
+      "stack": "chunkCobalt",
+      "overlay": "Co"
+    },
+    {
+      "stack": "chunkArdite",
+      "overlay": "Ard"
+    },
+    {
+      "stack": "chunkManyullyn",
+      "overlay": "Ma"
+    },
+    {
+      "stack": "chunkaluminium",
+      "overlay": "Al"
+    },
+    {
+      "stack": "chunkaluminiumBrass",
+      "overlay": "AlBs"
+    },
+    {
+      "stack": "chunkAlumite",
+      "overlay": "Alt"
+    },
+    {
+      "stack": "chunkObsidian",
+      "overlay": "Ob"
+    },
+    {
+      "stack": "chunkPigIron",
+      "overlay": "FePo"
+    },
+    {
+      "stack": "chunkAtlantium",
+      "overlay": "At"
+    },
+    {
+      "stack": "chunkSciencium",
+      "overlay": "Sc"
+    },
+    {
+      "stack": "chunkEndium",
+      "overlay": "End"
+    },
+    {
+      "stack": "chunkBlaze",
+      "overlay": "Blz"
+    },
+    {
+      "stack": "chunkTungsten",
+      "overlay": "W"
+    },
+    {
+      "stack": "chunkBerylBronze",
+      "overlay": "BeBz"
+    },
+    {
+      "stack": "chunkXyrenium",
+      "overlay": "Xr"
+    },
+    {
+      "stack": "chunkDragoonyte",
+      "overlay": "Dg"
+    },
+    {
+      "stack": "chunkSyrmorite",
+      "overlay": "Sr"
+    },
+    {
+      "stack": "chunkOctine",
+      "overlay": "Oc"
+    },
+    {
+      "stack": "chunkAeonSteel",
+      "overlay": "Aeo"
+    },
+    {
+      "stack": "chunkQueensGold",
+      "overlay": "AuQ"
+    },
+    {
+      "stack": "chunkDogbearium",
+      "overlay": "Db"
     },
     {
       "stack": "thingIron",
@@ -2325,18 +2821,6 @@
     {
       "stack": "thingNeptunium",
       "overlay": "Np"
-    },
-    {
-      "stack": "thingCrystalMatrix",
-      "overlay": "Mx"
-    },
-    {
-      "stack": "thingCosmicNeutronium",
-      "overlay": "n"
-    },
-    {
-      "stack": "thingInfinity",
-      "overlay": "\u221E"
     },
     {
       "stack": "thingFairy",
@@ -2559,11 +3043,11 @@
       "overlay": "Ma"
     },
     {
-      "stack": "thingAluminum",
+      "stack": "thingaluminium",
       "overlay": "Al"
     },
     {
-      "stack": "thingAluminumBrass",
+      "stack": "thingaluminiumBrass",
       "overlay": "AlBs"
     },
     {
@@ -2629,10 +3113,6 @@
     {
       "stack": "thingDogbearium",
       "overlay": "Db"
-    },
-    {
-      "stack": "thingCoal",
-      "overlay": "C"
-    },
+    }
   ]
 }

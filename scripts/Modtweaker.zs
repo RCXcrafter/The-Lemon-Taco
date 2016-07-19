@@ -25,6 +25,7 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:bucket>);
 mods.tconstruct.Smeltery.removeAlloy(<liquid:steel.molten>);
 //mods.tconstruct.Smeltery.removeAlloy(<liquid:obsidian.molten>);
 mods.tconstruct.Smeltery.addAlloy(<liquid:atlantium.molten> * 16, [<liquid:neptunium.molten> * 16, <liquid:sanguinite.molten> * 16]);
+//mods.tconstruct.Smeltery.addAlloy(<liquid:beryllium.bronze.molten> * 288, [<liquid:copper.molten> * 288, <liquid:iron.molten> * 144, <liquid:emerald.molten> * 160]);
 
 //drying rack recipes
 mods.tconstruct.Drying.addRecipe(<minecraft:cactus>, <minecraft:dye:2>, 6000);
@@ -2239,7 +2240,7 @@ mods.exnihilo.Crucible.removeRecipe(<liquid:lava>);
 //mods.exnihilo.Hammer.addRecipe(<minecraft:cactus>, <minecraft:dye:2>, 0.45, 1.25);
 //mods.exnihilo.Hammer.addRecipe(<minecraft:tnt>, [<minecraft:gunpowder>, <minecraft:sand>], [0.25, 0.50], [1.00, 1.50]);
 //BlockStack
-mods.exnihilo.Hammer.removeRecipe(<minecraft:ice>);
+//mods.exnihilo.Hammer.removeRecipe(<minecraft:ice>);
 
 //Sieve
 //BlockStack, OutputStack OR OutputArray, Rarity OR RarityArray (Rarity goes in Fractions, 1 = 100Pe, 2 = 50Pe, 3 = 33Pe)
