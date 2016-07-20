@@ -37,7 +37,28 @@ val oresOres = [<ore:oreSanguinite>] as IIngredient[];
 val oresTemps = [600];
 
 val toolMaterialsHotIngots = [<aobd:ingotHotSanguinite>] as IItemStack[];
+val toolMaterialsWideGuards = [<TConstruct:wideGuard:4>] as IItemStack[];
+val toolMaterialsHandGuards = [<TConstruct:handGuard:4>] as IItemStack[];
+val toolMaterialsCrossbars = [<TConstruct:crossbar:4>] as IItemStack[];
+val toolMaterialsKnifeBlades = [<TConstruct:knifeBlade:4>] as IItemStack[];
+val toolMaterialsChiselHeads = [<TConstruct:chiselHead:4>] as IItemStack[];
+val toolMaterialsShurikenParts = [<TConstruct:ShurikenPart:4>] as IItemStack[];
 val toolMaterialsPickHeads = [<TConstruct:pickaxeHead:4>] as IItemStack[];
+val toolMaterialsShovelHeads = [<TConstruct:shovelHead:4>] as IItemStack[];
+val toolMaterialsAxeHeads = [<TConstruct:hatchetHead:4>] as IItemStack[];
+val toolMaterialsSwordBlades = [<TConstruct:swordBlade:4>] as IItemStack[];
+val toolMaterialsFrypanHeads = [<TConstruct:frypanHead:4>] as IItemStack[];
+val toolMaterialsArrowHeads = [<TConstruct:arrowhead:4>] as IItemStack[];
+val toolMaterialsToughBindings = [<TConstruct:toughBinding:4>] as IItemStack[];
+val toolMaterialsToughRods = [<TConstruct:toughRod:4>] as IItemStack[];
+val toolMaterialsLargePlates = [<TConstruct:heavyPlate:4>] as IItemStack[];
+val toolMaterialsBroadaxeHeads = [<TConstruct:broadAxeHead:4>] as IItemStack[];
+val toolMaterialsExacavatorHeads = [<TConstruct:excavatorHead:4>] as IItemStack[];
+val toolMaterialsCleaverHeads = [<TConstruct:largeSwordBlade:4>] as IItemStack[];
+val toolMaterialsHammerHeads = [<TConstruct:hammerHead:4>] as IItemStack[];
+val toolMaterialsBowLimbs = [<TConstruct:BowLimbPart:4>] as IItemStack[];
+val toolMaterialsCrossbowLimbs = [<TConstruct:CrossbowLimbPart:4>] as IItemStack[];
+val toolMaterialsCrossbowBodies = [<TConstruct:CrossbowBodyPart:4>] as IItemStack[];
 
 val allMaterialsIngots = [<Metallurgy:sanguinite.ingot>] as IItemStack[];
 val allMaterialsHotIngots = [<aobd:ingotHotSanguinite>] as IItemStack[];
@@ -65,7 +86,28 @@ for i, ingot in oresIngots
 
 for i, ingotHot in toolMaterialsHotIngots
 {
-	var pickHead = toolMaterialsPickHeads[i];
+	var WideGuard = toolMaterialsWideGuards[i];
+	var HandGuard = toolMaterialsHandGuards[i];
+	var Crossbar = toolMaterialsCrossbars[i];
+	var KnifeBlade = toolMaterialsKnifeBlades[i];
+	var ChiselHead = toolMaterialsChiselHeads[i];
+	var ShurikenPart = toolMaterialsShurikenParts[i];
+	var PickHead = toolMaterialsPickHeads[i];
+	var ShovelHead = toolMaterialsShovelHeads[i];
+	var AxeHead = toolMaterialsAxeHeads[i];
+	var SwordBlade = toolMaterialsSwordBlades[i];
+	var FrypanHead = toolMaterialsFrypanHeads[i];
+	var ArrowHead = toolMaterialsArrowHeads[i];
+	var ToughBinding = toolMaterialsToughBindings[i];
+	var ToughRod = toolMaterialsToughRods[i];
+	var LargePlate = toolMaterialsLargePlates[i];
+	var BroadaxeHead = toolMaterialsBroadaxeHeads[i];
+	var ExacavatorHead = toolMaterialsExacavatorHeads[i];
+	var CleaverHead = toolMaterialsCleaverHeads[i];
+	var HammerHead = toolMaterialsHammerHeads[i];
+	var BowLimb = toolMaterialsBowLimbs[i];
+	var CrossbowLimb = toolMaterialsCrossbowLimbs[i];
+	var CrossbowBody = toolMaterialsCrossbowBodies[i];
 
 	mods.metalforge.MetalWorkStation.addShaped(pickHead,[[ingotHot,ingotHot,ingotHot]]);
 	mods.metalforge.MetalWorkStation.addShaped(<tinkersdefense:Block_CrestMount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
