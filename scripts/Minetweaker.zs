@@ -100,9 +100,9 @@
 <ore:limestone>.add(<UndergroundBiomes:sedimentaryStone>);
 
 //these are also ingots
-//<ore:ingotAeonSteel>.add(<tinkersdefense:AeonSteel Ingot>);
-//<ore:ingotQueensGold>.add(<tinkersdefense:Queen's Gold Ingot>);	//why is there a ' in it?
-//<ore:ingotDogbearium>.add(<tinkersdefense:DogbeariumIngot>);
+//<ore:ingotAeonSteel>.add(<tinkersdefense:aeonsteelingot>);
+//<ore:ingotQueensGold>.add(<tinkersdefense:queensgoldingot>);	//why is there a ' in it?
+//<ore:ingotDogbearium>.add(<tinkersdefense:dogbeariumingot>);
 //<ore:ingotNeptunium>.add(<Aquaculture:item.loot:12>);
 
 //sedimentary sands
@@ -150,6 +150,9 @@
 //charcole
 <ore:blockCharcoal>.add(<condensedblocks:charcoalBlock>);
 <ore:blockCharcoal>.add(<sodacantorches:charcoal_block>);
+
+//petrified crafting table
+<ore:craftingTableWood>.add(<erebus:petrifiedCraftingTable>);
 
 
 
@@ -310,6 +313,31 @@ recipes.remove(<betterstorage:cardboardPickaxe>);
 recipes.remove(<betterstorage:cardboardShovel>);
 recipes.remove(<betterstorage:cardboardAxe>);
 recipes.remove(<betterstorage:cardboardHoe>);
+recipes.remove(<metalforge:SteelSword>);
+recipes.remove(<metalforge:SteelPickaxe>);
+recipes.remove(<metalforge:SteelAxe>);
+recipes.remove(<metalforge:SteelSpade>);
+recipes.remove(<metalforge:SteelHoe>);
+recipes.remove(<metalforge:SteelDagger>);
+recipes.remove(<metalforge:SteelSkogAxe>);
+recipes.remove(<metalforge:BBSword>);
+recipes.remove(<metalforge:BBPickaxe>);
+recipes.remove(<metalforge:BBAxe>);
+recipes.remove(<metalforge:BBSpade>);
+recipes.remove(<metalforge:BBHoe>);
+recipes.remove(<metalforge:BBDagger>);
+recipes.remove(<metalforge:BBSkogAxe>);
+recipes.remove(<metalforge:XyreniumSword>);
+recipes.remove(<metalforge:XyreniumPickaxe>);
+recipes.remove(<metalforge:XyreniumAxe>);
+recipes.remove(<metalforge:XyreniumSpade>);
+recipes.remove(<metalforge:XyreniumHoe>);
+recipes.remove(<metalforge:XyreniumDagger>);
+recipes.remove(<metalforge:XyreniumSkogAxe>);
+recipes.remove(<metalforge:DragoonLance>);
+recipes.remove(<metalforge:DragoonHammer>);
+recipes.remove(<metalforge:DragoonBlade>);
+recipes.remove(<metalforge:DragonBow>);
 recipes.remove(<exnihilo:hammer_wood>);
 recipes.remove(<exnihilo:hammer_stone>);
 recipes.remove(<exnihilo:hammer_iron>);
@@ -662,6 +690,50 @@ recipes.remove(<battlegear2:mb.arrow:*>);
 recipes.remove(<ExtraUtilities:drum>);
 recipes.remove(<ExtraUtilities:drum:1>);
 
+//unstable chisel
+recipes.remove(<morechisels:ItemChiselUnstable>);
+
+//player proxies
+recipes.remove(<ephys.playerproxies:tile.PP_GravitationalField>);
+recipes.remove(<ephys.playerproxies:tile.PP_ParticleGenerator>);
+recipes.remove(<ephys.playerproxies:tile.PP_ProximitySensor>);
+recipes.remove(<ephys.playerproxies:tile.PP_HomeShield>);
+recipes.remove(<ephys.playerproxies:tile.PP_ToughwoodPlank>);
+recipes.remove(<ephys.playerproxies:tile.PP_ToughwoodPlank:1>);
+recipes.remove(<ephys.playerproxies:tile.PP_FluidDiffuser>);
+recipes.remove(<ephys.playerproxies:tile.PP_ItemActivator>);
+recipes.remove(<ephys.playerproxies:tile.PP_FluidHopper>);
+recipes.remove(<ephys.playerproxies:item.PP_UnemptyingBucket>);
+recipes.remove(<ephys.playerproxies:item.PP_LinkWand>);
+recipes.remove(<ephys.playerproxies:item.PP_LinkFocus>);
+recipes.remove(<ephys.playerproxies:item.PP_DragonScaleIngot>);
+
+//literraly skyblock
+recipes.remove(<OpenBlocks:sky:1>);
+
+//crean backpack is awesome
+recipes.remove(<OpenBlocks:craneBackpack>);
+recipes.remove(<OpenBlocks:craneControl>);
+recipes.remove(<OpenBlocks:generic:1>);
+recipes.remove(<OpenBlocks:generic:2>);
+recipes.remove(<OpenBlocks:generic:3>);
+recipes.remove(<OpenBlocks:generic:5>);
+
+//steel armor
+recipes.remove(<metalforge:SteelHelmet>);
+recipes.remove(<metalforge:SteelChestplate>);
+recipes.remove(<metalforge:SteelLeggings>);
+recipes.remove(<metalforge:SteelBoots>);
+
+//infinity chest
+recipes.remove(<avaritiaddons:InfinityChest>);
+
+//magnetic forcefield
+recipes.remove(<grapplemod:repeller>);
+
+//dire autocrafter
+recipes.remove(<avaritiaddons:ExtremeAutoCrafter>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -770,10 +842,10 @@ recipes.addShapeless(<SaltMod:saltFishSoup>,[<minecraft:bowl>,<ore:dustSalt>,<or
 recipes.addShapeless(<SaltMod:fishPie>,[<ore:dustSalt>,<ore:cropWheat>,<ore:listAllfishraw>,<ore:egg>]);
 
 //proper dye blocks
-recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:2>,[<ore:blockDyeBrown>]);
-recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:3>,[<ore:blockDyeWhite>]);
-recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye>,[<ore:blockDyeBlack>]);
-recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:1>,[<ore:blockDyeBlue>]);
+recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:2> * 9,[<ore:blockDyeBrown>]);
+recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:3> * 9,[<ore:blockDyeWhite>]);
+recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye> * 9,[<ore:blockDyeBlack>]);
+recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:1> * 9,[<ore:blockDyeBlue>]);
 
 //chocolate
 recipes.addShapeless(<ganyssurface:chocolateBar>,[<ore:beansCocoa>,<minecraft:milk_bucket>,<ore:dustSugar>]);
@@ -977,6 +1049,7 @@ recipes.addShapeless(<minecraft:slime_ball> * 4, [<ore:blockSlime>]);
 
 //unobtanium hyper diamonds
 recipes.addShapedMirrored(<customitems:unobtanium_hyper_diamond>,[[<erebus:wand_of_preservation>,<minecraft:dragon_egg>,<dendrology:parcel>],[<ore:blockAmordrine>,<ore:gemDiamond>,<ore:blockCelenegil>],[<atum:item.ectoplasm>,<tinker_io:WhatABeautifulBlock>,<smokables:cannabis>]]);
+recipes.addShapeless(<customitems:rotated_unobtanium_hyper_diamond>,[<customitems:unobtanium_hyper_diamond>,<Pistronics2:The Tool>]);
 
 //quantum entangler
 recipes.addShaped(<CompactMachines:quantumentangler>,[[<qCraft:dust>,<qCraft:dust>,<qCraft:dust>],[<CompactMachines:interfaceitem>,<qCraft:essence:2>,<CompactMachines:interfaceitem>],[<qCraft:dust>,<qCraft:dust>,<qCraft:dust>]]);
@@ -1172,10 +1245,48 @@ recipes.addShaped(<battlegear2:knights_armour.legs>,[[<ore:ingotAngmallen>,<ore:
 recipes.addShaped(<battlegear2:knights_armour.boots>,[[<ore:ingotAngmallen>,null,<ore:ingotAngmallen>],[<ore:ingotIron>,null,<ore:ingotIron>]]);
 
 //crest mount is pretty cool
-recipes.addShaped(<tinkersdefense:Block_CrestMount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
+//recipes.addShaped(<tinkersdefense:block_crestmount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
 
 //drums
 //recipes.addShaped(<tinkersdefense:Block_CrestMount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
+
+//unstable chisel
+recipes.addShapedMirrored(<morechisels:ItemChiselUnstable>,[[null,<ore:ingotUnstable>],[<ore:blockObsidian>,null]]);
+
+//player proxies
+recipes.addShaped(<ephys.playerproxies:tile.PP_GravitationalField>,[[<ore:nuggetCosmicNeutronium>,<ore:nuggetCosmicNeutronium>,<ore:nuggetCosmicNeutronium>],[<ore:ingotUnstable>,<customitems:black_hole>,<ore:ingotUnstable>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_ParticleGenerator>,[[<ephys.playerproxies:item.PP_DragonScaleIngot>,<smokables:cigarette>,<ephys.playerproxies:item.PP_DragonScaleIngot>],[<ephys.playerproxies:item.PP_DragonScaleIngot>,<minecraft:flint_and_steel>,<ephys.playerproxies:item.PP_DragonScaleIngot>]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_ProximitySensor>,[[null,<ephys.playerproxies:tile.PP_HardenedStone>,null],[<ore:pearlEnderEye>,<qCraft:essence:1>,<ore:pearlEnderEye>],[null,<ephys.playerproxies:tile.PP_HardenedStone>,null]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_HomeShield> * 8,[[<ephys.playerproxies:tile.PP_HardenedStone>,<ephys.playerproxies:tile.PP_HardenedStone>,<ephys.playerproxies:tile.PP_HardenedStone>],[<ephys.playerproxies:tile.PP_HardenedStone>,<ore:ingotBedrockium>,<ephys.playerproxies:tile.PP_HardenedStone>],[<ephys.playerproxies:tile.PP_HardenedStone>,<ephys.playerproxies:tile.PP_HardenedStone>,<ephys.playerproxies:tile.PP_HardenedStone>]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_ToughwoodPlank> * 6,[[<ore:rodIron>,<ore:logWood>,<ore:rodIron>]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_ToughwoodPlank:1>,[[null,<ore:ingotEndium>,null],[<ephys.playerproxies:tile.PP_ToughwoodPlank>,<ore:blockMidasium>,<ephys.playerproxies:tile.PP_ToughwoodPlank>],[<ephys.playerproxies:tile.PP_ToughwoodPlank>,<ephys.playerproxies:tile.PP_ToughwoodPlank>,<ephys.playerproxies:tile.PP_ToughwoodPlank>]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_FluidDiffuser>,[[null,<etfuturum:dragon_breath>,null],[<minecraft:dropper>,<TConstruct:LavaTank>,<minecraft:dropper>]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_ItemActivator>,[[null,<ore:skullPlayer>,null],[<ore:slabStone>,<ore:slabStone>,<ore:slabStone>]]);
+recipes.addShaped(<ephys.playerproxies:tile.PP_FluidHopper>,[[<TConstruct:materials:2>,null,<TConstruct:materials:2>],[<TConstruct:materials:2>,<ore:blockHopper>,<TConstruct:materials:2>],[null,<TConstruct:materials:2>,null]]);
+recipes.addShaped(<ephys.playerproxies:item.PP_UnemptyingBucket>,[[<ephys.playerproxies:item.PP_DragonScaleIngot>,<qCraft:essence:2>,<ephys.playerproxies:item.PP_DragonScaleIngot>],[null,<ephys.playerproxies:item.PP_DragonScaleIngot>,null]]);
+recipes.addShaped(<ephys.playerproxies:item.PP_LinkWand>,[[<qCraft:essence:2>,<ore:ingotManganese>,<qCraft:essence:2>],[null,<ore:stickWood>,null],[null,<ore:stickWood>,null]]);
+recipes.addShapeless(<ephys.playerproxies:item.PP_DragonScaleIngot>,[<ore:ingotTungsten>,<ephys.playerproxies:item.PP_DragonScale>,<ore:dustEctoplasm>,<ore:itemGhastTear>]);
+recipes.addShapeless(<ephys.playerproxies:item.PP_BiomeStorage:256>,[<minecraft:grass>,<ore:itemGhastTear>,<ore:nuggetCosmicNeutronium>]);
+
+//skyblock
+recipes.addShapeless(<OpenBlocks:sky:1>,[<OpenBlocks:sky:1>,<minecraft:lever>]);
+
+//crean backpack is awesome
+recipes.addShaped(<OpenBlocks:craneBackpack>,[[<ExtraTiC:toughrod:120>,<TConstruct:toughRod:500>,<ExtraTiC:toughrod:120>],[<TConstruct:toughRod:500>,null,<minecraft:lead>],[<Metallurgy:metallurgy.tartarite.chestplate>,null,<ore:blockAdamantine>]]);
+recipes.addShaped(<OpenBlocks:craneControl>,[[<ore:ingotSciencium>,<RidiculousWorld:UnicornHorn>,<ore:ingotSciencium>],[<ore:ingotSciencium>,<RidiculousWorld:UnicornHorn>,<ore:ingotSciencium>],[<ore:ingotSciencium>,<RidiculousWorld:UnicornHorn>,<ore:ingotSciencium>]]);
+
+//decorative abstractor
+recipes.addShaped(<Metallurgy:abstractor>,[[<ore:dustBitumen>,<ore:dustBitumen>,<ore:dustBitumen>],[<ore:ingotBlackSteel>,<ore:ingotMithril>,<ore:ingotBlackSteel>],[<ore:ingotBlackSteel>,<ore:ingotBlackSteel>,<ore:ingotBlackSteel>]]);
+
+//magnatic forcefield
+recipes.addShaped(<grapplemod:repeller>,[[null,<ore:ingotUnstable>,null],[<ore:ingotCosmicNeutronium>,<ore:blockCrystalMatrix>,<ore:ingotCosmicNeutronium>],[null,<ore:ingotUnstable>,null]]);
+recipes.addShaped(<grapplemod:repeller>,[[null,<ore:ingotCosmicNeutronium>,null],[<ore:ingotUnstable>,<ore:blockCrystalMatrix>,<ore:ingotUnstable>],[null,<ore:ingotCosmicNeutronium>,null]]);
+
+//dire autocrafter
+recipes.addShaped(<avaritiaddons:ExtremeAutoCrafter>,[[<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>],[<ore:ingotCrystalMatrix>,<progressiveautomation:CrafterDiamond>,<ore:ingotCrystalMatrix>],[<ore:ingotCrystalMatrix>,<Avaritia:Dire_Crafting>,<ore:ingotCrystalMatrix>]]);
+
+//compressed crafting table
+recipes.addShaped(<Avaritia:Double_Craft>,[[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>]]);
 
 
 #furnace recipes

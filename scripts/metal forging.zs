@@ -1,5 +1,7 @@
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
+//import minetweaker.item.IInteger;
+import minetweaker.liquid.ILiquidStack;
 
 //no more casting of toolparts, from now on they must be forged
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:*>);
@@ -13,6 +15,7 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:*>);
@@ -24,6 +27,62 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:*>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:*>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:*>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:*>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:*>);
+
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:largeGuard:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:mediumGuard:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:crossbar:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:knifeBlade:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:chiselHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:shuriken:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:pickaxeHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:shovelHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:axeHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:swordBlade:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:frypanHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:fullGuard:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:arrowhead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:toughbind:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:toughrod:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:largeplate:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:lumberaxeHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:excavatorHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:largeSwordBlade:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:hammerHead:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:BowLimb:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:CrossbowLimb:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:CrossbowBody:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:toolrod:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:binding:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:battelSign:*>);
+mods.tconstruct.Casting.removeTableRecipe(<ExtraTiC:scytheHead:*>);
+
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:1>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:2>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:3>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:4>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:5>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:6>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:7>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:8>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:9>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:10>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:11>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:12>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:13>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:14>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:15>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:16>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:17>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:18>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:19>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:20>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:21>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:22>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:Cast:*>);
 
 
 
@@ -31,40 +90,44 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:*>);
 
 val oresIngots = [<Metallurgy:sanguinite.ingot>] as IItemStack[];
 val oresChunks = [<aobd:chunkSanguinite>] as IItemStack[];
-val oresMolten = [<liquid:sanguinite.molten>] as ISomething?[];
-val oresBlocks = [<Metallurgy:sanguinite.block>] as IItemStack[];
+val oresMolten = [<liquid:sanguinite.molten>] as ILiquidStack[];
+val oresBlocks = [<Metallurgy:nether.block:9>] as IItemStack[];
 val oresOres = [<ore:oreSanguinite>] as IIngredient[];
-val oresTemps = [600];
+//val oresTemps = [550];
 
 val toolMaterialsHotIngots = [<aobd:ingotHotSanguinite>] as IItemStack[];
-val toolMaterialsWideGuards = [<TConstruct:wideGuard:4>] as IItemStack[];
-val toolMaterialsHandGuards = [<TConstruct:handGuard:4>] as IItemStack[];
-val toolMaterialsCrossbars = [<TConstruct:crossbar:4>] as IItemStack[];
-val toolMaterialsKnifeBlades = [<TConstruct:knifeBlade:4>] as IItemStack[];
-val toolMaterialsChiselHeads = [<TConstruct:chiselHead:4>] as IItemStack[];
-val toolMaterialsShurikenParts = [<TConstruct:ShurikenPart:4>] as IItemStack[];
-val toolMaterialsPickHeads = [<TConstruct:pickaxeHead:4>] as IItemStack[];
-val toolMaterialsShovelHeads = [<TConstruct:shovelHead:4>] as IItemStack[];
-val toolMaterialsAxeHeads = [<TConstruct:hatchetHead:4>] as IItemStack[];
-val toolMaterialsSwordBlades = [<TConstruct:swordBlade:4>] as IItemStack[];
-val toolMaterialsFrypanHeads = [<TConstruct:frypanHead:4>] as IItemStack[];
-val toolMaterialsArrowHeads = [<TConstruct:arrowhead:4>] as IItemStack[];
-val toolMaterialsToughBindings = [<TConstruct:toughBinding:4>] as IItemStack[];
-val toolMaterialsToughRods = [<TConstruct:toughRod:4>] as IItemStack[];
-val toolMaterialsLargePlates = [<TConstruct:heavyPlate:4>] as IItemStack[];
-val toolMaterialsBroadaxeHeads = [<TConstruct:broadAxeHead:4>] as IItemStack[];
-val toolMaterialsExacavatorHeads = [<TConstruct:excavatorHead:4>] as IItemStack[];
-val toolMaterialsCleaverHeads = [<TConstruct:largeSwordBlade:4>] as IItemStack[];
-val toolMaterialsHammerHeads = [<TConstruct:hammerHead:4>] as IItemStack[];
-val toolMaterialsBowLimbs = [<TConstruct:BowLimbPart:4>] as IItemStack[];
-val toolMaterialsCrossbowLimbs = [<TConstruct:CrossbowLimbPart:4>] as IItemStack[];
-val toolMaterialsCrossbowBodies = [<TConstruct:CrossbowBodyPart:4>] as IItemStack[];
+val toolMaterialsWideGuards = [<ExtraTiC:largeGuard:113>] as IItemStack[];
+val toolMaterialsHandGuards = [<ExtraTiC:mediumGuard:113>] as IItemStack[];
+val toolMaterialsCrossbars = [<ExtraTiC:crossbar:113>] as IItemStack[];
+val toolMaterialsKnifeBlades = [<ExtraTiC:knifeBlade:113>] as IItemStack[];
+val toolMaterialsChiselHeads = [<ExtraTiC:chiselHead:113>] as IItemStack[];
+val toolMaterialsShurikenParts = [<ExtraTiC:shuriken:113>] as IItemStack[];
+val toolMaterialsPickHeads = [<ExtraTiC:pickaxeHead:113>] as IItemStack[];
+val toolMaterialsShovelHeads = [<ExtraTiC:shovelHead:113>] as IItemStack[];
+val toolMaterialsAxeHeads = [<ExtraTiC:axeHead:113>] as IItemStack[];
+val toolMaterialsSwordBlades = [<ExtraTiC:swordBlade:113>] as IItemStack[];
+val toolMaterialsFrypanHeads = [<ExtraTiC:frypanHead:113>] as IItemStack[];
+val toolMaterialsArrowHeads = [<ExtraTiC:arrowhead:113>] as IItemStack[];
+val toolMaterialsToughBindings = [<ExtraTiC:toughbind:113>] as IItemStack[];
+val toolMaterialsToughRods = [<ExtraTiC:toughrod:113>] as IItemStack[];
+val toolMaterialsLargePlates = [<ExtraTiC:largeplate:113>] as IItemStack[];
+val toolMaterialsBroadaxeHeads = [<ExtraTiC:lumberaxeHead:113>] as IItemStack[];
+val toolMaterialsExacavatorHeads = [<ExtraTiC:excavatorHead:113>] as IItemStack[];
+val toolMaterialsCleaverHeads = [<ExtraTiC:largeSwordBlade:113>] as IItemStack[];
+val toolMaterialsHammerHeads = [<ExtraTiC:hammerHead:113>] as IItemStack[];
+val toolMaterialsBowLimbs = [<ExtraTiC:BowLimb:113>] as IItemStack[];
+val toolMaterialsCrossbowLimbs = [<ExtraTiC:CrossbowLimb:113>] as IItemStack[];
+val toolMaterialsCrossbowBodies = [<ExtraTiC:CrossbowBody:113>] as IItemStack[];
+val toolMaterialsRods = [<ExtraTiC:toolrod:113>] as IItemStack[];
+val toolMaterialsBindings = [<ExtraTiC:binding:113>] as IItemStack[];
+val toolMaterialsBattlesignHead = [<ExtraTiC:battelSign:113>] as IItemStack[];
+val toolMaterialsScytheHead = [<ExtraTiC:scytheHead:113>] as IItemStack[];
 
 val allMaterialsIngots = [<Metallurgy:sanguinite.ingot>] as IItemStack[];
 val allMaterialsHotIngots = [<aobd:ingotHotSanguinite>] as IItemStack[];
-val allMaterialsMolten = [<liquid:sanguinite.molten>] as ISomething?[];
-val allMaterialsBlocks = [<Metallurgy:sanguinite.block>];
-val allMaterialsTemps = [600];
+val allMaterialsMolten = [<liquid:sanguinite.molten>] as ILiquidStack[];
+val allMaterialsBlocks = [<Metallurgy:nether.block:9>] as IItemStack[];
+//val allMaterialsTemps = [550];
 
 
 
@@ -76,42 +139,46 @@ for i, ingot in oresIngots
 	var molten = oresMolten[i];
 	var block = oresBlocks[i];
 	var ore = oresOres[i];
-	var temp = oresTemps[i];
+	//var temp = oresTemps[i];
 
-	mods.metalforge.Purifier.addRecipe(chunk * 2, ore, 0.5);
+	metalforge.Purifier.addRecipe(chunk * 2, ore, 0.5);
 	furnace.addRecipe(ingot, chunk, 0.5);
-	mods.tconstruct.Smeltery.addMelting(chunk, molten * 144, temp, block);
-	mods.tsteelworks.highoven.addMeltable(chunk, false, molten * 144, temp);
+	mods.tconstruct.Smeltery.addMelting(chunk, molten * 144, 550, block);
+	mods.tsteelworks.highoven.addMeltable(chunk, false, molten * 144, 550);
 }
 
 for i, ingotHot in toolMaterialsHotIngots
 {
-	var WideGuard = toolMaterialsWideGuards[i];
-	var HandGuard = toolMaterialsHandGuards[i];
-	var Crossbar = toolMaterialsCrossbars[i];
-	var KnifeBlade = toolMaterialsKnifeBlades[i];
-	var ChiselHead = toolMaterialsChiselHeads[i];
-	var ShurikenPart = toolMaterialsShurikenParts[i];
-	var PickHead = toolMaterialsPickHeads[i];
-	var ShovelHead = toolMaterialsShovelHeads[i];
-	var AxeHead = toolMaterialsAxeHeads[i];
-	var SwordBlade = toolMaterialsSwordBlades[i];
-	var FrypanHead = toolMaterialsFrypanHeads[i];
-	var ArrowHead = toolMaterialsArrowHeads[i];
-	var ToughBinding = toolMaterialsToughBindings[i];
-	var ToughRod = toolMaterialsToughRods[i];
-	var LargePlate = toolMaterialsLargePlates[i];
-	var BroadaxeHead = toolMaterialsBroadaxeHeads[i];
-	var ExacavatorHead = toolMaterialsExacavatorHeads[i];
-	var CleaverHead = toolMaterialsCleaverHeads[i];
-	var HammerHead = toolMaterialsHammerHeads[i];
-	var BowLimb = toolMaterialsBowLimbs[i];
-	var CrossbowLimb = toolMaterialsCrossbowLimbs[i];
-	var CrossbowBody = toolMaterialsCrossbowBodies[i];
+	var wideGuard = toolMaterialsWideGuards[i];
+	var handGuard = toolMaterialsHandGuards[i];
+	var crossbar = toolMaterialsCrossbars[i];
+	var knifeBlade = toolMaterialsKnifeBlades[i];
+	var chiselHead = toolMaterialsChiselHeads[i];
+	var shurikenPart = toolMaterialsShurikenParts[i];
+	var pickHead = toolMaterialsPickHeads[i];
+	var shovelHead = toolMaterialsShovelHeads[i];
+	var axeHead = toolMaterialsAxeHeads[i];
+	var swordBlade = toolMaterialsSwordBlades[i];
+	var frypanHead = toolMaterialsFrypanHeads[i];
+	var arrowHead = toolMaterialsArrowHeads[i];
+	var toughBinding = toolMaterialsToughBindings[i];
+	var toughRod = toolMaterialsToughRods[i];
+	var largePlate = toolMaterialsLargePlates[i];
+	var broadaxeHead = toolMaterialsBroadaxeHeads[i];
+	var exacavatorHead = toolMaterialsExacavatorHeads[i];
+	var cleaverHead = toolMaterialsCleaverHeads[i];
+	var hammerHead = toolMaterialsHammerHeads[i];
+	var bowLimb = toolMaterialsBowLimbs[i];
+	var crossbowLimb = toolMaterialsCrossbowLimbs[i];
+	var crossbowBody = toolMaterialsCrossbowBodies[i];
+	var rod = toolMaterialsRods[i];
+	var binding = toolMaterialsBindings[i];
+	var signhead = toolMaterialsBattlesignHead[i];
+	var scythehead = toolMaterialsScytheHead[i];
 
-	mods.metalforge.MetalWorkStation.addShaped(pickHead,[[ingotHot,ingotHot,ingotHot]]);
-	mods.metalforge.MetalWorkStation.addShaped(<tinkersdefense:Block_CrestMount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
-	mods.metalforge.MetalWorkStation.addShapeless(<tinkersdefense:Block_CrestMount>,[<ore:ingotIron>,<minecraft:item_frame>,<ore:ingotIron>,<ore:ingotIron>]);
+	metalforge.MWStation.addShaped(pickHead,[[ingotHot,ingotHot,ingotHot],[ingotHot,ingotHot,ingotHot],[ingotHot,ingotHot,ingotHot]]);
+	metalforge.MWStation.addShaped(<tinkersdefense:block_crestmount>,[[<ore:ingotIron>,null,<ore:ingotIron>],[null,<minecraft:item_frame>,null],[<ore:ingotIron>,null,<ore:ingotIron>]]);
+	metalforge.MWStation.addShapeless(<tinkersdefense:block_crestmount>,[<ore:ingotIron>,<minecraft:item_frame>,<ore:ingotIron>,<ore:ingotIron>]);
 }
 
 for i, ingot in allMaterialsIngots
@@ -119,12 +186,12 @@ for i, ingot in allMaterialsIngots
 	var ingotHot = allMaterialsHotIngots[i];
 	var molten = allMaterialsMolten[i];
 	var block = allMaterialsBlocks[i];
-	var temp = allMaterialsTemps[i];
+	//var temp = allMaterialsTemps[i];
 
-	mods.metalforge.Cauldron.addRecipe(ingot, ingotHot);
-	mods.metalforge.Oven.addRecipe(ingotHot, ingot, 0);
-	mods.tconstruct.Smeltery.addMelting(ingotHot, molten * 144, temp, block);
-	mods.tsteelworks.highoven.addMeltable(ingotHot, false, molten * 144, temp);
+	metalforge.Cauldron.addRecipe(ingot, ingotHot);
+	metalforge.HTOven.addRecipe(ingotHot, ingot, 0);
+	mods.tconstruct.Smeltery.addMelting(ingotHot, molten * 144, 550, block);
+	mods.tsteelworks.highoven.addMeltable(ingotHot, false, molten * 144, 550);
 }
 
 //something like that is going to happen

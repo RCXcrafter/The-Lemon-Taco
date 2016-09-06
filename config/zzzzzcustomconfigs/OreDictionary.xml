@@ -53,10 +53,6 @@ some more stuff that currently doesn't work
 	<stack>customitems:sciencium_block 1 0</stack>
 	</ore>
 	<ore>
-	<name>"ingotDogbearium"</name>
-	<stack>tinkersdefense:DogbeariumIngot 1 0</stack>
-	</ore>
-	<ore>
 	<name>"ingotNeptunium"</name>
 	<stack>Aquaculture:item.loot 1 12</stack>
 	</ore>

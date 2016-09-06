@@ -3,7 +3,7 @@ import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 //Declarizations
 val dogbeariumMolten = <liquid:moltendogbearium>;
-val dogbeariumBlock = <tinkersdefense:Dogbeariumblock>;
+val dogbeariumBlock = <tinkersdefense:dogbeariumblock>;
 val dogbeariumLightParts = [<TConstruct:wideGuard:203>, <TConstruct:handGuard:203>, <TConstruct:crossbar:203>, <TConstruct:knifeBlade:203>, <TConstruct:chiselHead:203>, <TConstruct:ShurikenPart:203>] as IItemStack[];
 val dogbeariumNormalParts = [<TConstruct:pickaxeHead:203>, <TConstruct:shovelHead:203>, <TConstruct:hatchetHead:203>, <TConstruct:swordBlade:203>, <TConstruct:frypanHead:203>, <TConstruct:arrowhead:203>] as IItemStack[];
 val dogbeariumModerateParts = [<TConstruct:toughBinding:203>, <TConstruct:toughRod:203>] as IItemStack[];
@@ -21,7 +21,7 @@ val aeonsteelBowLimb = <TConstruct:BowLimbPart:201>;
 val aeonsteelCrossbowLimb = <TConstruct:CrossbowLimbPart:201>;
 val aeonsteelCrossbowBody = <TConstruct:CrossbowBodyPart:201>;
 val queensgoldMolten = <liquid:moltenqueensgold>;
-val queensgoldBlock = <tinkersdefense:QueensGoldblock>;
+val queensgoldBlock = <tinkersdefense:queensgoldblock>;
 val queensgoldLightParts = [<TConstruct:wideGuard:202>, <TConstruct:handGuard:202>, <TConstruct:crossbar:202>, <TConstruct:knifeBlade:202>, <TConstruct:chiselHead:202>, <TConstruct:ShurikenPart:202>] as IItemStack[];
 val queensgoldNormalParts = [<TConstruct:pickaxeHead:202>, <TConstruct:shovelHead:202>, <TConstruct:hatchetHead:202>, <TConstruct:swordBlade:202>, <TConstruct:frypanHead:202>, <TConstruct:arrowhead:202>] as IItemStack[];
 val queensgoldModerateParts = [<TConstruct:toughBinding:202>, <TConstruct:toughRod:202>] as IItemStack[];

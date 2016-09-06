@@ -32,6 +32,10 @@
         {
             "textureName": "unobtanium_hyper_diamond",
             "name": "Unobtanium Hyper Diamond"
+        },
+        {
+            "textureName": "unobtanium_hyper_diamond_back",
+            "name": "Rotated Unobtanium Hyper Diamond"
         }
     ],
     "blocks": [
