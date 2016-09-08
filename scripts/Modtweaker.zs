@@ -190,10 +190,10 @@ mods.tconstruct.Smeltery.addMelting(<Aquaculture:item.loot:7>,<liquid:blood> * 6
 mods.tconstruct.Smeltery.addMelting(<Aquaculture:item.Fish:18>,<liquid:blood> * 60,200,<Natura:GrassBlock>);
 mods.tconstruct.Smeltery.addMelting(<Natura:planks:4>,<liquid:blood> * 5,200,<Natura:planks:4>);
 mods.tconstruct.Smeltery.addMelting(<Natura:florasapling:5>,<liquid:blood> * 10,200,<Natura:planks:4>);
-mods.tconstruct.Smeltery.addMelting(<thebetweenlands:anglerMeatRaw>,<liquid:blood> * 60,200,<Natura:redwood:2>);
-mods.tconstruct.Smeltery.addMelting(<thebetweenlands:frogLegsRaw>,<liquid:blood> * 60,200,<Natura:GrassBlock>);
-mods.tconstruct.Smeltery.addMelting(<thebetweenlands:snailFleshRaw>,<liquid:blood> * 60,200,<Natura:redwood:2>);
-mods.tconstruct.Smeltery.addMelting(<thebetweenlands:siltCrabClaw>,<liquid:blood> * 30,200,<minecraft:sand:1>);
+//mods.tconstruct.Smeltery.addMelting(<thebetweenlands:anglerMeatRaw>,<liquid:blood> * 60,200,<Natura:redwood:2>);
+//mods.tconstruct.Smeltery.addMelting(<thebetweenlands:frogLegsRaw>,<liquid:blood> * 60,200,<Natura:GrassBlock>);
+//mods.tconstruct.Smeltery.addMelting(<thebetweenlands:snailFleshRaw>,<liquid:blood> * 60,200,<Natura:redwood:2>);
+//mods.tconstruct.Smeltery.addMelting(<thebetweenlands:siltCrabClaw>,<liquid:blood> * 30,200,<minecraft:sand:1>);
 mods.tconstruct.Smeltery.addMelting(<erebus:food:12>,<liquid:blood> * 60,200,<minecraft:sand>);
 mods.tconstruct.Smeltery.addMelting(<erebus:heartBerries>,<liquid:blood> * 30,200,<Natura:GrassBlock:2>);
 mods.tconstruct.Smeltery.addMelting(<erebus:lifeBlood>,<liquid:blood> * 40,200,<Natura:GrassBlock:2>);
@@ -1137,7 +1137,7 @@ mods.chisel.Groups.addVariation("gold_brick", <chisel:gold2:5>);
 mods.chisel.Groups.addVariation("gold_brick", <TConstruct:decoration.multibrick:5>);
 mods.chisel.Groups.addVariation("gold_brick", <TConstruct:decoration.multibrickfancy:5>);
 mods.chisel.Groups.addVariation("gold_brick", <customitems:classic_gold_block>);
-mods.chisel.Groups.addVariation("gold_brick", <thebetweenlands:goldCircleBrick>);
+//mods.chisel.Groups.addVariation("gold_brick", <thebetweenlands:goldCircleBrick>);
 
 mods.chisel.Groups.addGroup("manganese_brick");
 mods.chisel.Groups.addVariation("manganese_brick", <Metallurgy:base.brick:2>);
@@ -1190,7 +1190,7 @@ mods.chisel.Groups.addVariation("bronze_brick", <chisel:bronzeblock:2>);
 mods.chisel.Groups.addVariation("bronze_brick", <chisel:bronzeblock:3>);
 mods.chisel.Groups.addVariation("bronze_brick", <chisel:bronzeblock:4>);
 mods.chisel.Groups.addVariation("bronze_brick", <chisel:bronzeblock:5>);
-mods.chisel.Groups.addVariation("bronze_brick", <thebetweenlands:bronzeCircleBrick>);
+//mods.chisel.Groups.addVariation("bronze_brick", <thebetweenlands:bronzeCircleBrick>);
 
 mods.chisel.Groups.addGroup("hepatizon_brick");
 mods.chisel.Groups.addVariation("hepatizon_brick", <Metallurgy:base.brick:4>);
@@ -1364,7 +1364,7 @@ mods.chisel.Groups.addVariation("silver_brick", <chisel:silverblock:2>);
 mods.chisel.Groups.addVariation("silver_brick", <chisel:silverblock:1>);
 mods.chisel.Groups.addVariation("silver_brick", <chisel:silverblock:4>);
 mods.chisel.Groups.addVariation("silver_brick", <chisel:silverblock:5>);
-mods.chisel.Groups.addVariation("silver_brick", <thebetweenlands:silverCircleBrick>);
+//mods.chisel.Groups.addVariation("silver_brick", <thebetweenlands:silverCircleBrick>);
 
 mods.chisel.Groups.addGroup("electrum_brick");
 mods.chisel.Groups.addVariation("electrum_brick", <Metallurgy:precious.brick:4>);
