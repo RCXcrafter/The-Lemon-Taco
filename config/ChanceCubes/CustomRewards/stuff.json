@@ -1,0 +1,50 @@
+{
+    "Reward Name":
+    {
+        "chance":0,
+        "Item":
+        [
+            {"item":{"id":280,"Damage":0,"Count":1}, "delay":20},
+            {"item":{"id":"minecraft:dirt","Damage":1,"Count":1,"tag":{"display":{"Name":"blah",Lore:["HAHAHA"]}}}}
+        ],
+        "Message":
+        [
+            {"message":"Custom Reward!"}
+        ],
+        "Command":
+        [
+            {"command":"/give %player minecraft:painting 1 0 {display:{Name:\"Wylds Bestest friend\",Lore:[\"You know you love me, \"]}}"}
+        ],
+        "Entity":
+        [
+            {"entity":{"id":"Creeper"}}
+        ],
+        "Experience":
+        [
+            {"experienceAmount":10}
+        ],
+        "Potion":
+        [
+            {"potionid":16428,"duration":16428}
+        ],
+        "Block":
+        [
+            {"XOffSet":-1,"YOffSet":1,"ZOffSet":2,"Block":"minecraft:planks","Falling":true, "delay":20},
+            {"XOffSet":-1,"YOffSet":0,"ZOffSet":2,"Block":"minecraft:planks","Falling":true}
+        ],
+        "Schematic":
+        [
+            {"fileName":"house.schematic","falling":true,"delay":3,"RelativeToPlayer":true}
+        ],
+        "Sound":
+        [
+            {"sound":"game.tnt.fuse"}
+        ],
+        "Chest":
+        [
+            {"item":"minecraft:dirt","chance":100},
+            {"item":"minecraft:stone","chance":1},
+            {"item":"minecraft:gravel","chance":4}
+        ]
+    }
+}
