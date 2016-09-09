@@ -734,6 +734,13 @@ recipes.remove(<grapplemod:repeller>);
 //dire autocrafter
 recipes.remove(<avaritiaddons:ExtremeAutoCrafter>);
 
+//pendants n stuff
+recipes.remove(<chancecubes:chancePendantTier1>);
+recipes.remove(<chancecubes:chancePendantTier2>);
+recipes.remove(<chancecubes:chancePendantTier3>);
+recipes.remove(<chancecubes:silkTouchPendant>);
+recipes.remove(<chancecubes:scanner>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
