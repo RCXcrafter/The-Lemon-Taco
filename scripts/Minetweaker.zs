@@ -28,10 +28,6 @@
 <ore:sand>.addAll(<ore:blockSand>);
 <ore:blockSand>.mirror(<ore:sand>);
 
-
-//lemon bricks
-<ore:ingotBrickLemon>.add(<customitems:lemon_brick>);
-
 //fruit dyes
 <ore:dye>.add(<customitems:lemon_yellow_dye>);
 <ore:dyeYellow>.add(<customitems:lemon_yellow_dye>);
@@ -143,9 +139,6 @@
 
 //blue dye block
 <ore:blockDyeBlue>.add(<customitems:block_of_blue_dye>);
-
-//chocolate bar
-<ore:ingotChocolate>.add(<ganyssurface:chocolateBar>);
 
 //charcole
 <ore:blockCharcoal>.add(<condensedblocks:charcoalBlock>);
@@ -741,6 +734,20 @@ recipes.remove(<chancecubes:chancePendantTier3>);
 recipes.remove(<chancecubes:silkTouchPendant>);
 recipes.remove(<chancecubes:scanner>);
 
+//anchor
+recipes.remove(<metalforge:null>);
+
+//make lapis useless again
+recipes.remove(<TSteelworks:HighOven:13>);
+recipes.remove(<tinkersdefense:modItemsArmor:1>);
+recipes.remove(<tinkersdefense:modItemsArmor:2>);
+recipes.remove(<tinkersdefense:modItemsArmor:3>);
+recipes.remove(<tinkersdefense:modItemsArmor:6>);
+recipes.remove(<OpenBlocks:projector>);
+
+//ore dictionaty combinator
+recipes.remove(<odc:Workbench:*>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -856,6 +863,9 @@ recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:1> * 9,[<ore:blockDyeBlue>])
 
 //chocolate
 recipes.addShapeless(<ganyssurface:chocolateBar>,[<ore:beansCocoa>,<minecraft:milk_bucket>,<ore:dustSugar>]);
+
+//chance cubes
+recipes.addShapeless(<chancecubes:Chance_Cube>,[<ore:blockSalt>,<ore:dustBitumen>,<qCraft:dust>,<ore:dustMidasium>,<ore:dustEctoplasm>]);
 
 //non tinkers tools into tinkers tools
 //this first one is a copied example from the wiki
@@ -1294,6 +1304,14 @@ recipes.addShaped(<avaritiaddons:ExtremeAutoCrafter>,[[<ore:ingotCrystalMatrix>,
 
 //compressed crafting table
 recipes.addShaped(<Avaritia:Double_Craft>,[[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>]]);
+
+//remove lapis
+recipes.addShaped(<TSteelworks:HighOven:13>,[[<TSteelworks:Materials>,<TSteelworks:Materials>,<TSteelworks:Materials>],[<TSteelworks:Materials>,<minecraft:bucket>,<TSteelworks:Materials>],[<TSteelworks:Materials>,<TSteelworks:Materials>,<TSteelworks:Materials>]]);
+recipes.addShapedMirrored(<tinkersdefense:modItemsArmor:1>,[[<minecraft:bucket>,<ore:slimeball>],[<minecraft:bucket>,<ore:slimeball>]]);
+recipes.addShaped(<tinkersdefense:modItemsArmor:2>,[[null,<ore:slimeball>,null],[<tinkersdefense:modItemsArmor:1>,<tinkersdefense:ArmorPlatePart:16>,<tinkersdefense:modItemsArmor:1>]]);
+recipes.addShaped(<tinkersdefense:modItemsArmor:3>,[[<ore:ingotEndium>,<ore:ingotEndium>,<ore:ingotEndium>],[<erebus:materials:5>,<ore:ingotEndium>,<erebus:materials:5>]]);
+recipes.addShaped(<tinkersdefense:modItemsArmor:6>,[[<minecraft:ice>,<minecraft:water_bucket>,<minecraft:ice>],[<minecraft:water_bucket>,<ore:ingotCobalt>,<minecraft:water_bucket>],[<minecraft:ice>,<minecraft:water_bucket>,<minecraft:ice>]]);
+recipes.addShaped(<OpenBlocks:projector>,[[<atum:tile.crystalGlass>,<atum:tile.crystalGlass>,<atum:tile.crystalGlass>],[<ore:ingotAstralSilver>,<erebus:redGem>,<ore:ingotAstralSilver>],[<ore:slabStone>,<erebus:redGem>,<ore:slabStone>]]);
 
 
 #furnace recipes

@@ -212,6 +212,9 @@ mods.tconstruct.Smeltery.addMelting(<ore:dustMithril>,<liquid:mithril.molten> * 
 mods.tconstruct.Smeltery.addMelting(<ore:ingotMithril>,<liquid:mithril.molten> * 144,550,<Metallurgy:fantasy.block:7>);
 mods.tconstruct.Smeltery.addMelting(<ore:nuggetMithril>,<liquid:mithril.molten> * 16,550,<Metallurgy:fantasy.block:7>);
 
+//melt magnetite
+mods.tconstruct.Smeltery.addMelting(<metalforge:magnetiteAll:*>,<liquid:iron.molten> * 32,1400,<metalforge:magnetiteAll>);
+
 #casting
 
 //cast ice
@@ -301,6 +304,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<chancecubes:Compact_Giant_Chance_Cube>,
 mods.avaritia.ExtremeCrafting.remove(<avaritiaddons:CompressedChest>);
 mods.avaritia.ExtremeCrafting.addShaped(<avaritiaddons:CompressedChest>,[[<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,null,null,null,null,null,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,null,null,null,null,null,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>]]);
 mods.avaritia.ExtremeCrafting.addShaped(<avaritiaddons:InfinityChest>,[[<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>]]);
+mods.avaritia.ExtremeCrafting.addShaped(<metalforge:null>,[[null,null,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,null,null],[null,null,<ore:ingotSteel>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:ingotSteel>,null,null],[null,null,<ore:ingotSteel>,<ore:skullPlayer>,<ore:ingotCosmicNeutronium>,<ore:skullPlayer>,<ore:ingotSteel>,null,null],[null,null,<ore:ingotSteel>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:ingotSteel>,null,null],[null,null,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,null,null],[null,null,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,null,null],[<ore:ingotSteel>,<ore:ingotSteel>,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null]]);
 
 //ultimate stew and cosmic meatballs
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Cosmic_Meatballs>);
@@ -320,16 +324,22 @@ mods.avaritia.ExtremeCrafting.addShaped(<MultiPageChest:multipagechest>,[[<ore:c
 //building wand
 mods.avaritia.ExtremeCrafting.addShaped(<betterbuilderswands:wandUnbreakable:30>,[[null,null,null,null,null,null,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>],[null,null,null,null,null,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>],[null,null,null,null,null,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>],[null,null,null,null,<ore:ingotCosmicNeutronium>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,null],[null,null,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,null,null],[null,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,null,null,null],[null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,null,null,null,null],[<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,null,null,null,null,null],[null,<ore:ingotCosmicNeutronium>,null,null,null,null,null,null,null]]);
 
-//remove super powerful items
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shovel>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pickaxe>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Axe>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Sword>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Bow>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Chest>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pants>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
+//ore dictionary combinator parts
+mods.avaritia.ExtremeCrafting.addShaped(<odc:Workbench:1>,[[<ore:ingotUnstable>,<ore:ingotUnstable>,null,<ore:ingotUnstable>,<ore:ingotUnstable>],[<ore:ingotUnstable>,<ore:blockIron>,<ore:ingotCrystalMatrix>,<ore:blockIron>,<ore:ingotUnstable>],[null,<ore:ingotCrystalMatrix>,<ore:blockInfinity>,<ore:ingotCrystalMatrix>,null],[<ore:ingotUnstable>,<ore:blockIron>,<ore:ingotCrystalMatrix>,<ore:blockIron>,<ore:ingotUnstable>],[<ore:ingotUnstable>,<ore:ingotUnstable>,null,<ore:ingotUnstable>,<ore:ingotUnstable>]]);
+mods.avaritia.ExtremeCrafting.addShaped(<odc:Workbench:2>,[[<odc:Workbench:1>,<odc:Workbench:1>,null,<odc:Workbench:1>,<odc:Workbench:1>],[<odc:Workbench:1>,<ganysend:advancedExclusiveFilteringHopper>,<customitems:black_hole>,<ganysend:advancedExclusiveFilteringHopper>,<odc:Workbench:1>],[null,<customitems:black_hole>,<Avaritia:Resource:5>,<customitems:black_hole>,null],[<odc:Workbench:1>,<ganysend:advancedExclusiveFilteringHopper>,<customitems:black_hole>,<ganysend:advancedExclusiveFilteringHopper>,<odc:Workbench:1>],[<odc:Workbench:1>,<odc:Workbench:1>,null,<odc:Workbench:1>,<odc:Workbench:1>]]);
+mods.avaritia.ExtremeCrafting.addShaped(<odc:Workbench:3>,[[<odc:Workbench:1>,<odc:Workbench:1>,null,<odc:Workbench:1>,<odc:Workbench:1>],[<odc:Workbench:1>,<ore:blockInfinity>,<ore:blockInfinity>,<ore:blockInfinity>,<odc:Workbench:1>],[null,<ore:blockInfinity>,<qCraft:quantumcomputer>,<ore:blockInfinity>,null],[<odc:Workbench:1>,<ore:blockInfinity>,<ore:blockInfinity>,<ore:blockInfinity>,<odc:Workbench:1>],[<odc:Workbench:1>,<odc:Workbench:1>,null,<odc:Workbench:1>,<odc:Workbench:1>]]);
+mods.avaritia.ExtremeCrafting.addShaped(<odc:Workbench:4>,[[<odc:Workbench:1>,<odc:Workbench:1>,null,<odc:Workbench:1>,<odc:Workbench:1>],[<odc:Workbench:1>,<ore:blockCosmicNeutronium>,<ore:blockInfuscolium>,<ore:blockCosmicNeutronium>,<odc:Workbench:1>],[null,<ore:blockInfuscolium>,<OpenBlocks:devnull>,<ore:blockInfuscolium>,null],[<odc:Workbench:1>,<ore:blockCosmicNeutronium>,<ore:blockInfuscolium>,<ore:blockCosmicNeutronium>,<odc:Workbench:1>],[<odc:Workbench:1>,<odc:Workbench:1>,null,<odc:Workbench:1>,<odc:Workbench:1>]]);
+
+//remove super powerful items (nevermind)
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shovel>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pickaxe>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Axe>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Sword>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Bow>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Chest>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pants>);
+//mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
 
 //new catalist recipe
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
@@ -372,6 +382,10 @@ mods.tsteelworks.mix.removeAgent("<minecraft:redstone>");
 mods.tsteelworks.mix.removeAgent("minecraft:redstone");
 mods.tsteelworks.mix.removeMix(<liquid:iron.molten> * 144, "dustGunpowder", "dustRedstone", "blockSand");
 mods.tsteelworks.mix.removeMix(<liquid:iron.molten> * 144, "dustSulfur", "dustRedstone", "blockSand");
+
+//melt magnetite
+mods.tsteelworks.highoven.addMeltable(<metalforge:magnetiteAll:*>, true, <liquid:iron.molten> * 16, 1400);
+
 
 //melt metals here please
 //melt mithril
