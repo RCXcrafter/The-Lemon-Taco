@@ -215,6 +215,9 @@ mods.tconstruct.Smeltery.addMelting(<ore:nuggetMithril>,<liquid:mithril.molten> 
 //melt magnetite
 mods.tconstruct.Smeltery.addMelting(<metalforge:magnetiteAll:*>,<liquid:iron.molten> * 32,1400,<metalforge:magnetiteAll>);
 
+//melt golden flowers
+mods.tconstruct.Smeltery.addMelting(<elysium:tile.elysium_flower:1>,<liquid:gold.molten> * 32,1050,<minecraft:gold_block>);
+
 #casting
 
 //cast ice
@@ -238,11 +241,11 @@ mods.tconstruct.Casting.addTableRecipe(<ExtrabiomesXL:extrabiomes.food:1>,<liqui
 mods.tconstruct.Casting.addTableRecipe(<ganyssurface:chocolateBar>,<liquid:chocolate.molten> * 144,<TConstruct:metalPattern>,false,30);
 
 //cast singularities (this is a bad idea)
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity>,<liquid:iron.molten> * 5054400,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:1>,<liquid:gold.molten> * 4276800,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:5>,<liquid:copper.molten> * 5054400,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:6>,<liquid:tin.molten> * 5054400,<Avaritia:Resource:2>,true,30);
-mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:8>,<liquid:silver.molten> * 4665600,<Avaritia:Resource:2>,true,30);
+//mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity>,<liquid:iron.molten> * 5054400,<Avaritia:Resource:2>,true,30);
+//mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:1>,<liquid:gold.molten> * 4276800,<Avaritia:Resource:2>,true,30);
+//mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:5>,<liquid:copper.molten> * 5054400,<Avaritia:Resource:2>,true,30);
+//mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:6>,<liquid:tin.molten> * 5054400,<Avaritia:Resource:2>,true,30);
+//mods.tconstruct.Casting.addTableRecipe(<Avaritia:Singularity:8>,<liquid:silver.molten> * 4665600,<Avaritia:Resource:2>,true,30);
 
 //cast mithril
 mods.tconstruct.Casting.addTableRecipe(<Metallurgy:mithril.ingot>,<liquid:mithril.molten> * 144,<TConstruct:metalPattern>,false,30);
@@ -343,7 +346,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<odc:Workbench:4>,[[<odc:Workbench:1>,<o
 
 //new catalist recipe
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
-mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>,[<Avaritia:Singularity>,<Avaritia:Singularity:1>,<Avaritia:Singularity:2>,<Avaritia:Singularity:3>,<Avaritia:Singularity:4>,<Avaritia:Singularity:5>,<Avaritia:Singularity:6>,<Avaritia:Singularity:8>,<Avaritia:Ultimate_Stew>,<Avaritia:Cosmic_Meatballs>,<Avaritia:Endest_Pearl>,<Avaritia:Resource:7>,<ore:blockEmerald>,<ore:blockManyullyn>,<ore:blockSteel>,<ore:blockUnstable>,<ExtraUtilities:block_bedrockium>,<ore:ingotTartarite>,<ore:ingotSanguinite>,<ore:ingotDesichalkos>,<ore:ingotNeptunium>,<ore:gemUnobtaniumHyperDiamond>]);
+mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>,[<eternalsingularity:eternal_singularity>,<Avaritia:Ultimate_Stew>,<Avaritia:Cosmic_Meatballs>,<Avaritia:Endest_Pearl>,<Avaritia:Resource:7>,<ore:blockManyullyn>,<ore:blockSteel>,<ore:blockUnstable>,<ExtraUtilities:block_bedrockium>,<ore:blockTartarite>,<ore:blockSanguinite>,<ore:blockDesichalkos>,<ore:blockNeptunium>,<ore:gemUnobtaniumHyperDiamond>]);
 
 
 #tinkers steelworks
@@ -389,189 +392,189 @@ mods.tsteelworks.highoven.addMeltable(<metalforge:magnetiteAll:*>, true, <liquid
 
 //melt metals here please
 //melt mithril
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:29>, true, <liquid:mithril.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:29>, true, <liquid:mithril.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:7>, true, <liquid:mithril.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:7>, false, <liquid:mithril.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:7>, false, <liquid:mithril.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:mithril.ingot>, false, <liquid:mithril.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:7>, false, <liquid:mithril.molten> * 16, 550);
 //melt platinum
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:7>, true, <liquid:platinum.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:7>, true, <liquid:platinum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.ore:2>, true, <liquid:platinum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.block:2>, false, <liquid:platinum.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.dust:2>, false, <liquid:platinum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:platinum.ingot>, false, <liquid:platinum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.nugget:2>, false, <liquid:platinum.molten> * 16, 550);
 //melt manganese
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:11>, true, <liquid:manganese.molten> * 144, 700);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:11>, true, <liquid:manganese.molten> * 144, 700);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:base.ore:2>, true, <liquid:manganese.molten> * 144, 700);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:base.block:2>, false, <liquid:manganese.molten> * 1296, 700);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:base.dust:2>, false, <liquid:manganese.molten> * 144, 700);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:manganese.ingot>, false, <liquid:manganese.molten> * 144, 700);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:base.nugget:2>, false, <liquid:manganese.molten> * 16, 700);
 //melt zinc
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:12>, true, <liquid:zinc.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:12>, true, <liquid:zinc.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.ore>, true, <liquid:zinc.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.block>, false, <liquid:zinc.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.dust>, false, <liquid:zinc.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:zinc.ingot>, false, <liquid:zinc.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.nugget>, false, <liquid:zinc.molten> * 16, 550);
 //melt silver
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:5>, true, <liquid:silver.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:5>, true, <liquid:silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.ore:1>, true, <liquid:silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.block:1>, false, <liquid:silver.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.dust:1>, false, <liquid:silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:silver.ingot>, false, <liquid:silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:precious.nugget:1>, false, <liquid:silver.molten> * 16, 550);
 //melt ignatius
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:13>, true, <liquid:ignatius.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:13>, true, <liquid:ignatius.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore>, true, <liquid:ignatius.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block>, false, <liquid:ignatius.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust>, false, <liquid:ignatius.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ignatius.ingot>, false, <liquid:ignatius.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget>, false, <liquid:ignatius.molten> * 16, 550);
 //melt shadow iron
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:14>, true, <liquid:shadow.iron.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:14>, true, <liquid:shadow.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:1>, true, <liquid:shadow.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:1>, false, <liquid:shadow.iron.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:1>, false, <liquid:shadow.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:shadow.iron.ingot>, false, <liquid:shadow.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:1>, false, <liquid:shadow.iron.molten> * 16, 550);
 //melt lemurite
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:15>, true, <liquid:lemurite.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:15>, true, <liquid:lemurite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:2>, true, <liquid:lemurite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:2>, false, <liquid:lemurite.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:2>, false, <liquid:lemurite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:lemurite.ingot>, false, <liquid:lemurite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:2>, false, <liquid:lemurite.molten> * 16, 550);
 //melt midasium
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:16>, true, <liquid:midasium.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:16>, true, <liquid:midasium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:3>, true, <liquid:midasium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:3>, false, <liquid:midasium.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:3>, false, <liquid:midasium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:midasium.ingot>, false, <liquid:midasium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:3>, false, <liquid:midasium.molten> * 16, 550);
 //melt vyroxeres
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:17>, true, <liquid:vyroxeres.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:17>, true, <liquid:vyroxeres.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:4>, true, <liquid:vyroxeres.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:4>, false, <liquid:vyroxeres.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:4>, false, <liquid:vyroxeres.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:vyroxeres.ingot>, false, <liquid:vyroxeres.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:4>, false, <liquid:vyroxeres.molten> * 16, 550);
 //melt ceruclase
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:18>, true, <liquid:ceruclase.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:18>, true, <liquid:ceruclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:5>, true, <liquid:ceruclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:5>, false, <liquid:ceruclase.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:5>, false, <liquid:ceruclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ceruclase.ingot>, false, <liquid:ceruclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:5>, false, <liquid:ceruclase.molten> * 16, 550);
 //melt alduorite
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:19>, true, <liquid:alduorite.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:19>, true, <liquid:alduorite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:6>, true, <liquid:alduorite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:6>, false, <liquid:alduorite.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:6>, false, <liquid:alduorite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:alduorite.ingot>, false, <liquid:alduorite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:6>, false, <liquid:alduorite.molten> * 16, 550);
 //melt kalendrite
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:20>, true, <liquid:kalendrite.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:20>, true, <liquid:kalendrite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:7>, true, <liquid:kalendrite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:7>, false, <liquid:kalendrite.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:7>, false, <liquid:kalendrite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:kalendrite.ingot>, false, <liquid:kalendrite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:7>, false, <liquid:kalendrite.molten> * 16, 550);
 //melt vulcanite
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:21>, true, <liquid:vulcanite.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:21>, true, <liquid:vulcanite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:8>, true, <liquid:vulcanite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:8>, false, <liquid:vulcanite.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:8>, false, <liquid:vulcanite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:vulcanite.ingot>, false, <liquid:vulcanite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:8>, false, <liquid:vulcanite.molten> * 16, 550);
 //melt sanguinite
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:22>, true, <liquid:sanguinite.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:22>, true, <liquid:sanguinite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.ore:9>, true, <liquid:sanguinite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.block:9>, false, <liquid:sanguinite.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.dust:9>, false, <liquid:sanguinite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:sanguinite.ingot>, false, <liquid:sanguinite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:nether.nugget:9>, false, <liquid:sanguinite.molten> * 16, 550);
 //melt prometheum
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:23>, true, <liquid:prometheum.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:23>, true, <liquid:prometheum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore>, true, <liquid:prometheum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block>, false, <liquid:prometheum.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust>, false, <liquid:prometheum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:prometheum.ingot>, false, <liquid:prometheum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget>, false, <liquid:prometheum.molten> * 16, 550);
 //melt deep iron
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:24>, true, <liquid:deep.iron.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:24>, true, <liquid:deep.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:1>, true, <liquid:deep.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:1>, false, <liquid:deep.iron.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:1>, false, <liquid:deep.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:deep.iron.ingot>, false, <liquid:deep.iron.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:1>, false, <liquid:deep.iron.molten> * 16, 550);
 //melt infuscolium
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:25>, true, <liquid:infuscolium.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:25>, true, <liquid:infuscolium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:2>, true, <liquid:infuscolium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:2>, false, <liquid:infuscolium.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:2>, false, <liquid:infuscolium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:infuscolium.ingot>, false, <liquid:infuscolium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:2>, false, <liquid:infuscolium.molten> * 16, 550);
 //melt oureclase
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:26>, true, <liquid:oureclase.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:26>, true, <liquid:oureclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:4>, true, <liquid:oureclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:4>, false, <liquid:oureclase.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:4>, false, <liquid:oureclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:oureclase.ingot>, false, <liquid:oureclase.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:4>, false, <liquid:oureclase.molten> * 16, 550);
 //melt astral silver
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:27>, true, <liquid:astral.silver.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:27>, true, <liquid:astral.silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:5>, true, <liquid:astral.silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:5>, false, <liquid:astral.silver.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:5>, false, <liquid:astral.silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:astral.silver.ingot>, false, <liquid:astral.silver.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:5>, false, <liquid:astral.silver.molten> * 16, 550);
 //melt carmot
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:28>, true, <liquid:carmot.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:28>, true, <liquid:carmot.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:6>, true, <liquid:carmot.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:6>, false, <liquid:carmot.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:6>, false, <liquid:carmot.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:carmot.ingot>, false, <liquid:carmot.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:6>, false, <liquid:carmot.molten> * 16, 550);
 //melt rubracium
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:30>, true, <liquid:rubracium.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:30>, true, <liquid:rubracium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:8>, true, <liquid:rubracium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:8>, false, <liquid:rubracium.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:8>, false, <liquid:rubracium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:rubracium.ingot>, false, <liquid:rubracium.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:8>, false, <liquid:rubracium.molten> * 16, 550);
 //melt orichalcum
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:31>, true, <liquid:orichalcum.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:31>, true, <liquid:orichalcum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:11>, true, <liquid:orichalcum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:11>, false, <liquid:orichalcum.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:11>, false, <liquid:orichalcum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:orichalcum.ingot>, false, <liquid:orichalcum.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:11>, false, <liquid:orichalcum.molten> * 16, 550);
 //melt adamantine
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:32>, true, <liquid:adamantine.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:32>, true, <liquid:adamantine.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:13>, true, <liquid:adamantine.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:13>, false, <liquid:adamantine.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:13>, false, <liquid:adamantine.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:adamantine.ingot>, false, <liquid:adamantine.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:13>, false, <liquid:adamantine.molten> * 16, 550);
 //melt atlarus
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:33>, true, <liquid:atlarus.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:33>, true, <liquid:atlarus.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.ore:14>, true, <liquid:atlarus.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.block:14>, false, <liquid:atlarus.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.dust:14>, false, <liquid:atlarus.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:atlarus.ingot>, false, <liquid:atlarus.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:fantasy.nugget:14>, false, <liquid:atlarus.molten> * 16, 550);
 //melt eximite
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:34>, true, <liquid:eximite.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:34>, true, <liquid:eximite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ender.ore>, true, <liquid:eximite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ender.block>, false, <liquid:eximite.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ender.dust>, false, <liquid:eximite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:eximite.ingot>, false, <liquid:eximite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ender.nugget>, false, <liquid:eximite.molten> * 16, 550);
 //melt meutoite
-mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:35>, true, <liquid:meutoite.molten> * 144, 550);
+//mods.tsteelworks.highoven.addMeltable(<FortuneOres:oreChunk:35>, true, <liquid:meutoite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ender.ore:1>, true, <liquid:meutoite.molten> * 144, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ender.block:1>, false, <liquid:meutoite.molten> * 1296, 550);
 mods.tsteelworks.highoven.addMeltable(<Metallurgy:ender.dust:1>, false, <liquid:meutoite.molten> * 144, 550);
@@ -993,6 +996,16 @@ mods.chisel.Groups.addVariation("magnetite", <metalforge:magnetiteAll:2>);
 mods.chisel.Groups.addVariation("magnetite", <metalforge:magnetiteAll:3>);
 mods.chisel.Groups.addVariation("magnetite", <metalforge:magnetiteAll:4>);
 mods.chisel.Groups.addVariation("magnetite", <metalforge:magnetiteAll:5>);
+
+//sulfur
+mods.chisel.Groups.addGroup("sulfurBlock");
+mods.chisel.Groups.addVariation("sulfurBlock", <Metallurgy:utility.block>);
+mods.chisel.Groups.addVariation("sulfurBlock", <elysium:tile.blockSulphur>);
+
+//jade
+mods.chisel.Groups.addGroup("jadeBlock");
+mods.chisel.Groups.addVariation("jadeBlock", <erebus:blockJade>);
+mods.chisel.Groups.addVariation("jadeBlock", <elysium:tile.blockJade>);
 
 //let's make chisel metal blocks less expensive
 
@@ -2258,7 +2271,7 @@ mods.metallurgy.Alloyer.addRecipe(<customitems:alumite_dust>, <TConstruct:materi
 mods.metallurgy.Alloyer.addRecipe(<customitems:neptunium_dust>, <Metallurgy:nether.dust:9>, <customitems:atlantium_ingot>);
 mods.metallurgy.Alloyer.addRecipe(<projectfruit:lemonstone>, <projectfruit:limestone>, <customitems:lemon_lime_stone>);
 mods.metallurgy.Alloyer.addRecipe(<minecraft:sand>, <minecraft:iron_ingot>, <GardenStuff:wrought_iron_ingot>);
-mods.metallurgy.Alloyer.addRecipe(<minecraft:sand>, <FortuneOres:oreChunk>, <GardenStuff:wrought_iron_ingot>);
+mods.metallurgy.Alloyer.addRecipe(<minecraft:sand>, <aobd:orechunkIron>, <GardenStuff:wrought_iron_ingot>);
 
 
 //MTutils

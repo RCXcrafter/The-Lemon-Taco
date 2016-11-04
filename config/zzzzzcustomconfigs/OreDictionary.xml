@@ -412,5 +412,81 @@ some more stuff that currently doesn't work
 	<name>"record"</name>
 	<stack1>portalblocks:abadu_gaben 1 0</stack1>
 	</ore>
+	<ore>
+	<name>"stone"</name>
+	<stack1>elysium:tile.palestone 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockSand"</name>
+	<stack1>elysium:tile.leucosand 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"oreSulfur"</name>
+	<stack1>elysium:tile.oreSulphur 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockSulfur"</name>
+	<stack1>elysium:tile.blockSulphur 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockBeryl"</name>
+	<stack1>elysium:tile.blockBeryl 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockCobalt"</name>
+	<stack1>elysium:tile.blockCobalt 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockIridium"</name>
+	<stack1>elysium:tile.blockIridium 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockSilicon"</name>
+	<stack1>elysium:tile.blockSilicon 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockJade"</name>
+	<stack1>elysium:tile.blockJade 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"blockTourmaline"</name>
+	<stack1>elysium:tile.blockTourmaline 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"gemBeryl"</name>
+	<stack1>elysium:item.beryl 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"ingotCobalt"</name>
+	<stack1>elysium:item.ingotCobalt 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"ingotIridium"</name>
+	<stack1>elysium:item.ingotIridium 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"gemJade"</name>
+	<stack1>elysium:item.jade 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"gemSilicon"</name>
+	<stack1>elysium:item.siliconchunk 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"dustSulfur"</name>
+	<stack1>elysium:item.elysium_sulphur 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"gemTourmaline"</name>
+	<stack1>elysium:item.tourmaline 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"ingotTooth"</name>
+	<stack1>elysium:item.ingotTooth 1 0</stack1>
+	</ore>
+	<ore>
+	<name>"hornUnicorn"</name>
+	<stack1>elysium:item.WandCores 1 0</stack1>
+	</ore>
 
 </OreDictionary>

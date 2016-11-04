@@ -358,6 +358,64 @@ recipes.remove(<minecraft:diamond_axe:*>);
 recipes.remove(<minecraft:diamond_shovel:*>);
 recipes.remove(<minecraft:diamond_pickaxe:*>);
 recipes.remove(<minecraft:diamond_hoe:*>);
+recipes.remove(<renkin42swt:tomahawk_wood>);
+recipes.remove(<renkin42swt:tomahawk_stone>);
+recipes.remove(<renkin42swt:tomahawk_iron>);
+recipes.remove(<renkin42swt:tomahawk_gold>);
+recipes.remove(<renkin42swt:tomahawk_diamond>);
+recipes.remove(<GlassWorks:Saw>);
+recipes.remove(<Natura:natura.sword.ghostwood>);
+recipes.remove(<Natura:natura.pickaxe.ghostwood>);
+recipes.remove(<Natura:natura.shovel.ghostwood>);
+recipes.remove(<Natura:natura.axe.ghostwood>);
+recipes.remove(<Natura:natura.sword.bloodwood>);
+recipes.remove(<Natura:natura.pickaxe.bloodwood>);
+recipes.remove(<Natura:natura.shovel.bloodwood>);
+recipes.remove(<Natura:natura.axe.bloodwood>);
+recipes.remove(<Natura:natura.sword.darkwood>);
+recipes.remove(<Natura:natura.pickaxe.darkwood>);
+recipes.remove(<Natura:natura.shovel.darkwood>);
+recipes.remove(<Natura:natura.axe.darkwood>);
+recipes.remove(<Natura:natura.sword.fusewood>);
+recipes.remove(<Natura:natura.pickaxe.fusewood>);
+recipes.remove(<Natura:natura.shovel.fusewood>);
+recipes.remove(<Natura:natura.axe.fusewood>);
+recipes.remove(<Natura:natura.sword.netherquartz>);
+recipes.remove(<Natura:natura.pickaxe.netherquartz>);
+recipes.remove(<Natura:natura.shovel.netherquartz>);
+recipes.remove(<Natura:natura.axe.netherquartz>);
+recipes.remove(<Natura:natura.kama.netherquartz>);
+recipes.remove(<Natura:natura.kama.ghostwood>);
+recipes.remove(<Natura:natura.kama.bloodwood>);
+recipes.remove(<Natura:natura.kama.darkwood>);
+recipes.remove(<Natura:natura.kama.fusewood>);
+recipes.remove(<atum:item.limestoneShovel>);
+recipes.remove(<atum:item.limestonePickaxe>);
+recipes.remove(<atum:item.limestoneAxe>);
+recipes.remove(<atum:item.limestoneSword>);
+recipes.remove(<atum:item.limestoneHoe>);
+recipes.remove(<elysium:item.swordPalestone>);
+recipes.remove(<elysium:item.hoeFostimber>);
+recipes.remove(<elysium:item.pickaxeFostimber>);
+recipes.remove(<elysium:item.axePalestone>);
+recipes.remove(<elysium:item.hoePalestone>);
+recipes.remove(<elysium:item.pickaxePalestone>);
+recipes.remove(<elysium:item.swordFostimber>);
+recipes.remove(<elysium:item.shovelPalestone>);
+recipes.remove(<elysium:item.axeFostimber>);
+recipes.remove(<elysium:item.shovelFostimber>);
+recipes.remove(<erebus:swordJade>);
+recipes.remove(<erebus:pickaxeJade>);
+recipes.remove(<erebus:axeJade>);
+recipes.remove(<erebus:shovelJade>);
+recipes.remove(<erebus:paxelJade>);
+recipes.remove(<erebus:hoeJade>);
+recipes.remove(<mythril:mythril_spade:*>);
+recipes.remove(<mythril:mythril_katana:*>);
+recipes.remove(<mythril:mythril_halberd:*>);
+recipes.remove(<mythril:mythril_pickaxe:*>);
+recipes.remove(<mythril:mythril_hoe:*>);
+recipes.remove(<mythril:mithril_bow:*>);
 
 //pistronics stuff
 recipes.remove(<Pistronics2:Pile of Redstone>);
@@ -368,7 +426,7 @@ recipes.remove(<Pistronics2:Super Glue>);
 recipes.remove(<Pistronics2:Camou Paste>);
 
 //please don't use lapis lazuli for that
-recipes.remove(<modularsystems:blockFurnaceCraftingUpgrade>);
+//recipes.remove(<modularsystems:blockFurnaceCraftingUpgrade>);
 
 //infinite bucket
 recipes.remove(<ganysend:infiniteBucket>);
@@ -452,6 +510,8 @@ recipes.remove(<chisel:ballomoss>);
 
 //dooplicet sulper
 recipes.remove(<WTFTweaks:UnrefinedSulfur>);
+recipes.remove(<elysium:tile.blockSulphur>);
+recipes.remove(<elysium:item.elysium_sulphur>);
 
 //metallurgy machines
 recipes.remove(<Metallurgy:machine.frame>);
@@ -518,11 +578,6 @@ recipes.remove(<PortalGun:LongFallBoot>);
 
 //snad
 recipes.remove(<snad:tile.snad>);
-
-//porcelain is useless
-recipes.remove(<exnihilo:porcelain>);
-recipes.remove(<exnihilo:crucible_unfired>);
-furnace.remove(<exnihilo:crucible>);
 
 //sunthesiser
 recipes.remove(<Sunnarium:Synthetiser>);
@@ -748,6 +803,18 @@ recipes.remove(<OpenBlocks:projector>);
 //ore dictionaty combinator
 recipes.remove(<odc:Workbench:*>);
 
+//villager rerolling
+recipes.remove(<cubicvillager:villager_block_trade>);
+
+//useless weird rings and amulets
+recipes.remove(<craftingpillars:item.ring_base>);
+recipes.remove(<mythril:mythril_ring>);
+recipes.remove(<mythril:mythril_wither_ring>);
+recipes.remove(<mythril:ender_amulet>);
+
+//grafitti guns
+recipes.remove(<GraviGun:GraviGun:*>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -841,6 +908,7 @@ recipes.addShapeless(<TConstruct:heartCanister:6>,[<TConstruct:heartCanister:4>,
 
 //golden stuff with midasium
 recipes.addShapeless(<Aquaculture:item.Fish:37>,[<ore:dustMidasium>,<minecraft:fish>]);
+recipes.addShapeless(<elysium:tile.elysium_flower:1>,[<ore:dustMidasium>,<elysium:tile.elysium_flower>]);
 
 //snad
 recipes.addShapeless(<snad:tile.snad:1>,[<minecraft:sand:1>,<ore:itemClay>,<ore:dustPhosphorus>]);
@@ -867,6 +935,10 @@ recipes.addShapeless(<ganyssurface:chocolateBar>,[<ore:beansCocoa>,<minecraft:mi
 //chance cubes
 recipes.addShapeless(<chancecubes:Chance_Cube>,[<ore:blockSalt>,<ore:dustBitumen>,<qCraft:dust>,<ore:dustMidasium>,<ore:dustEctoplasm>]);
 
+//villager stuff
+recipes.addShapeless(<cubicvillager:villager_block_slab> * 2,[<cubicvillager:villager_block_n>]);
+recipes.addShapeless(<headcrumbs:head:11>,[<cubicvillager:villager_block_trade>]);
+
 //non tinkers tools into tinkers tools
 //this first one is a copied example from the wiki
 //recipes.addShapeless(<minecraft:stone_pickaxe>, [<minecraft:stone_pickaxe>.anyDamage().marked("pick"), <minecraft:cobblestone>], function(output, inputs, crafting) {
@@ -882,6 +954,23 @@ recipes.addShapeless(<chancecubes:Chance_Cube>,[<ore:blockSalt>,<ore:dustBitumen
 //});
 
 recipes.addShapeless(<TConstruct:ShortBow>.withTag({InfiTool: {BaseDurability: 57, BaseAttack: 2, DrawSpeed: 16, Built: 1 as byte, HarvestLevel: 0, RenderHead: 0, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 0, Accessory: 0, MiningSpeed: 120, Unbreaking: 0, Damage: 0, HarvestLevel2: 0, BonusDurability: 0, TotalDurability: 57, MiningSpeed2: 120, BaseDrawSpeed: 16, Head: 0, Attack: 2, Handle: 0, Broken: 0 as byte, RenderAccessory: 0, FlightSpeed: 3.0 as float, Modifiers: 3}, display: {Name: "§fWooden Shortbow"}}), [<minecraft:bow>]);
+recipes.addShapeless(<TConstruct:ShortBow>.withTag({InfiTool: {BaseDurability: 57, BaseAttack: 2, DrawSpeed: 16, Built: 1 as byte, HarvestLevel: 0, RenderHead: 0, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 0, Accessory: 0, MiningSpeed: 28, Unbreaking: 0, Damage: 0, HarvestLevel2: 0, BonusDurability: 593, TotalDurability: 650, MiningSpeed2: 28, BaseDrawSpeed: 16, Head: 0, Attack: 2, Handle: 0, Broken: 0 as byte, RenderAccessory: 0, FlightSpeed: 10.0 as float, Modifiers: 0}, display: {Name: "§bHorus' Soaring"}}),[<atum:item.horusSoaring>]);
+recipes.addShapeless(<TConstruct:ShortBow>.withTag({InfiTool: {BaseDurability: 57, BaseAttack: 2, DrawSpeed: 9, Built: 1 as byte, HarvestLevel: 0, RenderHead: 0, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 0, Accessory: 0, MiningSpeed: 28, Unbreaking: 0, Damage: 0, HarvestLevel2: 0, BonusDurability: 593, TotalDurability: 650, MiningSpeed2: 28, BaseDrawSpeed: 9, Head: 0, Attack: 2, Handle: 0, Broken: 0 as byte, RenderAccessory: 0, FlightSpeed: 3.0 as float, Modifiers: 0}, display: {Name: "§bShus' Breath"}}),[<atum:item.shusBreath>]);
+recipes.addShapeless(<TConstruct:ShortBow>.withTag({InfiTool: {BaseDurability: 57, BaseAttack: 2, DrawSpeed: 1, Built: 1 as byte, HarvestLevel: 0, RenderHead: 0, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 0, Accessory: 0, MiningSpeed: 28, Unbreaking: 0, Damage: 0, HarvestLevel2: 0, BonusDurability: 244, TotalDurability: 301, MiningSpeed2: 28, BaseDrawSpeed: 1, Head: 0, Attack: 2, Handle: 0, Broken: 0 as byte, RenderAccessory: 0, FlightSpeed: 0.0 as float, Modifiers: 0}, display: {Name: "§bMaximum Speed Bow"}}),[<erebus:maxSpeedBow>]);
+recipes.addShapeless(<TConstruct:ShortBow>.withTag({InfiTool: {BaseDurability: 57, BaseAttack: 2, DrawSpeed: 16, Built: 1 as byte, HarvestLevel: 0, RenderHead: 0, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 0, Accessory: 0, MiningSpeed: 28, Unbreaking: 0, Damage: 0, HarvestLevel2: 0, BonusDurability: 327, TotalDurability: 384, MiningSpeed2: 28, BaseDrawSpeed: 16, Head: 0, Attack: 2, Handle: 0, Broken: 0 as byte, RenderAccessory: 0, FlightSpeed: 3.0 as float, Modifiers: 3}, display: {Name: "§fBandit's Shortbow"}}),[<atum:item.bow>]);
+recipes.addShapeless(<TConstruct:battleaxe>.withTag({InfiTool: {RenderExtra: 0, BaseDurability: 213, BaseAttack: 6, Built: 1 as byte, Effect1: 3, HarvestLevel: 0, ModifierTip1: "§5Exile I: Knocks foes \nback a large amount", RenderHead: 0, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 0, Accessory: 0, MiningSpeed: 28, Unbreaking: 0, Damage: 0, HarvestLevel2: 0, BonusDurability: 1348, TotalDurability: 1561, MiningSpeed2: 28, Head: 0, Tooltip1: "§7Exile I §8[SHIFT]", Attack: 6, Handle: 0, Broken: 0 as byte, Extra: 0, RenderAccessory: 0, Knockback: 4 as float, ToolLevel: 1, Modifiers: 3}, display: {Name: "§bSoteks' Rage"}}),[<atum:item.soteksRage>]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
+//recipes.addShapeless(,[]);
 
 
 
@@ -982,7 +1071,7 @@ recipes.addShaped(<ejectorrail:ejectorRail> * 6,[[<ore:ingotIron>,null,<ore:ingo
 //recipes.addShaped(<customitems:dark_quartz> * 4,[[<customitems:dark_quartz_block>]]);
 
 //modular crafting addition
-recipes.addShaped(<modularsystems:blockFurnaceCraftingUpgrade>,[[<ore:ingotIron>,<ore:ingotBronze>,<ore:ingotIron>],[<ore:ingotBronze>,<ore:crafterWood>,<ore:ingotBronze>],[<ore:ingotIron>,<ore:ingotBronze>,<ore:ingotIron>]]);
+//recipes.addShaped(<modularsystems:blockFurnaceCraftingUpgrade>,[[<ore:ingotIron>,<ore:ingotBronze>,<ore:ingotIron>],[<ore:ingotBronze>,<ore:crafterWood>,<ore:ingotBronze>],[<ore:ingotIron>,<ore:ingotBronze>,<ore:ingotIron>]]);
 
 //wood fences
 //recipes.addShaped(<customitems:spruce_fence> * 2,[[<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>],[<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>]]);
@@ -1313,6 +1402,12 @@ recipes.addShaped(<tinkersdefense:modItemsArmor:3>,[[<ore:ingotEndium>,<ore:ingo
 recipes.addShaped(<tinkersdefense:modItemsArmor:6>,[[<minecraft:ice>,<minecraft:water_bucket>,<minecraft:ice>],[<minecraft:water_bucket>,<ore:ingotCobalt>,<minecraft:water_bucket>],[<minecraft:ice>,<minecraft:water_bucket>,<minecraft:ice>]]);
 recipes.addShaped(<OpenBlocks:projector>,[[<atum:tile.crystalGlass>,<atum:tile.crystalGlass>,<atum:tile.crystalGlass>],[<ore:ingotAstralSilver>,<erebus:redGem>,<ore:ingotAstralSilver>],[<ore:slabStone>,<erebus:redGem>,<ore:slabStone>]]);
 
+//crafting pillar stuff
+recipes.addShapeless(<craftingpillars:showOffPillar>,[<supercraftingframe:superitemframe>,<craftingpillars:extendPillar>]);
+recipes.addShapeless(<craftingpillars:craftingPillar>,[<ore:craftingTableWood>,<craftingpillars:extendPillar>]);
+recipes.addShapeless(<craftingpillars:tankPillar>,[<TConstruct:LavaTank>,<craftingpillars:extendPillar>]);
+recipes.addShaped(<Avaritia:Double_Craft>,[[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>]]);
+
 
 #furnace recipes
 
@@ -1343,3 +1438,4 @@ furnace.addRecipe(<ExtraUtilities:block_bedrockium>,<condensedblocks:cobblestone
 furnace.setFuel(<TConstruct:materials:7>, 46000);
 furnace.setFuel(<minecraft:fire_charge>, 3200);
 furnace.setFuel(<Sunnarium:Sunnarium>, 5); //you need 40 to smelt 1 item
+furnace.setFuel(<tinker_io:SolidFuel>, 1600);
