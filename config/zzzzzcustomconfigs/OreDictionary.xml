@@ -159,7 +159,7 @@ some more stuff that currently doesn't work
 	<ore>
 	<name>"ingotNosleeptonite"</name>
 	<stack>badores:ingot 1 16992</stack>
-	</ore> -->
+	</ore>
 	<ore>
 	<name>"blockPolite"</name>
 	<stack>badores:badOre0 1 8</stack>
@@ -351,7 +351,7 @@ some more stuff that currently doesn't work
 	<name>"oreTauntum"</name>
 	<stack1>badores:badOre4 1 1</stack1>
 	<stack2>customitems:tauntum_chunk 1 0</stack2>
-	</ore>
+	</ore> -->
 	<ore>
 	<name>"dustThermite"</name>
 	<stack1>tinker_io:SolidFuel 1 0</stack1>

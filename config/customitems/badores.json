@@ -1,0 +1,104 @@
+{
+    "items": [
+        {
+            "textureName": "ingot_polite",
+            "name": "Polite Ingot"
+        },
+        {
+            "textureName": "ingot_breakium",
+            "name": "Breakium Ingot"
+        },
+        {
+            "textureName": "ingot_crashium",
+            "name": "Crashium Ingot"
+        },
+        {
+            "textureName": "ingot_crappium",
+            "name": "Crappium Ingot"
+        },
+        {
+            "textureName": "ingot_enderite",
+            "name": "Enderite Ingot"
+        },
+        {
+            "textureName": "ingot_misleadium",
+            "name": "Misleadium Ingot"
+        },
+        {
+            "textureName": "ingot_ghostium",
+            "name": "Ghostium Ingot"
+        },
+        {
+            "textureName": "ingot_amadeum",
+            "name": "Amadeum Ingot"
+        },
+        {
+            "textureName": "ingot_barelygenerite",
+            "name": "Barelygenerite Ingot"
+        },
+        {
+            "textureName": "ingot_uselessium",
+            "name": "Uselessium Ingot"
+        },
+        {
+            "textureName": "ingot_killium",
+            "name": "Killium Ingot"
+        },
+        {
+            "textureName": "ingot_movium",
+            "name": "Movium Ingot"
+        },
+        {
+            "textureName": "ingot_explodeitmite",
+            "name": "Explodeitmite Ingot"
+        },
+        {
+            "textureName": "ingot_marmite",
+            "name": "Marmite Ingot"
+        },
+        {
+            "textureName": "ingot_shiftium",
+            "name": "Shiftium Ingot"
+        },
+        {
+            "textureName": "ingot_smite",
+            "name": "Smite Ingot"
+        },
+        {
+            "textureName": "ingot_idlikeabite",
+            "name": "Idlikeabite Ingot"
+        },
+        {
+            "textureName": "ingot_meteorite",
+            "name": "Meteorite Ingot"
+        },
+        {
+            "textureName": "ingot_streetscum",
+            "name": "Streetscum Ingot"
+        },
+        {
+            "textureName": "ingot_fleesonsite",
+            "name": "Fleesonsite Ingot"
+        },
+        {
+            "textureName": "ingot_nopium",
+            "name": "Nopium Ingot"
+        },
+        {
+            "textureName": "ingot_iwontfite",
+            "name": "Iwontfite Ingot"
+        },
+        {
+            "textureName": "ingot_tauntum",
+            "name": "Tauntum Ingot"
+        },
+        {
+            "textureName": "ingot_nosleeptonite",
+            "name": "Nosleeptonite Ingot"
+        },
+        {
+            "textureName": "ingot_kakkarite",
+            "name": "Kakkarite Ingot"
+        }
+    ]
+}
