@@ -301,11 +301,6 @@ recipes.remove(<projectfruit:blueberryaxe>);
 recipes.remove(<projectfruit:blueberryshovel>);
 recipes.remove(<projectfruit:blueberryhoe>);
 recipes.remove(<projectfruit:blueberrysword>);
-recipes.remove(<betterstorage:cardboardSword>);
-recipes.remove(<betterstorage:cardboardPickaxe>);
-recipes.remove(<betterstorage:cardboardShovel>);
-recipes.remove(<betterstorage:cardboardAxe>);
-recipes.remove(<betterstorage:cardboardHoe>);
 recipes.remove(<metalforge:SteelSword>);
 recipes.remove(<metalforge:SteelPickaxe>);
 recipes.remove(<metalforge:SteelAxe>);
@@ -705,10 +700,6 @@ recipes.remove(<Torcherino:tile.torcherino>);
 recipes.remove(<Torcherino:tile.inverse_torcherino>);
 //recipes.remove(<Torcherino:tile.compressed_inverse_torcherino>);
 recipes.remove(<Torcherino:tile.double_compressed_inverse_torcherino>);
-
-//DER (dragon egg replicator)
-recipes.remove(<dd:BlockDuplicator>);
-recipes.remove(<dd:ItemMeasuringDevice>);
 
 //whetstone
 recipes.remove(<erebus:whetstone:*>);
