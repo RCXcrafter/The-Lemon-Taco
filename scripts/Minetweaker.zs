@@ -425,9 +425,6 @@ recipes.remove(<Pistronics2:Redioactive Super Glue>);
 recipes.remove(<Pistronics2:Super Glue>);
 recipes.remove(<Pistronics2:Camou Paste>);
 
-//please don't use lapis lazuli for that
-//recipes.remove(<modularsystems:blockFurnaceCraftingUpgrade>);
-
 //infinite bucket
 recipes.remove(<ganysend:infiniteBucket>);
 
@@ -518,6 +515,7 @@ recipes.remove(<Metallurgy:machine.frame>);
 recipes.remove(<Metallurgy:crusher>);
 recipes.remove(<Metallurgy:alloyer>);
 recipes.remove(<Metallurgy:forge>);
+recipes.remove(<metallurgycm:crusher>);
 recipes.remove(<metallurgycm:smelter>);
 recipes.remove(<metallurgycm:abstractor>);
 
@@ -584,9 +582,6 @@ recipes.remove(<Sunnarium:Synthetiser>);
 
 //overpowered chest
 recipes.remove(<MultiPageChest:multipagechest>);
-
-//no, you can't craft that like that
-recipes.remove(<backlytra:elytra>);
 
 //invisizones recipe revamp
 recipes.remove(<invisizones:simpleinvizizoner>);
@@ -815,6 +810,16 @@ recipes.remove(<mythril:ender_amulet>);
 //grafitti guns
 recipes.remove(<GraviGun:GraviGun:*>);
 
+//green heart canister
+recipes.remove(<TConstruct:heartCanister:6>);
+
+//modular systems
+recipes.remove(<modularsystems:crusherCore>);
+recipes.remove(<modularsystems:powerSolids>);
+recipes.remove(<modularsystems:powerLiquids>);
+recipes.remove(<modularsystems:powerRF>);
+recipes.remove(<modularsystems:supplierRF>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -938,6 +943,27 @@ recipes.addShapeless(<chancecubes:Chance_Cube>,[<ore:blockSalt>,<ore:dustBitumen
 //villager stuff
 recipes.addShapeless(<cubicvillager:villager_block_slab> * 2,[<cubicvillager:villager_block_n>]);
 recipes.addShapeless(<headcrumbs:head:11>,[<cubicvillager:villager_block_trade>]);
+
+//walk the dinosaur
+recipes.addShapeless(<customitems:dinosaur>,[<UndergroundBiomes:fossilPiece>,<UndergroundBiomes:fossilPiece:1>,<UndergroundBiomes:fossilPiece:2>,<UndergroundBiomes:fossilPiece:3>,<UndergroundBiomes:fossilPiece:4>,<UndergroundBiomes:fossilPiece:5>,<UndergroundBiomes:fossilPiece:6>,<UndergroundBiomes:fossilPiece:7>]);
+
+//flowaz
+recipes.addShapeless(<ExtrabiomesXL:flower2:11>,[<flowercraftmod:fcflower:5>,<ore:dustBone>]);
+recipes.addShapeless(<flowercraftmod:fcflower:5>,[<ExtrabiomesXL:flower2:11>,<ore:dustBone>]);
+recipes.addShapeless(<ExtrabiomesXL:flower2>,[<minecraft:red_flower:2>,<ore:dustBone>]);
+recipes.addShapeless(<minecraft:red_flower:2>,[<ExtrabiomesXL:flower2>,<ore:dustBone>]);
+recipes.addShapeless(<ExtrabiomesXL:flower3:1>,[<flowercraftmod:fcflower:4>,<ore:dustBone>]);
+recipes.addShapeless(<flowercraftmod:fcflower:4>,[<ExtrabiomesXL:flower3:1>,<ore:dustBone>]);
+recipes.addShapeless(<minecraft:double_plant:5>,[<flowercraftmod:fcflower:12>,<ore:dustBone>]);
+recipes.addShapeless(<flowercraftmod:fcflower:12>,[<minecraft:double_plant:5>,<ore:dustBone>]);
+recipes.addShapeless(<ExtrabiomesXL:flower2:6>,[<flowercraftmod:fcflower:3>,<ore:dustBone>]);
+recipes.addShapeless(<flowercraftmod:fcflower:3>,[<ExtrabiomesXL:flower2:6>,<ore:dustBone>]);
+recipes.addShapeless(<ExtrabiomesXL:flower2:9>,[<flowercraftmod:fcflower:6>,<ore:dustBone>]);
+recipes.addShapeless(<flowercraftmod:fcflower:6>,[<ExtrabiomesXL:flower2:9>,<ore:dustBone>]);
+recipes.addShapeless(<ExtrabiomesXL:flower3:6>,[<minecraft:red_flower>,<ore:dustBone>]);
+recipes.addShapeless(<minecraft:red_flower>,[<ExtrabiomesXL:flower3:6>,<ore:dustBone>]);
+recipes.addShapeless(<ExtrabiomesXL:flower3:9>,[<minecraft:red_flower:5>,<ore:dustBone>]);
+recipes.addShapeless(<minecraft:red_flower:5>,[<ExtrabiomesXL:flower3:9>,<ore:dustBone>]);
 
 //non tinkers tools into tinkers tools
 //this first one is a copied example from the wiki
@@ -1069,9 +1095,6 @@ recipes.addShaped(<ejectorrail:ejectorRail> * 6,[[<ore:ingotIron>,null,<ore:ingo
 //recipes.addShapeless(<customitems:dark_quartz>,[<ore:gemQuartz>,<ore:dyeBlack>]);
 //recipes.addShaped(<customitems:dark_quartz_block>,[[<customitems:dark_quartz>,<customitems:dark_quartz>],[<customitems:dark_quartz>,<customitems:dark_quartz>]]);
 //recipes.addShaped(<customitems:dark_quartz> * 4,[[<customitems:dark_quartz_block>]]);
-
-//modular crafting addition
-//recipes.addShaped(<modularsystems:blockFurnaceCraftingUpgrade>,[[<ore:ingotIron>,<ore:ingotBronze>,<ore:ingotIron>],[<ore:ingotBronze>,<ore:crafterWood>,<ore:ingotBronze>],[<ore:ingotIron>,<ore:ingotBronze>,<ore:ingotIron>]]);
 
 //wood fences
 //recipes.addShaped(<customitems:spruce_fence> * 2,[[<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>],[<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>,<customitems:spruce_wood_stick>]]);
@@ -1205,6 +1228,7 @@ recipes.addShaped(<Poop_Be_Gone:antipoop9>,[[<ore:blockHopper>,<ore:ingotGold>,<
 recipes.addShaped(<Poop_Be_Gone:antipoop11>,[[<ore:blockHopper>,<ore:ingotElectrum>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop9>,<ore:blockHopper>],[<ore:ingotElectrum>,<ore:chestWood>,<ore:ingotElectrum>]]);
 
 //metallurgy machines
+recipes.addShaped(<metallurgycm:crusher>,[[<ore:plankWood>,<ore:cobblestone>,<ore:plankWood>],[<ore:cobblestone>,<ore:blockFlint>,<ore:cobblestone>],[<ore:cobblestone>,<minecraft:furnace>,<ore:cobblestone>]]);
 recipes.addShaped(<metallurgycm:smelter>,[[<ore:ingotIgnatius>,<ore:ingotIgnatius>,<ore:ingotIgnatius>],[<ore:ingotIgnatius>,<minecraft:bucket>,<ore:ingotIgnatius>],[<ore:ingotIgnatius>,<ore:ingotIgnatius>,<ore:ingotIgnatius>]]);
 recipes.addShaped(<metallurgycm:abstractor>,[[<ore:ingotPrometheum>,<ore:ingotPrometheum>,<ore:ingotPrometheum>],[<ore:ingotPrometheum>,<ore:pearlEnder>,<ore:ingotPrometheum>],[<ore:ingotPrometheum>,<ore:ingotPrometheum>,<ore:ingotPrometheum>]]);
 
@@ -1407,6 +1431,16 @@ recipes.addShapeless(<craftingpillars:showOffPillar>,[<supercraftingframe:superi
 recipes.addShapeless(<craftingpillars:craftingPillar>,[<ore:craftingTableWood>,<craftingpillars:extendPillar>]);
 recipes.addShapeless(<craftingpillars:tankPillar>,[<TConstruct:LavaTank>,<craftingpillars:extendPillar>]);
 recipes.addShaped(<Avaritia:Double_Craft>,[[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>]]);
+
+//bedrock stuff
+recipes.addShaped(<customitems:bedrock_stick> * 4,[[<minecraft:bedrock>],[<minecraft:bedrock>]]);
+//recipes.addShaped(<sodacantorches:bedrock_torch> * 4,[[<ore:torchFuel>],[<customitems:bedrock_stick>]]);
+//recipes.addShaped(<sodacantorches:bedrock_ladder> * 3,[[<customitems:bedrock_stick>,null,<customitems:bedrock_stick>],[<customitems:bedrock_stick>,<customitems:bedrock_stick>,<customitems:bedrock_stick>],[<customitems:bedrock_stick>,null,<customitems:bedrock_stick>]]);
+//recipes.addShaped(<sodacantorches:bedrock_lever>,[[<customitems:bedrock_stick>],[<ore:cobblestone>]]);
+//recipes.addShaped(<sodacantorches:bedrock_lantern>,[[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],[<ore:paneGlass>,<ore:torchWood>,<ore:paneGlass>],[<minecraft:bedrock>,<customitems:bedrock_stick>,<minecraft:bedrock>]]);
+recipes.addShaped(<sodacantorches:bedrock_fence> * 3,[[<customitems:bedrock_stick>,<customitems:bedrock_stick>,<customitems:bedrock_stick>],[<customitems:bedrock_stick>,<customitems:bedrock_stick>,<customitems:bedrock_stick>]]);
+//recipes.addShaped(<sodacantorches:bedrock_fence_gate>,[[<customitems:bedrock_stick>,<minecraft:bedrock>,<customitems:bedrock_stick>],[<customitems:bedrock_stick>,<minecraft:bedrock>,<customitems:bedrock_stick>]]);
+//recipes.addShaped(<sodacantorches:bedrock_flowerpot_item>,[[<minecraft:bedrock>,null,<minecraft:bedrock>],[null,<minecraft:bedrock>,null]]);
 
 
 #furnace recipes

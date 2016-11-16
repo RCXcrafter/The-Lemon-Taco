@@ -28,11 +28,6 @@ The syntax for ore dictionary values is the value between double-quotes. (e.g. "
 	</entry>
 
 	<entry status="custom">
-		<fuel>"ingotEnderite"</fuel>
-		<burnTime>25600</burnTime>
-	</entry>
-
-	<entry status="custom">
 		<fuel>"dustEximite"</fuel>
 		<burnTime>102400</burnTime>
 	</entry>

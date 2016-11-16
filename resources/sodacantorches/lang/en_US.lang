@@ -1,0 +1,19 @@
+#Item Localisation
+item.sodacantorches:bedrock_flowerpot_item.name=Bedrock Flower Pot
+
+#Block Localisation
+tile.sodacantorches:bedrock_torch.name=Bedrock Torch
+
+tile.sodacantorches:bedrock_flowerpot.name=Bedrock Flower Pot
+
+tile.sodacantorches:bedrock_ladder.name=Bedrock Ladder
+
+tile.sodacantorches:bedrock_lantern.name=Bedrock Lantern
+
+tile.fence.name=Wooden Fence
+tile.netherFence.name=Nether Brick Fence
+tile.sodacantorches:bedrock_fence.name=Bedrock Fence
+
+tile.sodacantorches:bedrock_lever.name=Bedrock Lever
+
+tile.sodacantorches:bedrock_fence_gate.name=Bedrock Fence Gate

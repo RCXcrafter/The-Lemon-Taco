@@ -18,6 +18,14 @@
             "name": "Microscope"
         },
         {
+            "textureName": "dinosaur",
+            "name": "Dinosaur"
+        },
+        {
+            "textureName": "bedrock_stick",
+            "name": "Bedrock Stick"
+        },
+        {
             "textureName": "alumite_dust",
             "name": "Alumite Dust"
         },
