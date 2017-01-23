@@ -1,0 +1,196 @@
+{
+  "_name": "strongholdCrossing",
+  "min": 1,
+  "max": 5,
+  "loot": [
+    {
+      "weight": 10,
+      "id": "minecraft:iron_ingot",
+      "damage": 0,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:gold_ingot",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:redstone",
+      "damage": 0,
+      "min": 4,
+      "max": 9
+    },
+    {
+      "weight": 10,
+      "id": "minecraft:coal",
+      "damage": 0,
+      "min": 3,
+      "max": 8
+    },
+    {
+      "weight": 15,
+      "id": "minecraft:bread",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 15,
+      "id": "minecraft:apple",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:iron_pickaxe",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 1,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 2,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 3,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 4,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 5,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 6,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling0",
+      "damage": 7,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling1",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling1",
+      "damage": 1,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling1",
+      "damage": 2,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling1",
+      "damage": 3,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:sapling1",
+      "damage": 4,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "dendrology:parcel",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "betterstorage:drinkingHelmet",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "etfuturum:beetroot_seeds",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 2,
+      "id": "LostBooks:randomBook",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "SaltMod:saltWortSeed",
+      "damage": 0,
+      "min": 2,
+      "max": 5
+    },
+    {
+      "weight": 1,
+      "id": "ExtraUtilities:divisionSigil",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    }
+  ]
+}

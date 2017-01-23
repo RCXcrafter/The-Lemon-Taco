@@ -14,8 +14,8 @@
             { "int:Attack": 0 }, // optional
             { "float:HandleModifier": 1.7 },
             { "float:Stonebound": 1 }, // optional, cannot be used if jagged
-            { "string:Style": "§b" }, // optional, color of the material text
-            { "int:Color": 16728695 }, // hexadecimal color code
+            { "string:Style": "§e" }, // optional, color of the material text
+            { "int:Color": 16383942 }, // hexadecimal color code
 
             /* SINCE 1.8.2 - bow and arrow stats
             * for bow and arrow stats, best compare to other materials to find good values

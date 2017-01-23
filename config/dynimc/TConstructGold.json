@@ -6,7 +6,7 @@
       "addMaterial": [
         {
           "compound:": [
-            { "int:Id": 604 }, // Unique material ID. Reserved IDs: 0-40 Tinker, 41-45 Iguana Tinker Tweaks, 100-200 ExtraTiC
+            { "int:Id": 609 }, // Unique material ID. Reserved IDs: 0-40 Tinker, 41-45 Iguana Tinker Tweaks, 100-200 ExtraTiC
             { "string:Name": "Gold" }, // Unique material name
             { "int:HarvestLevel": 3 }, // coal level
             { "int:Durability": 37 },
@@ -35,7 +35,7 @@
 		"addMaterialItem": [
 	    	{
           "compound:": [
-            { "int:MaterialId": 604 },
+            { "int:MaterialId": 609 },
             { "int:Value": 2 }, // 1 material ever 2 value. See PartMapping IMC
             {
               "compound:Item": [
@@ -51,7 +51,7 @@
         {
           "compound:": [
             { "string:FluidName": "gold.molten" }, // liquid to use
-            { "int:MaterialId": 604 } // output material ID
+            { "int:MaterialId": 609 } // output material ID
           ]
         }
       ]

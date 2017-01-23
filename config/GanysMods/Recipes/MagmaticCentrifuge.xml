@@ -141,16 +141,6 @@ The syntax for ore dictionary values is the value between double-quotes. (e.g. "
 	</recipe>
 
 	<recipe status="custom">
-		<input1>"ingotAluminumBrass"</input1>
-		<input2>"itemFlint"</input2>
-		<lavaAmount>100</lavaAmount>
-		<output1>Metallurgy:base.dust 1 0</output1>
-		<output2>TConstruct:materials 1 40</output2>
-		<output3>TConstruct:materials 1 40</output3>
-		<output4>TConstruct:materials 1 40</output4>
-	</recipe>
-
-	<recipe status="custom">
 		<input1>"ingotCrystalMatrix"</input1>
 		<input2>"itemFlint"</input2>
 		<lavaAmount>100</lavaAmount>

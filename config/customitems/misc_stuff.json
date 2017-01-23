@@ -44,6 +44,18 @@
         {
             "textureName": "unobtanium_hyper_diamond_back",
             "name": "Rotated Unobtanium Hyper Diamond"
+        },
+        {
+            "textureName": "ultimate_onion",
+            "name": "Ultimate Onion"
+        },
+        {
+            "textureName": "missing_texture",
+            "name": "item.null.name"
+        },
+        {
+            "textureName": "missing_texture",
+            "name": "item.singularity.name"
         }
     ],
     "blocks": [
@@ -79,6 +91,24 @@
         {
             "name": "Block of Blue Dye",
             "textureName": "blue_dye_block",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,
+            "hardness": 0.8
+        },
+        {
+            "name": "tile.null.name",
+            "textureName": "missing_texture",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,
+            "hardness": 0.8
+        },
+        {
+            "name": "Nitro Compressed Infinity Block",
+            "textureName": "nitro_compressed_infinity_block",
             "toolClass": "pickaxe",
             "stepSound": "stone",
             "material": "rock",

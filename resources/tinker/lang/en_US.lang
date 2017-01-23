@@ -9,7 +9,7 @@ modifier.toolstation.Lapis=Lapis
 modifier.toolstation.Lava=Lava
 modifier.toolstation.LeadBoots=Lead Boots
 modifier.toolstation.ModAntiSpider=Bane of Arthropods
-modifier.toolstation.Moss=Moss
+modifier.toolstation.Moss=Nanobots
 modifier.toolstation.Necrotic=Necrotic
 modifier.toolstation.NightVision=Night Vision
 modifier.toolstation.PerfectDodge=Perfect Dodge
@@ -58,3 +58,5 @@ modifier.tooltip.ThaumicSenses=Thaumic Senses
 modifier.tooltip.Triple-Jump=Triple-Jump
 modifier.tooltip.ThaumicVision=Thaumic Vision
 modifier.tooltip.Water-Walking=Water-Walking
+
+item.tconstruct.Materials.Mossball.name=Magical Science Nanobots

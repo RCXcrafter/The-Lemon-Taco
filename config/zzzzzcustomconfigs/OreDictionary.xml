@@ -185,10 +185,6 @@ some more stuff that currently doesn't work
 	<stack1>elysium:tile.blockCobalt 1 0</stack1>
 	</ore>
 	<ore>
-	<name>"blockIridium"</name>
-	<stack1>elysium:tile.blockIridium 1 0</stack1>
-	</ore>
-	<ore>
 	<name>"blockSilicon"</name>
 	<stack1>elysium:tile.blockSilicon 1 0</stack1>
 	</ore>
@@ -207,10 +203,6 @@ some more stuff that currently doesn't work
 	<ore>
 	<name>"ingotCobalt"</name>
 	<stack1>elysium:item.ingotCobalt 1 0</stack1>
-	</ore>
-	<ore>
-	<name>"ingotIridium"</name>
-	<stack1>elysium:item.ingotIridium 1 0</stack1>
 	</ore>
 	<ore>
 	<name>"gemJade"</name>

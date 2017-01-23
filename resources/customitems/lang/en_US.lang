@@ -23,5 +23,11 @@ material.unobtaniumhyperdiamond=Unobtanium Hyper Diamond
 
 material.endium.ability=Taggable
 
+material.tungsten=Tungsten
+material.xyrenium=Xenium
+material.berylliumbronze=Beryllium Bronze
+material.dragoonyte=Dragoonyte
+material.dragoonyte.display=Dragoon
 
-
+material.endstone=End Stone
+material.endstone.ability=Stonebound

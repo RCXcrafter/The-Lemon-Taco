@@ -17,7 +17,7 @@
             //{ "float:Stonebound": 1 }, // optional, cannot be used if jagged
             //{ "float:Jagged": 1 }, // optional, cannot be used if stonebound
             { "string:Style": "§e" }, // optional, color of the material text
-            { "int:Color": 16728695 }, // hexadecimal color code
+            { "int:Color": 11373917 }, // hexadecimal color code
 
             /* SINCE 1.8.2 - bow and arrow stats
             * for bow and arrow stats, best compare to other materials to find good values

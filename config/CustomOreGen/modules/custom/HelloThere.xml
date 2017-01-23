@@ -7,4 +7,24 @@
             <Replaces block='projectfruit:Orange Stone Block' weight='1.0' />
         </Substitute>
 
+        <Substitute name='replaceinspac' block='minecraft:obsidian'>
+            <Replaces block='minecraft:coal_ore' weight='1.0' />
+            <Replaces block='minecraft:iron_ore' weight='1.0' />
+            <Replaces block='minecraft:gold_ore' weight='1.0' />
+            <Replaces block='minecraft:redstone_ore' weight='1.0' />
+            <Replaces block='minecraft:lapis_ore' weight='1.0' />
+            <Replaces block='minecraft:diamond_ore' weight='1.0' />
+            <Replaces block='minecraft:emerald_ore' weight='1.0' />
+            <Replaces block='minecraft:iron_block' weight='1.0' />
+            <Replaces block='minecraft:gold_block' weight='1.0' />
+            <Replaces block='minecraft:lapis_block' weight='1.0' />
+            <Replaces block='minecraft:diamond_block' weight='1.0' />
+            <Replaces block='minecraft:emerald_block' weight='1.0' />
+			<Biome name='Sky'/>
+        </Substitute>
+
+		<Substitute name='EmeraldSubstitute' block='minecraft:obsidian'>
+			<Replaces block='minecraft:emerald_ore'/>
+			<Biome name='Extreme Hills.*'/>
+		</Substitute>
 </ConfigSection>

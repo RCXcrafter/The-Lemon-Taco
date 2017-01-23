@@ -141,7 +141,6 @@
 <ore:blockDyeBlue>.add(<customitems:block_of_blue_dye>);
 
 //charcole
-<ore:blockCharcoal>.add(<condensedblocks:charcoalBlock>);
 <ore:blockCharcoal>.add(<sodacantorches:charcoal_block>);
 
 //petrified crafting table
@@ -573,7 +572,7 @@ recipes.remove(<PortalGun:LongFallBoot>);
 recipes.remove(<snad:tile.snad>);
 
 //sunthesiser
-recipes.remove(<Sunnarium:Synthetiser>);
+//recipes.remove(<Sunnarium:Synthetiser>);
 
 //overpowered chest
 recipes.remove(<MultiPageChest:multipagechest>);
@@ -709,16 +708,13 @@ recipes.remove(<mod_Saintspack:DubGun:*>);
 recipes.remove(<mod_Saintspack:DubGun6:*>);
 recipes.remove(<mod_Saintspack:DubGun5:*>);
 recipes.remove(<mod_Saintspack:DubGun8:*>);
-recipes.remove(<mod_Saintspack:InfDubGun:*>);
+//recipes.remove(<mod_Saintspack:InfDubGun:*>);
 
 //block extractor
 recipes.remove(<erebus:blockExtractor>);
 
 //smashing baby
 recipes.remove(<chisel:smashingrock>);
-
-//mb arrows
-recipes.remove(<battlegear2:mb.arrow:*>);
 
 //drums
 recipes.remove(<ExtraUtilities:drum>);
@@ -788,6 +784,7 @@ recipes.remove(<OpenBlocks:projector>);
 
 //ore dictionaty combinator
 recipes.remove(<odc:Workbench:*>);
+recipes.remove(<odc:Workbench1:*>);
 
 //villager rerolling
 recipes.remove(<cubicvillager:villager_block_trade>);
@@ -810,6 +807,29 @@ recipes.remove(<modularsystems:powerSolids>);
 recipes.remove(<modularsystems:powerLiquids>);
 recipes.remove(<modularsystems:powerRF>);
 recipes.remove(<modularsystems:supplierRF>);
+
+//tungsten rod
+recipes.remove(<metalforge:tungstenRod>);
+
+//bugged crafting tables
+recipes.remove(<craftingcraft:stoneCraftingTable:*>);
+recipes.remove(<craftingcraft:craftingTableFrame>);
+
+//overpowered porkchop block
+recipes.remove(<ItFellFromTheSky:compactPorkchop>);
+recipes.remove(<minecraft:porkchop>);
+
+//op pumpkin cake
+recipes.remove(<CakeIsALie:icake13>);
+
+//ztones ztuff
+recipes.remove(<Ztones:tile.glaxx:*>);
+recipes.remove(<Ztones:auroraBlock>);
+recipes.remove(<Ztones:ofanix>);
+recipes.remove(<Ztones:booster>);
+
+//forcefeels
+recipes.remove(<malisisdoors:item.forcefieldItem:*>);
 
 
 //furnace recipes
@@ -1015,7 +1035,7 @@ recipes.addShaped(<projectfruit:Lemon Bricks>,[[<customitems:lemon_brick>,<custo
 recipes.addShaped(<metallurgycm:metal_chest>,[[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],[<ore:ingotBrass>,<IronChest:BlockIronChest:3>,<ore:ingotBrass>],[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]]);
 recipes.addShaped(<IronChest:BlockIronChest:5>,[[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],[<ore:blockGlass>,<metallurgycm:metal_chest:4>,<ore:blockGlass>],[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]]);
 recipes.addShaped(<IronChest:BlockIronChest:6>,[[<ore:blockObsidian>,<ore:blockObsidian>,<ore:blockObsidian>],[<ore:blockObsidian>,<metallurgycm:metal_chest:4>,<ore:blockObsidian>],[<ore:blockObsidian>,<ore:blockObsidian>,<ore:blockObsidian>]]);
-recipes.addShaped(<IronChest:BlockIronChest:7>,[[<condensedblocks:dirtCondensedTierOne>,<condensedblocks:dirtCondensedTierOne>,<condensedblocks:dirtCondensedTierOne>],[<condensedblocks:dirtCondensedTierOne>,<ore:chestWood>,<condensedblocks:dirtCondensedTierOne>],[<condensedblocks:dirtCondensedTierOne>,<condensedblocks:dirtCondensedTierOne>,<condensedblocks:dirtCondensedTierOne>]]);
+recipes.addShaped(<IronChest:BlockIronChest:7>,[[<additionalcompression:compressed_dirt>,<additionalcompression:compressed_dirt>,<additionalcompression:compressed_dirt>],[<additionalcompression:compressed_dirt>,<ore:chestWood>,<additionalcompression:compressed_dirt>],[<additionalcompression:compressed_dirt>,<additionalcompression:compressed_dirt>,<additionalcompression:compressed_dirt>]]);
 recipes.addShaped(<moarcarts:item.minecartironchest>,[[<metallurgycm:metal_chest>],[<minecraft:minecart>]]);
 recipes.addShaped(<moarcarts:item.minecartironchest:4>,[[<metallurgycm:metal_chest:1>],[<minecraft:minecart>]]);
 recipes.addShaped(<moarcarts:item.minecartironchest:1>,[[<metallurgycm:metal_chest:2>],[<minecraft:minecart>]]);
@@ -1098,22 +1118,25 @@ recipes.addShaped(<ejectorrail:ejectorRail> * 6,[[<ore:ingotIron>,null,<ore:ingo
 recipes.addShaped(<minecraft:sand:1> * 8,[[<ore:sand>,<ore:sand>,<ore:sand>],[<ore:sand>,<ore:dyeOrange>,<ore:sand>],[<ore:sand>,<ore:sand>,<ore:sand>]]);
 
 //black hole
-recipes.addShaped(<customitems:black_hole>,[[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null],[<qCraft:dust>,<ore:itemNetherStar>,<qCraft:dust>],[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null]]);
+recipes.addShaped(<customitems:black_hole>,[[null,<additionalcompression:compressed_cobblestone:1>,null],[<qCraft:dust>,<ore:itemNetherStar>,<qCraft:dust>],[null,<additionalcompression:compressed_cobblestone:1>,null]]);
 
 //infinite bucket
 recipes.addShaped(<ganysend:infiniteBucket>,[[null,<minecraft:water_bucket>,null],[<minecraft:water_bucket>,<customitems:black_hole>,<minecraft:water_bucket>],[null,<minecraft:water_bucket>,null]]);
 
-//duplic8 items
-recipes.addShaped(<condensedblocks:clayCondensedTierOne:3>,[[null,<condensedblocks:clayCondensedTierOne:1>,null],[<condensedblocks:clayCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:clayCondensedTierOne:1>],[null,<condensedblocks:clayCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:cobblestoneCondensedTierOne:3>,[[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null],[<condensedblocks:cobblestoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:cobblestoneCondensedTierOne:1>],[null,<condensedblocks:cobblestoneCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:dirtCondensedTierOne:3>,[[null,<condensedblocks:dirtCondensedTierOne:1>,null],[<condensedblocks:dirtCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:dirtCondensedTierOne:1>],[null,<condensedblocks:dirtCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:endStoneCondensedTierOne:3>,[[null,<condensedblocks:endStoneCondensedTierOne:1>,null],[<condensedblocks:endStoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:endStoneCondensedTierOne:1>],[null,<condensedblocks:endStoneCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:gravelCondensedTierOne:3>,[[null,<condensedblocks:gravelCondensedTierOne:1>,null],[<condensedblocks:gravelCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:gravelCondensedTierOne:1>],[null,<condensedblocks:gravelCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:mossyCobblestoneCondensedTierOne:3>,[[null,<condensedblocks:mossyCobblestoneCondensedTierOne:1>,null],[<condensedblocks:mossyCobblestoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:mossyCobblestoneCondensedTierOne:1>],[null,<condensedblocks:mossyCobblestoneCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:netherrackCondensedTierOne:3>,[[null,<condensedblocks:netherrackCondensedTierOne:1>,null],[<condensedblocks:netherrackCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:netherrackCondensedTierOne:1>],[null,<condensedblocks:netherrackCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:sandCondensedTierOne:3>,[[null,<condensedblocks:sandCondensedTierOne:1>,null],[<condensedblocks:sandCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:sandCondensedTierOne:1>],[null,<condensedblocks:sandCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:soulSandCondensedTierOne:3>,[[null,<condensedblocks:soulSandCondensedTierOne:1>,null],[<condensedblocks:soulSandCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:soulSandCondensedTierOne:1>],[null,<condensedblocks:soulSandCondensedTierOne:1>,null]]);
-recipes.addShaped(<condensedblocks:stoneCondensedTierOne:3>,[[null,<condensedblocks:stoneCondensedTierOne:1>,null],[<condensedblocks:stoneCondensedTierOne:1>,<ore:itemNetherStar>,<condensedblocks:stoneCondensedTierOne:1>],[null,<condensedblocks:stoneCondensedTierOne:1>,null]]);
+//duplic8 items<additionalcompression:compressed_cobblestone:1>
+recipes.addShaped(<additionalcompression:compressed_cobblestone:3>,[[null,<additionalcompression:compressed_cobblestone:1>,null],[<additionalcompression:compressed_cobblestone:1>,<ore:itemNetherStar>,<additionalcompression:compressed_cobblestone:1>],[null,<additionalcompression:compressed_cobblestone:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_stone:3>,[[null,<additionalcompression:compressed_stone:1>,null],[<additionalcompression:compressed_stone:1>,<ore:itemNetherStar>,<additionalcompression:compressed_stone:1>],[null,<additionalcompression:compressed_stone:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_gravel:3>,[[null,<additionalcompression:compressed_gravel:1>,null],[<additionalcompression:compressed_gravel:1>,<ore:itemNetherStar>,<additionalcompression:compressed_gravel:1>],[null,<additionalcompression:compressed_gravel:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_blocksand:3>,[[null,<additionalcompression:compressed_blocksand:1>,null],[<additionalcompression:compressed_blocksand:1>,<ore:itemNetherStar>,<additionalcompression:compressed_blocksand:1>],[null,<additionalcompression:compressed_blocksand:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_dirt:3>,[[null,<additionalcompression:compressed_dirt:1>,null],[<additionalcompression:compressed_dirt:1>,<ore:itemNetherStar>,<additionalcompression:compressed_dirt:1>],[null,<additionalcompression:compressed_dirt:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_clay:3>,[[null,<additionalcompression:compressed_clay:1>,null],[<additionalcompression:compressed_clay:1>,<ore:itemNetherStar>,<additionalcompression:compressed_clay:1>],[null,<additionalcompression:compressed_clay:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_cobblestonemossy:3>,[[null,<additionalcompression:compressed_cobblestonemossy:1>,null],[<additionalcompression:compressed_cobblestonemossy:1>,<ore:itemNetherStar>,<additionalcompression:compressed_cobblestonemossy:1>],[null,<additionalcompression:compressed_cobblestonemossy:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_netherrack:3>,[[null,<additionalcompression:compressed_netherrack:1>,null],[<additionalcompression:compressed_netherrack:1>,<ore:itemNetherStar>,<additionalcompression:compressed_netherrack:1>],[null,<additionalcompression:compressed_netherrack:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_soulsand:3>,[[null,<additionalcompression:compressed_soulsand:1>,null],[<additionalcompression:compressed_soulsand:1>,<ore:itemNetherStar>,<additionalcompression:compressed_soulsand:1>],[null,<additionalcompression:compressed_soulsand:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_endstone:3>,[[null,<additionalcompression:compressed_endstone:1>,null],[<additionalcompression:compressed_endstone:1>,<ore:itemNetherStar>,<additionalcompression:compressed_endstone:1>],[null,<additionalcompression:compressed_endstone:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_dust:3>,[[null,<additionalcompression:compressed_dust:1>,null],[<additionalcompression:compressed_dust:1>,<ore:itemNetherStar>,<additionalcompression:compressed_dust:1>],[null,<additionalcompression:compressed_dust:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_gravelnether:3>,[[null,<additionalcompression:compressed_gravelnether:1>,null],[<additionalcompression:compressed_gravelnether:1>,<ore:itemNetherStar>,<additionalcompression:compressed_gravelnether:1>],[null,<additionalcompression:compressed_gravelnether:1>,null]]);
+recipes.addShaped(<additionalcompression:compressed_gravelend:3>,[[null,<additionalcompression:compressed_gravelend:1>,null],[<additionalcompression:compressed_gravelend:1>,<ore:itemNetherStar>,<additionalcompression:compressed_gravelend:1>],[null,<additionalcompression:compressed_gravelend:1>,null]]);
 
 //upgr8 recipe
 recipes.addShaped(<tinker_io:Upgrade>,[[<ore:ingotHepatizon>,<ore:ingotHepatizon>,<ore:ingotHepatizon>],[<ore:ingotAluminum>,<minecraft:paper>,<ore:ingotAluminum>],[<ore:ingotHepatizon>,<ore:ingotHepatizon>,<ore:ingotHepatizon>]]);
@@ -1238,7 +1261,7 @@ recipes.addShaped(<StorageDrawers:upgradeStatus:2>,[[<ore:paneGlass>,<ore:stickW
 
 //grappling hook
 recipes.addShapedMirrored(<grapplemod:grapplinghook>,[[<TConstruct:pickaxeHead:2>,null],[<minecraft:lead>,<minecraft:lead>],[<minecraft:lead>,<minecraft:lead>]]);
-recipes.addShaped(<grapplemod:launcheritem>,[[<ore:pearlEnder>],[<TConstruct:toughRod:16>]]);
+recipes.addShaped(<grapplemod:launcheritem>,[[<ore:pearlEnder>],[<TConstruct:toughRod:315>]]);
 
 //gany's net
 recipes.addShaped(<ganyssurface:batNet>,[[<ore:stickWood>,<exnihilo:mesh>,<ore:stickWood>],[null,<ore:stickWood>,null],[null,<ore:stickWood>,null]]);
@@ -1309,13 +1332,13 @@ recipes.addShaped(<corvid_betaltoash:betaltoash> * 9,[[<corvid_betaltoash:blockb
 recipes.addShaped(<corvid_betaltoash:fancytoash> * 9,[[<corvid_betaltoash:blockfancy>]]);
 
 //waystones
-recipes.addShaped(<waystones:waystone>,[[<atum:item.ectoplasm>,<ore:ingotDesichalkos>,<atum:item.ectoplasm>],[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<condensedblocks:stoneCondensedTierOne:1>,<ore:ingotCosmicNeutronium>,<condensedblocks:stoneCondensedTierOne:1>]]);
+recipes.addShaped(<waystones:waystone>,[[<atum:item.ectoplasm>,<ore:ingotDesichalkos>,<atum:item.ectoplasm>],[<qCraft:dust>,<ore:ingotDesichalkos>,<qCraft:dust>],[<additionalcompression:compressed_stone:1>,<ore:ingotCosmicNeutronium>,<additionalcompression:compressed_stone:1>]]);
 
 //microscope
 recipes.addShaped(<customitems:microscope>,[[null,<ore:ingotAluminum>,<ore:blockGlassColorless>],[null,<ore:blockGlassColorless>,<ore:ingotAluminum>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
 
 //volcanic furnace
-recipes.addShaped(<ganysnether:volcanicFurnace>,[[<condensedblocks:netherrackCondensedTierOne:1>,null,<condensedblocks:netherrackCondensedTierOne:1>],[<ore:ingotVulcanite>,<TConstruct:LavaTank>,<ore:ingotVulcanite>],[<minecraft:nether_brick>,<minecraft:nether_brick>,<minecraft:nether_brick>]]);
+recipes.addShaped(<ganysnether:volcanicFurnace>,[[<additionalcompression:compressed_netherrack:1>,null,<additionalcompression:compressed_netherrack:1>],[<ore:ingotVulcanite>,<TConstruct:LavaTank>,<ore:ingotVulcanite>],[<minecraft:nether_brick>,<minecraft:nether_brick>,<minecraft:nether_brick>]]);
 
 //alloyer
 recipes.addShaped(<Metallurgy:alloyer>,[[<ore:ingotBronze>,<ore:ingotBronze>,<ore:ingotBronze>],[<minecraft:bucket>,<GardenStuff:bloomery_furnace>,<minecraft:bucket>],[<TConstruct:Smeltery:2>,<TConstruct:Smeltery:2>,<TConstruct:Smeltery:2>]]);
@@ -1433,6 +1456,91 @@ recipes.addShaped(<sodacantorches:bedrock_fence> * 3,[[<customitems:bedrock_stic
 //recipes.addShaped(<sodacantorches:bedrock_fence_gate>,[[<customitems:bedrock_stick>,<minecraft:bedrock>,<customitems:bedrock_stick>],[<customitems:bedrock_stick>,<minecraft:bedrock>,<customitems:bedrock_stick>]]);
 //recipes.addShaped(<sodacantorches:bedrock_flowerpot_item>,[[<minecraft:bedrock>,null,<minecraft:bedrock>],[null,<minecraft:bedrock>,null]]);
 
+//null
+recipes.addShapeless(<customitems:item.null.name>,[<CompactMachines:interface>,<Pistronics2:Motion Block>,<minecraft:command_block>,<OpenBlocks:devnull>.withTag({inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "Avaritia:Resource", Count: 1 as byte, Damage: 5 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}).onlyWithTag({inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "Avaritia:Resource", Count: 1 as byte, Damage: 5 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}),<ore:ingotUnstable>,<PortalGun:PortalMulti:14>,<odc:MysteryWaterBucket>,<GardenStuff:chain_link:2>,<CaveBiomes:metamorphic_lavacrust:4>]);
+recipes.addShaped(<customitems:tile.null.name>,[[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>],[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>],[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>]]);
+recipes.addShaped(<customitems:item.null.name> * 9,[[<customitems:tile.null.name>]]);
+recipes.addShapeless(<bis:SlimePistonHead>,[<bis:StickySlimePistonBase>,<customitems:item.null.name>]);
+recipes.addShapeless(<VoltzEngine:ve.selectiontool>,[<ore:stickWood>,<customitems:item.null.name>]);
+recipes.addShapeless(<SaltMod:achivItem>,[<ore:blockSaltCrystal>,<customitems:item.null.name>]);
+recipes.addShapeless(<SaltMod:grassTop>,[<minecraft:grass>,<customitems:item.null.name>]);
+recipes.addShapeless(<RidiculousWorld:Gloom>,[<RidiculousWorld:RockCandy>,<customitems:item.null.name>]);
+recipes.addShapeless(<Mantle:mantleBook>,[<TConstruct:manualBook:3>,<customitems:item.null.name>]);
+recipes.addShapeless(<modularsystems:dummy>,[<modularsystems:furnaceCore>,<customitems:item.null.name>]);
+recipes.addShapeless(<FFS:blockTankFrame>,[<FFS:blockValve>,<customitems:item.null.name>]);
+recipes.addShapeless(<GardenStuff:root_cover>,[<ore:logWood>,<customitems:item.null.name>]);
+recipes.addShapeless(<addictedtored:addictedtoredsoundBlock>,[<addictedtored:addictedtoredselectiondetector>,<customitems:item.null.name>]);
+recipes.addShapeless(<craftingpillars:pumpPillar>,[<craftingpillars:extendPillar>,<customitems:item.null.name>]);
+recipes.addShapeless(<elysium:tile.stone_pipe>,[<elysium:tile.palestone>,<customitems:item.null.name>]);
+recipes.addShapeless(<fairylights:fairy_lights_fastener>,[<fairylights:fairy_lights:*>,<customitems:item.null.name>]);
+recipes.addShapeless(<fairylights:fairy_lights_fence>,[<ore:fenceWood>,<customitems:item.null.name>]);
+recipes.addShapeless(<gearswap:emptyItem>,[<gearswap:gearSwapperGlass>,<customitems:item.null.name>]);
+recipes.addShapeless(<golems:tile.movinglightsource>,[<ore:dustGlowstone>,<customitems:item.null.name>]);
+recipes.addShaped(<inv:InvisibleArmor0>,[[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>],[<customitems:item.null.name>,null,<customitems:item.null.name>]]);
+recipes.addShaped(<inv:InvisibleArmor1>,[[<customitems:item.null.name>,null,<customitems:item.null.name>],[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>],[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>]]);
+recipes.addShaped(<inv:InvisibleArmor2>,[[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>],[<customitems:item.null.name>,null,<customitems:item.null.name>],[<customitems:item.null.name>,null,<customitems:item.null.name>]]);
+recipes.addShaped(<inv:InvisibleArmor3>,[[<customitems:item.null.name>,null,<customitems:item.null.name>],[<customitems:item.null.name>,null,<customitems:item.null.name>]]);
+recipes.addShapeless(<TConstruct:BattleSignBlock>,[<TConstruct:battlesign:*>,<customitems:item.null.name>]);
+recipes.addShapeless(<tinkersdefense:Cast:3>,[<tinkersdefense:Cast:4>,<customitems:item.null.name>]);
+recipes.addShapeless(<grnscrn:greenScreen>,[<ore:dyeLime>,<customitems:tile.null.name>]);
+recipes.addShapeless(<grnscrn:greenScreen:1>,[<ore:dyeBlue>,<customitems:tile.null.name>]);
+recipes.addShapeless(<grnscrn:greenScreen:2>,[<ore:dyeBlack>,<grnscrn:greenScreen>]);
+recipes.addShapeless(<grnscrn:greenScreen:3>,[<ore:dyeBlack>,<grnscrn:greenScreen:1>]);
+recipes.addShapeless(<TConstruct:potionLauncher>,[<ephys.playerproxies:item.PP_PotionDiffuser>,<customitems:item.null.name>]);
+//recipes.addShapeless(<schematicmetablocks:blockInteriorAirMarker>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<schematicmetablocks:blockNull>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<schematicmetablocks:blockExplicitAir>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<schematicmetablocks:blockOrigin>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<schematicmetablocks:blockRegion>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<schematicmetablocks:metaTool>,[<customitems:item.null.name>]);
+recipes.addShapeless(<minecraft:fire>,[<minecraft:flint_and_steel:*>.transformDamage(),<customitems:item.null.name>]);
+recipes.addShapeless(<minecraft:farmland>,[<minecraft:dirt>,<customitems:item.null.name>]);
+recipes.addShapeless(<minecraft:portal>,[<ore:itemNetherStar>,<customitems:item.null.name>]);
+recipes.addShapeless(<minecraft:end_portal>,[<ore:pearlEnder>,<customitems:item.null.name>]);
+recipes.addShapeless(<projectfruit:Fruit Portal>,[<projectfruit:Lemon Bricks>,<customitems:item.null.name>]);
+recipes.addShapeless(<erebus:portal>,[<erebus:portalActivator>,<customitems:item.null.name>]);
+recipes.addShapeless(<atum:tile.portal>,[<atum:item.scarab>,<customitems:item.null.name>]);
+recipes.addShapeless(<qCraft:quantumportal>,[<qCraft:quantumcomputer>,<customitems:item.null.name>]);
+recipes.addShapeless(<MetallurgyCore:metallurgyCore.oreFinder>,[<ore:oreAtlarus>,<VoltzEngine:ve.selectiontool>]);
+//recipes.addShapeless(<HardcoreQuesting:hqmInvalidItem>,[<customitems:item.null.name>]);
+recipes.addShapeless(<RidiculousWorld:Chest>,[<MultiPageChest:multipagechest>,<customitems:item.null.name>]);
+recipes.addShapeless(<RidiculousWorld:Gingerbread>,[<craftingpillars:item.WinterFood:3>,<customitems:item.null.name>]);
+//recipes.addShapeless(<RidiculousWorld:Serpent>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<RidiculousWorld:SerpentRune>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<TSteelworks:tile.Machine.Turbine>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<GardenTrees:strange_plant>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<erebus:materials:64>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<erebus:bucketFormicAcid>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<tinkersdefense:block_jewelersbench>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<TMechworks:Dynamo>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<mowziesmobs:mobremover>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<sodacantorches:logoblock>,[<customitems:item.null.name>]);
+recipes.addShapeless(<qCraft:missing>,[<qCraft:dust>,<customitems:item.null.name>]);
+recipes.addShapeless(<portalblocks:indicatorWire>,[<ore:dustRedstone>,<customitems:item.null.name>]);
+recipes.addShapeless(<golems:item.spawn_bedrock_golem>,[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<golems:tile.golem_head>,<customitems:item.null.name>]);
+recipes.addShapeless(<elysium:item.overkill>,[<Avaritia:Infinity_Sword>,<customitems:item.null.name>]);
+recipes.addShapeless(<TConstruct:HeldItemBlock>,[<TConstruct:frypan>,<customitems:item.null.name>]);
+recipes.addShapeless(<PlaceableTools:BucketBlock>,[<minecraft:bucket>,<customitems:item.null.name>]);
+//recipes.addShapeless(<MinesweeperMod:minesweeperBlock>,[<customitems:item.null.name>]);
+//recipes.addShapeless(<GardenCore:small_fire>,[<customitems:item.null.name>]);
+recipes.addShapeless(<minecraft:enchanted_book>,[<minecraft:enchanted_book:*>,<customitems:item.null.name>]);
+recipes.addShapeless(<BedCraftAndBeyond:SbedBlock>,[<BedCraftAndBeyond:SbedItem>,<customitems:item.null.name>]);
+recipes.addShapeless(<BedCraftAndBeyond:CCbedBlock>,[<ore:coloredChestBed>,<customitems:item.null.name>]);
+recipes.addShapeless(<BedCraftAndBeyond:CbedBlock>,[<ore:coloredBed>,<customitems:item.null.name>]);
+recipes.addShapeless(<CarpentersBlocks:blockCarpentersDoor>,[<CarpentersBlocks:itemCarpentersDoor>,<customitems:item.null.name>]);
+recipes.addShapeless(<CarpentersBlocks:blockCarpentersBed>,[<CarpentersBlocks:itemCarpentersBed>,<customitems:item.null.name>]);
+
+//ultimate onion
+recipes.addShapeless(<customitems:ultimate_onion>,[<customitems:nitro_compressed_infinity_block>,<erebus:warHammer:*>,<OpenBlocks:technicolorGlasses>,<ExtraUtilities:divisionSigil>.withTag({stable: 1 as byte}).onlyWithTag({stable: 1 as byte}),<ore:skullGuardianElder>,<Testerino:tile.fakeAir>,<tinkersdefense:modItemsCore>,<Photoreal:PhotorealCamera:*>,<customitems:item.singularity.name>]);
+
+//nanobots
+recipes.addShapeless(<TConstruct:materials:6>,[<customitems:sciencium_dust>,<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38 as short}]}),<minecraft:anvil>,<CompactMachines:machine:5>,<Avaritia:Resource_Block>,<addonscrewdriver:screwdriver:7>,<ore:ingotUnstable>,<Pistronics2:Gear>.withTag({size: 1, meta: 0, rod: 0 as byte})]);
+
+//ztones ztuff
+recipes.addShaped(<Ztones:tile.glaxx> * 8,[[<ore:blockGlassColorless>,<ore:blockGlassColorless>,<ore:blockGlassColorless>],[<ore:blockGlassColorless>,<Pistronics2:Block of Camou>,<ore:blockGlassColorless>],[<ore:blockGlassColorless>,<ore:blockGlassColorless>,<ore:blockGlassColorless>]]);
+recipes.addShaped(<Ztones:tile.redsBlock> * 8,[[<Ztones:stoneTile>,<Ztones:stoneTile>,<Ztones:stoneTile>],[<Ztones:stoneTile>,<ore:dyeRed>,<Ztones:stoneTile>],[<Ztones:stoneTile>,<Ztones:stoneTile>,<Ztones:stoneTile>]]);
+recipes.addShaped(<Ztones:ofanix>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<OpenBlocks:tank>.withTag({tank: {FluidName: "lava", Amount: 16000}}).onlyWithTag({tank: {FluidName: "lava", Amount: 16000}}),<craftingcraft:portableCraftingTable>,<OpenBlocks:tank>.withTag({tank: {FluidName: "water", Amount: 16000}}).onlyWithTag({tank: {FluidName: "water", Amount: 16000}})],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+
 
 #furnace recipes
 
@@ -1452,15 +1560,15 @@ furnace.addRecipe(<minecraft:stonebrick:2>,<minecraft:stonebrick>,0.5);
 //furnace.addRecipe(<TConstruct:materials:29>,<ore:orePoorArdite>,0.5);
 
 //endium orechunk smelting
-furnace.addRecipe(<ganysend:endiumIngot>,<ore:oreEndium>,0.5);
+//furnace.addRecipe(<ganysend:endiumIngot>,<ore:oreEndium>,0.5);
 
 //make bedrockium
-furnace.addRecipe(<ExtraUtilities:bedrockiumIngot>,<condensedblocks:cobblestoneCondensedTierOne:6>,0.5);
-furnace.addRecipe(<ExtraUtilities:block_bedrockium>,<condensedblocks:cobblestoneCondensedTierOne:7>,0.5);
+furnace.addRecipe(<ExtraUtilities:bedrockiumIngot>,<additionalcompression:compressed_cobblestone:6>,0.5);
+furnace.addRecipe(<ExtraUtilities:block_bedrockium>,<additionalcompression:compressed_cobblestone:7>,0.5);
 
 
 #fuel recipes
 furnace.setFuel(<TConstruct:materials:7>, 46000);
 furnace.setFuel(<minecraft:fire_charge>, 3200);
-furnace.setFuel(<Sunnarium:Sunnarium>, 5); //you need 40 to smelt 1 item
+//furnace.setFuel(<Sunnarium:Sunnarium>, 5); //you need 40 to smelt 1 item
 furnace.setFuel(<tinker_io:SolidFuel>, 1600);

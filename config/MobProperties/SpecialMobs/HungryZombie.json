@@ -1,0 +1,12 @@
+{
+  "_name": "SpecialMobs.HungryZombie",
+  "drops": [
+    {
+      "function": "remove",
+      "id": "odc:ItemPresent",
+      "damage": -1
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

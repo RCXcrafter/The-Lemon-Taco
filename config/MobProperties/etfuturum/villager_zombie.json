@@ -1,0 +1,12 @@
+{
+  "_name": "etfuturum.villager_zombie",
+  "drops": [
+    {
+      "function": "remove",
+      "id": "odc:ItemPresent",
+      "damage": -1
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}
