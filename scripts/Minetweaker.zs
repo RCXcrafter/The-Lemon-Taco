@@ -484,11 +484,11 @@ recipes.remove(<erebus:whetstone>);
 recipes.remove(<cubicvillager:villager_blockelize>);
 
 //poop collectors
-recipes.remove(<Poop_Be_Gone:antipoop3>);
-recipes.remove(<Poop_Be_Gone:antipoop5>);
-recipes.remove(<Poop_Be_Gone:antipoop7>);
-recipes.remove(<Poop_Be_Gone:antipoop9>);
-recipes.remove(<Poop_Be_Gone:antipoop11>);
+//recipes.remove(<Poop_Be_Gone:antipoop3>);
+//recipes.remove(<Poop_Be_Gone:antipoop5>);
+//recipes.remove(<Poop_Be_Gone:antipoop7>);
+//recipes.remove(<Poop_Be_Gone:antipoop9>);
+//recipes.remove(<Poop_Be_Gone:antipoop11>);
 
 //throwable torch
 recipes.remove(<throwabletorchmod:throwableSlimeTorch>);
@@ -1235,11 +1235,11 @@ furnace.addRecipe(<customitems:sciencium_ingot>,<ore:dustSciencium>,0.5);
 recipes.addShaped(<throwabletorchmod:throwableSlimeTorch> * 2,[[<ore:torchWood>],[<ore:slimeball>]]);
 
 //poop collectors
-recipes.addShaped(<Poop_Be_Gone:antipoop3>,[[<ExpandedIndustry:machine_wood_hopper>,<ore:ingotCopper>,<ExpandedIndustry:machine_wood_hopper>],[<ExpandedIndustry:machine_wood_hopper>,<ore:chestWood>,<ExpandedIndustry:machine_wood_hopper>],[<ore:plankWood>,<ore:ingotCopper>,<ore:plankWood>]]);
-recipes.addShaped(<Poop_Be_Gone:antipoop5>,[[<ore:blockHopper>,<ore:ingotBrass>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop3>,<ore:blockHopper>],[<ore:ingotBrass>,<ore:chestWood>,<ore:ingotBrass>]]);
-recipes.addShaped(<Poop_Be_Gone:antipoop7>,[[<ore:blockHopper>,<ore:ingotSilver>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop5>,<ore:blockHopper>],[<ore:ingotSilver>,<ore:chestWood>,<ore:ingotSilver>]]);
-recipes.addShaped(<Poop_Be_Gone:antipoop9>,[[<ore:blockHopper>,<ore:ingotGold>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop7>,<ore:blockHopper>],[<ore:ingotGold>,<ore:chestWood>,<ore:ingotGold>]]);
-recipes.addShaped(<Poop_Be_Gone:antipoop11>,[[<ore:blockHopper>,<ore:ingotElectrum>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop9>,<ore:blockHopper>],[<ore:ingotElectrum>,<ore:chestWood>,<ore:ingotElectrum>]]);
+//recipes.addShaped(<Poop_Be_Gone:antipoop3>,[[<ExpandedIndustry:machine_wood_hopper>,<ore:ingotCopper>,<ExpandedIndustry:machine_wood_hopper>],[<ExpandedIndustry:machine_wood_hopper>,<ore:chestWood>,<ExpandedIndustry:machine_wood_hopper>],[<ore:plankWood>,<ore:ingotCopper>,<ore:plankWood>]]);
+//recipes.addShaped(<Poop_Be_Gone:antipoop5>,[[<ore:blockHopper>,<ore:ingotBrass>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop3>,<ore:blockHopper>],[<ore:ingotBrass>,<ore:chestWood>,<ore:ingotBrass>]]);
+//recipes.addShaped(<Poop_Be_Gone:antipoop7>,[[<ore:blockHopper>,<ore:ingotSilver>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop5>,<ore:blockHopper>],[<ore:ingotSilver>,<ore:chestWood>,<ore:ingotSilver>]]);
+//recipes.addShaped(<Poop_Be_Gone:antipoop9>,[[<ore:blockHopper>,<ore:ingotGold>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop7>,<ore:blockHopper>],[<ore:ingotGold>,<ore:chestWood>,<ore:ingotGold>]]);
+//recipes.addShaped(<Poop_Be_Gone:antipoop11>,[[<ore:blockHopper>,<ore:ingotElectrum>,<ore:blockHopper>],[<ore:blockHopper>,<Poop_Be_Gone:antipoop9>,<ore:blockHopper>],[<ore:ingotElectrum>,<ore:chestWood>,<ore:ingotElectrum>]]);
 
 //metallurgy machines
 recipes.addShaped(<metallurgycm:crusher>,[[<ore:plankWood>,<ore:cobblestone>,<ore:plankWood>],[<ore:cobblestone>,<ore:blockFlint>,<ore:cobblestone>],[<ore:cobblestone>,<minecraft:furnace>,<ore:cobblestone>]]);
