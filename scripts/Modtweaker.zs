@@ -62,8 +62,8 @@ mods.tconstruct.Smeltery.addMelting(<ejectorrail:ejectorRail>,<liquid:iron.molte
 mods.tconstruct.Smeltery.addMelting(<minecraft:packed_ice>,<liquid:water> * 4000,75,<minecraft:packed_ice>);
 
 //melt lemonbricks
-mods.tconstruct.Smeltery.addMelting(<customitems:lemon_brick>,<liquid:lemonadefluid> * 2000,80,<projectfruit:Lemon Bricks>);
-mods.tconstruct.Casting.addTableRecipe(<customitems:lemon_brick>,<liquid:lemonadefluid> * 2000,<minecraft:brick>,true,50);
+//mods.tconstruct.Smeltery.addMelting(<customitems:lemon_brick>,<liquid:lemonadefluid> * 2000,80,<projectfruit:Lemon Bricks>);
+//mods.tconstruct.Casting.addTableRecipe(<customitems:lemon_brick>,<liquid:lemonadefluid> * 2000,<minecraft:brick>,true,50);
 
 //melt emerald nuggets
 //mods.tconstruct.Smeltery.addMelting(<PoorOres:emerald_nugget>,<liquid:emerald.molten> * 71.1111111,75,<minecraft:emerald_block>);
@@ -77,30 +77,30 @@ mods.tconstruct.Smeltery.addMelting(<Aquaculture:item.loot:13>,<liquid:iron.molt
 mods.tconstruct.Smeltery.addMelting(<Aquaculture:item.Fish:37>,<liquid:gold.molten> * 32,600,<minecraft:gold_block>);
 
 //fruit stones melting and casting and stuff
-mods.tconstruct.Smeltery.addMelting(<projectfruit:lemonstone>,<liquid:lemonstonefruit.molten> * 144,500,<projectfruit:Lemon Stone Block>);
-mods.tconstruct.Smeltery.addMelting(<projectfruit:limestone>,<liquid:limestonefruit.molten> * 144,500,<projectfruit:Lime Stone Block>);
-mods.tconstruct.Smeltery.addMelting(<customitems:lemon_lime_stone>,<liquid:lemonlimestonefruit.molten> * 144,500,<projectfruit:Lemon Stone Block>);
-mods.tconstruct.Smeltery.addMelting(<projectfruit:orangestone>,<liquid:orangestonefruit.molten> * 144,500,<projectfruit:Orange Stone Block>);
-mods.tconstruct.Smeltery.addMelting(<projectfruit:blueberrystone>,<liquid:blueberrystonefruit.molten> * 144,500,<projectfruit:Blueberry Stone Block>);
+//mods.tconstruct.Smeltery.addMelting(<projectfruit:lemonstone>,<liquid:lemonstonefruit.molten> * 144,500,<projectfruit:Lemon Stone Block>);
+//mods.tconstruct.Smeltery.addMelting(<projectfruit:limestone>,<liquid:limestonefruit.molten> * 144,500,<projectfruit:Lime Stone Block>);
+//mods.tconstruct.Smeltery.addMelting(<customitems:lemon_lime_stone>,<liquid:lemonlimestonefruit.molten> * 144,500,<projectfruit:Lemon Stone Block>);
+//mods.tconstruct.Smeltery.addMelting(<projectfruit:orangestone>,<liquid:orangestonefruit.molten> * 144,500,<projectfruit:Orange Stone Block>);
+//mods.tconstruct.Smeltery.addMelting(<projectfruit:blueberrystone>,<liquid:blueberrystonefruit.molten> * 144,500,<projectfruit:Blueberry Stone Block>);
 
-mods.tconstruct.Casting.addTableRecipe(<projectfruit:lemonstone>,<liquid:lemonstonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<projectfruit:limestone>,<liquid:limestonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<customitems:lemon_lime_stone>,<liquid:lemonlimestonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<projectfruit:orangestone>,<liquid:orangestonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<projectfruit:blueberrystone>,<liquid:blueberrystonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<projectfruit:lemonstone>,<liquid:lemonstonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<projectfruit:limestone>,<liquid:limestonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<customitems:lemon_lime_stone>,<liquid:lemonlimestonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<projectfruit:orangestone>,<liquid:orangestonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<projectfruit:blueberrystone>,<liquid:blueberrystonefruit.molten> * 144,<TConstruct:metalPattern>,false,50);
 
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:lemonstone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:lemonstone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:limestone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:limestone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<customitems:lemon_lime_stone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<customitems:lemon_lime_stone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:orangestone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:orangestone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:blueberrystone>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:blueberrystone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:lemonstone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:lemonstone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:limestone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:limestone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<customitems:lemon_lime_stone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<customitems:lemon_lime_stone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:orangestone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:orangestone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<projectfruit:blueberrystone>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<projectfruit:blueberrystone>,false,50);
 
-mods.tconstruct.Smeltery.addAlloy(<liquid:lemonlimestonefruit.molten> * 16, [<liquid:lemonstonefruit.molten> * 16, <liquid:limestonefruit.molten> * 16]);
+//mods.tconstruct.Smeltery.addAlloy(<liquid:lemonlimestonefruit.molten> * 16, [<liquid:lemonstonefruit.molten> * 16, <liquid:limestonefruit.molten> * 16]);
 
 //melt/cast neptunium/atlantium
 mods.tconstruct.Smeltery.addMelting(<Aquaculture:item.loot:12>,<liquid:neptunium.molten> * 144,1400,<customitems:neptunium_block>);
@@ -261,14 +261,14 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:ice>,<liquid:water> * 1000,<mi
 mods.tconstruct.Casting.addTableRecipe(<mod_Saintspack:DubGun7>,<liquid:ender> * 2000,<mod_Saintspack:DubGun4:*>,true,50);
 
 //lemonjuicery
-mods.tconstruct.Smeltery.addMelting(<projectfruit:lemon>,<liquid:lemonadefluid> * 1000,80,<projectfruit:Lemonilium>);
-mods.tconstruct.Casting.addTableRecipe(<projectfruit:lemonade>,<liquid:lemonadefluid> * 1000,<minecraft:bucket>,true,1);
+//mods.tconstruct.Smeltery.addMelting(<projectfruit:lemon>,<liquid:lemonadefluid> * 1000,80,<projectfruit:Lemonilium>);
+//mods.tconstruct.Casting.addTableRecipe(<projectfruit:lemonade>,<liquid:lemonadefluid> * 1000,<minecraft:bucket>,true,1);
 
 //cast lemonilium
-mods.tconstruct.Casting.addBasinRecipe(<projectfruit:Lemonilium>,<liquid:lemonadefluid> * 50,<minecraft:dirt>,true,30);
+//mods.tconstruct.Casting.addBasinRecipe(<projectfruit:Lemonilium>,<liquid:lemonadefluid> * 50,<minecraft:dirt>,true,30);
 
 //cast lemon brick blocks
-mods.tconstruct.Casting.addBasinRecipe(<projectfruit:Lemon Bricks>,<liquid:lemonadefluid> * 8000,<minecraft:brick_block>,true,30);
+//mods.tconstruct.Casting.addBasinRecipe(<projectfruit:Lemon Bricks>,<liquid:lemonadefluid> * 8000,<minecraft:brick_block>,true,30);
 
 //now cast that chocolate
 mods.tconstruct.Casting.addTableRecipe(<ExtrabiomesXL:extrabiomes.food:1>,<liquid:chocolate.molten> * 72,<ExtrabiomesXL:extrabiomes.crop>,true,30);
@@ -348,7 +348,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<metalforge:null>,[[null,null,null,<ore:
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Cosmic_Meatballs>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Ultimate_Stew>);
 mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Cosmic_Meatballs>,[<Avaritia:Resource:2>,<minecraft:fish>,<TConstruct:MeatBlock>,<erebus:food:4>,<minecraft:chicken>,<TConstruct:strangeFood:2>,<ganyssurface:pocketCritter:1>,<erebus:food:2>,<minecraft:beef>,<ganyssurface:pocketCritter>,<minecraft:porkchop>,<minecraft:fish:2>,<etfuturum:rabbit_raw>,<erebus:food:12>,<Aquaculture:item.loot:2>,<Natura:impmeat>,<etfuturum:mutton_raw>,<erebus:food>,<Aquaculture:item.loot:3>,<atum:item.fish>,<TConstruct:strangeFood:1>,<minecraft:rotten_flesh>,<erebus:lifeBlood>,<atum:item.fish:1>,<minecraft:spider_eye>,<minecraft:fish:3>,<Aquaculture:item.loot:7>,<minecraft:fish:1>,<TConstruct:strangeFood>,<Aquaculture:item.Fish:18>,<erebus:materials:66>,<withercrumbs:Crumb_Star>,<ore:egg>,<mahmeat:walrus_meat>,<erebus:heart_stag_raw>,<Aquaculture:item.Fish:37>,<imc:item_raw_squid>,<RidiculousWorld:UnicornRaw>,<imc:item_raw_horse>]);
-mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Ultimate_Stew>,[<erebus:materials:62>,<Avaritia:Resource:2>,<Natura:berry:3>,<complexcrops:cucumber>,<projectfruit:orange>,<Natura:barleyFood>,<Natura:berry.nether:2>,<Natura:Glowshroom>,<Aquaculture:item.loot>,<Natura:berry:2>,<minecraft:potato>,<minecraft:dye:3>,<Natura:berry.nether:3>,<projectfruit:lemon>,<Natura:berry:1>,<minecraft:cactus>,<SaltMod:saltWortSeed>,<erebus:food:15>,<minecraft:red_flower:2>,<atum:item.date>,<minecraft:melon>,<minecraft:apple>,<TrailMix:TrailMixMix>,<Natura:Glowshroom:2>,<ganyssurface:pineNuts>,<Natura:Natura.netherfood>,<erebus:materials:35>,<erebus:materials:56>,<minecraft:reeds>,<erebus:materials:31>,<elysium:item.raspberry>,<etfuturum:chorus_fruit>,<erebus:greenMushroom>,<ore:dustSalt>,<ExtrabiomesXL:extrabiomes.crop>,<erebus:turnips>,<erebus:bundleshroom>,<ganyssurface:teaLeaves>,<metalforge:bioplantmass>,<Natura:berry>,<erebus:bulbCappedShroom>,<minecraft:brown_mushroom>,<Natura:Glowshroom:1>,<elysium:item.grapes>,<erebus:tangledStalk>,<OpenBlocks:tastyClay>,<minecraft:wheat>,<Natura:berry.nether:1>,<Natura:berry.nether>,<erebus:highCapped>,<erebus:dutchCap>,<erebus:kaizerfinger>,<projectfruit:blueberry>,<elysium:item.grapes:1>,<erebus:food:11>,<etfuturum:beetroot>,<erebus:materials:11>,<erebus:food:14>,<minecraft:pumpkin>,<complexcrops:rice>,<TConstruct:oreBerries:5>,<complexcrops:corn>,<ore:dustSugar>,<minecraft:red_mushroom>,<SaltMod:soda>,<flowercraftmod:fchoneyraw>,<projectfruit:lime>,<Natura:waterdrop>,<complexcrops:butter>,<minecraft:carrot>,<erebus:materials:32>,<erebus:materials:68>,<erebus:heartBerries>,<erebus:food:17>]);
+mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Ultimate_Stew>,[<erebus:materials:62>,<Avaritia:Resource:2>,<Natura:berry:3>,<complexcrops:cucumber>,<Natura:barleyFood>,<Natura:berry.nether:2>,<Natura:Glowshroom>,<Aquaculture:item.loot>,<Natura:berry:2>,<minecraft:potato>,<minecraft:dye:3>,<Natura:berry.nether:3>,<Natura:berry:1>,<minecraft:cactus>,<SaltMod:saltWortSeed>,<erebus:food:15>,<minecraft:red_flower:2>,<atum:item.date>,<minecraft:melon>,<minecraft:apple>,<TrailMix:TrailMixMix>,<Natura:Glowshroom:2>,<ganyssurface:pineNuts>,<Natura:Natura.netherfood>,<erebus:materials:35>,<erebus:materials:56>,<minecraft:reeds>,<erebus:materials:31>,<elysium:item.raspberry>,<etfuturum:chorus_fruit>,<erebus:greenMushroom>,<ore:dustSalt>,<ExtrabiomesXL:extrabiomes.crop>,<erebus:turnips>,<erebus:bundleshroom>,<ganyssurface:teaLeaves>,<metalforge:bioplantmass>,<Natura:berry>,<erebus:bulbCappedShroom>,<minecraft:brown_mushroom>,<Natura:Glowshroom:1>,<elysium:item.grapes>,<erebus:tangledStalk>,<OpenBlocks:tastyClay>,<minecraft:wheat>,<Natura:berry.nether:1>,<Natura:berry.nether>,<erebus:highCapped>,<erebus:dutchCap>,<erebus:kaizerfinger>,<elysium:item.grapes:1>,<erebus:food:11>,<etfuturum:beetroot>,<erebus:materials:11>,<erebus:food:14>,<minecraft:pumpkin>,<complexcrops:rice>,<TConstruct:oreBerries:5>,<complexcrops:corn>,<ore:dustSugar>,<minecraft:red_mushroom>,<SaltMod:soda>,<flowercraftmod:fchoneyraw>,<Natura:waterdrop>,<complexcrops:butter>,<minecraft:carrot>,<erebus:materials:32>,<erebus:materials:68>,<erebus:heartBerries>,<erebus:food:17>]);
+
+//,<projectfruit:orange>,<projectfruit:lemon>,<projectfruit:blueberry>,<projectfruit:lime>
 
 //infinite dubstep gun
 //mods.avaritia.ExtremeCrafting.addShaped(<mod_Saintspack:InfDubGun>,[[<ore:ingotInfinity>,<ore:ingotInfinity>,null,null,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotCosmicNeutronium>,null,null],[<minecraft:jukebox>,<ore:ingotInfinity>,<ore:ingotCosmicNeutronium>,<ore:ingotInfinity>,<Avaritia:Resource:7>,<ore:ingotCosmicNeutronium>,<ore:ingotInfinity>,<ore:ingotCosmicNeutronium>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotCosmicNeutronium>,<ore:ingotInfinity>,<Avaritia:Resource:7>,<Avaritia:Resource:7>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>],[<minecraft:jukebox>,<ore:ingotInfinity>,null,<ore:ingotCosmicNeutronium>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,null,null],[<ore:ingotInfinity>,<ore:ingotInfinity>,null,<ore:ingotCosmicNeutronium>,null,null,<ore:ingotInfinity>,null,null]]);
@@ -2341,7 +2343,7 @@ mods.metallurgy.Alloyer.addRecipe(<Metallurgy:vanilla.dust>, <Metallurgy:preciou
 mods.metallurgy.Alloyer.addRecipe(<TConstruct:materials:39>, <TConstruct:materials:38>, <TConstruct:materials:5>);
 mods.metallurgy.Alloyer.addRecipe(<customitems:alumite_dust>, <TConstruct:materials:39>, <tinkersdefense:aeonsteelingot>);
 mods.metallurgy.Alloyer.addRecipe(<customitems:neptunium_dust>, <Metallurgy:nether.dust:9>, <customitems:atlantium_ingot>);
-mods.metallurgy.Alloyer.addRecipe(<projectfruit:lemonstone>, <projectfruit:limestone>, <customitems:lemon_lime_stone>);
+//mods.metallurgy.Alloyer.addRecipe(<projectfruit:lemonstone>, <projectfruit:limestone>, <customitems:lemon_lime_stone>);
 mods.metallurgy.Alloyer.addRecipe(<minecraft:sand>, <minecraft:iron_ingot>, <GardenStuff:wrought_iron_ingot>);
 mods.metallurgy.Alloyer.addRecipe(<minecraft:sand>, <aobd:orechunkIron>, <GardenStuff:wrought_iron_ingot>);
 

@@ -83,10 +83,10 @@
 //<ore:gemQuartz>.add(<customitems:dark_quartz>);
 
 //leaves
-<ore:treeLeaves>.add(<projectfruit:Lemon Leaves>);
-<ore:treeLeaves>.add(<projectfruit:Lime Leaves>);
-<ore:treeLeaves>.add(<projectfruit:Orange Leaves>);
-<ore:treeLeaves>.add(<TConstruct:slime.leaves>);
+//<ore:treeLeaves>.add(<projectfruit:Lemon Leaves>);
+//<ore:treeLeaves>.add(<projectfruit:Lime Leaves>);
+//<ore:treeLeaves>.add(<projectfruit:Orange Leaves>);
+//<ore:treeLeaves>.add(<TConstruct:slime.leaves>);
 
 //glass
 //<ore:blockGlass>.addAll(<ore:glass>);
@@ -275,31 +275,31 @@ recipes.remove(<Aquaculture:item.NeptuniumSword>);
 //recipes.remove(<battlegear2:shield.iron>);
 //recipes.remove(<battlegear2:shield.gold>);
 //recipes.remove(<battlegear2:shield.diamond>);
-recipes.remove(<projectfruit:lemonpickaxe>);
-recipes.remove(<projectfruit:lemonaxe>);
-recipes.remove(<projectfruit:lemonshovel>);
-recipes.remove(<projectfruit:lemonhoe>);
-recipes.remove(<projectfruit:lemonsword>);
-recipes.remove(<projectfruit:limepickaxe>);
-recipes.remove(<projectfruit:limeaxe>);
-recipes.remove(<projectfruit:limeshovel>);
-recipes.remove(<projectfruit:limehoe>);
-recipes.remove(<projectfruit:limesword>);
-recipes.remove(<projectfruit:lemonlimepickaxe>);
-recipes.remove(<projectfruit:lemonlimeaxe>);
-recipes.remove(<projectfruit:lemonlimeshovel>);
-recipes.remove(<projectfruit:lemonlimehoe>);
-recipes.remove(<projectfruit:lemonlimesword>);
-recipes.remove(<projectfruit:orangepickaxe>);
-recipes.remove(<projectfruit:orangeaxe>);
-recipes.remove(<projectfruit:orangeshovel>);
-recipes.remove(<projectfruit:orangehoe>);
-recipes.remove(<projectfruit:orangesword>);
-recipes.remove(<projectfruit:blueberrypickaxe>);
-recipes.remove(<projectfruit:blueberryaxe>);
-recipes.remove(<projectfruit:blueberryshovel>);
-recipes.remove(<projectfruit:blueberryhoe>);
-recipes.remove(<projectfruit:blueberrysword>);
+//recipes.remove(<projectfruit:lemonpickaxe>);
+//recipes.remove(<projectfruit:lemonaxe>);
+//recipes.remove(<projectfruit:lemonshovel>);
+//recipes.remove(<projectfruit:lemonhoe>);
+//recipes.remove(<projectfruit:lemonsword>);
+//recipes.remove(<projectfruit:limepickaxe>);
+//recipes.remove(<projectfruit:limeaxe>);
+//recipes.remove(<projectfruit:limeshovel>);
+//recipes.remove(<projectfruit:limehoe>);
+//recipes.remove(<projectfruit:limesword>);
+//recipes.remove(<projectfruit:lemonlimepickaxe>);
+//recipes.remove(<projectfruit:lemonlimeaxe>);
+//recipes.remove(<projectfruit:lemonlimeshovel>);
+//recipes.remove(<projectfruit:lemonlimehoe>);
+//recipes.remove(<projectfruit:lemonlimesword>);
+//recipes.remove(<projectfruit:orangepickaxe>);
+//recipes.remove(<projectfruit:orangeaxe>);
+//recipes.remove(<projectfruit:orangeshovel>);
+//recipes.remove(<projectfruit:orangehoe>);
+//recipes.remove(<projectfruit:orangesword>);
+//recipes.remove(<projectfruit:blueberrypickaxe>);
+//recipes.remove(<projectfruit:blueberryaxe>);
+//recipes.remove(<projectfruit:blueberryshovel>);
+//recipes.remove(<projectfruit:blueberryhoe>);
+//recipes.remove(<projectfruit:blueberrysword>);
 recipes.remove(<metalforge:SteelSword>);
 recipes.remove(<metalforge:SteelPickaxe>);
 recipes.remove(<metalforge:SteelAxe>);
@@ -410,6 +410,9 @@ recipes.remove(<mythril:mythril_halberd:*>);
 recipes.remove(<mythril:mythril_pickaxe:*>);
 recipes.remove(<mythril:mythril_hoe:*>);
 recipes.remove(<mythril:mithril_bow:*>);
+recipes.remove(<JoistMod:StoneSaw>);
+recipes.remove(<JoistMod:IronSaw>);
+recipes.remove(<JoistMod:DiamondSaw>);
 
 //pistronics stuff
 recipes.remove(<Pistronics2:Pile of Redstone>);
@@ -550,8 +553,8 @@ recipes.remove(<ganyssurface:batNet>);
 //recipes.remove(<activator:activator>);
 
 //lemonade bucket and orange juice
-recipes.remove(<projectfruit:lemonade>);
-recipes.remove(<projectfruit:orangejuice>);
+//recipes.remove(<projectfruit:lemonade>);
+//recipes.remove(<projectfruit:orangejuice>);
 
 //tubby stuff
 recipes.remove(<Teletubbies:TinkyWinkyBag>);
@@ -831,6 +834,9 @@ recipes.remove(<Ztones:booster>);
 //forcefeels
 recipes.remove(<malisisdoors:item.forcefieldItem:*>);
 
+//spam-o-matic
+recipes.remove(<addictedtored:addictedtoredchatblock>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -862,10 +868,10 @@ recipes.addShapeless(<minecraft:stonebrick:1>,[<minecraft:stonebrick:0>,<minecra
 recipes.addShapeless(<minecraft:mossy_cobblestone>,[<ore:cobblestone>,<minecraft:vine>]);
 
 //fruit dyes
-recipes.addShapeless(<minecraft:dye:14>,[<projectfruit:orange>]);
-recipes.addShapeless(<minecraft:dye:10>,[<projectfruit:lime>]);
-recipes.addShapeless(<customitems:lemon_yellow_dye>,[<projectfruit:lemon>]);
-recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:1>,[<projectfruit:blueberry>]);
+//recipes.addShapeless(<minecraft:dye:14>,[<projectfruit:orange>]);
+//recipes.addShapeless(<minecraft:dye:10>,[<projectfruit:lime>]);
+//recipes.addShapeless(<customitems:lemon_yellow_dye>,[<projectfruit:lemon>]);
+//recipes.addShapeless(<ExtrabiomesXL:extrabiomes.dye:1>,[<projectfruit:blueberry>]);
 
 //pistronics stuff
 recipes.addShapeless(<Pistronics2:Redioactive Glue>,[<ore:slimeball>,<ore:dustRedstone>]);
@@ -911,13 +917,13 @@ recipes.addShapeless(<GardenStuff:moss_brick:5>,[<GardenStuff:moss_brick:4>,<ore
 recipes.addShapeless(<GardenStuff:moss_brick:6>,[<GardenStuff:moss_brick:5>,<ore:moss>]);
 
 //nades
-recipes.addShapeless(<projectfruit:lemonade>,[<minecraft:bucket>,<ore:dustSugar>,<projectfruit:lemon>,<projectfruit:lemon>]);
+//recipes.addShapeless(<projectfruit:lemonade>,[<minecraft:bucket>,<ore:dustSugar>,<projectfruit:lemon>,<projectfruit:lemon>]);
 recipes.addShapeless(<customitems:melonade_bucket>,[<minecraft:bucket>,<ore:dustSugar>,<minecraft:melon>,<minecraft:melon>]);
 recipes.addShapeless(<customitems:sparkly_melonade_bucket>,[<minecraft:bucket>,<ore:dustSugar>,<minecraft:speckled_melon>,<minecraft:speckled_melon>]);
 recipes.addShapeless(<customitems:carronade_bucket>,[<minecraft:bucket>,<ore:dustSugar>,<ore:cropCarrot>,<ore:cropCarrot>]);
 recipes.addShapeless(<customitems:sparkly_carronade_bucket>,[<minecraft:bucket>,<ore:dustSugar>,<minecraft:golden_carrot>,<minecraft:golden_carrot>]);
 recipes.addShapeless(<customitems:skelenade_bucket>,[<minecraft:water_bucket>,<ore:dustSugar>,<ore:dustBone>,<ore:skullSkeleton>]);
-recipes.addShapeless(<projectfruit:orangejuice>,[<minecraft:bucket>,<ore:dustSugar>,<projectfruit:orange>,<projectfruit:orange>]);
+//recipes.addShapeless(<projectfruit:orangejuice>,[<minecraft:bucket>,<ore:dustSugar>,<projectfruit:orange>,<projectfruit:orange>]);
 
 //green heart canister
 recipes.addShapeless(<TConstruct:heartCanister:6>,[<TConstruct:heartCanister:4>,<Aquaculture:item.loot:6>,<erebus:materials:57>,<ore:ingotSanguinite>,<etfuturum:end_crystal>,<TConstruct:heartCanister:5>]);
@@ -1029,7 +1035,7 @@ recipes.addShaped(<HopperDuctMod:hopperDuct> * 4,[[<ore:ingotIron>,<ore:plankWoo
 //recipes.addShaped(<HopperDuctMod:hopperDuct> * 4,[[<ore:ingotAluminium>,<ore:plankWood>,<ore:ingotAluminium>],[null,<ore:ingotAluminium>,null]]);
 
 //craft lemon bricks
-recipes.addShaped(<projectfruit:Lemon Bricks>,[[<customitems:lemon_brick>,<customitems:lemon_brick>],[<customitems:lemon_brick>,<customitems:lemon_brick>]]);
+//recipes.addShaped(<projectfruit:Lemon Bricks>,[[<customitems:lemon_brick>,<customitems:lemon_brick>],[<customitems:lemon_brick>,<customitems:lemon_brick>]]);
 
 //metal chest recipes
 recipes.addShaped(<metallurgycm:metal_chest>,[[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],[<ore:ingotBrass>,<IronChest:BlockIronChest:3>,<ore:ingotBrass>],[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]]);
@@ -1497,7 +1503,7 @@ recipes.addShapeless(<minecraft:fire>,[<minecraft:flint_and_steel:*>.transformDa
 recipes.addShapeless(<minecraft:farmland>,[<minecraft:dirt>,<customitems:item.null.name>]);
 recipes.addShapeless(<minecraft:portal>,[<ore:itemNetherStar>,<customitems:item.null.name>]);
 recipes.addShapeless(<minecraft:end_portal>,[<ore:pearlEnder>,<customitems:item.null.name>]);
-recipes.addShapeless(<projectfruit:Fruit Portal>,[<projectfruit:Lemon Bricks>,<customitems:item.null.name>]);
+//recipes.addShapeless(<projectfruit:Fruit Portal>,[<projectfruit:Lemon Bricks>,<customitems:item.null.name>]);
 recipes.addShapeless(<erebus:portal>,[<erebus:portalActivator>,<customitems:item.null.name>]);
 recipes.addShapeless(<atum:tile.portal>,[<atum:item.scarab>,<customitems:item.null.name>]);
 recipes.addShapeless(<qCraft:quantumportal>,[<qCraft:quantumcomputer>,<customitems:item.null.name>]);
@@ -1540,6 +1546,9 @@ recipes.addShapeless(<TConstruct:materials:6>,[<customitems:sciencium_dust>,<min
 recipes.addShaped(<Ztones:tile.glaxx> * 8,[[<ore:blockGlassColorless>,<ore:blockGlassColorless>,<ore:blockGlassColorless>],[<ore:blockGlassColorless>,<Pistronics2:Block of Camou>,<ore:blockGlassColorless>],[<ore:blockGlassColorless>,<ore:blockGlassColorless>,<ore:blockGlassColorless>]]);
 recipes.addShaped(<Ztones:tile.redsBlock> * 8,[[<Ztones:stoneTile>,<Ztones:stoneTile>,<Ztones:stoneTile>],[<Ztones:stoneTile>,<ore:dyeRed>,<Ztones:stoneTile>],[<Ztones:stoneTile>,<Ztones:stoneTile>,<Ztones:stoneTile>]]);
 recipes.addShaped(<Ztones:ofanix>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<OpenBlocks:tank>.withTag({tank: {FluidName: "lava", Amount: 16000}}).onlyWithTag({tank: {FluidName: "lava", Amount: 16000}}),<craftingcraft:portableCraftingTable>,<OpenBlocks:tank>.withTag({tank: {FluidName: "water", Amount: 16000}}).onlyWithTag({tank: {FluidName: "water", Amount: 16000}})],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+
+//spam-o-matic
+recipes.addShaped(<addictedtored:addictedtoredchatblock>,[[<renkin42swt:cs_brick_block>,<metalforge:null>,<renkin42swt:cs_brick_block>],[<minecraft:pumpkin>,<addictedtored:addictedtoredselectiondetector>,<minecraft:pumpkin>],[<ore:blockTartarite>,<ore:ingotNeptunium>,<ore:blockTartarite>]]);
 
 
 #furnace recipes
