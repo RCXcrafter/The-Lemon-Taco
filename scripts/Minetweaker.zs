@@ -146,6 +146,24 @@
 //petrified crafting table
 <ore:craftingTableWood>.add(<erebus:petrifiedCraftingTable>);
 
+//colored stone is not redstone
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:1>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:2>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:3>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:4>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:5>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:6>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:7>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:8>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:9>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:10>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:11>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:12>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:13>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:14>);
+<ore:dustRedstone>.remove(<ganyssurface:colouredRedstone:15>);
+
 
 
 #remove recipes
@@ -404,12 +422,12 @@ recipes.remove(<erebus:axeJade>);
 recipes.remove(<erebus:shovelJade>);
 recipes.remove(<erebus:paxelJade>);
 recipes.remove(<erebus:hoeJade>);
-recipes.remove(<mythril:mythril_spade:*>);
-recipes.remove(<mythril:mythril_katana:*>);
-recipes.remove(<mythril:mythril_halberd:*>);
-recipes.remove(<mythril:mythril_pickaxe:*>);
-recipes.remove(<mythril:mythril_hoe:*>);
-recipes.remove(<mythril:mithril_bow:*>);
+//recipes.remove(<mythril:mythril_spade:*>);
+//recipes.remove(<mythril:mythril_katana:*>);
+//recipes.remove(<mythril:mythril_halberd:*>);
+//recipes.remove(<mythril:mythril_pickaxe:*>);
+//recipes.remove(<mythril:mythril_hoe:*>);
+//recipes.remove(<mythril:mithril_bow:*>);
 recipes.remove(<JoistMod:StoneSaw>);
 recipes.remove(<JoistMod:IronSaw>);
 recipes.remove(<JoistMod:DiamondSaw>);
@@ -528,7 +546,7 @@ recipes.remove(<ganyssurface:inkHarvester>);
 recipes.remove(<holovm:vmbase>);
 recipes.remove(<StorageDrawers:upgradeStatus:1>);
 recipes.remove(<StorageDrawers:upgradeStatus:2>);
-recipes.remove(<is_mtc:block_arena_cell>);
+//recipes.remove(<is_mtc:block_arena_cell>);
 recipes.remove(<buildersguides:item.marker>);
 recipes.remove(<buildersguides:block.laserMarker>);
 recipes.remove(<buildersguides:block.advancedMarker>);
@@ -542,8 +560,14 @@ recipes.remove(<exnihilo:doll_creepy>);
 recipes.remove(<grapplemod:launcheritem>);
 recipes.remove(<grapplemod:grapplinghook>);
 //recipes.remove(<grapplemod:enderhook>);
-//recipes.remove(<grapplemod:hookshot>);
+recipes.remove(<grapplemod:hookshot>);
 recipes.remove(<grapplemod:longfallboots>);
+
+//other grappling hook stuff
+recipes.remove(<ropebridge:bridge_builder>);
+recipes.remove(<ropebridge:bridge_builder_handle>);
+recipes.remove(<ropebridge:bridge_builder_barrel>);
+recipes.remove(<ropebridge:bridge_builder_hook>);
 
 //gany's net
 recipes.remove(<ganyssurface:batNet>);
@@ -794,9 +818,9 @@ recipes.remove(<cubicvillager:villager_block_trade>);
 
 //useless weird rings and amulets
 recipes.remove(<craftingpillars:item.ring_base>);
-recipes.remove(<mythril:mythril_ring>);
-recipes.remove(<mythril:mythril_wither_ring>);
-recipes.remove(<mythril:ender_amulet>);
+//recipes.remove(<mythril:mythril_ring>);
+//recipes.remove(<mythril:mythril_wither_ring>);
+//recipes.remove(<mythril:ender_amulet>);
 
 //grafitti guns
 recipes.remove(<GraviGun:GraviGun:*>);
@@ -823,7 +847,7 @@ recipes.remove(<ItFellFromTheSky:compactPorkchop>);
 recipes.remove(<minecraft:porkchop>);
 
 //op pumpkin cake
-recipes.remove(<CakeIsALie:icake13>);
+//recipes.remove(<CakeIsALie:icake13>);
 
 //ztones ztuff
 recipes.remove(<Ztones:tile.glaxx:*>);
@@ -836,6 +860,13 @@ recipes.remove(<malisisdoors:item.forcefieldItem:*>);
 
 //spam-o-matic
 recipes.remove(<addictedtored:addictedtoredchatblock>);
+
+//gold bricks
+recipes.remove(<VillageNames:lunarinGoldBlock>);
+recipes.removeShapeless(<minecraft:gold_ingot>, [<VillageNames:lunarinGoldBlock>]);
+
+//g-rapple gun
+recipes.remove(<modJ_StarMiner:g_rapplegun>);
 
 
 //furnace recipes
@@ -1282,7 +1313,7 @@ recipes.addShaped(<ganyssurface:portableDualWorkTable>,[[null,<ganyssurface:dual
 recipes.addShaped(<craftingcraft:portableCraftingTable>,[[<ore:craftingTableWood>],[<craftingcraft:portableCraftingTable:1>]]);
 
 //arena cells
-recipes.addShaped(<is_mtc:block_arena_cell> * 4,[[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],[<ore:gemQuartz>,<ore:stickWood>,<ore:gemQuartz>],[<ore:gemQuartz>,<ore:stickWood>,<ore:gemQuartz>]]);
+//recipes.addShaped(<is_mtc:block_arena_cell> * 4,[[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],[<ore:gemQuartz>,<ore:stickWood>,<ore:gemQuartz>],[<ore:gemQuartz>,<ore:stickWood>,<ore:gemQuartz>]]);
 
 //builders marker
 recipes.addShaped(<buildersguides:item.marker> * 5,[[<ore:stone>,<ore:dyeOrange>,<ore:stone>],[<ore:dyeOrange>,<ore:stone>,<ore:dyeOrange>],[<ore:stone>,<ore:dyeOrange>,<ore:stone>]]);
@@ -1549,6 +1580,18 @@ recipes.addShaped(<Ztones:ofanix>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingot
 
 //spam-o-matic
 recipes.addShaped(<addictedtored:addictedtoredchatblock>,[[<renkin42swt:cs_brick_block>,<metalforge:null>,<renkin42swt:cs_brick_block>],[<minecraft:pumpkin>,<addictedtored:addictedtoredselectiondetector>,<minecraft:pumpkin>],[<ore:blockTartarite>,<ore:ingotNeptunium>,<ore:blockTartarite>]]);
+
+//colored stone is not redstone
+recipes.addShaped(<minecraft:redstone> * 8,[[<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>],[<ganyssurface:colouredRedstone:*>,<ore:dyeRed>,<ganyssurface:colouredRedstone:*>],[<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>]]);
+
+//grapple gun
+recipes.addShaped(<grapplemod:hookshot>,[[null,<TConstruct:materials:1>,<TConstruct:materials:1>],[<grapplemod:grapplinghook>,<TConstruct:heavyPlate:16>,<TConstruct:heavyPlate:16>],[<minecraft:lead>,<additionalcompression:compressed_cobblestone:1>,<additionalcompression:compressed_cobblestone:1>]]);
+
+//g-rapple gun
+recipes.addShaped(<modJ_StarMiner:g_rapplegun>,[[<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>],[<modJ_StarMiner:starcore_dust>,<grapplemod:hookshot>,<modJ_StarMiner:starcore_dust>],[<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>]]);
+
+//bridge gun
+recipes.addShaped(<ropebridge:bridge_builder>,[[<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>],[<OpenBlocks:ropeladder>,<grapplemod:hookshot>,<OpenBlocks:ropeladder>],[<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>]]);
 
 
 #furnace recipes
