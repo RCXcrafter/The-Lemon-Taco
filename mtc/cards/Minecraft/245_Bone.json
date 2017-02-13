@@ -1,0 +1,11 @@
+{
+	"id":"card_bone",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Bone",
+	"category":"World Item",
+	"asset":"Minecraft/245",
+	
+	"weight":11
+}

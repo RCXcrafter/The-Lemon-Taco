@@ -1,0 +1,11 @@
+{
+	"id":"card_stone_pickaxe",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Stone Pickaxe",
+	"category":"World Item",
+	"asset":"Minecraft/191",
+	
+	"weight":11
+}

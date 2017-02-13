@@ -1,0 +1,11 @@
+{
+	"id":"card_trapdoor",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Trapdoor",
+	"category":"World Item",
+	"asset":"Minecraft/126",
+	
+	"weight":11
+}

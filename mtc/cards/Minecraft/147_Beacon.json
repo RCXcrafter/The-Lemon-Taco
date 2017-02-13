@@ -1,0 +1,11 @@
+{
+	"id":"card_beacon",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Beacon",
+	"category":"World Item",
+	"asset":"Minecraft/147",
+	
+	"weight":4
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_flint",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Flint",
+	"category":"World Item",
+	"asset":"Minecraft/219",
+	
+	"weight":11
+}

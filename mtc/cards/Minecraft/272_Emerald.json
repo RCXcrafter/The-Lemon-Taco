@@ -1,0 +1,11 @@
+{
+	"id":"card_emerald",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Emerald",
+	"category":"World Item",
+	"asset":"Minecraft/272",
+	
+	"weight":4
+}

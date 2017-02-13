@@ -1,0 +1,11 @@
+{
+	"id":"card_diamond_hoe",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Diamond Hoe",
+	"category":"World Item",
+	"asset":"Minecraft/210",
+	
+	"weight":4
+}

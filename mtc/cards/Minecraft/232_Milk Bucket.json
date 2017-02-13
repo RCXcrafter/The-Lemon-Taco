@@ -1,0 +1,11 @@
+{
+	"id":"card_milk_bucket",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Milk Bucket",
+	"category":"World Item",
+	"asset":"Minecraft/232",
+	
+	"weight":11
+}

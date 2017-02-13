@@ -1,0 +1,11 @@
+{
+	"id":"card_vines",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Vines",
+	"category":"World Item",
+	"asset":"Minecraft/131",
+	
+	"weight":11
+}

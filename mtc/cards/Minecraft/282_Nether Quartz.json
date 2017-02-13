@@ -1,0 +1,11 @@
+{
+	"id":"card_nether_quartz",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Nether Quartz",
+	"category":"World Item",
+	"asset":"Minecraft/282",
+	
+	"weight":11
+}

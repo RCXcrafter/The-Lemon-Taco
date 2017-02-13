@@ -1,0 +1,11 @@
+{
+	"id":"card_packed_ice",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Packed Ice",
+	"category":"World Item",
+	"asset":"Minecraft/170",
+	
+	"weight":11
+}

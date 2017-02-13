@@ -1,0 +1,11 @@
+{
+	"id":"card_saddle",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Saddle",
+	"category":"World Item",
+	"asset":"Minecraft/227",
+	
+	"weight":7
+}

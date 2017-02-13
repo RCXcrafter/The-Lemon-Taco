@@ -1,0 +1,11 @@
+{
+	"id":"card_elder_guardian",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Elder Guardian",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/037",
+	
+	"weight":7
+}

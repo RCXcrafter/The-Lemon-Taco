@@ -1,0 +1,11 @@
+{
+	"id":"card_sponge",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Sponge",
+	"category":"World Item",
+	"asset":"Minecraft/071",
+	
+	"weight":7
+}

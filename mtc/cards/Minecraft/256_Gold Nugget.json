@@ -1,0 +1,11 @@
+{
+	"id":"card_gold_nugget",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Gold Nugget",
+	"category":"World Item",
+	"asset":"Minecraft/256",
+	
+	"weight":7
+}

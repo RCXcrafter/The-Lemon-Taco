@@ -1,0 +1,11 @@
+{
+	"id":"card_spawn_egg",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Spawn Egg",
+	"category":"World Item",
+	"asset":"Minecraft/268",
+	
+	"weight":11
+}

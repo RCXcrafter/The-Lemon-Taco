@@ -1,0 +1,11 @@
+{
+	"id":"card_gold_block",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Gold Block",
+	"category":"World Item",
+	"asset":"Minecraft/086",
+	
+	"weight":7
+}

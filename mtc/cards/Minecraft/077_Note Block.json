@@ -1,0 +1,11 @@
+{
+	"id":"card_note_block",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Note Block",
+	"category":"World Item",
+	"asset":"Minecraft/077",
+	
+	"weight":7
+}

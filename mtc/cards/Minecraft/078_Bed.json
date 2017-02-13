@@ -1,0 +1,11 @@
+{
+	"id":"card_bed",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Bed",
+	"category":"World Item",
+	"asset":"Minecraft/078",
+	
+	"weight":11
+}

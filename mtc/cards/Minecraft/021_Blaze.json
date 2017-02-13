@@ -1,0 +1,11 @@
+{
+	"id":"card_blaze",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Blaze",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/021",
+	
+	"weight":7
+}

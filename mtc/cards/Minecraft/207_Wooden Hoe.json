@@ -1,0 +1,11 @@
+{
+	"id":"card_wooden_hoe",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Wooden Hoe",
+	"category":"World Item",
+	"asset":"Minecraft/207",
+	
+	"weight":11
+}

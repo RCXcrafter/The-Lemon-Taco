@@ -1,0 +1,11 @@
+{
+	"id":"card_diamond_sword",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Diamond Sword",
+	"category":"World Item",
+	"asset":"Minecraft/193",
+	
+	"weight":4
+}

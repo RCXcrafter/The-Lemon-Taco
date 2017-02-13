@@ -1,0 +1,11 @@
+{
+	"id":"card_cactus",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Cactus",
+	"category":"World Item",
+	"asset":"Minecraft/114",
+	
+	"weight":11
+}

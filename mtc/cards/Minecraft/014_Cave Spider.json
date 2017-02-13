@@ -1,0 +1,11 @@
+{
+	"id":"card_cave_spider",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Cave Spider",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/014",
+	
+	"weight":7
+}

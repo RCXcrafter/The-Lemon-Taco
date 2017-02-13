@@ -1,0 +1,11 @@
+{
+	"id":"card_chainmail_armor",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Chainmail Armor",
+	"category":"World Item",
+	"asset":"Minecraft/216",
+	
+	"weight":7
+}

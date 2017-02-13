@@ -1,0 +1,11 @@
+{
+	"id":"card_wool",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Wool",
+	"category":"World Item",
+	"asset":"Minecraft/082",
+	
+	"weight":11
+}

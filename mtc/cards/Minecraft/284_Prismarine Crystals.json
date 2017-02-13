@@ -1,0 +1,11 @@
+{
+	"id":"card_prismarine_crystals",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Prismarine Crystals",
+	"category":"World Item",
+	"asset":"Minecraft/284",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_wheat",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Wheat",
+	"category":"World Item",
+	"asset":"Minecraft/213",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_diamond_armor",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Diamond Armor",
+	"category":"World Item",
+	"asset":"Minecraft/217",
+	
+	"weight":4
+}

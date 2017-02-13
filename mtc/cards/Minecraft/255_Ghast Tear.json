@@ -1,0 +1,11 @@
+{
+	"id":"card_ghast_tear",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Ghast Tear",
+	"category":"World Item",
+	"asset":"Minecraft/255",
+	
+	"weight":7
+}

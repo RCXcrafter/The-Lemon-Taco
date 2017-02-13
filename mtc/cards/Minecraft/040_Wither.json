@@ -1,0 +1,11 @@
+{
+	"id":"card_wither",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Wither",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/040",
+	
+	"weight":4
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_feather",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Feather",
+	"category":"World Item",
+	"asset":"Minecraft/205",
+	
+	"weight":11
+}

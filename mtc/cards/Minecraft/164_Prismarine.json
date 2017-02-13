@@ -1,0 +1,11 @@
+{
+	"id":"card_prismarine",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Prismarine",
+	"category":"World Item",
+	"asset":"Minecraft/164",
+	
+	"weight":11
+}

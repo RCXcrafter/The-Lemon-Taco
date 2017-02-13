@@ -1,0 +1,11 @@
+{
+	"id":"card_anvil",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Anvil",
+	"category":"World Item",
+	"asset":"Minecraft/152",
+	
+	"weight":7
+}

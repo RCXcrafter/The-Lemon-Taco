@@ -1,0 +1,11 @@
+{
+	"id":"card_obsidian",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Obsidian",
+	"category":"World Item",
+	"asset":"Minecraft/094",
+	
+	"weight":7
+}

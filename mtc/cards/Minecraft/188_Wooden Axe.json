@@ -1,0 +1,11 @@
+{
+	"id":"card_wooden_axe",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Wooden Axe",
+	"category":"World Item",
+	"asset":"Minecraft/188",
+	
+	"weight":11
+}

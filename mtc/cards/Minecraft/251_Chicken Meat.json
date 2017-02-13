@@ -1,0 +1,11 @@
+{
+	"id":"card_chicken_meat",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Chicken Meat",
+	"category":"World Item",
+	"asset":"Minecraft/251",
+	
+	"weight":11
+}

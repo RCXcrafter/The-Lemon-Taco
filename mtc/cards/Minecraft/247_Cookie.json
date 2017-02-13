@@ -1,0 +1,11 @@
+{
+	"id":"card_cookie",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Cookie",
+	"category":"World Item",
+	"asset":"Minecraft/247",
+	
+	"weight":11
+}

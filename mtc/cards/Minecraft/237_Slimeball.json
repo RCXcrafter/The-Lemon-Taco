@@ -1,0 +1,11 @@
+{
+	"id":"card_slimeball",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Slimeball",
+	"category":"World Item",
+	"asset":"Minecraft/237",
+	
+	"weight":7
+}

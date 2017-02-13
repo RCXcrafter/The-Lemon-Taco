@@ -1,0 +1,11 @@
+{
+	"id":"card_button",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Button",
+	"category":"World Item",
+	"asset":"Minecraft/111",
+	
+	"weight":11
+}

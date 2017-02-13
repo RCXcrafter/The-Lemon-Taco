@@ -1,0 +1,11 @@
+{
+	"id":"card_fence",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Fence",
+	"category":"World Item",
+	"asset":"Minecraft/117",
+	
+	"weight":11
+}

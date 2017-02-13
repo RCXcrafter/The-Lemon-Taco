@@ -1,0 +1,11 @@
+{
+	"id":"card_wood_log",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Wood Log",
+	"category":"World Item",
+	"asset":"Minecraft/069",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_eye_of_ender",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Eye of Ender",
+	"category":"World Item",
+	"asset":"Minecraft/266",
+	
+	"weight":4
+}

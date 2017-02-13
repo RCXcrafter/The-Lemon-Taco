@@ -1,0 +1,35 @@
+{
+    "blocks": [
+        {
+            "name": "Atlantium Block",
+            "textureName": "Atlantium_block",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        }
+    ],
+    "items": [
+        {
+            "maxStackSize": 64,
+            "textureName": "atlantium_ingot",
+            "name": "Atlantium Ingot"            
+        }
+    ],
+    "fluids":[
+        {
+            "name":"atlantium.molten",
+            "textureName": "liquid_atlantium",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 4
+        }
+    ]
+}

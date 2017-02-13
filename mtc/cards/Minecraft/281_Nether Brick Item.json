@@ -1,0 +1,11 @@
+{
+	"id":"card_nether_brick",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Nether Brick",
+	"category":"World Item",
+	"asset":"Minecraft/281",
+	
+	"weight":11
+}
