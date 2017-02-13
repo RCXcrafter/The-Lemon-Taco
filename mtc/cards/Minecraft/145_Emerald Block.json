@@ -1,0 +1,11 @@
+{
+	"id":"card_emerald_block",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Emerald Block",
+	"category":"World Item",
+	"asset":"Minecraft/145",
+	
+	"weight":4
+}

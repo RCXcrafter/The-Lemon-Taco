@@ -1,0 +1,11 @@
+{
+	"id":"card_dye",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Dye",
+	"category":"World Item",
+	"asset":"Minecraft/244",
+	
+	"weight":11
+}

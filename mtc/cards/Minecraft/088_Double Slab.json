@@ -1,0 +1,11 @@
+{
+	"id":"card_double_slab",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Double Slab",
+	"category":"World Item",
+	"asset":"Minecraft/088",
+	
+	"weight":11
+}

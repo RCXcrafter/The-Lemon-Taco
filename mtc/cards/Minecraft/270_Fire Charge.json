@@ -1,0 +1,11 @@
+{
+	"id":"card_fire_charge",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Fire Charge",
+	"category":"World Item",
+	"asset":"Minecraft/270",
+	
+	"weight":7
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_wither_skeleton",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Wither Skeleton",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/031",
+	
+	"weight":7
+}

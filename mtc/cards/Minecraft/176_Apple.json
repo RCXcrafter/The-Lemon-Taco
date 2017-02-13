@@ -1,0 +1,11 @@
+{
+	"id":"card_apple",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Apple",
+	"category":"World Item",
+	"asset":"Minecraft/176",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_golden_sword",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Golden Sword",
+	"category":"World Item",
+	"asset":"Minecraft/200",
+	
+	"weight":7
+}

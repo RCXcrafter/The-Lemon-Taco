@@ -1,0 +1,11 @@
+{
+	"id":"card_jack_o_lantern",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Jack o'Lantern",
+	"category":"World Item",
+	"asset":"Minecraft/122",
+	
+	"weight":7
+}

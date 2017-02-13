@@ -1,0 +1,11 @@
+{
+	"id":"card_iron_ore",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Iron Ore",
+	"category":"World Item",
+	"asset":"Minecraft/067",
+	
+	"weight":11
+}

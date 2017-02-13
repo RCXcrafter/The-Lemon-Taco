@@ -1,0 +1,11 @@
+{
+	"id":"card_stone_brick",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Stone Brick",
+	"category":"World Item",
+	"asset":"Minecraft/127",
+	
+	"weight":11
+}

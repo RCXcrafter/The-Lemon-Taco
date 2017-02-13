@@ -1,0 +1,11 @@
+{
+	"id":"card_enchantment_table",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Enchantment Table",
+	"category":"World Item",
+	"asset":"Minecraft/136",
+	
+	"weight":4
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_golden_horse_armor",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Golden Horse Armor",
+	"category":"World Item",
+	"asset":"Minecraft/291",
+	
+	"weight":7
+}

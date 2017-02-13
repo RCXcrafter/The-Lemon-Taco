@@ -1,0 +1,11 @@
+{
+	"id":"card_boat",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Boat",
+	"category":"World Item",
+	"asset":"Minecraft/230",
+	
+	"weight":11
+}

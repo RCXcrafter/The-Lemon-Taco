@@ -1,0 +1,11 @@
+{
+	"id":"card_daylight_sensor",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Daylight Sensor",
+	"category":"World Item",
+	"asset":"Minecraft/155",
+	
+	"weight":7
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_sapling",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Sapling",
+	"category":"World Item",
+	"asset":"Minecraft/060",
+	
+	"weight":11
+}

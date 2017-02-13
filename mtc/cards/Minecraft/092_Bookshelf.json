@@ -1,0 +1,11 @@
+{
+	"id":"card_bookshelf",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Bookshelf",
+	"category":"World Item",
+	"asset":"Minecraft/092",
+	
+	"weight":7
+}

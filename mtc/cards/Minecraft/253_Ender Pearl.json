@@ -1,0 +1,11 @@
+{
+	"id":"card_ender_pearl",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Ender Pearl",
+	"category":"World Item",
+	"asset":"Minecraft/253",
+	
+	"weight":7
+}

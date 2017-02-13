@@ -1,0 +1,11 @@
+{
+	"id":"card_ender_chest",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Ender Chest",
+	"category":"World Item",
+	"asset":"Minecraft/143",
+	
+	"weight":4
+}

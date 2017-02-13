@@ -1,0 +1,11 @@
+{
+	"id":"card_glass",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Glass",
+	"category":"World Item",
+	"asset":"Minecraft/072",
+	
+	"weight":11
+}

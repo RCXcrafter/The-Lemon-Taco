@@ -1,0 +1,11 @@
+{
+	"id":"card_generic_villager",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Generic Villager",
+	"category":"Old Minecraft",
+	"asset":"Minecraft/047",
+	
+	"weight":7
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_carrots",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Carrots",
+	"category":"World Item",
+	"asset":"Minecraft/149",
+	
+	"weight":11
+}

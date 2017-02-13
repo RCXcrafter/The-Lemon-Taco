@@ -1,0 +1,11 @@
+{
+	"id":"card_lava_bucket",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Lava Bucket",
+	"category":"World Item",
+	"asset":"Minecraft/225",
+	
+	"weight":7
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_paper",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Paper",
+	"category":"World Item",
+	"asset":"Minecraft/235",
+	
+	"weight":11
+}

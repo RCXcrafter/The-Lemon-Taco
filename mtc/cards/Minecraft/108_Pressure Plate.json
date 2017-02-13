@@ -1,0 +1,11 @@
+{
+	"id":"card_pressure_place",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Pressure Plate",
+	"category":"World Item",
+	"asset":"Minecraft/108",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_rabbit_meat",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Rabbit Meat",
+	"category":"World Item",
+	"asset":"Minecraft/285",
+	
+	"weight":11
+}

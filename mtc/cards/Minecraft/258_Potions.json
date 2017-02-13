@@ -1,0 +1,11 @@
+{
+	"id":"card_potions",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Potions",
+	"category":"World Item",
+	"asset":"Minecraft/258",
+	
+	"weight":7
+}

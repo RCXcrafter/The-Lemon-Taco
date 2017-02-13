@@ -1,0 +1,11 @@
+{
+	"id":"card_beef_steak",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Beef Steak",
+	"category":"World Item",
+	"asset":"Minecraft/250",
+	
+	"weight":11
+}

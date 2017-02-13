@@ -1,0 +1,11 @@
+{
+	"id":"card_slab",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Slab",
+	"category":"World Item",
+	"asset":"Minecraft/089",
+	
+	"weight":11
+}

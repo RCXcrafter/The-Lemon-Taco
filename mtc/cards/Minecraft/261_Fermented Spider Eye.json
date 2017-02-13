@@ -1,0 +1,11 @@
+{
+	"id":"card_fspider_eye",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Fermented Spider Eye",
+	"category":"World Item",
+	"asset":"Minecraft/261",
+	
+	"weight":11
+}

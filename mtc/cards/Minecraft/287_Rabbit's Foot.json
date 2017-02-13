@@ -1,0 +1,11 @@
+{
+	"id":"card_rabbit_foot",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Rabbit's Foot",
+	"category":"World Item",
+	"asset":"Minecraft/287",
+	
+	"weight":7
+}

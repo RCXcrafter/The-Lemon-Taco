@@ -1,0 +1,11 @@
+{
+	"id":"card_skeleton",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Skeleton",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/027",
+	
+	"weight":11
+}

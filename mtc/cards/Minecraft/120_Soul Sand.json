@@ -1,0 +1,11 @@
+{
+	"id":"card_soul_sand",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Soul Sand",
+	"category":"World Item",
+	"asset":"Minecraft/120",
+	
+	"weight":11
+}

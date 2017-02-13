@@ -1,0 +1,11 @@
+{
+	"id":"card_poisonous_potato",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Poisonous Potato",
+	"category":"World Item",
+	"asset":"Minecraft/274",
+	
+	"weight":4
+}

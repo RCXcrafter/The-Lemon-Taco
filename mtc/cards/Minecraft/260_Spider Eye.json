@@ -1,0 +1,11 @@
+{
+	"id":"card_spider_eye",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Spider Eye",
+	"category":"World Item",
+	"asset":"Minecraft/260",
+	
+	"weight":11
+}

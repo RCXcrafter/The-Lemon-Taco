@@ -1,0 +1,11 @@
+{
+	"id":"card_bat",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Bat",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/009",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_pig",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Pig",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/007",
+	
+	"weight":11
+}

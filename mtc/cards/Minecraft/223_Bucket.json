@@ -1,0 +1,11 @@
+{
+	"id":"card_bucket",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Bucket",
+	"category":"World Item",
+	"asset":"Minecraft/223",
+	
+	"weight":11
+}
