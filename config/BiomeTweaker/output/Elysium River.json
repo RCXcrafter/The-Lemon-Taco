@@ -1,0 +1,30 @@
+
+{
+  "ID": 108,
+  "Name": "Elysium River",
+  "Class": "hu.hundevelopers.elysium.world.biome.ElysiumBiomeGenRiver",
+  "Color": 7587547,
+  "Root Height": -0.5,
+  "Height Variation": 0.0,
+  "Top Block": "elysium:tile.elysium_grass",
+  "Filler Block": "elysium:tile.elysium_dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "RIVER",
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

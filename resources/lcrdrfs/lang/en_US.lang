@@ -1,0 +1,54 @@
+entity.lasercreepers.laserCreeper.name=Laser Creeper
+entity.lasercreepers.laserBeam.name=Laser Beam
+entity.lasercreepers.creepsile.name=Creepssile
+entity.lasercreepers.roboDino.name=T-R3X 1000
+entity.lasercreepers.jetPackSpider.name=ARTHR0-BORG JETLINER 2000
+
+item.lasercreepers.roboDinoPart.name=T-R3X 1000 Part
+item.lasercreepers.roboDinoEggCrafted.name=Raw T-R3X 1000 Egg
+item.lasercreepers.roboDinoControlModule.name=T-R3X Control Module
+item.lasercreepers.creeperPlasma.name=Laser Creeper Plasma
+item.lasercreepers.plasmaPowerUnit.name=Plasma Power Unit
+item.lasercreepers.laserBarrel.name=Laser Blaster Barrel
+item.lasercreepers.laserLensUnit.name=Laser Blaster Core
+item.lasercreepers.laserGrip.name=Laser Blaster Grip
+item.lasercreepers.laserBlaster.name=Laser Blaster
+item.lasercreepers.emptyLaserBlaster.name=Empty Laser Blaster
+item.lasercreepers.jetpack.name=Armoured Jetpack
+item.lasercreepers.jetControlUnit.name=Armoured Jet Pack Control Unit
+item.lasercreepers.jetStabliser.name=Armoured Jet Pack Stabliser
+item.lasercreepers.jetThruster.name=Armoured Jet Pack Thruster
+item.lasercreepers.jetpackSpiderPart.name=ARTHR0-BORG JETLINER 2000 Part
+item.lasercreepers.spiderJetpack.name=ARTHR0-BORG JETLINER Creation Module
+item.lasercreepers.creepssileAmmo.name=Creepssile
+item.lasercreepers.sprayCanBlack.name=Dino-Pimp Spray Black
+item.lasercreepers.sprayCanRed.name=Dino-Pimp Spray Red
+item.lasercreepers.sprayCanGreen.name=Dino-Pimp Spray Green
+item.lasercreepers.sprayCanBrown.name=Dino-Pimp Spray Brown
+item.lasercreepers.sprayCanBlue.name=Dino-Pimp Spray Blue
+item.lasercreepers.sprayCanPurple.name=Dino-Pimp Spray Purple
+item.lasercreepers.sprayCanCyan.name=Dino-Pimp Spray Cyan
+item.lasercreepers.sprayCanSilver.name=Dino-Pimp Spray Silver
+item.lasercreepers.sprayCanGray.name=Dino-Pimp Spray Gray
+item.lasercreepers.sprayCanPink.name=Dino-Pimp Spray Pink
+item.lasercreepers.sprayCanLime.name=Dino-Pimp Spray Lime
+item.lasercreepers.sprayCanYellow.name=Dino-Pimp Spray Yellow
+item.lasercreepers.sprayCanLightBlue.name=Dino-Pimp Spray Light Blue
+item.lasercreepers.sprayCanMagenta.name=Dino-Pimp Spray Magenta
+item.lasercreepers.sprayCanOrange.name=Dino-Pimp Spray Orange
+item.lasercreepers.sprayCanWhite.name=Dino-Pimp Spray Natural
+item.lasercreepers.creeperChilliCrystalShard.name=Creeper Chilli Crystal Shard
+item.lasercreepers.creeperChilli.name=Creeper Chilli
+item.lasercreepers.creeperChilliPowder.name=Creeper Chilli Powder
+item.lasercreepers.creeperChilliSauce.name=Creeper Chilli Sauce
+item.lasercreepers.creepssileBazookoid.name=Creepssile Bazookoid
+item.lasercreepers.bazookoidChamber.name=Bazookoid Chamber
+item.lasercreepers.bazookoidGrip.name=Bazookoid Grip
+item.lasercreepers.bazookoidIgnition.name=Bazookoid Ignition
+
+tile.lasercreepers.roboDinoEgg.name=T-R3X 1000 Egg
+tile.lasercreepers.creeperChilliCrop.name=Creeper Chilli Crop
+
+itemGroup.LCRDRFS=Laser-Creeper Robo-Dino Riders From Space
+
+container.jetpackSpiderInventory=Creepssile Bazookoid

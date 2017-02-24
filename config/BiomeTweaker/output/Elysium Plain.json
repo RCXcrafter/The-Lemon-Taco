@@ -1,0 +1,54 @@
+
+{
+  "ID": 106,
+  "Name": "Elysium Plain",
+  "Class": "hu.hundevelopers.elysium.world.biome.ElysiumBiomeGenPlain",
+  "Color": 9356341,
+  "Root Height": 0.25,
+  "Height Variation": 0.3,
+  "Top Block": "elysium:tile.elysium_grass",
+  "Filler Block": "elysium:tile.elysium_dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityCaterPillar",
+      "Weight": 5,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntitySwan",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityEvolvedOyster",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityHero",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

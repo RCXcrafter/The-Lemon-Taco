@@ -1,0 +1,1 @@
+RTG Terrain  on proportion 6.7916955E-4 max depth 2Weighting  on proportion 0.0 max depth 1537Generating  on proportion 0.007546737 max depth 1Biome Layout  on proportion 0.0020497383 max depth 1RTG Noise  on proportion 0.014376837 max depth 1

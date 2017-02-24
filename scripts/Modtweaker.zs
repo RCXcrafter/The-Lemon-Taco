@@ -1239,7 +1239,7 @@ mods.chisel.Groups.addVariation("gold_brick", <chisel:gold2:5>);
 mods.chisel.Groups.addVariation("gold_brick", <TConstruct:decoration.multibrick:5>);
 mods.chisel.Groups.addVariation("gold_brick", <TConstruct:decoration.multibrickfancy:5>);
 mods.chisel.Groups.addVariation("gold_brick", <customitems:classic_gold_block>);
-//mods.chisel.Groups.addVariation("gold_brick", <thebetweenlands:goldCircleBrick>);
+mods.chisel.Groups.addVariation("gold_brick", <VillageNames:lunarinGoldBlock>);
 
 mods.chisel.Groups.addGroup("manganese_brick");
 mods.chisel.Groups.addVariation("manganese_brick", <Metallurgy:base.brick:2>);
