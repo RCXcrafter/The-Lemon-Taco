@@ -49,3 +49,5 @@ config/IguanaTinkerTweaks/BlockDefaults.cfg
 config/IguanaTinkerTweaks/ToolDefaults.cfg
 config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
 config/Modifiers/iguanaman.iguanatweakstconstruct.replacing.txt
+
+minecraftinstance.json
