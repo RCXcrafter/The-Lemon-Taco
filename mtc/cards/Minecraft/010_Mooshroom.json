@@ -1,0 +1,11 @@
+{
+	"id":"card_mooshroom",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Mooshroom",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/010",
+	
+	"weight":7
+}

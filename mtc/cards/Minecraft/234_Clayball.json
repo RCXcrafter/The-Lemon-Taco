@@ -1,0 +1,11 @@
+{
+	"id":"card_clayball",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Clayball",
+	"category":"World Item",
+	"asset":"Minecraft/234",
+	
+	"weight":11
+}

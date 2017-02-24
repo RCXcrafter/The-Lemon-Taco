@@ -1,0 +1,11 @@
+{
+	"id":"card_charcoal",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Charcoal",
+	"category":"World Item",
+	"asset":"Minecraft/180",
+	
+	"weight":11
+}

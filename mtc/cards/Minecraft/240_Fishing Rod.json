@@ -1,0 +1,11 @@
+{
+	"id":"card_fishing_rod",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Fishing Rod",
+	"category":"World Item",
+	"asset":"Minecraft/240",
+	
+	"weight":11
+}

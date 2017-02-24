@@ -156,13 +156,6 @@
       "damage": 0,
       "min": 1,
       "max": 5
-    },
-    {
-      "keep": "iguanaman.iguanatweakstconstruct.worldgen.RandomWeaponChestContent",
-      "id": "TConstruct:broadsword",
-      "damage": 0,
-      "nbt": false,
-      "count": 1
     }
   ]
 }

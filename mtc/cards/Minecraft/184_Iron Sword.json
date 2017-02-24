@@ -1,0 +1,11 @@
+{
+	"id":"card_iron_sword",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Iron Sword",
+	"category":"World Item",
+	"asset":"Minecraft/184",
+	
+	"weight":11
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_silverfish",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Silverfish",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/026",
+	
+	"weight":7
+}

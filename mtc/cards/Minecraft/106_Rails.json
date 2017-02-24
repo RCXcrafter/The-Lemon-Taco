@@ -1,0 +1,11 @@
+{
+	"id":"card_rails",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Rails",
+	"category":"World Item",
+	"asset":"Minecraft/106",
+	
+	"weight":11
+}

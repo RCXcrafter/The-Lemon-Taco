@@ -1,0 +1,11 @@
+{
+	"id":"card_torch",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Torch",
+	"category":"World Item",
+	"asset":"Minecraft/095",
+	
+	"weight":11
+}

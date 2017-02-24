@@ -1,0 +1,50 @@
+
+{
+  "ID": 104,
+  "Name": "Elysium Forest",
+  "Class": "hu.hundevelopers.elysium.world.biome.ElysiumBiomeGenForest",
+  "Color": 9676399,
+  "Root Height": 0.15,
+  "Height Variation": 0.2,
+  "Top Block": "elysium:tile.elysium_grass",
+  "Filler Block": "elysium:tile.elysium_dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.0,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "COLD",
+    "PLAINS",
+    "SNOWY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityDeer",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityPinkUnicorn",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityHero",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

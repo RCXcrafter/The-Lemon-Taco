@@ -1,0 +1,11 @@
+{
+	"id":"card_sticky_piston",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Sticky Piston",
+	"category":"World Item",
+	"asset":"Minecraft/079",
+	
+	"weight":7
+}

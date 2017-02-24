@@ -1,0 +1,11 @@
+{
+	"id":"card_tnt",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"TNT",
+	"category":"World Item",
+	"asset":"Minecraft/091",
+	
+	"weight":7
+}

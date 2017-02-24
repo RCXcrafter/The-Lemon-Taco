@@ -1,0 +1,11 @@
+{
+	"id":"card_mob_spawner",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Mob Spawner",
+	"category":"World Item",
+	"asset":"Minecraft/096",
+	
+	"weight":7
+}

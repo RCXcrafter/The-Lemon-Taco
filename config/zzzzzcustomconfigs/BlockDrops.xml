@@ -16,9 +16,12 @@ The following shows how to make the Block of Gold drop 9 ingots instead of itsel
 </block0>
 
 -->
-
 <BlockDrops>
 <!--
+<block1 mod="ganysend" id="rawEndium" meta="0">
+	<blacklist1>minecraft:stick 1 0</blacklist1>
+</block1>
+
 <block1 mod="ganysend" id="rawEndium" meta="0">
 	<drop1 chance="1.0">customitems:endium_chunk 1 0</drop1>
 	<blacklist1>ganysend:rawEndium 1 0</blacklist1>

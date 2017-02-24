@@ -1,0 +1,11 @@
+{
+	"id":"card_water_bucket",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Water Bucket",
+	"category":"World Item",
+	"asset":"Minecraft/224",
+	
+	"weight":11
+}

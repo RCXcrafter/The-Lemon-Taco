@@ -1,0 +1,11 @@
+{
+	"id":"card_ender_dragon",
+	"edition":"minecraft",
+	"rarity":"rare",
+	
+	"name":"Ender Dragon",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/041",
+	
+	"weight":4
+}

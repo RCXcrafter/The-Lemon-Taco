@@ -1,0 +1,11 @@
+{
+	"id":"card_gunpowder",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Gunpowder",
+	"category":"World Item",
+	"asset":"Minecraft/206",
+	
+	"weight":11
+}

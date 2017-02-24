@@ -1,0 +1,11 @@
+{
+	"id":"card_human",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Human",
+	"category":"Old Minecraft",
+	"asset":"Minecraft/046",
+	
+	"weight":7
+}

@@ -1,0 +1,11 @@
+{
+	"id":"card_dropper",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Dropper",
+	"category":"World Item",
+	"asset":"Minecraft/160",
+	
+	"weight":11
+}

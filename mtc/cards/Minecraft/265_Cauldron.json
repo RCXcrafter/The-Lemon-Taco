@@ -1,0 +1,11 @@
+{
+	"id":"card_cauldron",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Cauldron",
+	"category":"World Item",
+	"asset":"Minecraft/265",
+	
+	"weight":11
+}

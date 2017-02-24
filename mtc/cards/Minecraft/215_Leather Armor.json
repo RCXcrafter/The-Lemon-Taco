@@ -1,0 +1,11 @@
+{
+	"id":"card_leather_armor",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Leather Armor",
+	"category":"World Item",
+	"asset":"Minecraft/215",
+	
+	"weight":11
+}

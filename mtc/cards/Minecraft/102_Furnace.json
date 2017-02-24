@@ -1,0 +1,11 @@
+{
+	"id":"card_furnace",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Furnace",
+	"category":"World Item",
+	"asset":"Minecraft/102",
+	
+	"weight":11
+}

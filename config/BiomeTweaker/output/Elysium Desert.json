@@ -1,0 +1,49 @@
+
+{
+  "ID": 103,
+  "Name": "Elysium Desert",
+  "Class": "hu.hundevelopers.elysium.world.biome.ElysiumBiomeGenDesert",
+  "Color": 13224142,
+  "Root Height": 0.3,
+  "Height Variation": 0.1,
+  "Top Block": "elysium:tile.leucosand",
+  "Filler Block": "elysium:tile.leucosand",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 0.2,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityEnderMage",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "hu.hundevelopers.elysium.entity.EntityVoidSpecter",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

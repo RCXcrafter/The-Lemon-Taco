@@ -1,0 +1,11 @@
+{
+	"id":"card_stained_glass_pane",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Stained Glass Pane",
+	"category":"World Item",
+	"asset":"Minecraft/162",
+	
+	"weight":11
+}

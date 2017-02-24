@@ -1,0 +1,11 @@
+{
+	"id":"card_snow_golem",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Snow Golem",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/038",
+	
+	"weight":11
+}

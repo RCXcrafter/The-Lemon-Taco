@@ -1,0 +1,94 @@
+
+{
+  "ID": 200,
+  "Name": "Atum\u0027s Desert",
+  "Class": "com.teammetallurgy.atum.world.biome.BiomeGenAtumDesert",
+  "Color": 16421912,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "atum:tile.sand",
+  "Filler Block": "atum:tile.stone",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "SPARSE",
+    "DRY",
+    "SAVANNA",
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityMummy",
+      "Weight": 6,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityBanditWarlord",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityBanditWarrior",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityBarbarian",
+      "Weight": 2,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityBanditArcher",
+      "Weight": 6,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityDustySkeleton",
+      "Weight": 6,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityGhost",
+      "Weight": 6,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityDesertWolf",
+      "Weight": 6,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.EntityStoneSoldier",
+      "Weight": 6,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.common.entity.EntityTribeElite",
+      "Weight": 3,
+      "Min Group Count": 0,
+      "Max Group Count": 0
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

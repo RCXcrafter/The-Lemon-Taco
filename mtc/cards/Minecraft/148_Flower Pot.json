@@ -1,0 +1,11 @@
+{
+	"id":"card_flower_pot",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Flower Pot",
+	"category":"World Item",
+	"asset":"Minecraft/148",
+	
+	"weight":11
+}

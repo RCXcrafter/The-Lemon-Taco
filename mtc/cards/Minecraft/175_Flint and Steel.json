@@ -1,0 +1,11 @@
+{
+	"id":"card_flint_and_steel",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Flint and Steel",
+	"category":"World Item",
+	"asset":"Minecraft/175",
+	
+	"weight":11
+}

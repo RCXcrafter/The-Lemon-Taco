@@ -1,0 +1,11 @@
+{
+	"id":"card_glistering_melon",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Glistering Melon",
+	"category":"World Item",
+	"asset":"Minecraft/267",
+	
+	"weight":7
+}

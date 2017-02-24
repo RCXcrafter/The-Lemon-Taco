@@ -1,0 +1,11 @@
+{
+	"id":"card_hardened_clay",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Hardened Clay",
+	"category":"World Item",
+	"asset":"Minecraft/168",
+	
+	"weight":11
+}

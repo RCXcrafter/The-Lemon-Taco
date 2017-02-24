@@ -1,0 +1,11 @@
+{
+	"id":"card_cobweb",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Cobweb",
+	"category":"World Item",
+	"asset":"Minecraft/080",
+	
+	"weight":7
+}

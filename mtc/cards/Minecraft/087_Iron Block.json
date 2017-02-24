@@ -1,0 +1,11 @@
+{
+	"id":"card_iron_block",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Iron Block",
+	"category":"World Item",
+	"asset":"Minecraft/087",
+	
+	"weight":7
+}

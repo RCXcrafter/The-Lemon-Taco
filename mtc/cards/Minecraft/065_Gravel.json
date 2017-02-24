@@ -1,0 +1,11 @@
+{
+	"id":"card_gravel",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Gravel",
+	"category":"World Item",
+	"asset":"Minecraft/065",
+	
+	"weight":11
+}

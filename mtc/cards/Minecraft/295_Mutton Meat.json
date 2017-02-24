@@ -1,0 +1,11 @@
+{
+	"id":"card_mutton_meat",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Mutton Meat",
+	"category":"World Item",
+	"asset":"Minecraft/295",
+	
+	"weight":11
+}

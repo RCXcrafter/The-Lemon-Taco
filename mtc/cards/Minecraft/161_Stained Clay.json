@@ -1,0 +1,11 @@
+{
+	"id":"card_stained_clay",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Stained Clay",
+	"category":"World Item",
+	"asset":"Minecraft/161",
+	
+	"weight":11
+}

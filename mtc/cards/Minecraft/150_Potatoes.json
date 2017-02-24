@@ -1,0 +1,11 @@
+{
+	"id":"card_potatoes",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Potatoes",
+	"category":"World Item",
+	"asset":"Minecraft/150",
+	
+	"weight":11
+}

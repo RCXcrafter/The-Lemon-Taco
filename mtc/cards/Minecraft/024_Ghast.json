@@ -1,0 +1,11 @@
+{
+	"id":"card_ghast",
+	"edition":"minecraft",
+	"rarity":"uncommon",
+	
+	"name":"Ghast",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/024",
+	
+	"weight":7
+}

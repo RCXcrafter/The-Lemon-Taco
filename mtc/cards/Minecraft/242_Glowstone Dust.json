@@ -1,0 +1,11 @@
+{
+	"id":"card_glowstone_dust",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Glowstone Dust",
+	"category":"World Item",
+	"asset":"Minecraft/242",
+	
+	"weight":11
+}

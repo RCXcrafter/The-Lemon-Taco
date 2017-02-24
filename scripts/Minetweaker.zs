@@ -868,6 +868,13 @@ recipes.removeShapeless(<minecraft:gold_ingot>, [<VillageNames:lunarinGoldBlock>
 //g-rapple gun
 recipes.remove(<modJ_StarMiner:g_rapplegun>);
 
+//light bridges
+recipes.remove(<LightBridgesAndDoors:lightBridgeSource>);
+recipes.remove(<LightBridgesAndDoors:lightDoorSource>);
+recipes.remove(<LightBridgesAndDoors:lightBarrierSource>);
+recipes.remove(<LightBridgesAndDoors:lightRailSource>);
+recipes.remove(<LightBridgesAndDoors:gravityLift>);
+
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -1592,6 +1599,15 @@ recipes.addShaped(<modJ_StarMiner:g_rapplegun>,[[<modJ_StarMiner:starcore_dust>,
 
 //bridge gun
 recipes.addShaped(<ropebridge:bridge_builder>,[[<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>],[<OpenBlocks:ropeladder>,<grapplemod:hookshot>,<OpenBlocks:ropeladder>],[<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>]]);
+
+//light bridges
+recipes.addShapedMirrored(<LightBridgesAndDoors:lightBridgeSource>,[[<ore:ingotAluminum>,<erebus:glowGemBlock>,null],[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>],[null,<ore:ingotAlduorite>,<ore:ingotAluminum>]]);
+recipes.addShapedMirrored(<LightBridgesAndDoors:lightBridgeSource>,[[<ore:ingotAluminum>,<ore:ingotAlduorite>,null],[<erebus:glowGemBlock>,<ore:ingotAluminum>,<ore:ingotAlduorite>],[null,<erebus:glowGemBlock>,<ore:ingotAluminum>]]);
+recipes.addShaped(<LightBridgesAndDoors:lightDoorSource>,[[<ore:ingotAlduorite>,null,<ore:ingotAlduorite>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<erebus:glowGemBlock>,null,<erebus:glowGemBlock>]]);
+recipes.addShaped(<LightBridgesAndDoors:lightDoorSource>,[[<erebus:glowGemBlock>,null,<erebus:glowGemBlock>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<ore:ingotAlduorite>,null,<ore:ingotAlduorite>]]);
+recipes.addShapedMirrored(<LightBridgesAndDoors:lightBarrierSource>,[[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>],[null,<ore:ingotAluminum>,null],[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>]]);
+recipes.addShapeless(<LightBridgesAndDoors:lightRailSource>,[<minecraft:rail>,<LightBridgesAndDoors:lightBridgeSource>]);
+recipes.addShaped(<LightBridgesAndDoors:gravityLift>,[[null,<TConstruct:materials:17>,null,],[<TConstruct:slime.gel:2>,<metalforge:SpringPad:2>,<TConstruct:slime.gel:2>]]);
 
 
 #furnace recipes

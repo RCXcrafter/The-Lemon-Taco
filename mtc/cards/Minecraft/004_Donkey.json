@@ -1,0 +1,11 @@
+{
+	"id":"card_donkey",
+	"edition":"minecraft",
+	"rarity":"common",
+	
+	"name":"Donkey",
+	"category":"Minecraft Mob",
+	"asset":"Minecraft/004",
+	
+	"weight":11
+}
