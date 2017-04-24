@@ -30,8 +30,6 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_Enter:28
-key_Other Enter:156
 key_Draw Weapons:19
 key_Special:18
 key_key.cape:39
@@ -41,8 +39,12 @@ key_key.archimedes.brake:46
 key_key.archimedes.align:13
 key_key.archimedes.decompile:43
 key_key.archimedes.shipinv:37
+key_billund.rotate:27
 key_cos.key.openCosArmorInventory:36
 key_HoloInventory:0
+key_openblocks.keybind.vario_switch:47
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -66,7 +68,12 @@ key_key.craftingtweaks.rotate:71
 key_key.craftingtweaks.balance:76
 key_key.craftingtweaks.clear:77
 key_key.craftingtweaks.toggleButtons:0
+key_key.craftingtweaks.compress:40
+key_key.craftingtweaks.decompress:0
 key_Portable Dual Work Table:25
+key_Jet Pack Lift:33
+key_Jet Pack Hover:34
+key_Creepssile Launch:26
 key_key.screenshot_mc:62
 key_key.openRadial:184
 key_key.PickBlockPlus:-98
@@ -75,6 +82,4 @@ key_key.erebus.poweredGlide:33
 key_key.erebus.beetleRam:49
 key_key.erebus.beetleMine:56
 key_zoom.keybind.zoom:21
-key_key.cofh.empower:47
-key_key.cofh.multimode:40
 key_BetterFps:88

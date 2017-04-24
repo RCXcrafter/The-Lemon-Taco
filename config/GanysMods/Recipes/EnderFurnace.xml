@@ -181,6 +181,12 @@ The syntax for ore dictionary values is the value between double-quotes. (e.g. "
 	</recipe>
 
 	<recipe status="default">
+		<output>minecraft:experience_bottle 1 0</output>
+		<input1>minecraft:potion 1 8197</input1>
+		<input2>ganysend:endstoneRod 1 0</input2>
+	</recipe>
+
+	<recipe status="default">
 		<output>minecraft:ender_pearl 1 0</output>
 		<input1>minecraft:ghast_tear 1 0</input1>
 		<input2>minecraft:sugar 1 0</input2>

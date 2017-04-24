@@ -73,8 +73,8 @@
 //<ore:slabSandstoneRed>.add(<customitems:red_sandstone_slab>);
 
 //pistronics stuff
-<ore:slimeball>.add(<Pistronics2:Glue>);
 
+<ore:slimeball>.add(<Pistronics2:Glue>);
 //bitumen black dye
 <ore:dyeBlack>.add(<Metallurgy:utility.item:4>);
 <ore:dye>.add(<Metallurgy:utility.item:4>);
@@ -168,17 +168,6 @@
 
 #remove recipes
 
-//overpowered things from modular systems
-//recipes.remove(<modularsystems:blockStorageCore>);
-//recipes.remove(<modularsystems:blockBasicExpansion>);
-//recipes.remove(<modularsystems:blockStorageExpansion>);
-//recipes.remove(<modularsystems:blockHoppingStorageExpansion>);
-//recipes.remove(<modularsystems:blockArmorStorageExpansion>);
-//recipes.remove(<modularsystems:blockSmashingStorageExpansion>);
-//recipes.remove(<modularsystems:blockSortingStorageExpansion>);
-//recipes.remove(<modularsystems:blockCraftingStorageExpansion>);
-//recipes.remove(<modularsystems:blockEnchantmentAlter>);
-
 //stupid cobblestone to hopper recipes
 recipes.removeShapeless(<minecraft:hopper>, [<minecraft:cobblestone>]);
 
@@ -236,7 +225,7 @@ recipes.remove(<Metallurgy:base.brick:7>);
 //recipes.remove(<PoorOres:ardite_nugget>);
 
 //dubstep gun pedestal is overpowered
-recipes.remove(<mod_Saintspack:itemPedestal>);
+//recipes.remove(<mod_Saintspack:itemPedestal>);
 
 //sticks
 recipes.remove(<minecraft:stick>);
@@ -406,16 +395,16 @@ recipes.remove(<atum:item.limestonePickaxe>);
 recipes.remove(<atum:item.limestoneAxe>);
 recipes.remove(<atum:item.limestoneSword>);
 recipes.remove(<atum:item.limestoneHoe>);
-recipes.remove(<elysium:item.swordPalestone>);
-recipes.remove(<elysium:item.hoeFostimber>);
-recipes.remove(<elysium:item.pickaxeFostimber>);
-recipes.remove(<elysium:item.axePalestone>);
-recipes.remove(<elysium:item.hoePalestone>);
-recipes.remove(<elysium:item.pickaxePalestone>);
-recipes.remove(<elysium:item.swordFostimber>);
-recipes.remove(<elysium:item.shovelPalestone>);
-recipes.remove(<elysium:item.axeFostimber>);
-recipes.remove(<elysium:item.shovelFostimber>);
+//recipes.remove(<elysium:item.swordPalestone>);
+//recipes.remove(<elysium:item.hoeFostimber>);
+//recipes.remove(<elysium:item.pickaxeFostimber>);
+//recipes.remove(<elysium:item.axePalestone>);
+//recipes.remove(<elysium:item.hoePalestone>);
+//recipes.remove(<elysium:item.pickaxePalestone>);
+//recipes.remove(<elysium:item.swordFostimber>);
+//recipes.remove(<elysium:item.shovelPalestone>);
+//recipes.remove(<elysium:item.axeFostimber>);
+//recipes.remove(<elysium:item.shovelFostimber>);
 recipes.remove(<erebus:swordJade>);
 recipes.remove(<erebus:pickaxeJade>);
 recipes.remove(<erebus:axeJade>);
@@ -431,6 +420,16 @@ recipes.remove(<erebus:hoeJade>);
 recipes.remove(<JoistMod:StoneSaw>);
 recipes.remove(<JoistMod:IronSaw>);
 recipes.remove(<JoistMod:DiamondSaw>);
+recipes.remove(<ganysend:endiumAxe>);
+recipes.remove(<ganysend:endiumPickaxe>);
+recipes.remove(<ganysend:endiumShovel>);
+recipes.remove(<ganysend:endiumSword>);
+recipes.remove(<ganysend:endiumBow>);
+recipes.remove(<ganysend:reinforcedEndiumAxe>);
+recipes.remove(<ganysend:reinforcedEndiumPickaxe>);
+recipes.remove(<ganysend:reinforcedEndiumShovel>);
+recipes.remove(<ganysend:reinforcedEndiumSword>);
+recipes.remove(<ganysend:reinforcedEndiumBow>);
 
 //pistronics stuff
 recipes.remove(<Pistronics2:Pile of Redstone>);
@@ -499,7 +498,7 @@ recipes.remove(<craftingcraft:portableCraftingTable>);
 recipes.remove(<craftingcraft:portableCraftingTable:1>);
 
 //whetstone
-recipes.remove(<erebus:whetstone>);
+recipes.remove(<erebus:whetstone:*>);
 
 //villager wand
 recipes.remove(<cubicvillager:villager_blockelize>);
@@ -519,11 +518,14 @@ recipes.remove(<GardenStuff:moss_paste>);
 recipes.remove(<TConstruct:materials:6>);
 recipes.remove(<erebus:materials:34>);
 recipes.remove(<chisel:ballomoss>);
+recipes.remove(<GardenStuff:heavy_chain:5>);
+recipes.remove(<GardenStuff:light_chain:5>);
+recipes.remove(<GardenStuff:lattice:3>);
 
 //dooplicet sulper
 recipes.remove(<WTFTweaks:UnrefinedSulfur>);
-recipes.remove(<elysium:tile.blockSulphur>);
-recipes.remove(<elysium:item.elysium_sulphur>);
+//recipes.remove(<elysium:tile.blockSulphur>);
+//recipes.remove(<elysium:item.elysium_sulphur>);
 
 //metallurgy machines
 recipes.remove(<Metallurgy:machine.frame>);
@@ -727,14 +729,11 @@ recipes.remove(<Torcherino:tile.inverse_torcherino>);
 //recipes.remove(<Torcherino:tile.compressed_inverse_torcherino>);
 recipes.remove(<Torcherino:tile.double_compressed_inverse_torcherino>);
 
-//whetstone
-recipes.remove(<erebus:whetstone:*>);
-
 //dabstop
-recipes.remove(<mod_Saintspack:DubGun:*>);
-recipes.remove(<mod_Saintspack:DubGun6:*>);
-recipes.remove(<mod_Saintspack:DubGun5:*>);
-recipes.remove(<mod_Saintspack:DubGun8:*>);
+//recipes.remove(<mod_Saintspack:DubGun:*>);
+//recipes.remove(<mod_Saintspack:DubGun6:*>);
+//recipes.remove(<mod_Saintspack:DubGun5:*>);
+//recipes.remove(<mod_Saintspack:DubGun8:*>);
 //recipes.remove(<mod_Saintspack:InfDubGun:*>);
 
 //block extractor
@@ -866,14 +865,50 @@ recipes.remove(<VillageNames:lunarinGoldBlock>);
 recipes.removeShapeless(<minecraft:gold_ingot>, [<VillageNames:lunarinGoldBlock>]);
 
 //g-rapple gun
-recipes.remove(<modJ_StarMiner:g_rapplegun>);
+//recipes.remove(<modJ_StarMiner:g_rapplegun>);
 
 //light bridges
-recipes.remove(<LightBridgesAndDoors:lightBridgeSource>);
-recipes.remove(<LightBridgesAndDoors:lightDoorSource>);
-recipes.remove(<LightBridgesAndDoors:lightBarrierSource>);
-recipes.remove(<LightBridgesAndDoors:lightRailSource>);
-recipes.remove(<LightBridgesAndDoors:gravityLift>);
+//recipes.remove(<LightBridgesAndDoors:lightBridgeSource>);
+//recipes.remove(<LightBridgesAndDoors:lightDoorSource>);
+//recipes.remove(<LightBridgesAndDoors:lightBarrierSource>);
+//recipes.remove(<LightBridgesAndDoors:lightRailSource>);
+//recipes.remove(<LightBridgesAndDoors:gravityLift>);
+
+//flam fiml
+recipes.remove(<minecraft:enchanted_book:*>);
+
+//plant bags
+recipes.remove(<Natura:potatoBag>);
+recipes.remove(<Natura:carrotBag>);
+recipes.remove(<Natura:wartBag>);
+//recipes.remove(<Natura:boneBag>);
+
+//antique atlas
+recipes.remove(<antiqueatlas:emptyAntiqueAtlas>);
+
+//custom loreifier
+recipes.remove(<customizedlore:lore_customizer>);
+
+//ender storage
+recipes.remove(<EnderStorage:enderChest:*>);
+recipes.remove(<EnderStorage:enderPouch>);
+recipes.remove(<ganysend:anchoredEnderChest>);
+recipes.remove(<ganysend:enderBag>);
+recipes.remove(<EnderTanks:blockEnderTank:*>);
+recipes.remove(<EnderTanks:itemEnderBucket:*>);
+
+//insert quantum singularity
+recipes.remove(<universalsingularities:universal.general.singularity:14>);
+
+//ender collector
+recipes.remove(<ExtraUtilities:enderCollector>);
+
+//use regular chisel instead
+recipes.remove(<LightTweaks:chisel>);
+
+//steel rails
+recipes.remove(<minecraft:rail>);
+recipes.remove(<minecraft:activator_rail>);
 
 
 //furnace recipes
@@ -900,10 +935,6 @@ furnace.remove(<PortalGun:EnderPearlDust>);
 //wool to string
 //val shears = <minecraft:shears:*>;
 recipes.addShapeless(<minecraft:string> * 4,[<minecraft:wool:*>,<minecraft:shears:*>.transformDamage()]);
-
-//mossy stone
-recipes.addShapeless(<minecraft:stonebrick:1>,[<minecraft:stonebrick:0>,<minecraft:vine>]);
-recipes.addShapeless(<minecraft:mossy_cobblestone>,[<ore:cobblestone>,<minecraft:vine>]);
 
 //fruit dyes
 //recipes.addShapeless(<minecraft:dye:14>,[<projectfruit:orange>]);
@@ -939,11 +970,14 @@ recipes.addShapeless(<erebus:materials:34>,[<ore:moss>,<ore:moss>,<ore:moss>,<or
 recipes.addShapeless(<CaveBiomes:moss> * 9,[<erebus:materials:34>]);
 
 //mossy blocks
-recipes.addShapeless(<minecraft:mossy_cobblestone>,[<minecraft:cobblestone>,<ore:moss>]);
+recipes.addShapeless(<minecraft:mossy_cobblestone>,[<ore:cobblestone>,<ore:moss>]);
 recipes.addShapeless(<chisel:mossy_templeblock>,[<chisel:templeblock>,<ore:moss>]);
 recipes.addShapeless(<erebus:umberstone:2>,[<erebus:umberstone:1>,<ore:moss>]);
-recipes.addShapeless(<minecraft:stonebrick:1>,[<minecraft:stonebrick>,<ore:moss>]);
+recipes.addShapeless(<minecraft:stonebrick:1>,[<ore:stoneBrick>,<ore:moss>]);
 recipes.addShapeless(<GardenStuff:moss_brick:3>,[<minecraft:stonebrick:2>,<ore:moss>]);
+recipes.addShaped(<GardenStuff:heavy_chain:5> * 8,[[<GardenStuff:heavy_chain>,<GardenStuff:heavy_chain>,<GardenStuff:heavy_chain>],[<GardenStuff:heavy_chain>,<ore:moss>,<GardenStuff:heavy_chain>],[<GardenStuff:heavy_chain>,<GardenStuff:heavy_chain>,<GardenStuff:heavy_chain>]]);
+recipes.addShaped(<GardenStuff:light_chain:5> * 8,[[<GardenStuff:light_chain>,<GardenStuff:light_chain>,<GardenStuff:light_chain>],[<GardenStuff:light_chain>,<ore:moss>,<GardenStuff:light_chain>],[<GardenStuff:light_chain>,<GardenStuff:light_chain>,<GardenStuff:light_chain>]]);
+recipes.addShaped(<GardenStuff:lattice:3> * 8,[[<GardenStuff:lattice>,<GardenStuff:lattice>,<GardenStuff:lattice>],[<GardenStuff:lattice>,<ore:moss>,<GardenStuff:lattice>],[<GardenStuff:lattice>,<GardenStuff:lattice>,<GardenStuff:lattice>]]);
 //webs too I guess
 recipes.addShapeless(<erebus:umberstone:3>,[<erebus:umberstone:1>,<minecraft:web>]);
 //50 shades of moss
@@ -968,7 +1002,7 @@ recipes.addShapeless(<TConstruct:heartCanister:6>,[<TConstruct:heartCanister:4>,
 
 //golden stuff with midasium
 recipes.addShapeless(<Aquaculture:item.Fish:37>,[<ore:dustMidasium>,<minecraft:fish>]);
-recipes.addShapeless(<elysium:tile.elysium_flower:1>,[<ore:dustMidasium>,<elysium:tile.elysium_flower>]);
+//recipes.addShapeless(<elysium:tile.elysium_flower:1>,[<ore:dustMidasium>,<elysium:tile.elysium_flower>]);
 
 //snad
 recipes.addShapeless(<snad:tile.snad:1>,[<minecraft:sand:1>,<ore:itemClay>,<ore:dustPhosphorus>]);
@@ -1001,6 +1035,9 @@ recipes.addShapeless(<headcrumbs:head:11>,[<cubicvillager:villager_block_trade>]
 
 //walk the dinosaur
 recipes.addShapeless(<customitems:dinosaur>,[<UndergroundBiomes:fossilPiece>,<UndergroundBiomes:fossilPiece:1>,<UndergroundBiomes:fossilPiece:2>,<UndergroundBiomes:fossilPiece:3>,<UndergroundBiomes:fossilPiece:4>,<UndergroundBiomes:fossilPiece:5>,<UndergroundBiomes:fossilPiece:6>,<UndergroundBiomes:fossilPiece:7>]);
+
+//glowing moss stone
+recipes.addShapeless(<LightTweaks:DimStone>,[<ore:stone>,<ore:moss>,<ore:dustGlowstone>]);
 
 //flowaz
 recipes.addShapeless(<ExtrabiomesXL:flower2:11>,[<flowercraftmod:fcflower:5>,<ore:dustBone>]);
@@ -1093,7 +1130,7 @@ recipes.addShaped(<minecraft:quartz> * 4,[[<minecraft:quartz_block>]]);
 
 //yogs gun and nyan pig launcher
 recipes.addShaped(<TrailMix:NyanPigLauncher:9>,[[<ore:dyeRed>,<ore:dyeOrange>,<ore:dyeYellow>],[<ore:gemDiamond>,<TrailMix:TMPPLauncher:1>,<ore:paneGlassColorless>],[<ore:dyePurple>,<ore:dyeLightBlue>,<ore:dyeLime>]]);
-recipes.addShaped(<mod_Saintspack:DubGun8>,[[<ore:dyeRed>,<TrailMix:TrailMixMix>,<ore:dyeBlue>],[<TrailMix:TrailMixMix>,<mod_Saintspack:DubGun>,<TrailMix:TrailMixMix>],[<ore:dyeGreen>,<TrailMix:TrailMixMix>,<ore:dyeYellow>]]);
+//recipes.addShaped(<mod_Saintspack:DubGun8>,[[<ore:dyeRed>,<TrailMix:TrailMixMix>,<ore:dyeBlue>],[<TrailMix:TrailMixMix>,<mod_Saintspack:DubGun>,<TrailMix:TrailMixMix>],[<ore:dyeGreen>,<TrailMix:TrailMixMix>,<ore:dyeYellow>]]);
 
 //ore dictionary glass bottles
 recipes.addShaped(<minecraft:glass_bottle> * 3,[[<ore:blockGlassColorless>,null,<ore:blockGlassColorless>],[null,<ore:blockGlassColorless>,null]]);
@@ -1415,13 +1452,13 @@ recipes.addShaped(<dd:BlockDuplicator>,[[<ore:ingotSteel>,<ore:ingotCrystalMatri
 recipes.addShaped(<dd:ItemMeasuringDevice>,[[<ore:ingotSteel>,<magmaox:NetherWartBlock>,<ore:ingotSteel>],[<ore:ingotSteel>,<minecraft:clock>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotEximite>,<ore:ingotSteel>]]);
 
 //whetstone
-recipes.addShaped(<erebus:whetstone>,[[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>],[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>],[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>]]);
-recipes.addShaped(<erebus:materials:24> * 9,[[<erebus:whetstone>]]);
+recipes.addShaped(<customitems:whetstone>,[[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>],[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>],[<erebus:materials:24>,<erebus:materials:24>,<erebus:materials:24>]]);
+recipes.addShaped(<erebus:materials:24> * 9,[[<customitems:whetstone>]]);
 
 //dabstop
-recipes.addShaped(<mod_Saintspack:DubGun>,[[null,<ore:ingotUnstable>,<ore:ingotUnstable>],[<minecraft:jukebox>,<ore:record>,<TConstruct:materials:17>],[<minecraft:jukebox>,null,<ore:ingotUnstable>]]);
-recipes.addShaped(<mod_Saintspack:DubGun6>,[[<ore:blockCoal>,<ore:blockCoal>,<ore:blockCoal>],[<TConstruct:pickaxeHead:12>,<mod_Saintspack:DubGun:*>,<minecraft:lava_bucket>],[<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);
-recipes.addShaped(<mod_Saintspack:DubGun5>,[[<TConstruct:heavyPlate:6>,<customitems:nitro_lava_bucket>,<TConstruct:heavyPlate:6>],[<ExtraTiC:pickaxeHead:131>,<mod_Saintspack:DubGun6:*>,<customitems:nitro_lava_bucket>],[<TConstruct:heavyPlate:6>,<customitems:nitro_lava_bucket>,<TConstruct:heavyPlate:6>]]);
+//recipes.addShaped(<mod_Saintspack:DubGun>,[[null,<ore:ingotUnstable>,<ore:ingotUnstable>],[<minecraft:jukebox>,<ore:record>,<TConstruct:materials:17>],[<minecraft:jukebox>,null,<ore:ingotUnstable>]]);
+//recipes.addShaped(<mod_Saintspack:DubGun6>,[[<ore:blockCoal>,<ore:blockCoal>,<ore:blockCoal>],[<TConstruct:pickaxeHead:12>,<mod_Saintspack:DubGun:*>,<minecraft:lava_bucket>],[<ore:blockCharcoal>,<ore:blockCharcoal>,<ore:blockCharcoal>]]);
+//recipes.addShaped(<mod_Saintspack:DubGun5>,[[<TConstruct:heavyPlate:6>,<customitems:nitro_lava_bucket>,<TConstruct:heavyPlate:6>],[<ExtraTiC:pickaxeHead:131>,<mod_Saintspack:DubGun6:*>,<customitems:nitro_lava_bucket>],[<TConstruct:heavyPlate:6>,<customitems:nitro_lava_bucket>,<TConstruct:heavyPlate:6>]]);
 
 //block extractor
 recipes.addShaped(<erebus:blockExtractor>,[[<TConstruct:materials:26>,<TConstruct:pickaxeHead:604>,<TConstruct:materials:26>],[null,<erebus:materials:67>,null],[null,<ore:chestWood>,null]]);
@@ -1451,7 +1488,7 @@ recipes.addShaped(<ephys.playerproxies:tile.PP_ToughwoodPlank:1>,[[null,<ore:ing
 recipes.addShaped(<ephys.playerproxies:tile.PP_FluidDiffuser>,[[null,<etfuturum:dragon_breath>,null],[<minecraft:dropper>,<TConstruct:LavaTank>,<minecraft:dropper>]]);
 recipes.addShaped(<ephys.playerproxies:tile.PP_ItemActivator>,[[null,<ore:skullPlayer>,null],[<ore:slabStone>,<ore:slabStone>,<ore:slabStone>]]);
 recipes.addShaped(<ephys.playerproxies:tile.PP_FluidHopper>,[[<TConstruct:materials:2>,null,<TConstruct:materials:2>],[<TConstruct:materials:2>,<ore:blockHopper>,<TConstruct:materials:2>],[null,<TConstruct:materials:2>,null]]);
-recipes.addShaped(<ephys.playerproxies:item.PP_UnemptyingBucket>,[[<ephys.playerproxies:item.PP_DragonScaleIngot>,<qCraft:essence:2>,<ephys.playerproxies:item.PP_DragonScaleIngot>],[null,<ephys.playerproxies:item.PP_DragonScaleIngot>,null]]);
+recipes.addShaped(<ephys.playerproxies:item.PP_UnemptyingBucket>,[[<ephys.playerproxies:item.PP_DragonScaleIngot>,<EnderTanks:itemEnderBucket:*>,<ephys.playerproxies:item.PP_DragonScaleIngot>],[null,<ephys.playerproxies:item.PP_DragonScaleIngot>,null]]);
 recipes.addShaped(<ephys.playerproxies:item.PP_LinkWand>,[[<qCraft:essence:2>,<ore:ingotManganese>,<qCraft:essence:2>],[null,<ore:stickWood>,null],[null,<ore:stickWood>,null]]);
 recipes.addShapeless(<ephys.playerproxies:item.PP_DragonScaleIngot>,[<ore:ingotTungsten>,<ephys.playerproxies:item.PP_DragonScale>,<ore:dustEctoplasm>,<ore:itemGhastTear>]);
 recipes.addShapeless(<ephys.playerproxies:item.PP_BiomeStorage:256>,[<minecraft:grass>,<ore:itemGhastTear>,<ore:nuggetCosmicNeutronium>]);
@@ -1471,7 +1508,7 @@ recipes.addShaped(<grapplemod:repeller>,[[null,<ore:ingotUnstable>,null],[<ore:i
 recipes.addShaped(<grapplemod:repeller>,[[null,<ore:ingotCosmicNeutronium>,null],[<ore:ingotUnstable>,<ore:blockCrystalMatrix>,<ore:ingotUnstable>],[null,<ore:ingotCosmicNeutronium>,null]]);
 
 //dire autocrafter
-recipes.addShaped(<avaritiaddons:ExtremeAutoCrafter>,[[<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>],[<ore:ingotCrystalMatrix>,<progressiveautomation:CrafterDiamond>,<ore:ingotCrystalMatrix>],[<ore:ingotCrystalMatrix>,<Avaritia:Dire_Crafting>,<ore:ingotCrystalMatrix>]]);
+recipes.addShaped(<avaritiaddons:ExtremeAutoCrafter>.withTag({Contents: []}),[[<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>],[<ore:ingotCrystalMatrix>,<progressiveautomation:CrafterDiamond>,<ore:ingotCrystalMatrix>],[<ore:ingotCrystalMatrix>,<Avaritia:Dire_Crafting>,<ore:ingotCrystalMatrix>]]);
 
 //compressed crafting table
 recipes.addShaped(<Avaritia:Double_Craft>,[[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>],[<ore:craftingTableWood>,<ore:craftingTableWood>,<ore:craftingTableWood>]]);
@@ -1499,13 +1536,26 @@ recipes.addShaped(<customitems:bedrock_stick> * 4,[[<minecraft:bedrock>],[<minec
 recipes.addShaped(<sodacantorches:bedrock_fence> * 3,[[<customitems:bedrock_stick>,<customitems:bedrock_stick>,<customitems:bedrock_stick>],[<customitems:bedrock_stick>,<customitems:bedrock_stick>,<customitems:bedrock_stick>]]);
 //recipes.addShaped(<sodacantorches:bedrock_fence_gate>,[[<customitems:bedrock_stick>,<minecraft:bedrock>,<customitems:bedrock_stick>],[<customitems:bedrock_stick>,<minecraft:bedrock>,<customitems:bedrock_stick>]]);
 //recipes.addShaped(<sodacantorches:bedrock_flowerpot_item>,[[<minecraft:bedrock>,null,<minecraft:bedrock>],[null,<minecraft:bedrock>,null]]);
-
+recipes.addShaped(<LightTweaks:BedRailRed> * 6,[[<ore:ingotGold>,null,<ore:ingotGold>],[<ore:ingotGold>,<customitems:bedrock_stick>,<ore:ingotGold>],[<ore:ingotGold>,<ore:dustRedstone>,<ore:ingotGold>]]);
+recipes.addShaped(<LightTweaks:BedRailPowered> * 6,[[<ore:ingotIron>,null,<ore:ingotIron>],[<ore:ingotIron>,<customitems:bedrock_stick>,<ore:ingotIron>],[<ore:ingotIron>,<erebus:materials:8>,<ore:ingotIron>]]);
+recipes.addShaped(<LightTweaks:BedRailDetector> * 6,[[<ore:ingotIron>,<minecraft:stone_pressure_plate>,<ore:ingotIron>],[<ore:ingotIron>,<customitems:bedrock_stick>,<ore:ingotIron>],[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]]);
+recipes.addShaped(<LightTweaks:BedRail> * 16,[[<ore:ingotIron>,<customitems:bedrock_stick>,<ore:ingotIron>],[<ore:ingotIron>,<customitems:bedrock_stick>,<ore:ingotIron>],[<ore:ingotIron>,<customitems:bedrock_stick>,<ore:ingotIron>]]);
+recipes.addShapeless(<LightTweaks:BedFlower>,[<minecraft:yellow_flower>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:1>,[<minecraft:red_flower>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:2>,[<minecraft:red_flower:1>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:3>,[<minecraft:red_flower:2>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:4>,[<minecraft:red_flower:3>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:5>,[<minecraft:red_flower:4>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:6>,[<minecraft:red_flower:5>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:7>,[<minecraft:red_flower:6>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:8>,[<minecraft:red_flower:7>,<minecraft:bedrock>]);
+recipes.addShapeless(<LightTweaks:BedFlower:9>,[<minecraft:red_flower:8>,<minecraft:bedrock>]);
 //null
 recipes.addShapeless(<customitems:item.null.name>,[<CompactMachines:interface>,<Pistronics2:Motion Block>,<minecraft:command_block>,<OpenBlocks:devnull>.withTag({inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "Avaritia:Resource", Count: 1 as byte, Damage: 5 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}).onlyWithTag({inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "OpenBlocks:devnull", Count: 1 as byte, tag: {inventory: {size: 1, Items: [{Slot: 0 as byte, id: "Avaritia:Resource", Count: 1 as byte, Damage: 5 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}, Damage: 0 as short}]}}),<ore:ingotUnstable>,<PortalGun:PortalMulti:14>,<odc:MysteryWaterBucket>,<GardenStuff:chain_link:2>,<CaveBiomes:metamorphic_lavacrust:4>]);
 recipes.addShaped(<customitems:tile.null.name>,[[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>],[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>],[<customitems:item.null.name>,<customitems:item.null.name>,<customitems:item.null.name>]]);
 recipes.addShaped(<customitems:item.null.name> * 9,[[<customitems:tile.null.name>]]);
 recipes.addShapeless(<bis:SlimePistonHead>,[<bis:StickySlimePistonBase>,<customitems:item.null.name>]);
-recipes.addShapeless(<VoltzEngine:ve.selectiontool>,[<ore:stickWood>,<customitems:item.null.name>]);
+//recipes.addShapeless(<VoltzEngine:ve.selectiontool>,[<ore:stickWood>,<customitems:item.null.name>]);
 recipes.addShapeless(<SaltMod:achivItem>,[<ore:blockSaltCrystal>,<customitems:item.null.name>]);
 recipes.addShapeless(<SaltMod:grassTop>,[<minecraft:grass>,<customitems:item.null.name>]);
 recipes.addShapeless(<RidiculousWorld:Gloom>,[<RidiculousWorld:RockCandy>,<customitems:item.null.name>]);
@@ -1515,7 +1565,7 @@ recipes.addShapeless(<FFS:blockTankFrame>,[<FFS:blockValve>,<customitems:item.nu
 recipes.addShapeless(<GardenStuff:root_cover>,[<ore:logWood>,<customitems:item.null.name>]);
 recipes.addShapeless(<addictedtored:addictedtoredsoundBlock>,[<addictedtored:addictedtoredselectiondetector>,<customitems:item.null.name>]);
 recipes.addShapeless(<craftingpillars:pumpPillar>,[<craftingpillars:extendPillar>,<customitems:item.null.name>]);
-recipes.addShapeless(<elysium:tile.stone_pipe>,[<elysium:tile.palestone>,<customitems:item.null.name>]);
+//recipes.addShapeless(<elysium:tile.stone_pipe>,[<elysium:tile.palestone>,<customitems:item.null.name>]);
 recipes.addShapeless(<fairylights:fairy_lights_fastener>,[<fairylights:fairy_lights:*>,<customitems:item.null.name>]);
 recipes.addShapeless(<fairylights:fairy_lights_fence>,[<ore:fenceWood>,<customitems:item.null.name>]);
 recipes.addShapeless(<gearswap:emptyItem>,[<gearswap:gearSwapperGlass>,<customitems:item.null.name>]);
@@ -1545,7 +1595,7 @@ recipes.addShapeless(<minecraft:end_portal>,[<ore:pearlEnder>,<customitems:item.
 recipes.addShapeless(<erebus:portal>,[<erebus:portalActivator>,<customitems:item.null.name>]);
 recipes.addShapeless(<atum:tile.portal>,[<atum:item.scarab>,<customitems:item.null.name>]);
 recipes.addShapeless(<qCraft:quantumportal>,[<qCraft:quantumcomputer>,<customitems:item.null.name>]);
-recipes.addShapeless(<MetallurgyCore:metallurgyCore.oreFinder>,[<ore:oreAtlarus>,<VoltzEngine:ve.selectiontool>]);
+recipes.addShapeless(<MetallurgyCore:metallurgyCore.oreFinder>,[<ore:oreAtlarus>,<ore:stickWood>,<customitems:item.null.name>]);
 //recipes.addShapeless(<HardcoreQuesting:hqmInvalidItem>,[<customitems:item.null.name>]);
 recipes.addShapeless(<RidiculousWorld:Chest>,[<MultiPageChest:multipagechest>,<customitems:item.null.name>]);
 recipes.addShapeless(<RidiculousWorld:Gingerbread>,[<craftingpillars:item.WinterFood:3>,<customitems:item.null.name>]);
@@ -1560,9 +1610,9 @@ recipes.addShapeless(<RidiculousWorld:Gingerbread>,[<craftingpillars:item.Winter
 //recipes.addShapeless(<mowziesmobs:mobremover>,[<customitems:item.null.name>]);
 //recipes.addShapeless(<sodacantorches:logoblock>,[<customitems:item.null.name>]);
 recipes.addShapeless(<qCraft:missing>,[<qCraft:dust>,<customitems:item.null.name>]);
-recipes.addShapeless(<portalblocks:indicatorWire>,[<ore:dustRedstone>,<customitems:item.null.name>]);
+//recipes.addShapeless(<portalblocks:indicatorWire>,[<ore:dustRedstone>,<customitems:item.null.name>]);
 recipes.addShapeless(<golems:item.spawn_bedrock_golem>,[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<golems:tile.golem_head>,<customitems:item.null.name>]);
-recipes.addShapeless(<elysium:item.overkill>,[<Avaritia:Infinity_Sword>,<customitems:item.null.name>]);
+//recipes.addShapeless(<elysium:item.overkill>,[<Avaritia:Infinity_Sword>,<customitems:item.null.name>]);
 recipes.addShapeless(<TConstruct:HeldItemBlock>,[<TConstruct:frypan>,<customitems:item.null.name>]);
 recipes.addShapeless(<PlaceableTools:BucketBlock>,[<minecraft:bucket>,<customitems:item.null.name>]);
 //recipes.addShapeless(<MinesweeperMod:minesweeperBlock>,[<customitems:item.null.name>]);
@@ -1586,7 +1636,7 @@ recipes.addShaped(<Ztones:tile.redsBlock> * 8,[[<Ztones:stoneTile>,<Ztones:stone
 recipes.addShaped(<Ztones:ofanix>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<OpenBlocks:tank>.withTag({tank: {FluidName: "lava", Amount: 16000}}).onlyWithTag({tank: {FluidName: "lava", Amount: 16000}}),<craftingcraft:portableCraftingTable>,<OpenBlocks:tank>.withTag({tank: {FluidName: "water", Amount: 16000}}).onlyWithTag({tank: {FluidName: "water", Amount: 16000}})],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
 
 //spam-o-matic
-recipes.addShaped(<addictedtored:addictedtoredchatblock>,[[<renkin42swt:cs_brick_block>,<metalforge:null>,<renkin42swt:cs_brick_block>],[<minecraft:pumpkin>,<addictedtored:addictedtoredselectiondetector>,<minecraft:pumpkin>],[<ore:blockTartarite>,<ore:ingotNeptunium>,<ore:blockTartarite>]]);
+recipes.addShaped(<addictedtored:addictedtoredchatblock>,[[<renkin42swt:cs_brick_block>,<ExtraUtilities:mini-soul>,<renkin42swt:cs_brick_block>],[<minecraft:pumpkin>,<addictedtored:addictedtoredselectiondetector>,<minecraft:pumpkin>],[<ore:blockTartarite>,<ore:ingotNeptunium>,<ore:blockTartarite>]]);
 
 //colored stone is not redstone
 recipes.addShaped(<minecraft:redstone> * 8,[[<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>],[<ganyssurface:colouredRedstone:*>,<ore:dyeRed>,<ganyssurface:colouredRedstone:*>],[<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>,<ganyssurface:colouredRedstone:*>]]);
@@ -1595,19 +1645,60 @@ recipes.addShaped(<minecraft:redstone> * 8,[[<ganyssurface:colouredRedstone:*>,<
 recipes.addShaped(<grapplemod:hookshot>,[[null,<TConstruct:materials:1>,<TConstruct:materials:1>],[<grapplemod:grapplinghook>,<TConstruct:heavyPlate:16>,<TConstruct:heavyPlate:16>],[<minecraft:lead>,<additionalcompression:compressed_cobblestone:1>,<additionalcompression:compressed_cobblestone:1>]]);
 
 //g-rapple gun
-recipes.addShaped(<modJ_StarMiner:g_rapplegun>,[[<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>],[<modJ_StarMiner:starcore_dust>,<grapplemod:hookshot>,<modJ_StarMiner:starcore_dust>],[<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>]]);
+//recipes.addShaped(<modJ_StarMiner:g_rapplegun>,[[<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>],[<modJ_StarMiner:starcore_dust>,<grapplemod:hookshot>,<modJ_StarMiner:starcore_dust>],[<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>,<modJ_StarMiner:starcore_dust>]]);
 
 //bridge gun
 recipes.addShaped(<ropebridge:bridge_builder>,[[<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>],[<OpenBlocks:ropeladder>,<grapplemod:hookshot>,<OpenBlocks:ropeladder>],[<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>,<OpenBlocks:ropeladder>]]);
 
 //light bridges
-recipes.addShapedMirrored(<LightBridgesAndDoors:lightBridgeSource>,[[<ore:ingotAluminum>,<erebus:glowGemBlock>,null],[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>],[null,<ore:ingotAlduorite>,<ore:ingotAluminum>]]);
-recipes.addShapedMirrored(<LightBridgesAndDoors:lightBridgeSource>,[[<ore:ingotAluminum>,<ore:ingotAlduorite>,null],[<erebus:glowGemBlock>,<ore:ingotAluminum>,<ore:ingotAlduorite>],[null,<erebus:glowGemBlock>,<ore:ingotAluminum>]]);
-recipes.addShaped(<LightBridgesAndDoors:lightDoorSource>,[[<ore:ingotAlduorite>,null,<ore:ingotAlduorite>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<erebus:glowGemBlock>,null,<erebus:glowGemBlock>]]);
-recipes.addShaped(<LightBridgesAndDoors:lightDoorSource>,[[<erebus:glowGemBlock>,null,<erebus:glowGemBlock>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<ore:ingotAlduorite>,null,<ore:ingotAlduorite>]]);
-recipes.addShapedMirrored(<LightBridgesAndDoors:lightBarrierSource>,[[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>],[null,<ore:ingotAluminum>,null],[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>]]);
-recipes.addShapeless(<LightBridgesAndDoors:lightRailSource>,[<minecraft:rail>,<LightBridgesAndDoors:lightBridgeSource>]);
-recipes.addShaped(<LightBridgesAndDoors:gravityLift>,[[null,<TConstruct:materials:17>,null,],[<TConstruct:slime.gel:2>,<metalforge:SpringPad:2>,<TConstruct:slime.gel:2>]]);
+//recipes.addShapedMirrored(<LightBridgesAndDoors:lightBridgeSource>,[[<ore:ingotAluminum>,<erebus:glowGemBlock>,null],[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>],[null,<ore:ingotAlduorite>,<ore:ingotAluminum>]]);
+//recipes.addShapedMirrored(<LightBridgesAndDoors:lightBridgeSource>,[[<ore:ingotAluminum>,<ore:ingotAlduorite>,null],[<erebus:glowGemBlock>,<ore:ingotAluminum>,<ore:ingotAlduorite>],[null,<erebus:glowGemBlock>,<ore:ingotAluminum>]]);
+//recipes.addShaped(<LightBridgesAndDoors:lightDoorSource>,[[<ore:ingotAlduorite>,null,<ore:ingotAlduorite>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<erebus:glowGemBlock>,null,<erebus:glowGemBlock>]]);
+//recipes.addShaped(<LightBridgesAndDoors:lightDoorSource>,[[<erebus:glowGemBlock>,null,<erebus:glowGemBlock>],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>],[<ore:ingotAlduorite>,null,<ore:ingotAlduorite>]]);
+//recipes.addShapedMirrored(<LightBridgesAndDoors:lightBarrierSource>,[[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>],[null,<ore:ingotAluminum>,null],[<ore:ingotAlduorite>,<ore:ingotAluminum>,<erebus:glowGemBlock>]]);
+//recipes.addShapeless(<LightBridgesAndDoors:lightRailSource>,[<minecraft:rail>,<LightBridgesAndDoors:lightBridgeSource>]);
+//recipes.addShaped(<LightBridgesAndDoors:gravityLift>,[[null,<TConstruct:materials:17>,null,],[<TConstruct:slime.gel:2>,<metalforge:SpringPad:2>,<TConstruct:slime.gel:2>]]);
+
+//modular systems
+recipes.addShaped(<modularsystems:crusherCore>,[[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],[<ore:ingotIron>,<metallurgycm:crusher>,<ore:ingotIron>],[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
+recipes.addShapeless(<modularsystems:powerSolids>,[<modularsystems:dummyIO>,<ore:chestWood>]);
+recipes.addShapeless(<modularsystems:powerLiquids>,[<modularsystems:dummyIO>,<TConstruct:LavaTank>]);
+
+//uncraft nether wart block
+recipes.addShaped(<minecraft:nether_wart> * 9,[[<magmaox:NetherWartBlock>]]);
+
+//ender storage
+recipes.addShaped(<ganysend:anchoredEnderChest>,[[<ore:blockGold>,<ore:blockGold>,<ore:blockGold>],[<ore:blockGold>,<minecraft:ender_chest>,<ore:blockGold>],[<ore:blockGold>,<minecraft:anvil>,<ore:blockGold>]]);
+recipes.addShaped(<EnderStorage:enderChest>,[[<ore:rodBlaze>,<minecraft:wool:*>,<ore:rodBlaze>],[<ore:ingotEndium>,<ganysend:anchoredEnderChest>,<ore:ingotEndium>],[<ore:rodBlaze>,null,<ore:rodBlaze>]]);
+//recipes.addShaped(<EnderStorage:enderChest:4096>,[[<ore:rodBlaze>,<minecraft:wool:*>,<ore:rodBlaze>],[<TConstruct:LavaTank>,<ganysend:anchoredEnderChest>,<TConstruct:LavaTank>],[<ore:rodBlaze>,<ore:ingotEndium>,<ore:rodBlaze>]]);
+recipes.addShaped(<ganysend:enderBag>,[[null,<additionalcompression:compressed_ingotgold:1>,null],[<additionalcompression:compressed_leather>,<betterstorage:enderBackpack>,<additionalcompression:compressed_leather>],[null,<minecraft:anvil>,null]]);
+recipes.addShaped(<EnderStorage:enderPouch>,[[<ore:rodBlaze>,<minecraft:wool:*>,<ore:rodBlaze>],[<ore:ingotEndium>,<ganysend:enderBag>,<ore:ingotEndium>],[<ore:rodBlaze>,null,<ore:rodBlaze>]]);
+recipes.addShaped(<EnderTanks:blockEnderTank>,[[<ore:rodBlaze>,<minecraft:wool:*>,<ore:rodBlaze>],[<TConstruct:LavaTank>,<ganysend:anchoredEnderChest>,<TConstruct:LavaTank>],[<ore:rodBlaze>,<ore:ingotEndium>,<ore:rodBlaze>]]);
+recipes.addShaped(<EnderTanks:itemEnderBucket>,[[<ore:rodBlaze>,<minecraft:wool:*>,<ore:rodBlaze>],[<TConstruct:LavaTank>,<ganysend:enderBag>,<TConstruct:LavaTank>],[<ore:rodBlaze>,<ore:ingotEndium>,<ore:rodBlaze>]]);
+
+//insert quantum singularity
+recipes.addShapeless(<eternalsingularity:combined_singularity:4>,[<universalsingularities:universal.metallurgy.singularity:1>,<universalsingularities:universal.metallurgy.singularity:2>,<universalsingularities:universal.tinkersConstruct.singularity:4>,<universalsingularities:universal.metallurgy.singularity:3>,<universalsingularities:universal.metallurgy.singularity:4>,<universalsingularities:universal.tinkersConstruct.singularity:5>,<universalsingularities:universal.tinkersConstruct.singularity:2>,<universalsingularities:universal.tinkersConstruct.singularity:3>,<universalsingularities:universal.general.singularity:14>]);
+
+//ender collector
+recipes.addShaped(<ExtraUtilities:enderCollector>,[[<OpenBlocks:vacuumhopper>,<ExtraUtilities:decorativeBlock1:1>,<OpenBlocks:vacuumhopper>],[null,<ganysend:speedyHopper>,null],[<ore:ingotEndium>,<ganysend:speedyHopper>,<ore:ingotEndium>]]);
+
+//ultimate cardboard box
+recipes.addShaped(<cardboardboxes:cbCardboardBox>,[[<StorageDrawers:tape>,<erebus:blockExtractor:*>,<StorageDrawers:tape>],[<TConstruct:materials:26>,<betterstorage:cardboardBox>,<TConstruct:materials:26>],[<erebus:materials:42>,<customitems:unobtanium_hyper_diamond>,<erebus:materials:42>]]);
+
+//regular rails
+recipes.addShaped(<minecraft:rail> * 16,[[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>]]);
+recipes.addShaped(<minecraft:activator_rail> * 6,[[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],[<ore:ingotIron>,<ore:torchRedstone>,<ore:ingotIron>],[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>]]);
+
+//nether star
+recipes.addShaped(<exastrisrebirth:itemUnchargedNetherStar>,[[null,<ore:ingotUnstable>,null],[<ore:ingotUnstable>,<tinkersdefense:modItemsArmor:4>,<ore:ingotUnstable>],[null,<ore:ingotUnstable>,null]]);
+recipes.addShaped(<minecraft:nether_star>,[[<ore:dustSanguinite>,<TConstruct:ore.berries.two:9>,<ore:dustSanguinite>],[<TConstruct:ore.berries.two:9>,<exastrisrebirth:itemUnchargedNetherStar>,<TConstruct:ore.berries.two:9>],[<ore:dustSanguinite>,<TConstruct:ore.berries.two:9>,<ore:dustSanguinite>]]);
+
+//wolf cube
+recipes.addShapeless(<dmtweaks:tile.ccWolf>,[<PortalGun:PortalMulti:1>,<ore:skullWolf>]);
+
+//painted acacia planks slabs
+recipes.addShapeless(<mowziesmobs:paintedAcacia>,[<mowziesmobs:paintedAcaciaSlab>,<mowziesmobs:paintedAcaciaSlab>]);
+recipes.addShaped(<mowziesmobs:paintedAcaciaSlab> * 6,[[<mowziesmobs:paintedAcacia>,<mowziesmobs:paintedAcacia>,<mowziesmobs:paintedAcacia>]]);
 
 
 #furnace recipes
