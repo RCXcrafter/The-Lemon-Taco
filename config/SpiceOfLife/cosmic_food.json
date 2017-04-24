@@ -9,5 +9,8 @@
 
 	"name": "cosmic_food",
 
-	"blacklist": true
+	"blacklist": true,
+	
+	"formula": "1"
+
 }

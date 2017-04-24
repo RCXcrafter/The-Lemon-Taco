@@ -1,0 +1,16 @@
+tile.illuminatedButtonOn.black.name=Black Illuminated Toggle Button
+tile.illuminatedButtonOn.red.name=Red Illuminated Toggle Button
+tile.illuminatedButtonOn.green.name=Green Illuminated Toggle Button
+tile.illuminatedButtonOn.brown.name=Brown Illuminated Toggle Button
+tile.illuminatedButtonOn.blue.name=Blue Illuminated Toggle Button
+tile.illuminatedButtonOn.purple.name=Purple Illuminated Toggle Button
+tile.illuminatedButtonOn.cyan.name=Cyan Illuminated Toggle Button
+tile.illuminatedButtonOn.silver.name=Light Gray Illuminated Toggle Button
+tile.illuminatedButtonOn.gray.name=Gray Illuminated Toggle Button
+tile.illuminatedButtonOn.pink.name=Pink Illuminated Toggle Button
+tile.illuminatedButtonOn.lime.name=Lime Illuminated Toggle Button
+tile.illuminatedButtonOn.yellow.name=Yellow Illuminated Toggle Button
+tile.illuminatedButtonOn.lightBlue.name=Light Blue Illuminated Toggle Button
+tile.illuminatedButtonOn.magenta.name=Magenta Illuminated Toggle Button
+tile.illuminatedButtonOn.orange.name=Orange Illuminated Toggle Button
+tile.illuminatedButtonOn.white.name=White Illuminated Toggle Button

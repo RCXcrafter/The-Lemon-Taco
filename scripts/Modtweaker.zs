@@ -250,7 +250,7 @@ mods.tconstruct.Smeltery.addMelting(<ore:nuggetMithril>,<liquid:mithril.molten> 
 mods.tconstruct.Smeltery.addMelting(<metalforge:magnetiteAll:*>,<liquid:iron.molten> * 32,1400,<metalforge:magnetiteAll>);
 
 //melt golden flowers
-mods.tconstruct.Smeltery.addMelting(<elysium:tile.elysium_flower:1>,<liquid:gold.molten> * 32,1050,<minecraft:gold_block>);
+//mods.tconstruct.Smeltery.addMelting(<elysium:tile.elysium_flower:1>,<liquid:gold.molten> * 32,1050,<minecraft:gold_block>);
 
 #casting
 
@@ -258,7 +258,7 @@ mods.tconstruct.Smeltery.addMelting(<elysium:tile.elysium_flower:1>,<liquid:gold
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:ice>,<liquid:water> * 1000,<minecraft:snow>,true,50);
 
 //void gun casting
-mods.tconstruct.Casting.addTableRecipe(<mod_Saintspack:DubGun7>,<liquid:ender> * 2000,<mod_Saintspack:DubGun4:*>,true,50);
+//mods.tconstruct.Casting.addTableRecipe(<mod_Saintspack:DubGun7>,<liquid:ender> * 2000,<mod_Saintspack:DubGun4:*>,true,50);
 
 //lemonjuicery
 //mods.tconstruct.Smeltery.addMelting(<projectfruit:lemon>,<liquid:lemonadefluid> * 1000,80,<projectfruit:Lemonilium>);
@@ -340,15 +340,15 @@ mods.avaritia.ExtremeCrafting.addShaped(<tinkersdefense:greenmintcane>,[[null,nu
 //mods.avaritia.ExtremeCrafting.addShaped(<atum:tile.pharaohChest>,[[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null]]);
 mods.avaritia.ExtremeCrafting.addShaped(<chancecubes:Compact_Giant_Chance_Cube>,[[<chancecubes:Chance_Cube>,null,null,null,null,null,<chancecubes:Chance_Cube>],[null,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,null],[null,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,null],[null,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,null,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,null],[null,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,null],[null,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,<chancecubes:Chance_Cube>,null],[<chancecubes:Chance_Cube>,null,null,null,null,null,<chancecubes:Chance_Cube>]]);
 mods.avaritia.ExtremeCrafting.remove(<avaritiaddons:CompressedChest>);
-mods.avaritia.ExtremeCrafting.addShaped(<avaritiaddons:CompressedChest>,[[<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,null,null,null,null,null,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,null,null,null,null,null,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>]]);
-mods.avaritia.ExtremeCrafting.addShaped(<avaritiaddons:InfinityChest>,[[<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<avaritiaddons:CompressedChest>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>]]);
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaddons:CompressedChest>.withTag({Contents: []}),[[<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,null,null,null,null,null,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<metallurgycm:metal_chest:4>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,null,null,null,null,null,null,null,<ore:ingotCosmicNeutronium>],[<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>,<ore:ingotCosmicNeutronium>]]);
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaddons:InfinityChest>.withTag({Contents: []}),[[<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<avaritiaddons:CompressedChest:*>,<ore:ingotInfinity>],[<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>,<ore:ingotInfinity>]]);
 mods.avaritia.ExtremeCrafting.addShaped(<metalforge:null>,[[null,null,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,null,null],[null,null,<ore:ingotSteel>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:ingotSteel>,null,null],[null,null,<ore:ingotSteel>,<ore:skullPlayer>,<ore:ingotCosmicNeutronium>,<ore:skullPlayer>,<ore:ingotSteel>,null,null],[null,null,<ore:ingotSteel>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:skullPlayer>,<ore:ingotSteel>,null,null],[null,null,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,null,null],[null,null,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,null,null],[<ore:ingotSteel>,<ore:ingotSteel>,null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[null,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>,null]]);
 
 //ultimate stew and cosmic meatballs
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Cosmic_Meatballs>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Ultimate_Stew>);
 mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Cosmic_Meatballs>,[<Avaritia:Resource:2>,<minecraft:fish>,<TConstruct:MeatBlock>,<erebus:food:4>,<minecraft:chicken>,<TConstruct:strangeFood:2>,<ganyssurface:pocketCritter:1>,<erebus:food:2>,<minecraft:beef>,<ganyssurface:pocketCritter>,<minecraft:porkchop>,<minecraft:fish:2>,<etfuturum:rabbit_raw>,<erebus:food:12>,<Aquaculture:item.loot:2>,<Natura:impmeat>,<etfuturum:mutton_raw>,<erebus:food>,<Aquaculture:item.loot:3>,<atum:item.fish>,<TConstruct:strangeFood:1>,<minecraft:rotten_flesh>,<erebus:lifeBlood>,<atum:item.fish:1>,<minecraft:spider_eye>,<minecraft:fish:3>,<Aquaculture:item.loot:7>,<minecraft:fish:1>,<TConstruct:strangeFood>,<Aquaculture:item.Fish:18>,<erebus:materials:66>,<withercrumbs:Crumb_Star>,<ore:egg>,<mahmeat:walrus_meat>,<erebus:heart_stag_raw>,<Aquaculture:item.Fish:37>,<imc:item_raw_squid>,<RidiculousWorld:UnicornRaw>,<imc:item_raw_horse>]);
-mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Ultimate_Stew>,[<erebus:materials:62>,<Avaritia:Resource:2>,<Natura:berry:3>,<complexcrops:cucumber>,<Natura:barleyFood>,<Natura:berry.nether:2>,<Natura:Glowshroom>,<Aquaculture:item.loot>,<Natura:berry:2>,<minecraft:potato>,<minecraft:dye:3>,<Natura:berry.nether:3>,<Natura:berry:1>,<minecraft:cactus>,<SaltMod:saltWortSeed>,<erebus:food:15>,<minecraft:red_flower:2>,<atum:item.date>,<minecraft:melon>,<minecraft:apple>,<TrailMix:TrailMixMix>,<Natura:Glowshroom:2>,<ganyssurface:pineNuts>,<Natura:Natura.netherfood>,<erebus:materials:35>,<erebus:materials:56>,<minecraft:reeds>,<erebus:materials:31>,<elysium:item.raspberry>,<etfuturum:chorus_fruit>,<erebus:greenMushroom>,<ore:dustSalt>,<ExtrabiomesXL:extrabiomes.crop>,<erebus:turnips>,<erebus:bundleshroom>,<ganyssurface:teaLeaves>,<metalforge:bioplantmass>,<Natura:berry>,<erebus:bulbCappedShroom>,<minecraft:brown_mushroom>,<Natura:Glowshroom:1>,<elysium:item.grapes>,<erebus:tangledStalk>,<OpenBlocks:tastyClay>,<minecraft:wheat>,<Natura:berry.nether:1>,<Natura:berry.nether>,<erebus:highCapped>,<erebus:dutchCap>,<erebus:kaizerfinger>,<elysium:item.grapes:1>,<erebus:food:11>,<etfuturum:beetroot>,<erebus:materials:11>,<erebus:food:14>,<minecraft:pumpkin>,<complexcrops:rice>,<TConstruct:oreBerries:5>,<complexcrops:corn>,<ore:dustSugar>,<minecraft:red_mushroom>,<SaltMod:soda>,<flowercraftmod:fchoneyraw>,<Natura:waterdrop>,<complexcrops:butter>,<minecraft:carrot>,<erebus:materials:32>,<erebus:materials:68>,<erebus:heartBerries>,<erebus:food:17>]);
+mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Ultimate_Stew>,[<erebus:materials:62>,<Avaritia:Resource:2>,<Natura:berry:3>,<complexcrops:cucumber>,<Natura:barleyFood>,<Natura:berry.nether:2>,<Natura:Glowshroom>,<Aquaculture:item.loot>,<Natura:berry:2>,<minecraft:potato>,<minecraft:dye:3>,<Natura:berry.nether:3>,<Natura:berry:1>,<minecraft:cactus>,<SaltMod:saltWortSeed>,<erebus:food:15>,<minecraft:red_flower:2>,<atum:item.date>,<minecraft:melon>,<minecraft:apple>,<TrailMix:TrailMixMix>,<Natura:Glowshroom:2>,<ganyssurface:pineNuts>,<Natura:Natura.netherfood>,<erebus:materials:35>,<erebus:materials:56>,<minecraft:reeds>,<erebus:materials:31>,<etfuturum:chorus_fruit>,<erebus:greenMushroom>,<ore:dustSalt>,<ExtrabiomesXL:extrabiomes.crop>,<erebus:turnips>,<erebus:bundleshroom>,<ganyssurface:teaLeaves>,<metalforge:bioplantmass>,<Natura:berry>,<erebus:bulbCappedShroom>,<minecraft:brown_mushroom>,<Natura:Glowshroom:1>,<erebus:tangledStalk>,<OpenBlocks:tastyClay>,<minecraft:wheat>,<Natura:berry.nether:1>,<Natura:berry.nether>,<erebus:highCapped>,<erebus:dutchCap>,<erebus:kaizerfinger>,<erebus:food:11>,<etfuturum:beetroot>,<erebus:materials:11>,<erebus:food:14>,<minecraft:pumpkin>,<complexcrops:rice>,<TConstruct:oreBerries:5>,<complexcrops:corn>,<ore:dustSugar>,<minecraft:red_mushroom>,<SaltMod:soda>,<flowercraftmod:fchoneyraw>,<Natura:waterdrop>,<complexcrops:butter>,<minecraft:carrot>,<erebus:materials:32>,<erebus:materials:68>,<erebus:heartBerries>,<erebus:food:17>]);
 
 //,<projectfruit:orange>,<projectfruit:lemon>,<projectfruit:blueberry>,<projectfruit:lime>
 
@@ -409,7 +409,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<odc:Workbench1:7>,[[<odc:Workbench:1>,<
 
 //new catalist recipe
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
-mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>,[<eternalsingularity:eternal_singularity>,<Avaritia:Ultimate_Stew>,<Avaritia:Cosmic_Meatballs>,<Avaritia:Endest_Pearl>,<Avaritia:Resource:7>,<ore:blockManyullyn>,<ore:blockSteel>,<ore:blockDragoonyte>,<ExtraUtilities:block_bedrockium>,<ore:blockTartarite>,<ore:blockSanguinite>,<ore:blockDesichalkos>,<ore:blockNeptunium>,<ore:blockSciencium>,<ore:ingotTooth>,<ephys.playerproxies:item.PP_DragonScaleIngot>,<ore:gemUnobtaniumHyperDiamond>,<erebus:materials:65>,<chancecubes:Compact_Giant_Chance_Cube>,<chancecubes:Chance_Icosahedron>,<TConstruct:heartCanister:6>,<Torcherino:tile.double_compressed_torcherino>,<metallurgycm:abstractor:9>,<metallurgycm:smelter:7>,<erebus:tarantulaEgg>,<erebus:antlionEgg>,<customitems:dinosaur>,<RidiculousWorld:UnicornHorn>.withTag({ench: [{lvl: 4 as short, id: 17 as short}]})]);
+mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>,[<eternalsingularity:eternal_singularity>,<Avaritia:Ultimate_Stew>,<Avaritia:Cosmic_Meatballs>,<Avaritia:Endest_Pearl>,<Avaritia:Resource:7>,<ore:blockManyullyn>,<ore:blockSteel>,<ore:blockDragoonyte>,<ExtraUtilities:block_bedrockium>,<ore:blockTartarite>,<ore:blockSanguinite>,<ore:blockDesichalkos>,<ore:blockNeptunium>,<ore:blockSciencium>,<ephys.playerproxies:item.PP_DragonScaleIngot>,<ore:gemUnobtaniumHyperDiamond>,<erebus:materials:65>,<chancecubes:Compact_Giant_Chance_Cube>,<chancecubes:Chance_Icosahedron>,<TConstruct:heartCanister:6>,<Torcherino:tile.double_compressed_torcherino>,<metallurgycm:abstractor:9>,<metallurgycm:smelter:7>,<erebus:tarantulaEgg>,<erebus:antlionEgg>,<customitems:dinosaur>,<RidiculousWorld:UnicornHorn>.withTag({ench: [{lvl: 4 as short, id: 17 as short}]})]);
 
 //it fell from the sky
 //and punished those who stood in its way
@@ -419,8 +419,15 @@ mods.avaritia.ExtremeCrafting.addShaped(<ItFellFromTheSky:compactPorkchop>,[[nul
 
 #compressor recipes
 
+mods.avaritia.Compressor.add(<universalsingularities:universal.general.singularity:14>, 9000, <qCraft:dust>);
 mods.avaritia.Compressor.add(<customitems:item.singularity.name>, 2147483647, <customitems:tile.null.name>);
 mods.avaritia.Compressor.add(<customitems:nitro_compressed_infinity_block>, 999999, <Avaritia:Resource_Block:1>);
+
+
+
+#eternal singularity recipes
+
+//mods.eternalsingularity.add(<universalsingularities:universal.general.singularity:14>);
 
 
 
@@ -921,45 +928,45 @@ mods.chisel.Groups.addVariation("redRock", <ExtrabiomesXL:terrain_blocks1>);
 mods.chisel.Groups.addVariation("redRock", <ExtrabiomesXL:terrain_blocks1:2>);
 
 //portal blocks
-recipes.addShaped(<portalblocks:button>,[[null,<minecraft:stone_pressure_plate>,null],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
-recipes.addShaped(<portalblocks:pedestalbutton>,[[<minecraft:stone_button>],[<ore:ingotAluminum>],[<ore:ingotAluminum>]]);
-recipes.addShaped(<portalblocks:panel_white> * 8,[[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:stone>,<ore:ingotAluminum>,<ore:stone>],[<ore:stone>,<ore:stone>,<ore:stone>]]);
-mods.chisel.Groups.addGroup("panelWhite");
-mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white>);
-mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:1>);
-mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:2>);
-mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:3>);
-mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:4>);
-mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:5>);
-recipes.addShaped(<portalblocks:panel_black> * 8,[[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:stone>,<ore:nuggetWroughtIron>,<ore:stone>],[<ore:stone>,<ore:stone>,<ore:stone>]]);
-mods.chisel.Groups.addGroup("panelBlack");
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:1>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:2>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:3>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:4>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:5>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:6>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:7>);
-mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:8>);
-recipes.addShapeless(<portalblocks:light:4> * 1,[<portalblocks:panel_white>,<ore:dustGlowstone>]);
-mods.chisel.Groups.addGroup("panelLightWhite");
-mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:4>);
-mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:5>);
-mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:6>);
-mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:7>);
-recipes.addShapeless(<portalblocks:light> * 1,[<portalblocks:panel_black>,<ore:dustGlowstone>]);
-mods.chisel.Groups.addGroup("panelLightBlack");
-mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light>);
-mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light:1>);
-mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light:2>);
-mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light:3>);
-furnace.addRecipe(<portalblocks:frame>,<portalblocks:panel_white:*>,0.5);
-furnace.addRecipe(<portalblocks:frame:4>,<portalblocks:panel_black:*>,0.5);
-mods.chisel.Groups.addGroup("panelExposed");
-mods.chisel.Groups.addVariation("panelExposed", <portalblocks:frame>);
-mods.chisel.Groups.addVariation("panelExposed", <portalblocks:frame:4>);
-recipes.addShaped(<portalblocks:item_portalDoor> * 2,[[<ore:ingotAluminum>,<ore:ingotAluminum>],[<minecraft:iron_door>,<minecraft:iron_door>],[<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+//recipes.addShaped(<portalblocks:button>,[[null,<minecraft:stone_pressure_plate>,null],[<ore:ingotAluminum>,<ore:ingotAluminum>,<ore:ingotAluminum>]]);
+//recipes.addShaped(<portalblocks:pedestalbutton>,[[<minecraft:stone_button>],[<ore:ingotAluminum>],[<ore:ingotAluminum>]]);
+//recipes.addShaped(<portalblocks:panel_white> * 8,[[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:stone>,<ore:ingotAluminum>,<ore:stone>],[<ore:stone>,<ore:stone>,<ore:stone>]]);
+//mods.chisel.Groups.addGroup("panelWhite");
+//mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white>);
+//mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:1>);
+//mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:2>);
+//mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:3>);
+//mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:4>);
+//mods.chisel.Groups.addVariation("panelWhite", <portalblocks:panel_white:5>);
+//recipes.addShaped(<portalblocks:panel_black> * 8,[[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:stone>,<ore:nuggetWroughtIron>,<ore:stone>],[<ore:stone>,<ore:stone>,<ore:stone>]]);
+//mods.chisel.Groups.addGroup("panelBlack");
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:1>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:2>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:3>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:4>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:5>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:6>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:7>);
+//mods.chisel.Groups.addVariation("panelBlack", <portalblocks:panel_black:8>);
+//recipes.addShapeless(<portalblocks:light:4> * 1,[<portalblocks:panel_white>,<ore:dustGlowstone>]);
+//mods.chisel.Groups.addGroup("panelLightWhite");
+//mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:4>);
+//mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:5>);
+//mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:6>);
+//mods.chisel.Groups.addVariation("panelLightWhite", <portalblocks:light:7>);
+//recipes.addShapeless(<portalblocks:light> * 1,[<portalblocks:panel_black>,<ore:dustGlowstone>]);
+//mods.chisel.Groups.addGroup("panelLightBlack");
+//mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light>);
+//mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light:1>);
+//mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light:2>);
+//mods.chisel.Groups.addVariation("panelLightBlack", <portalblocks:light:3>);
+//furnace.addRecipe(<portalblocks:frame>,<portalblocks:panel_white:*>,0.5);
+//furnace.addRecipe(<portalblocks:frame:4>,<portalblocks:panel_black:*>,0.5);
+//mods.chisel.Groups.addGroup("panelExposed");
+//mods.chisel.Groups.addVariation("panelExposed", <portalblocks:frame>);
+//mods.chisel.Groups.addVariation("panelExposed", <portalblocks:frame:4>);
+//recipes.addShaped(<portalblocks:item_portalDoor> * 2,[[<ore:ingotAluminum>,<ore:ingotAluminum>],[<minecraft:iron_door>,<minecraft:iron_door>],[<ore:ingotAluminum>,<ore:ingotAluminum>]]);
 
 //gany's end
 mods.chisel.Groups.addVariation("end_stone", <ganysend:endstoneBrick>);
@@ -1072,14 +1079,109 @@ mods.chisel.Groups.addVariation("magnetite", <metalforge:magnetiteAll:4>);
 mods.chisel.Groups.addVariation("magnetite", <metalforge:magnetiteAll:5>);
 
 //sulfur
-mods.chisel.Groups.addGroup("sulfurBlock");
-mods.chisel.Groups.addVariation("sulfurBlock", <Metallurgy:utility.block>);
-mods.chisel.Groups.addVariation("sulfurBlock", <elysium:tile.blockSulphur>);
+//mods.chisel.Groups.addGroup("sulfurBlock");
+//mods.chisel.Groups.addVariation("sulfurBlock", <Metallurgy:utility.block>);
+//mods.chisel.Groups.addVariation("sulfurBlock", <elysium:tile.blockSulphur>);
 
 //jade
-mods.chisel.Groups.addGroup("jadeBlock");
-mods.chisel.Groups.addVariation("jadeBlock", <erebus:blockJade>);
-mods.chisel.Groups.addVariation("jadeBlock", <elysium:tile.blockJade>);
+//mods.chisel.Groups.addGroup("jadeBlock");
+//mods.chisel.Groups.addVariation("jadeBlock", <erebus:blockJade>);
+//mods.chisel.Groups.addVariation("jadeBlock", <elysium:tile.blockJade>);
+
+//dn'i numbers
+mods.chisel.Groups.addGroup("dniStone");
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:1>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:2>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:3>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:4>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:5>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:6>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:7>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:8>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:9>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:10>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:11>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:12>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:13>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:14>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock:15>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:1>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:2>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:3>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:4>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:5>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:6>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:7>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:8>);
+mods.chisel.Groups.addVariation("dniStone", <LightTweaks:metablock2:9>);
+
+//colored quartz
+mods.chisel.Groups.addGroup("quartz_black");
+mods.chisel.Groups.addVariation("quartz_black", <ganysnether:colouredQuartzBlock>);
+mods.chisel.Groups.addVariation("quartz_black", <ganysnether:colouredChiselledQuartzBlock>);
+mods.chisel.Groups.addVariation("quartz_black", <ganysnether:colouredQuartzPillar0>);
+mods.chisel.Groups.addGroup("quartz_red");
+mods.chisel.Groups.addVariation("quartz_red", <ganysnether:colouredQuartzBlock:1>);
+mods.chisel.Groups.addVariation("quartz_red", <ganysnether:colouredChiselledQuartzBlock:1>);
+mods.chisel.Groups.addVariation("quartz_red", <ganysnether:colouredQuartzPillar0:1>);
+mods.chisel.Groups.addGroup("quartz_green");
+mods.chisel.Groups.addVariation("quartz_green", <ganysnether:colouredQuartzBlock:2>);
+mods.chisel.Groups.addVariation("quartz_green", <ganysnether:colouredChiselledQuartzBlock:2>);
+mods.chisel.Groups.addVariation("quartz_green", <ganysnether:colouredQuartzPillar0:2>);
+mods.chisel.Groups.addGroup("quartz_brown");
+mods.chisel.Groups.addVariation("quartz_brown", <ganysnether:colouredQuartzBlock:3>);
+mods.chisel.Groups.addVariation("quartz_brown", <ganysnether:colouredChiselledQuartzBlock:3>);
+mods.chisel.Groups.addVariation("quartz_brown", <ganysnether:colouredQuartzPillar0:3>);
+mods.chisel.Groups.addGroup("quartz_blue");
+mods.chisel.Groups.addVariation("quartz_blue", <ganysnether:colouredQuartzBlock:4>);
+mods.chisel.Groups.addVariation("quartz_blue", <ganysnether:colouredChiselledQuartzBlock:4>);
+mods.chisel.Groups.addVariation("quartz_blue", <ganysnether:colouredQuartzPillar1>);
+mods.chisel.Groups.addGroup("quartz_purple");
+mods.chisel.Groups.addVariation("quartz_purple", <ganysnether:colouredQuartzBlock:5>);
+mods.chisel.Groups.addVariation("quartz_purple", <ganysnether:colouredChiselledQuartzBlock:5>);
+mods.chisel.Groups.addVariation("quartz_purple", <ganysnether:colouredQuartzPillar1:1>);
+mods.chisel.Groups.addGroup("quartz_cyan");
+mods.chisel.Groups.addVariation("quartz_cyan", <ganysnether:colouredQuartzBlock:6>);
+mods.chisel.Groups.addVariation("quartz_cyan", <ganysnether:colouredChiselledQuartzBlock:6>);
+mods.chisel.Groups.addVariation("quartz_cyan", <ganysnether:colouredQuartzPillar1:2>);
+mods.chisel.Groups.addGroup("quartz_silver");
+mods.chisel.Groups.addVariation("quartz_silver", <ganysnether:colouredQuartzBlock:7>);
+mods.chisel.Groups.addVariation("quartz_silver", <ganysnether:colouredChiselledQuartzBlock:7>);
+mods.chisel.Groups.addVariation("quartz_silver", <ganysnether:colouredQuartzPillar1:3>);
+mods.chisel.Groups.addGroup("quartz_gray");
+mods.chisel.Groups.addVariation("quartz_gray", <ganysnether:colouredQuartzBlock:8>);
+mods.chisel.Groups.addVariation("quartz_gray", <ganysnether:colouredChiselledQuartzBlock:8>);
+mods.chisel.Groups.addVariation("quartz_gray", <ganysnether:colouredQuartzPillar2>);
+mods.chisel.Groups.addGroup("quartz_pink");
+mods.chisel.Groups.addVariation("quartz_pink", <ganysnether:colouredQuartzBlock:9>);
+mods.chisel.Groups.addVariation("quartz_pink", <ganysnether:colouredChiselledQuartzBlock:9>);
+mods.chisel.Groups.addVariation("quartz_pink", <ganysnether:colouredQuartzPillar2:1>);
+mods.chisel.Groups.addGroup("quartz_lime");
+mods.chisel.Groups.addVariation("quartz_lime", <ganysnether:colouredQuartzBlock:10>);
+mods.chisel.Groups.addVariation("quartz_lime", <ganysnether:colouredChiselledQuartzBlock:10>);
+mods.chisel.Groups.addVariation("quartz_lime", <ganysnether:colouredQuartzPillar2:2>);
+mods.chisel.Groups.addGroup("quartz_yellow");
+mods.chisel.Groups.addVariation("quartz_yellow", <ganysnether:colouredQuartzBlock:11>);
+mods.chisel.Groups.addVariation("quartz_yellow", <ganysnether:colouredChiselledQuartzBlock:11>);
+mods.chisel.Groups.addVariation("quartz_yellow", <ganysnether:colouredQuartzPillar2:3>);
+mods.chisel.Groups.addGroup("quartz_light_blue");
+mods.chisel.Groups.addVariation("quartz_light_blue", <ganysnether:colouredQuartzBlock:12>);
+mods.chisel.Groups.addVariation("quartz_light_blue", <ganysnether:colouredChiselledQuartzBlock:12>);
+mods.chisel.Groups.addVariation("quartz_light_blue", <ganysnether:colouredQuartzPillar3>);
+mods.chisel.Groups.addGroup("quartz_magenta");
+mods.chisel.Groups.addVariation("quartz_magenta", <ganysnether:colouredQuartzBlock:13>);
+mods.chisel.Groups.addVariation("quartz_magenta", <ganysnether:colouredChiselledQuartzBlock:13>);
+mods.chisel.Groups.addVariation("quartz_magenta", <ganysnether:colouredQuartzPillar3:1>);
+mods.chisel.Groups.addGroup("quartz_orange");
+mods.chisel.Groups.addVariation("quartz_orange", <ganysnether:colouredQuartzBlock:14>);
+mods.chisel.Groups.addVariation("quartz_orange", <ganysnether:colouredChiselledQuartzBlock:14>);
+mods.chisel.Groups.addVariation("quartz_orange", <ganysnether:colouredQuartzPillar3:2>);
+mods.chisel.Groups.addGroup("quartz_white");
+mods.chisel.Groups.addVariation("quartz_white", <ganysnether:colouredQuartzBlock:15>);
+mods.chisel.Groups.addVariation("quartz_white", <ganysnether:colouredChiselledQuartzBlock:15>);
+mods.chisel.Groups.addVariation("quartz_white", <ganysnether:colouredQuartzPillar3:3>);
 
 //let's make chisel metal blocks less expensive
 

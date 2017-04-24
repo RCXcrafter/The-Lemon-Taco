@@ -15,7 +15,7 @@
             { "float:HandleModifier": 0.7 },
             { "int:Reinforced": 2 }, // optional
             //{ "float:Stonebound": 1 }, // optional, cannot be used if jagged
-            { "float:Jagged": 2 }, // optional, cannot be used if stonebound
+            //{ "float:Jagged": 2 }, // optional, cannot be used if stonebound
             { "string:Style": "§a" }, // optional, color of the material text
             { "int:Color": 3079936 }, // hexadecimal color code
 

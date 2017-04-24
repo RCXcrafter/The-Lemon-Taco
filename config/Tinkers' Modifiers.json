@@ -56,7 +56,7 @@
 						"damage":24
 					},
 					{
-						"item":"erebus:whetstone"
+						"item":"customitems:whetstone"
 					}
 				],
 				[
@@ -76,7 +76,7 @@
 						"damage":24
 					},
 					{
-						"item":"erebus:whetstone"
+						"item":"customitems:whetstone"
 					}
 				],
 				[
