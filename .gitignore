@@ -28,11 +28,12 @@ knownkeys.txt
 config/BTFU.cfg
 config/splash.properties
 config/fastcraft.ini
+config/MouseTweaks.cfg
 *.log
 WTFOres_en_US.lang
 usercache.json
 betterfps.txt
-asmtweaks.conf
+config/asmtweaks.conf
 knownkeys.txt
 localconfig.cfg
 minetweaker.log
