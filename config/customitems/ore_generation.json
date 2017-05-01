@@ -31,27 +31,6 @@
 			"minY": 0, 
 			"maxY": 10
 		},
-		//fruit
-		{
-			"blockToSpawn": "chisel:holystone",
-			"blockToReplace": "minecraft:stone",
-			"dimensionId": 37,			
-			"minVeinSize": 25, 
-			"maxVeinSize": 40,
-			"chancesToSpawn": 30, 
-			"minY": 128, 
-			"maxY": 256
-		},
-		{
-			"blockToSpawn": "chisel:grimstone",
-			"blockToReplace": "minecraft:stone",
-			"dimensionId": 37,			
-			"minVeinSize": 15, 
-			"maxVeinSize": 25,
-			"chancesToSpawn": 8, 
-			"minY": 0, 
-			"maxY": 10
-		},
 		//end
 		{
 			"blockToSpawn": "chisel:voidstone",
