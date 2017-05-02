@@ -3,7 +3,7 @@
 		{
 			"blockToSpawn": "minecraft:packed_ice",
 			"blockToReplace": "minecraft:stone",
-			"biomeId": [5,10,11,12,13,19,26,30,31,140,158,],
+			"biomeId": [5,10,11,12,13,19,26,30,31,140,158],
 			"dimensionId": 0,			
 			"minVeinSize": 15, 
 			"maxVeinSize": 25,
@@ -46,8 +46,8 @@
 			"blockToSpawn": "minecraft:end_stone",
 			"blockToReplace": "minecraft:air",
 			"dimensionId": 1,			
-			"minVeinSize": 30, 
-			"maxVeinSize": 50,
+			"minVeinSize": 50, 
+			"maxVeinSize": 200,
 			"chancesToSpawn": 1, 
 			"minY": 4, 
 			"maxY": 60
@@ -62,6 +62,117 @@
 			"chancesToSpawn": 8, 
 			"minY": 0, 
 			"maxY": 50
-		}
-	]	
+		},
+		//fantasy ores
+		{
+			"blockToSpawn": "prometheum",
+			"blockToReplace": "limestone",
+			"dimensionId": 17,
+			"minVeinSize": 4,
+			"maxVeinSize": 8,
+			"chancesToSpawn": 5,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "deepiron",
+			"blockToReplace": "limestone",
+			"dimensionId": 17,
+			"minVeinSize": 2,
+			"maxVeinSize": 6,
+			"chancesToSpawn": 5,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "infuscolium",
+			"blockToReplace": "umberstone",
+			"dimensionId": 66,
+			"minVeinSize": 2,
+			"maxVeinSize": 6,
+			"chancesToSpawn": 5,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "oureclase",
+			"blockToReplace": "umberstone",
+			"dimensionId": 66,
+			"minVeinSize": 1,
+			"maxVeinSize": 5,
+			"chancesToSpawn": 4,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "astralsilver",
+			"blockToReplace": "limestone",
+			"dimensionId": 17,
+			"minVeinSize": 1,
+			"maxVeinSize": 5,
+			"chancesToSpawn": 4,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "carmot",
+			"blockToReplace": "umberstone",
+			"dimensionId": 66,
+			"minVeinSize": 1,
+			"maxVeinSize": 5,
+			"chancesToSpawn": 3,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "mithril",
+			"blockToReplace": "limestone",
+			"dimensionId": 17,
+			"minVeinSize": 1,
+			"maxVeinSize": 5,
+			"chancesToSpawn": 3,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "rubracium",
+			"blockToReplace": "umberstone",
+			"dimensionId": 66,
+			"minVeinSize": 1,
+			"maxVeinSize": 5,
+			"chancesToSpawn": 2,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "orichalcum",
+			"blockToReplace": "umberstone",
+			"dimensionId": 66,
+			"minVeinSize": 2,
+			"maxVeinSize": 6,
+			"chancesToSpawn": 2,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "adamantine",
+			"blockToReplace": "limestone",
+			"dimensionId": 17,
+			"minVeinSize": 0,
+			"maxVeinSize": 3,
+			"chancesToSpawn": 2,
+			"minY": 0,
+			"maxY": 
+		},
+		{
+			"blockToSpawn": "atlarus",
+			"blockToReplace": "umberstone",
+			"dimensionId": 66,
+			"minVeinSize": 0,
+			"maxVeinSize": 3,
+			"chancesToSpawn": 2,
+			"minY": 0,
+			"maxY": 
+		},
+	]
 }
