@@ -290,8 +290,8 @@ mods.tconstruct.Casting.addBasinRecipe(<Metallurgy:fantasy.block:7>,<liquid:mith
 #pattern casting
 
 //lemon bricks are ingots too
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<customitems:lemon_brick>,false,50);
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<customitems:lemon_brick>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<customitems:lemon_brick>,false,50);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:gold.molten> * 288,<customitems:lemon_brick>,false,50);
 
 //mithril stuff
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern>,<liquid:aluminumbrass.molten> * 144,<Metallurgy:mithril.ingot>,false,50);
@@ -777,7 +777,7 @@ mods.chisel.Groups.addVariation("redstone_block", <TConstruct:decoration.multibr
 mods.chisel.Groups.addVariation("redstone_block", <TConstruct:decoration.multibrickfancy:8>);
 //recipes.remove(<TConstruct:decoration.multibrick:9>);
 mods.chisel.Groups.addGroup("bone_block");
-//mods.chisel.Groups.addVariation("bone_block", <bettercraft:blockBone>);
+mods.chisel.Groups.addVariation("bone_block", <bettercraft:blockBone>);
 mods.chisel.Groups.addVariation("bone_block", <TConstruct:decoration.multibrick:9>);
 mods.chisel.Groups.addVariation("bone_block", <TConstruct:decoration.multibrickfancy:9>);
 mods.chisel.Groups.addGroup("greenSlime");
@@ -793,12 +793,6 @@ mods.chisel.Groups.addVariation("blueSlime", <TConstruct:slime.gel>);
 mods.chisel.Groups.addVariation("blueSlime", <TConstruct:decoration.multibrick:11>);
 mods.chisel.Groups.addVariation("blueSlime", <TConstruct:decoration.multibrickfancy:11>);
 mods.chisel.Groups.addVariation("blueSlime", <TConstruct:slime.gel:2>);
-//furnace.remove(<bettercraft:brickEnder>);
-//mods.chisel.Groups.addGroup("end_stone");		//no longer necessary, it already exists
-//mods.chisel.Groups.addVariation("end_stone", <minecraft:end_stone>);
-//mods.chisel.Groups.addVariation("end_stone", <bettercraft:enderBrick>);
-//mods.chisel.Groups.addVariation("end_stone", <TConstruct:decoration.multibrick:12>);
-//mods.chisel.Groups.addVariation("end_stone", <TConstruct:decoration.multibrickfancy:12>);
 mods.chisel.Groups.addGroup("obsidian_ingot");
 mods.chisel.Groups.addVariation("obsidian_ingot", <TConstruct:decoration.multibrick:13>);
 mods.chisel.Groups.addVariation("obsidian_ingot", <TConstruct:decoration.multibrickfancy:13>);
@@ -996,6 +990,9 @@ mods.chisel.Groups.addVariation("purpur", <customitems:purpur_panel>);
 mods.chisel.Groups.addVariation("purpur", <customitems:messy_purpur_block>);
 mods.chisel.Groups.addVariation("purpur", <customitems:purpur_block_+>);
 mods.chisel.Groups.addVariation("purpur", <customitems:purpur_paver>);
+
+//squishing morecraft inbetween
+mods.chisel.Groups.addVariation("end_stone", <bettercraft:enderBrick>);
 
 //ubc stones
 mods.chisel.Groups.addVariation("basalt", <UndergroundBiomes:igneousStone:5>);

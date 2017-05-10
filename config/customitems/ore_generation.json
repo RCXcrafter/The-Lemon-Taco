@@ -47,10 +47,10 @@
 			"blockToReplace": "minecraft:air",
 			"dimensionId": 1,			
 			"minVeinSize": 50, 
-			"maxVeinSize": 200,
-			"chancesToSpawn": 1, 
-			"minY": 4, 
-			"maxY": 60
+			"maxVeinSize": 100,
+			"chancesToSpawn": 1,
+			"minY": 20, 
+			"maxY": 21
 		},
 		//nether
 		{
@@ -63,116 +63,358 @@
 			"minY": 0, 
 			"maxY": 50
 		},
-		//fantasy ores
+		//erebus
 		{
-			"blockToSpawn": "prometheum",
-			"blockToReplace": "limestone",
-			"dimensionId": 17,
-			"minVeinSize": 4,
-			"maxVeinSize": 8,
-			"chancesToSpawn": 5,
-			"minY": 0,
-			"maxY": 
+			"blockToSpawn": "customitems:manganese_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 1, 
+			"maxVeinSize": 5,
+			"chancesToSpawn": 2,
+			"minY": 0, 
+			"maxY": 128
 		},
 		{
-			"blockToSpawn": "deepiron",
-			"blockToReplace": "limestone",
-			"dimensionId": 17,
+			"blockToSpawn": "customitems:phosphorite_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 2, 
+			"maxVeinSize": 6,
+			"chancesToSpawn": 4,
+			"minY": 0, 
+			"maxY": 128
+		},
+		{
+			"blockToSpawn": "customitems:magnesium_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 2, 
+			"maxVeinSize": 6,
+			"chancesToSpawn": 4,
+			"minY": 0, 
+			"maxY": 128
+		},
+		{
+			"blockToSpawn": "customitems:tungsten_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,	
 			"minVeinSize": 2,
 			"maxVeinSize": 6,
-			"chancesToSpawn": 5,
-			"minY": 0,
-			"maxY": 
-		},
-		{
-			"blockToSpawn": "infuscolium",
-			"blockToReplace": "umberstone",
-			"dimensionId": 66,
-			"minVeinSize": 2,
-			"maxVeinSize": 6,
-			"chancesToSpawn": 5,
-			"minY": 0,
-			"maxY": 
-		},
-		{
-			"blockToSpawn": "oureclase",
-			"blockToReplace": "umberstone",
-			"dimensionId": 66,
-			"minVeinSize": 1,
-			"maxVeinSize": 5,
-			"chancesToSpawn": 4,
-			"minY": 0,
-			"maxY": 
-		},
-		{
-			"blockToSpawn": "astralsilver",
-			"blockToReplace": "limestone",
-			"dimensionId": 17,
-			"minVeinSize": 1,
-			"maxVeinSize": 5,
-			"chancesToSpawn": 4,
-			"minY": 0,
-			"maxY": 
-		},
-		{
-			"blockToSpawn": "carmot",
-			"blockToReplace": "umberstone",
-			"dimensionId": 66,
-			"minVeinSize": 1,
-			"maxVeinSize": 5,
 			"chancesToSpawn": 3,
 			"minY": 0,
-			"maxY": 
+			"maxY": 128
 		},
 		{
-			"blockToSpawn": "mithril",
-			"blockToReplace": "limestone",
-			"dimensionId": 17,
-			"minVeinSize": 1,
-			"maxVeinSize": 5,
-			"chancesToSpawn": 3,
-			"minY": 0,
-			"maxY": 
-		},
-		{
-			"blockToSpawn": "rubracium",
-			"blockToReplace": "umberstone",
-			"dimensionId": 66,
-			"minVeinSize": 1,
-			"maxVeinSize": 5,
-			"chancesToSpawn": 2,
-			"minY": 0,
-			"maxY": 
-		},
-		{
-			"blockToSpawn": "orichalcum",
-			"blockToReplace": "umberstone",
-			"dimensionId": 66,
-			"minVeinSize": 2,
+			"blockToSpawn": "customitems:potash_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 2, 
 			"maxVeinSize": 6,
-			"chancesToSpawn": 2,
-			"minY": 0,
-			"maxY": 
+			"chancesToSpawn": 4,
+			"minY": 0, 
+			"maxY": 128
 		},
 		{
-			"blockToSpawn": "adamantine",
-			"blockToReplace": "limestone",
-			"dimensionId": 17,
-			"minVeinSize": 0,
-			"maxVeinSize": 3,
-			"chancesToSpawn": 2,
-			"minY": 0,
-			"maxY": 
+			"blockToSpawn": "customitems:magic_crystal_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 5, 
+			"maxVeinSize": 9,
+			"chancesToSpawn": 4,
+			"minY": 0, 
+			"maxY": 128
 		},
 		{
-			"blockToSpawn": "atlarus",
-			"blockToReplace": "umberstone",
-			"dimensionId": 66,
-			"minVeinSize": 0,
-			"maxVeinSize": 3,
-			"chancesToSpawn": 2,
-			"minY": 0,
-			"maxY": 
+			"blockToSpawn": "Metallurgy:fantasy.ore:2",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 2, 
+			"maxVeinSize": 6,
+			"chancesToSpawn": 5, 
+			"minY": 0, 
+			"maxY": 128
 		},
-	]
+		{
+			"blockToSpawn": "Metallurgy:fantasy.ore:4",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 1, 
+			"maxVeinSize": 5,
+			"chancesToSpawn": 4, 
+			"minY": 0, 
+			"maxY": 128
+		},
+		{
+			"blockToSpawn": "customitems:carmot_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 1, 
+			"maxVeinSize": 5,
+			"chancesToSpawn": 3, 
+			"minY": 0, 
+			"maxY": 128
+		},
+		{
+			"blockToSpawn": "customitems:rubracium_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 1,
+			"maxVeinSize": 5,
+			"chancesToSpawn": 2, 
+			"minY": 0, 
+			"maxY": 128
+		},
+		{
+			"blockToSpawn": "customitems:orichalcum_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 2, 
+			"maxVeinSize": 6,
+			"chancesToSpawn": 2, 
+			"minY": 0, 
+			"maxY": 128
+		},
+		{
+			"blockToSpawn": "customitems:atlarus_ore",
+			"blockToReplace": "erebus:umberstone",
+			"dimensionId": 66,			
+			"minVeinSize": 1, 
+			"maxVeinSize": 3,
+			"chancesToSpawn": 2, 
+			"minY": 0, 
+			"maxY": 128
+		}
+	],
+	"blocks": [
+        {
+            "name": "Emerald Ore",
+            "textureName": "ore_emerald_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 4,
+            "dropItemName": "minecraft:emerald",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Fossil Ore",
+            "textureName": "ore_fossil_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 2,
+            "dropItemName": "erebus:materials:2",
+            "minItemDrop": 1,
+            "maxItemDrop": 3,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Jade Ore",
+            "textureName": "ore_jade_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 2,
+            "dropItemName": "erebus:materials:1",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Magnesium Ore",
+            "textureName": "ore_magnesium_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 1,
+            "dropItemName": "Metallurgy:utility.item:3",
+            "minItemDrop": 1,
+            "maxItemDrop": 3,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Magic Crystal Ore",
+            "textureName": "ore_mana_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 3,
+            "dropItemName": "wizardry:magic_crystal",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Manganese Ore",
+            "textureName": "ore_manganese_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 5,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Petrified Wood Ore",
+            "textureName": "ore_petrified_wood_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 2,
+            "dropItemName": "erebus:materials:7",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Phosphorite Ore",
+            "textureName": "ore_phosphorite_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 1,
+            "dropItemName": "Metallurgy:utility.item:1",
+            "minItemDrop": 1,
+            "maxItemDrop": 3,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Platinum Ore",
+            "textureName": "ore_platinum_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 6,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Potash Ore",
+            "textureName": "ore_potash_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 1,
+            "dropItemName": "Metallurgy:utility.item:5",
+            "minItemDrop": 1,
+            "maxItemDrop": 3,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Salt Ore",
+            "textureName": "ore_salt_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 2,
+            "dropItemName": "SaltMod:salt",
+            "minItemDrop": 1,
+            "maxItemDrop": 3,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Saltpeter Ore",
+            "textureName": "ore_saltpeter_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 1,
+            "dropItemName": "Metallurgy:utility.item:2",
+            "minItemDrop": 1,
+            "maxItemDrop": 3,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Silver Ore",
+            "textureName": "ore_silver_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 2,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Tungsten Ore",
+            "textureName": "ore_tungsten_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 5,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Zinc Ore",
+            "textureName": "ore_zinc_atum",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 1,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Carmot Ore",
+            "textureName": "ore_carmot_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 4,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Rubracium Ore",
+            "textureName": "ore_rubracium_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 6,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Orichalcum Ore",
+            "textureName": "ore_orichalcum_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 7,
+            "resistance": 4,
+            "hardness": 1
+        },
+        {
+            "name": "Atlarus Ore",
+            "textureName": "ore_atlarus_umber",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 9,
+            "resistance": 4,
+            "hardness": 1
+        }
+    ]
 }

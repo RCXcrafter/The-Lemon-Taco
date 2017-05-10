@@ -29,8 +29,8 @@
 <ore:blockSand>.mirror(<ore:sand>);
 
 //fruit dyes
-<ore:dye>.add(<customitems:lemon_yellow_dye>);
-<ore:dyeYellow>.add(<customitems:lemon_yellow_dye>);
+//<ore:dye>.add(<customitems:lemon_yellow_dye>);
+//<ore:dyeYellow>.add(<customitems:lemon_yellow_dye>);
 
 //glass
 <ore:blockGlassColorless>.add(<TConstruct:GlassBlock>);
@@ -247,26 +247,46 @@ recipes.remove(<Aquaculture:item.NeptuniumShovel>);
 recipes.remove(<Aquaculture:item.NeptuniumAxe>);
 recipes.remove(<Aquaculture:item.NeptuniumHoe>);
 recipes.remove(<Aquaculture:item.NeptuniumSword>);
-//recipes.remove(<bettercraft:pickaxeObsidian>);
-//recipes.remove(<bettercraft:axeObsidian>);
-//recipes.remove(<bettercraft:shovelObsidian>);
-//recipes.remove(<bettercraft:hoeObsidian>);
-//recipes.remove(<bettercraft:swordObsidian>);
-//recipes.remove(<bettercraft:pickaxeBone>);
-//recipes.remove(<bettercraft:axeBone>);
-//recipes.remove(<bettercraft:shovelBone>);
-//recipes.remove(<bettercraft:hoeBone>);
-//recipes.remove(<bettercraft:swordBone>);
-//recipes.remove(<bettercraft:pickaxeWitherBone>);
-//recipes.remove(<bettercraft:axeWitherBone>);
-//recipes.remove(<bettercraft:shovelWitherBone>);
-//recipes.remove(<bettercraft:hoeWitherBone>);
-//recipes.remove(<bettercraft:swordWitherBone>);
-//recipes.remove(<bettercraft:pickaxeEmerald>);
-//recipes.remove(<bettercraft:axeEmerald>);
-//recipes.remove(<bettercraft:shovelEmerald>);
-//recipes.remove(<bettercraft:hoeEmerald>);
-//recipes.remove(<bettercraft:swordEmerald>);
+recipes.remove(<bettercraft:pickaxeObsidian>);
+recipes.remove(<bettercraft:axeObsidian>);
+recipes.remove(<bettercraft:shovelObsidian>);
+recipes.remove(<bettercraft:hoeObsidian>);
+recipes.remove(<bettercraft:swordObsidian>);
+recipes.remove(<bettercraft:pickaxeBone>);
+recipes.remove(<bettercraft:axeBone>);
+recipes.remove(<bettercraft:shovelBone>);
+recipes.remove(<bettercraft:hoeBone>);
+recipes.remove(<bettercraft:swordBone>);
+recipes.remove(<bettercraft:pickaxeWitherBone>);
+recipes.remove(<bettercraft:axeWitherBone>);
+recipes.remove(<bettercraft:shovelWitherBone>);
+recipes.remove(<bettercraft:hoeWitherBone>);
+recipes.remove(<bettercraft:swordWitherBone>);
+recipes.remove(<bettercraft:pickaxeEmerald>);
+recipes.remove(<bettercraft:axeEmerald>);
+recipes.remove(<bettercraft:shovelEmerald>);
+recipes.remove(<bettercraft:hoeEmerald>);
+recipes.remove(<bettercraft:swordEmerald>);
+recipes.remove(<bettercraft:pickaxeRuby>);
+recipes.remove(<bettercraft:axeRuby>);
+recipes.remove(<bettercraft:shovelRuby>);
+recipes.remove(<bettercraft:hoeRuby>);
+recipes.remove(<bettercraft:swordRuby>);
+recipes.remove(<bettercraft:pickaxeBlaze>);
+recipes.remove(<bettercraft:axeBlaze>);
+recipes.remove(<bettercraft:shovelBlaze>);
+recipes.remove(<bettercraft:hoeBlaze>);
+recipes.remove(<bettercraft:swordBlaze>);
+recipes.remove(<bettercraft:pickaxeEnder>);
+recipes.remove(<bettercraft:axeEnder>);
+recipes.remove(<bettercraft:shovelEnder>);
+recipes.remove(<bettercraft:hoeEnder>);
+recipes.remove(<bettercraft:swordEnder>);
+recipes.remove(<bettercraft:pickaxeEndstone>);
+recipes.remove(<bettercraft:axeEndstone>);
+recipes.remove(<bettercraft:shovelEndstone>);
+recipes.remove(<bettercraft:hoeEndstone>);
+recipes.remove(<bettercraft:swordEndstone>);
 //recipes.remove(<battlegear2:dagger.wood>);
 //recipes.remove(<battlegear2:dagger.stone>);
 //recipes.remove(<battlegear2:dagger.iron>);
@@ -910,6 +930,29 @@ recipes.remove(<LightTweaks:chisel>);
 recipes.remove(<minecraft:rail>);
 recipes.remove(<minecraft:activator_rail>);
 
+//morecraft
+recipes.remove(<bettercraft:helmetWitherBone>);
+recipes.remove(<bettercraft:chestplateWitherBone>);
+recipes.remove(<bettercraft:leggingsWitherBone>);
+recipes.remove(<bettercraft:bootsWitherBone>);
+recipes.remove(<bettercraft:helmetEmerald>);
+recipes.remove(<bettercraft:chestplateEmerald>);
+recipes.remove(<bettercraft:leggingsEmerald>);
+recipes.remove(<bettercraft:bootsEmerald>);
+recipes.remove(<bettercraft:helmetBlaze>);
+recipes.remove(<bettercraft:chestplateBlaze>);
+recipes.remove(<bettercraft:leggingsBlaze>);
+recipes.remove(<bettercraft:bootsBlaze>);
+recipes.remove(<bettercraft:blockBone>);
+recipes.remove(<bettercraft:blockFlesh>);
+recipes.remove(<bettercraft:blockBlaze>);
+recipes.remove(<bettercraft:enderBrick>);
+recipes.remove(<bettercraft:trapdoorIron>);
+recipes.remove(<bettercraft:blockSlime>);
+recipes.remove(<bettercraft:blockEnder>);
+recipes.remove(<bettercraft:blockGunpowder>);
+recipes.remove(<bettercraft:gateNetherBrick>);
+recipes.remove(<bettercraft:witherBone>);
 
 //furnace recipes
 //furnace.remove(<minecraft:coal:1>);
@@ -928,6 +971,16 @@ recipes.remove(<minecraft:activator_rail>);
 
 //ender pearl dust
 furnace.remove(<PortalGun:EnderPearlDust>);
+
+//morecraft
+furnace.remove(<bettercraft:calamari>);
+furnace.remove(<bettercraft:fleshCooked>);
+furnace.remove(<bettercraft:soulGlass>);
+furnace.remove(<bettercraft:brickEnder>);
+furnace.remove(<bettercraft:lambchopCooked>);
+furnace.remove(<bettercraft:eggFried>);
+furnace.remove(<bettercraft:spiderCooked>);
+furnace.remove(<bettercraft:oreRuby>);
 
 
 #shapeless recipes

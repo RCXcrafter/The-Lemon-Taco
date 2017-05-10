@@ -1,15 +1,6 @@
 {
     "items": [
         {
-            "maxStackSize": 64,
-            "textureName": "lemon_brick",
-            "name": "Lemon Brick"
-        },
-        {
-            "textureName": "dye_powder_lemon",
-            "name": "Lemon Yellow Dye"
-        },
-        {
             "textureName": "pottery_pattern_empty",
             "name": "Blank Stamp"
         },

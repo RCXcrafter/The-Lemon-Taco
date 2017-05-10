@@ -1,13 +1,13 @@
 <ConfigSection>
 
-        <Substitute name='replacefruitores' block='minecraft:obsidian' minHeight='-1' maxHeight='20'>
+        <!--<Substitute name='replacefruitores' block='minecraft:obsidian' minHeight='-1' maxHeight='20'>
             <Replaces block='projectfruit:Lemon Stone Block' weight='1.0' />
             <Replaces block='projectfruit:Lime Stone Block' weight='1.0' />
             <Replaces block='projectfruit:Blueberry Stone Block' weight='1.0' />
             <Replaces block='projectfruit:Orange Stone Block' weight='1.0' />
-        </Substitute>
+        </Substitute>-->
 
-        <Substitute name='replaceinspac' block='minecraft:obsidian'>
+        <Substitute name='replaceDefault' block='minecraft:obsidian'>
             <Replaces block='minecraft:coal_ore' weight='1.0' />
             <Replaces block='minecraft:iron_ore' weight='1.0' />
             <Replaces block='minecraft:gold_ore' weight='1.0' />
@@ -15,16 +15,16 @@
             <Replaces block='minecraft:lapis_ore' weight='1.0' />
             <Replaces block='minecraft:diamond_ore' weight='1.0' />
             <Replaces block='minecraft:emerald_ore' weight='1.0' />
-            <Replaces block='minecraft:iron_block' weight='1.0' />
-            <Replaces block='minecraft:gold_block' weight='1.0' />
-            <Replaces block='minecraft:lapis_block' weight='1.0' />
-            <Replaces block='minecraft:diamond_block' weight='1.0' />
-            <Replaces block='minecraft:emerald_block' weight='1.0' />
-			<Biome name='Sky'/>
+            <Replaces block='bettercraft:oreRuby' weight='1.0' />
         </Substitute>
 
 		<Substitute name='EmeraldSubstitute' block='minecraft:obsidian'>
 			<Replaces block='minecraft:emerald_ore'/>
 			<Biome name='Extreme Hills.*'/>
+		</Substitute>
+		
+		<Substitute name='QuartzSubstitute' block='minecraft:netherrack'>
+			<Replaces block='minecraft:quartz_ore'/>
+			<Biome name='Hell'/>
 		</Substitute>
 </ConfigSection>

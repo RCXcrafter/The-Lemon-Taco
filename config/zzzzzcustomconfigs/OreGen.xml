@@ -46,5 +46,256 @@ QUARTZ
 </remove>-->
 
 <OreGen>
-	<!--Add your recipes here!-->
+
+<!--<add>
+	<ore>Metallurgy:fantasy.ore 1 2</ore>
+	<target>erebus:umberstone 1 0</target>
+	<veinSize>4</veinSize>
+	<veinCount>5</veinCount>
+	<minY>0</minY>
+	<maxY>122</maxY>
+	<dimensions type="whitelist">66</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 4</ore>
+	<target>erebus:umberstone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>118</maxY>
+	<dimensions type="whitelist">66</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 6</ore>
+	<target>erebus:umberstone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>3</veinCount>
+	<minY>0</minY>
+	<maxY>90</maxY>
+	<dimensions type="whitelist">66</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 8</ore>
+	<target>erebus:umberstone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>2</veinCount>
+	<minY>0</minY>
+	<maxY>64</maxY>
+	<dimensions type="whitelist">66</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 11</ore>
+	<target>erebus:umberstone 1 0</target>
+	<veinSize>4</veinSize>
+	<veinCount>2</veinCount>
+	<minY>0</minY>
+	<maxY>51</maxY>
+	<dimensions type="whitelist">66</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 14</ore>
+	<target>erebus:umberstone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>1</veinCount>
+	<minY>0</minY>
+	<maxY>42</maxY>
+	<dimensions type="whitelist">66</dimensions>
+</add>-->
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>6</veinSize>
+	<veinCount>5</veinCount>
+	<minY>0</minY>
+	<maxY>64</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 1</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>4</veinSize>
+	<veinCount>5</veinCount>
+	<minY>0</minY>
+	<maxY>64</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 5</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>52</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 7</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>3</veinCount>
+	<minY>0</minY>
+	<maxY>38</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>Metallurgy:fantasy.ore 1 13</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>1</veinCount>
+	<minY>0</minY>
+	<maxY>21</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:jade_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>4</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>58</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:silver_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>4</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>38</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:platinum_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>1</veinSize>
+	<veinCount>2</veinCount>
+	<minY>0</minY>
+	<maxY>22</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:fossil_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>7</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>38</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:emerald_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>1</veinSize>
+	<veinCount>2</veinCount>
+	<minY>0</minY>
+	<maxY>21</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:zinc_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>5</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>61</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:salt_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>8</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>64</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:saltpeter_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>8</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>64</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>customitems:petrified_wood_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>7</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>45</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>wizardry:crystal_ore 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>7</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>64</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+
+<add>
+	<ore>bettercraft:oreRuby 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>1</veinSize>
+	<veinCount>2</veinCount>
+	<minY>0</minY>
+	<maxY>21</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>atum:tile.goldOre 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>3</veinSize>
+	<veinCount>3</veinCount>
+	<minY>0</minY>
+	<maxY>29</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>atum:tile.diamondOre 1 0</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>2</veinSize>
+	<veinCount>4</veinCount>
+	<minY>0</minY>
+	<maxY>21</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
+<add>
+	<ore>metalforge:oreAll 1 2</ore>
+	<target>atum:tile.stone 1 0</target>
+	<veinSize>2</veinSize>
+	<veinCount>2</veinCount>
+	<minY>0</minY>
+	<maxY>21</maxY>
+	<dimensions type="whitelist">17</dimensions>
+</add>
+
 </OreGen>

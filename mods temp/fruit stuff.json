@@ -1,0 +1,137 @@
+{
+    "items": [
+        {
+            "textureName": "lemon_brick",
+            "name": "Lemon Brick"
+        },
+        {
+            "textureName": "dye_powder_lemon",
+            "name": "Lemon Yellow Dye"
+        },
+        {
+            "maxStackSize": 64,
+            "textureName": "lemon_lime_stone",
+            "name": "Lemon Lime Stone"            
+        }
+	],
+    "fluids":[
+        {
+            "name":"lemonstonefruit.molten",
+            "textureName": "liquid_lemon_stone",
+            "temperature": 200,
+
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 4
+        },        
+        {
+            "name":"limestonefruit.molten",
+            "textureName": "liquid_lime_stone",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"lemonlimestonefruit.molten",
+            "textureName": "liquid_lemon_lime_stone",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 4
+        },
+        {
+            "name":"orangestonefruit.molten",
+            "textureName": "liquid_orange_stone",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 4
+        },             
+        {
+            "name":"blueberrystonefruit.molten",
+            "textureName": "liquid_blueberry_stone",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+			"luminosity": 15,
+            "material": lava,
+            "isGas": false,
+            "flowLength": 4
+        }
+	],
+	"blocks": [
+        {
+            "name": "Lemon Stone Ore",
+            "textureName": "lemon_ore",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 6,
+            "dropItemName": "projectfruit:lemonstone",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 0.8
+        },
+        {
+            "name": "Lime Stone Ore",
+            "textureName": "lime_ore",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 6,
+            "dropItemName": "projectfruit:limestone",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 0.8
+        },
+        {
+            "name": "Blueberry Stone Ore",
+            "textureName": "blueberry_ore",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 6,
+            "dropItemName": "projectfruit:blueberrystone",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 0.8
+        },
+        {
+            "name": "Orange Stone Ore",
+            "textureName": "orange_ore",
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+			"harvestLevel": 6,
+            "dropItemName": "projectfruit:orangestone",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,
+			"eachExtraItemDropChance": 50,
+            "resistance": 4,
+            "hardness": 0.8
+        }
+    ]
+}
